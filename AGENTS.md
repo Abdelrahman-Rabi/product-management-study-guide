@@ -30,6 +30,7 @@ Course
   └── Part
         └── Section
               └── Lecture
+```
 
 Lecture files must remain in their original course section.
 
@@ -44,95 +45,103 @@ The course concept map
 Do not move lectures into different folders only because they relate to another
 Product Management topic.
 
-Required Reading
+## Required Reading
 
 Before creating or editing a lecture, read:
 
-docs/study-guide-rules.md
-docs/repository-structure.md
-templates/lecture-template.md
-The relevant section README.md, when available
-At least one completed lecture in the same section, when available
-docs/visual-style-guide.md when creating or editing visuals
-docs/quality-checklist.md before marking work complete
+- docs/study-guide-rules.md
+- docs/repository-structure.md
+- templates/lecture-template.md
+- The relevant section README.md, when available
+- At least one completed lecture in the same section, when available
+- docs/visual-style-guide.md when creating or editing visuals
+- docs/quality-checklist.md before marking work complete
+
+When processing a lecture from structured course metadata and a supplied transcript, read and follow `skills/process-lecture/SKILL.md` before generating content or modifying repository files.
 
 Before completing a section, also read:
 
-templates/section-summary-template.md
-templates/section-mind-map-template.md
-All completed lecture files in the section
+- templates/section-summary-template.md
+- templates/section-mind-map-template.md
+- All completed lecture files in the section
 
 Before completing a course part, also read:
 
-templates/part-summary-template.md
-templates/part-mind-map-template.md
-All section summaries within the part
-Instruction Priority
+- templates/part-summary-template.md
+- templates/part-mind-map-template.md
+- All section summaries within the part
+
+## Instruction Priority
 
 Apply instructions in this order:
 
-Explicit current user request
-ChatGPT Project Instructions
-This AGENTS.md
-Files under docs/
-Files under templates/
-Existing repository examples and conventions
-Reasonable inference
+1. Explicit current user request
+2. ChatGPT Project Instructions
+3. This AGENTS.md
+4. Files under docs/
+5. Files under templates/
+6. Existing repository examples and conventions
+7. Reasonable inference
 
 If two instructions conflict and the correct interpretation is unclear, report
 the conflict instead of silently choosing one.
 
-Lecture Workflow
+## Lecture Workflow
+
+The process-lecture workflow requires written-content approval and exact visual-selection approval before any GitHub write.
 
 For a new lecture:
 
-Read the lecture title and transcript.
-Identify its original course part and section.
-Determine the appropriate material level.
-Review related existing repository content.
-Create the study guide using the lecture template.
-Add valid YAML front matter.
-Add meaningful related-concept links.
-Add previous, section, part, next, and course-index navigation where known.
-Recommend the appropriate visual illustrations.
-Generate visuals only after the user explicitly requests them.
-Embed each completed visual near the concept it explains.
-Update indexes, glossary, navigation, and visual references when requested.
-Run the quality checklist before marking the lecture complete.
-Section Workflow
+1. Read the lecture title and transcript.
+2. Identify its original course part and section.
+3. Determine the appropriate material level.
+4. Review related existing repository content.
+5. Create the study guide using the lecture template.
+6. Add valid YAML front matter.
+7. Add meaningful related-concept links.
+8. Add previous, section, part, next, and course-index navigation where known.
+9. Recommend the appropriate visual illustrations.
+10. Generate visuals only after the user explicitly requests them.
+11. Embed each completed visual near the concept it explains.
+12. Update indexes, glossary, navigation, and visual references when requested.
+13. Run the quality checklist before marking the lecture complete.
+
+## Section Workflow
 
 When all lectures in a course section are complete:
 
-Review every lecture in the section.
-Create section-summary.md.
-Create section-mind-map.md.
-Update the section README.md.
-Review terminology consistency.
-Update the glossary.
-Update the visual index.
-Review cross-links between lectures.
-Run the section quality checklist.
-Part Workflow
+1. Review every lecture in the section.
+2. Create section-summary.md.
+3. Create section-mind-map.md.
+4. Update the section README.md.
+5. Review terminology consistency.
+6. Update the glossary.
+7. Update the visual index.
+8. Review cross-links between lectures.
+9. Run the section quality checklist.
+
+## Part Workflow
 
 When all sections in a course part are complete:
 
-Review every section summary in the part.
-Create part-summary.md.
-Create part-mind-map.md.
-Update the part README.md.
-Review links between sections.
-Update the course concept map when needed.
-Run the part quality checklist.
-Visual Placement
+1. Review every section summary in the part.
+2. Create part-summary.md.
+3. Create part-mind-map.md.
+4. Update the part README.md.
+5. Review links between sections.
+6. Update the course concept map when needed.
+7. Run the part quality checklist.
+
+## Visual Placement
 
 Visual illustrations must be embedded directly inside the lecture Markdown file
 near the concept they explain.
 
 Use this preferred sequence:
 
-Introduce the concept briefly.
-Embed the relevant visual.
-Explain how to interpret it and why it matters.
+1. Introduce the concept briefly.
+2. Embed the relevant visual.
+3. Explain how to interpret it and why it matters.
 
 Do not place all illustrations only at the end of the lecture.
 
@@ -144,13 +153,14 @@ Example:
 
 A short italic caption may be added when it provides useful interpretation.
 
-Never
-Copy the raw transcript into the final study guide.
-Follow transcript chronology when a clearer structure is available.
-Add quizzes, flashcards, reflection questions, or assignments unless requested.
-Invent sources, files, links, lecture titles, or completed content.
-Present an instructor's rhetorical claim as a verified statistic.
-Duplicate large explanations across lecture, section, and part summaries.
-Generate visuals before the user requests them.
-Place all visuals only at the end of a lecture.
-Mark repository work complete without checking links and required files.
+## Never
+
+- Copy the raw transcript into the final study guide.
+- Follow transcript chronology when a clearer structure is available.
+- Add quizzes, flashcards, reflection questions, or assignments unless requested.
+- Invent sources, files, links, lecture titles, or completed content.
+- Present an instructor's rhetorical claim as a verified statistic.
+- Duplicate large explanations across lecture, section, and part summaries.
+- Generate visuals before the user requests them.
+- Place all visuals only at the end of a lecture.
+- Mark repository work complete without checking links and required files.
