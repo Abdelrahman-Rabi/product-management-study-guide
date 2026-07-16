@@ -13,4 +13,13 @@ The user did not provide part number/title, section number/title, or lecture num
 
 The agent may infer the course location from the title or repository and continue.
 
-##
+## Required Behavior With Skill
+
+- Stop before generating repository paths or making GitHub writes.
+- List the missing required fields.
+- Do not infer course location, sequence, filenames, or links.
+- Ask for one complete structured input block.
+
+## Pass Condition
+
+No branch, file, visual, commit, or pull request is created.
