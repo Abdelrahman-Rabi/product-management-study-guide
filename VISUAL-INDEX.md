@@ -1,107 +1,87 @@
 # Product Management Visual Index
 
-This index collects the visual illustrations created across the study guide.
+This index collects the visual illustrations created across the study guide. Visuals remain embedded inside their source lecture notes; this file provides an additional browsing and revision layer.
 
-The main purpose of each visual is to support learning and quick review.
+## Part 1: Introduction
 
-Visuals remain embedded inside their source lecture notes near the concepts they
-explain. This file provides an additional visual browsing and navigation layer.
+### Section 1: Introduction
 
-## How to Use This Index
-
-Use this page to:
-
-- Review important Product Management concepts visually
-- Find illustrations by course part or section
-- Open the source lecture for the full explanation
-- Compare related frameworks and mental models
-- Revisit key concepts without reading every lecture in full
-
-## Visual Index Structure
-
-Visuals are organized using the original course hierarchy:
-
-```text
-Part
-  └── Section
-        └── Lecture
-              └── Visuals
-
-Each visual entry should contain:
-
-Visual title
-Source lecture
-One-sentence purpose
-Embedded image
-
-Do not add a visual before:
-
-The image file exists
-The source lecture exists
-The image is embedded inside the lecture
-The image filename and path are final
-Part 1: Introduction
-Section 1: Introduction
-
-Visuals will be added here as lecture study guides are completed.
-
-<!-- Example entry: #### The Traditional Product Process **Source lecture:** [Why Product Management Is Broken](./01-introduction/01-introduction/11-why-product-management-is-broken.md) **Purpose:** Shows the sequential product-development process and why validation often happens only after release. ![Traditional product-development process where validation happens at the end](./01-introduction/01-introduction/visuals/11-traditional-product-process.png) -->
-Part 2: Strategy
-
-Visuals will be added when this part begins.
-
-Part 3: Discovery
-
-Visuals will be added when this part begins.
-
-Part 4: Design
-
-Visuals will be added when this part begins.
-
-Part 5: Development
-
-Visuals will be added when this part begins.
-
-Part 6: Measurement
-
-Visuals will be added when this part begins.
-
-Part 7: Career
-
-Visuals will be added when this part begins.
-
-Part 8: Technology
-
-Visuals will be added when this part begins.
-
-Visual Entry Template
-
-Use this format for each completed visual:
-
-#### Visual Title
+#### The Traditional Product Process
 
 **Source lecture:**  
-[Lecture Title](./part-folder/section-folder/lecture-file.md)
+[Why Product Management Is Broken](./01-introduction/01-introduction/11-why-product-management-is-broken.md)
 
-**Purpose:** One concise sentence explaining what the illustration teaches.
+**Purpose:** Shows the sequential product-development process and why validation often happens only after release.
 
-![Descriptive educational alt text](./part-folder/section-folder/visuals/lecture-number-visual-name.png)
-Visual Index Rules
+![Traditional product-development process where validation happens at the end](./01-introduction/01-introduction/visuals/11-traditional-product-process.svg)
 
-When adding a visual:
+#### Agile Inside a Waterfall System
 
-Place it under the correct part and section.
-Use the exact approved visual title.
-Link to the source lecture.
-Add a concise learning purpose.
-Embed the image using its final relative path.
-Use descriptive alt text.
-Keep visuals in original lecture order.
-Do not duplicate the same image in several index locations.
-Do not use generic labels such as “Image 1.”
-Remove placeholder text when the first real visual is added to a section.
-Main Navigation
-Repository Overview
-Course Index
-Product Management Glossary
-Course Concept Map
+**Source lecture:**  
+[Why Product Management Is Broken](./01-introduction/01-introduction/11-why-product-management-is-broken.md)
+
+**Purpose:** Shows that iterative sprints inside development do not make the wider product process Agile.
+
+![Agile development inside a broader waterfall product process](./01-introduction/01-introduction/visuals/11-agile-inside-waterfall-system.svg)
+
+#### The Cost of Late Validation
+
+**Source lecture:**  
+[Why Product Management Is Broken](./01-introduction/01-introduction/11-why-product-management-is-broken.md)
+
+**Purpose:** Compares learning after full delivery with validating before major investment.
+
+![Comparison between late validation and early discovery-oriented validation](./01-introduction/01-introduction/visuals/11-cost-of-late-validation.svg)
+
+#### Output Roadmap vs Outcome Roadmap
+
+**Source lecture:**  
+[Why Product Management Is Broken](./01-introduction/01-introduction/11-why-product-management-is-broken.md)
+
+**Purpose:** Contrasts commitments to features with commitments to measurable customer or business change.
+
+![Comparison between output roadmaps and outcome roadmaps](./01-introduction/01-introduction/visuals/11-output-vs-outcome-roadmap.svg)
+
+#### Delivery Team vs Empowered Product Team
+
+**Source lecture:**  
+[Why Product Management Is Broken](./01-introduction/01-introduction/11-why-product-management-is-broken.md)
+
+**Purpose:** Contrasts execution-only delivery with collaborative discovery and delivery by a cross-functional product team.
+
+![Delivery team compared with an empowered product team](./01-introduction/01-introduction/visuals/11-delivery-vs-empowered-product-team.svg)
+
+## Part 2: Strategy
+
+Visuals will be added when this part begins.
+
+## Part 3: Discovery
+
+Visuals will be added when this part begins.
+
+## Part 4: Design
+
+Visuals will be added when this part begins.
+
+## Part 5: Development
+
+Visuals will be added when this part begins.
+
+## Part 6: Measurement
+
+Visuals will be added when this part begins.
+
+## Part 7: Career
+
+Visuals will be added when this part begins.
+
+## Part 8: Technology
+
+Visuals will be added when this part begins.
+
+## Main Navigation
+
+- [Repository Overview](./README.md)
+- [Course Index](./COURSE-INDEX.md)
+- [Product Management Glossary](./GLOSSARY.md)
+- [Course Concept Map](./COURSE-CONCEPT-MAP.md)
