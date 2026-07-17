@@ -13,7 +13,7 @@ This index collects the visual illustrations created across the study guide. Vis
 
 **Purpose:** Shows the sequential product-development process and why validation often happens only after release.
 
-![Traditional product-development process where validation happens at the end](./01-introduction/01-introduction/visuals/11-traditional-product-process.svg)
+![Traditional product-development process where validation happens at the end](./01-introduction/01-introduction/visuals/11-traditional-product-process.png)
 
 #### Agile Inside a Waterfall System
 
@@ -22,7 +22,7 @@ This index collects the visual illustrations created across the study guide. Vis
 
 **Purpose:** Shows that iterative sprints inside development do not make the wider product process Agile.
 
-![Agile development inside a broader waterfall product process](./01-introduction/01-introduction/visuals/11-agile-inside-waterfall-system.svg)
+![Agile development inside a broader waterfall product process](./01-introduction/01-introduction/visuals/11-agile-inside-waterfall-system.png)
 
 #### The Cost of Late Validation
 
@@ -31,7 +31,7 @@ This index collects the visual illustrations created across the study guide. Vis
 
 **Purpose:** Compares learning after full delivery with validating before major investment.
 
-![Comparison between late validation and early discovery-oriented validation](./01-introduction/01-introduction/visuals/11-cost-of-late-validation.svg)
+![Comparison between late validation and early discovery-oriented validation](./01-introduction/01-introduction/visuals/11-cost-of-late-validation.png)
 
 #### Output Roadmap vs Outcome Roadmap
 
@@ -40,7 +40,7 @@ This index collects the visual illustrations created across the study guide. Vis
 
 **Purpose:** Contrasts commitments to features with commitments to measurable customer or business change.
 
-![Comparison between output roadmaps and outcome roadmaps](./01-introduction/01-introduction/visuals/11-output-vs-outcome-roadmap.svg)
+![Comparison between output roadmaps and outcome roadmaps](./01-introduction/01-introduction/visuals/11-output-vs-outcome-roadmap.png)
 
 #### Delivery Team vs Empowered Product Team
 
@@ -49,7 +49,7 @@ This index collects the visual illustrations created across the study guide. Vis
 
 **Purpose:** Contrasts execution-only delivery with collaborative discovery and delivery by a cross-functional product team.
 
-![Delivery team compared with an empowered product team](./01-introduction/01-introduction/visuals/11-delivery-vs-empowered-product-team.svg)
+![Delivery team compared with an empowered product team](./01-introduction/01-introduction/visuals/11-delivery-vs-empowered-product-team.png)
 
 ## Part 2: Strategy
 

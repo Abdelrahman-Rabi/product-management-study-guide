@@ -45,7 +45,7 @@ Organizations usually have more ideas than capacity. Ideas may come from product
 
 When an item reaches the top of the roadmap, requirements are defined, design work begins, development is split into sprints, quality assurance tests the result, and the feature is released. Only then does the organization receive strong evidence from real usage.
 
-![Traditional product-development process where validation happens after release](./visuals/11-traditional-product-process.svg)
+![Traditional product-development process where validation happens after release](./visuals/11-traditional-product-process.png)
 
 The apparent orderliness hides a major weakness: important assumptions are treated as facts before the team begins building.
 
@@ -53,7 +53,7 @@ The apparent orderliness hides a major weakness: important assumptions are treat
 
 Using sprints does not automatically make the complete product process Agile. In many organizations, the idea, expected value, roadmap commitment, requirements, and proposed solution are largely decided before engineering starts.
 
-![Agile development sprints operating inside a broader waterfall product process](./visuals/11-agile-inside-waterfall-system.svg)
+![Agile development sprints operating inside a broader waterfall product process](./visuals/11-agile-inside-waterfall-system.png)
 
 Engineering may deliver incrementally, but discovery and prioritization remain sequential. This creates a partially Agile organization: Agile techniques are applied to delivery while the broader product decision process remains waterfall-driven.
 
@@ -68,7 +68,7 @@ Engineering may deliver incrementally, but discovery and prioritization remain s
 
 Customer interviews and market research can improve understanding, but they do not automatically prove that a specific solution will work. Strong solution validation requires evidence about usability, adoption, feasibility, viability, and behavior change.
 
-![Comparison between late validation and discovery-oriented early validation](./visuals/11-cost-of-late-validation.svg)
+![Comparison between late validation and discovery-oriented early validation](./visuals/11-cost-of-late-validation.png)
 
 When validation happens only after launch, the company has already invested significant time, money, effort, and organizational credibility. Product work always contains uncertainty; the better approach is to reduce the most important uncertainty before making the largest investment.
 
@@ -84,7 +84,7 @@ Business cases can still support decisions when they expose assumptions, ranges,
 
 Traditional roadmaps often become prioritized lists of features and projects. These describe **outputs**: things the team intends to build. They do not necessarily describe the customer or business change the organization wants to create.
 
-![Comparison between output roadmaps and outcome roadmaps](./visuals/11-output-vs-outcome-roadmap.svg)
+![Comparison between output roadmaps and outcome roadmaps](./visuals/11-output-vs-outcome-roadmap.png)
 
 An outcome-oriented roadmap starts with a desired result, such as reducing review time, improving activation, or increasing completion. Features remain necessary, but they are treated as possible solutions rather than the goal itself.
 
@@ -111,7 +111,7 @@ Early collaboration does not mean every decision is made by committee. It means 
 
 A delivery team receives requirements and is primarily responsible for execution. An empowered product team receives a problem, goal, or outcome and collaborates to discover and deliver an effective solution.
 
-![Delivery team compared with an empowered cross-functional product team](./visuals/11-delivery-vs-empowered-product-team.svg)
+![Delivery team compared with an empowered cross-functional product team](./visuals/11-delivery-vs-empowered-product-team.png)
 
 An empowered team balances four forms of risk:
 
@@ -207,11 +207,11 @@ Designers and developers should participate early because discovery requires cus
 
 ## Visuals in This Lecture
 
-- [The Traditional Product Process](./visuals/11-traditional-product-process.svg)
-- [Agile Inside a Waterfall System](./visuals/11-agile-inside-waterfall-system.svg)
-- [The Cost of Late Validation](./visuals/11-cost-of-late-validation.svg)
-- [Output Roadmap vs Outcome Roadmap](./visuals/11-output-vs-outcome-roadmap.svg)
-- [Delivery Team vs Empowered Product Team](./visuals/11-delivery-vs-empowered-product-team.svg)
+- [The Traditional Product Process](./visuals/11-traditional-product-process.png)
+- [Agile Inside a Waterfall System](./visuals/11-agile-inside-waterfall-system.png)
+- [The Cost of Late Validation](./visuals/11-cost-of-late-validation.png)
+- [Output Roadmap vs Outcome Roadmap](./visuals/11-output-vs-outcome-roadmap.png)
+- [Delivery Team vs Empowered Product Team](./visuals/11-delivery-vs-empowered-product-team.png)
 
 ## Related Concepts
 
