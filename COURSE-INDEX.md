@@ -2,17 +2,14 @@
 
 This index follows the original course structure and order.
 
-Only existing files should be linked. Do not add placeholder links to resources
-that have not been created yet.
+Only existing files should be linked. Do not add placeholder links to resources that have not been created yet.
 
 ## Part 1: Introduction
 
 ### Section 1: Introduction
 
 - [Section Overview](./01-introduction/01-introduction/README.md)
-
-Lectures will be added here in their original course order as they are
-processed.
+- [Lecture 11: Why Product Management Is Broken](./01-introduction/01-introduction/11-why-product-management-is-broken.md)
 
 ## Part 2: Strategy
 
