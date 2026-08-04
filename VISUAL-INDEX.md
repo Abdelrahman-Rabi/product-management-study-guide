@@ -70,6 +70,15 @@ Section 1: Introduction
 
 ![A Venn diagram showing three circles: Target Customer Profiles, Validated Critical Problems, and Willingness to Pay, with their intersection representing Product-Market Fit (PMF)](./01-introduction/01-introduction/visuals/03-product-market-fit-sweet-spot.png)
 
+#### The Product Journey Flowchart (Visual Summary)
+
+**Source lecture:**  
+[What Does a PM Do?](./01-introduction/01-introduction/03-what-does-a-pm-do.md)
+
+**Purpose:** Shows the product journey flow and feedback loops between PM, design, engineering, and product-market fit.
+
+![Flowchart showing the product journey from Product Vision and Problem Identification to prioritization, Design, Engineering execution, and Product-Market Fit with a feedback loop.](./01-introduction/01-introduction/visuals/03-visual-summary.png)
+
 <!-- Example entry: #### The Traditional Product Process **Source lecture:** [Why Product Management Is Broken](./01-introduction/01-introduction/11-why-product-management-is-broken.md) **Purpose:** Shows the sequential product-development process and why validation often happens only after release. ![Traditional product-development process where validation happens at the end](./01-introduction/01-introduction/visuals/11-traditional-product-process.png) -->
 Part 2: Strategy
 

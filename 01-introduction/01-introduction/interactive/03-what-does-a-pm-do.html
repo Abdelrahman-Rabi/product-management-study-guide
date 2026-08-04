@@ -222,21 +222,17 @@
 
       <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
         <h2 id="visual-summary-heading">Visual summary</h2>
-        <pre class="pm-diagram" aria-label="Text equivalent of the approved visual summary">
-flowchart TD
-    subgraph PM_Ownership["Product Management (What & Why)"]
-        A["Product Vision & Strategy"] --> B["Identify Customer Problems"]
-        B --> C["Prioritize Features & Metrics"]
-    end
-    subgraph Execution["Design & Engineering (How)"]
-        C --> D["User Experience & Prototypes"]
-        D --> E["Technical Implementation & Code"]
-    end
-    subgraph Goal["Ultimate Objective"]
-        E --> F["Product-Market Fit (PMF)"]
-    end
-    F -->|"Market Shifts & Competitor Action"| B
-        </pre>
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/03-visual-summary.png" alt="Flowchart showing the product journey from Product Vision and Problem Identification to prioritization, Design, Engineering execution, and Product-Market Fit with a feedback loop." hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>03-visual-summary.png</code>
+              <span>Shows the product journey flow and feedback loops between PM, design, engineering, and product-market fit.</span>
+            </div>
+          </div>
+          <figcaption>The product journey starts in the PM domain, moves to execution, and loops back via market feedback.</figcaption>
+        </figure>
         <p>The visual summary shows that the product journey starts in the Product Management ownership domain by identifying customer problems based on the vision, leading to feature prioritization. These prioritized decisions cross the boundary into Design and Engineering, where they are executed as UX designs, prototypes, and production code. The ultimate output is evaluated against the market to establish Product-Market Fit. Shifting market dynamics loop back into the PM domain, requiring continuous problem re-evaluation.</p>
       </section>
 

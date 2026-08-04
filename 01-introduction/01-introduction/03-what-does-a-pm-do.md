@@ -10,7 +10,7 @@ content_type: "lecture"
 material_level: 2
 status: complete
 source: "Udemy video transcript"
-visuals: 3
+visuals: 4
 related_concepts:
   - product discovery
   - product delivery
@@ -167,6 +167,10 @@ flowchart TD
     F -->|"Market Shifts & Competitor Action"| B
 ```
 
+![The Product Journey and Decision Flow](./visuals/03-visual-summary.png)
+
+*The product journey flows from vision to implementation and loops back from Product-Market Fit based on market shifts.*
+
 ---
 
 ## One-Minute Review
@@ -206,6 +210,7 @@ Product Managers own the **"what"** and **"why"** decisions of a product, defini
 * [The What & Why vs. How Boundary](./visuals/03-what-and-why-vs-how-boundary.png)
 * [Product Lifecycle Curve and PM Extension](./visuals/03-product-lifecycle-curve.png)
 * [The Product-Market Fit (PMF) Sweet Spot](./visuals/03-product-market-fit-sweet-spot.png)
+* [The Product Journey Flowchart (Visual Summary)](./visuals/03-visual-summary.png)
 
 ---
 
