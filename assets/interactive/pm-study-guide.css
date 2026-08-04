@@ -133,6 +133,47 @@ h1 {
   margin-bottom: 0;
 }
 
+.pm-table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  border: 1px solid var(--pm-border);
+  text-align: left;
+  vertical-align: top;
+}
+
+thead th {
+  background: var(--pm-blue-soft);
+}
+
+dt {
+  margin-top: 1rem;
+  font-weight: 800;
+}
+
+dd {
+  margin-left: 0;
+  color: var(--pm-muted);
+}
+
+.pm-diagram {
+  overflow-x: auto;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background: var(--pm-blue-soft);
+  color: var(--pm-navy);
+  font: 0.9rem/1.5 ui-monospace, SFMono-Regular, Consolas, monospace;
+  white-space: pre-wrap;
+}
+
 .pm-outcome {
   border-left: 0.35rem solid var(--pm-teal);
   background: var(--pm-teal-soft);

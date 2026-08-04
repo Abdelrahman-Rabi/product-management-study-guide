@@ -2,9 +2,9 @@
 
 ## Purpose
 
-Interactive HTML lessons are optional companions to canonical Markdown lectures. Use them when interaction makes a mental model, decision, comparison, sequence, or misconception meaningfully easier to understand or practice.
+Interactive HTML lessons are optional standalone renderings of canonical Markdown lectures. Use them when interaction makes a mental model, decision, comparison, sequence, or misconception meaningfully easier to understand or practice.
 
-Do not create an HTML companion merely to duplicate the lecture in another format.
+When an HTML lesson is approved, it must teach the complete lecture at the same depth as Markdown. Interaction adds practice and feedback; it does not justify omitting explanation.
 
 ## Architecture
 
@@ -13,12 +13,14 @@ Do not create an HTML companion merely to duplicate the lecture in another forma
 - Start from `templates/interactive-lesson-template.html`.
 - Keep the companion functional from the local filesystem without a server, build step, package manager, CDN, external font, analytics, or network request.
 - Link from the companion to its canonical Markdown lecture and from the lecture to the companion.
-- Treat Markdown as the source of truth. The companion may compress, sequence, reveal, or test approved lecture content but must not become the only place where a required explanation exists.
+- Treat Markdown as the content authority while keeping both formats independently complete. Reorganize approved content for the browser, but preserve every substantive claim, example, distinction, misconception, definition, takeaway, visual summary, and review.
 - For each approved manual visual, point a resilient `<figure data-visual-placeholder>` to the final `../visuals/<approved-filename>.png` path. Show fallback content while the file is absent; the shared runtime must display the image automatically after the correctly named file is added and the page reloads.
 
 ## Learning Design
 
 Give each companion one primary learning outcome and one tangible interaction goal. Prefer one to three purposeful widgets over a dashboard of activities.
+
+Before authoring, map every substantive Markdown heading to an HTML section ID. Add a table of contents for long lessons. Use progressive disclosure to manage reading length; do not shorten the lesson by removing teaching content.
 
 Available patterns:
 
@@ -28,6 +30,8 @@ Available patterns:
 - **Scenario walkthrough:** compose reveals and choices to move from situation to decision, reasoning, consequence, and transferable lesson.
 
 Quizzes, exercises, reflection prompts, and assignments remain opt-in. Generate only the exact interaction types approved by the user.
+
+Place practice after the complete explanation it reinforces. Keep misconception repairs, definitions, examples, and key conclusions readable without interacting with a widget.
 
 ## Visual System
 
@@ -78,3 +82,7 @@ Before publishing, verify:
 - No network dependency or unapproved interaction exists.
 - No template placeholder remains.
 - Every approved visual placeholder uses the exact manifest filename, descriptive alt text, learning purpose, and correct relative path.
+- Every substantive Markdown section maps to a working HTML section ID.
+- Comparison rows, definitions, misconceptions, takeaways, and worked-example stages match the Markdown counts.
+- The complete visual-summary meaning and one-minute review are present.
+- The HTML remains a complete lesson when read linearly without operating a widget.

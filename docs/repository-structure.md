@@ -184,7 +184,7 @@ Store an approved companion at:
 
 `<part>/<section>/interactive/<two-digit-lecture-number>-<lecture-slug>.html`
 
-The Markdown lecture remains canonical. Link the two files in both directions. Start from `templates/interactive-lesson-template.html` and reuse the shared files under `assets/interactive/`; do not duplicate CSS or JavaScript inside each lesson. Follow `docs/interactive-lesson-style-guide.md`. Companions must work locally without a build step or network dependency.
+The Markdown lecture remains the content authority, but both Markdown and HTML must be independently complete at the same substantive depth. Link the two files in both directions. Start from `templates/interactive-lesson-template.html` and reuse the shared files under `assets/interactive/`; do not duplicate CSS or JavaScript inside each lesson. Follow `docs/interactive-lesson-style-guide.md`. HTML lessons must work locally without a build step or network dependency.
 
 Source Transcripts
 
