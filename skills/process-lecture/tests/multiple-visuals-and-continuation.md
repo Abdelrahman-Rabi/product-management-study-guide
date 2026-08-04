@@ -1,4 +1,4 @@
-# Scenario: Multiple Visuals and Automatic Continuation
+# Scenario: Multiple Visuals and Manual Handoff
 
 ## Prompt
 
@@ -6,18 +6,19 @@ Gate 1 is approved. The user approves five named visuals and expects the lecture
 
 ## Expected Without Skill
 
-The agent may combine all five concepts into one multi-panel infographic, generate fewer assets than approved, or stop after displaying the first image.
+The agent may call an image-generation tool, combine all five concepts into one infographic, provide vague prompts, or publish before the manually supplied files exist.
 
 ## Required Behavior With Skill
 
 - Treat each approved visual as one separate image asset.
-- Generate exactly five image files with the five approved filenames.
+- Create a manifest with five exact filenames and section-level destinations.
+- Provide five separate, self-contained professional prompts with exact on-image text, composition, style, negative constraints, and export specifications.
 - Do not combine them into a collage, grid, contact sheet, or multi-panel image unless the user explicitly asks for one combined visual.
-- Track each visual by name, expected filename, and generation status.
-- Do not create repository files if any approved visual is missing or failed.
-- After all five visuals are verified, continue automatically to branch creation, repository writes, validation, commit, and draft PR.
-- Do not ask for another approval unless the user explicitly requested a visual review step.
+- Create the branch and approved HTML placeholders after Gate 2, then pause for the user to add the five files.
+- Do not add missing-image Markdown embeds, commit, push, or open a pull request while any approved visual is absent or invalid.
+- Verify all five supplied files individually.
+- After all five visuals are verified, finalize repository updates and continue automatically through validation, commit, and draft PR.
 
 ## Pass Condition
 
-Five approved visuals produce five separate verified files, and the workflow continues through a draft pull request instead of stopping after image generation.
+Five approved visuals produce five professional prompts, five exact placeholders, and five separately verified user-supplied files before the workflow continues through a draft pull request.

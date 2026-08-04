@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive companion for LECTURE_TITLE">
+    <title>LECTURE_TITLE — Interactive Lesson</title>
+    <link rel="stylesheet" href="../../../assets/interactive/pm-study-guide.css">
+    <script src="../../../assets/interactive/pm-study-guide.js" defer></script>
+  </head>
+  <body>
+    <div class="pm-progress" aria-hidden="true"><span data-progress-bar></span></div>
+    <noscript><div class="pm-shell pm-card pm-warning">Interactive controls require JavaScript. The canonical Markdown lecture remains available through the link at the end of this page.</div></noscript>
+
+    <header class="pm-header pm-shell">
+      <p class="pm-kicker">Product Management Study Guide · Interactive Companion</p>
+      <h1>LECTURE_TITLE</h1>
+      <p class="pm-subtitle">ONE_SENTENCE_PURPOSE</p>
+      <div class="pm-meta" aria-label="Lesson information">
+        <span class="pm-chip">Part PART_NUMBER</span>
+        <span class="pm-chip">Section SECTION_NUMBER</span>
+        <span class="pm-chip">Lecture LECTURE_NUMBER</span>
+      </div>
+    </header>
+
+    <main class="pm-shell pm-grid" id="main-content">
+      <section class="pm-card pm-outcome" aria-labelledby="learning-outcome">
+        <h2 id="learning-outcome">Your goal</h2>
+        <p>OBSERVABLE_LEARNING_OUTCOME</p>
+      </section>
+
+      <section class="pm-card" aria-labelledby="mental-model">
+        <h2 id="mental-model">Core mental model</h2>
+        <p>TRANSCRIPT_GROUNDED_MENTAL_MODEL</p>
+      </section>
+
+      <!-- Keep one figure per approved visual. The fallback disappears automatically when the exact file exists. -->
+      <section class="pm-card" aria-labelledby="visual-heading">
+        <h2 id="visual-heading">VISUAL_SECTION_HEADING</h2>
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/00-approved-visual-name.png" alt="DESCRIPTIVE_EDUCATIONAL_ALT_TEXT" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>00-approved-visual-name.png</code>
+              <span>EXPECTED_VISUAL_LEARNING_PURPOSE</span>
+            </div>
+          </div>
+          <figcaption>INTERPRETIVE_CAPTION</figcaption>
+        </figure>
+      </section>
+
+      <!-- Keep only widgets explicitly approved for this lecture. Delete unused examples. -->
+      <section class="pm-card" aria-labelledby="reveal-heading">
+        <h2 id="reveal-heading">Predict, then reveal</h2>
+        <p>PREDICTION_PROMPT</p>
+        <button
+          class="pm-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="reveal-1"
+          data-reveal-target="reveal-1"
+        >Reveal explanation</button>
+        <div class="pm-reveal" id="reveal-1" hidden>
+          <p>APPROVED_EXPLANATION</p>
+        </div>
+      </section>
+
+      <section class="pm-card" aria-labelledby="choice-heading" data-widget="choice">
+        <h2 id="choice-heading">Make the Product Management decision</h2>
+        <p>DECISION_SCENARIO</p>
+        <div class="pm-actions" aria-label="Decision options">
+          <button
+            class="pm-button"
+            type="button"
+            aria-pressed="false"
+            data-choice
+            data-correct="true"
+            data-feedback-correct="APPROVED_CORRECT_FEEDBACK"
+          >OPTION_A</button>
+          <button
+            class="pm-button"
+            type="button"
+            aria-pressed="false"
+            data-choice
+            data-correct="false"
+            data-feedback-incorrect="APPROVED_INCORRECT_FEEDBACK"
+          >OPTION_B</button>
+        </div>
+        <p class="pm-feedback" aria-live="polite" data-choice-feedback></p>
+      </section>
+
+      <section class="pm-card pm-tabs" aria-labelledby="comparison-heading" data-widget="tabs">
+        <h2 id="comparison-heading">Compare perspectives</h2>
+        <div role="tablist" aria-label="Comparison perspectives">
+          <button class="pm-button" type="button" id="tab-a" role="tab" aria-controls="panel-a" aria-selected="true">PERSPECTIVE_A</button>
+          <button class="pm-button" type="button" id="tab-b" role="tab" aria-controls="panel-b" aria-selected="false" tabindex="-1">PERSPECTIVE_B</button>
+        </div>
+        <div id="panel-a" role="tabpanel" aria-labelledby="tab-a">
+          <p>APPROVED_PERSPECTIVE_A_EXPLANATION</p>
+        </div>
+        <div id="panel-b" role="tabpanel" aria-labelledby="tab-b" hidden>
+          <p>APPROVED_PERSPECTIVE_B_EXPLANATION</p>
+        </div>
+      </section>
+
+      <nav class="pm-card" aria-label="Lesson navigation">
+        <h2>Continue learning</h2>
+        <p><a href="../LECTURE_FILE.md">Return to the canonical lecture guide</a></p>
+      </nav>
+    </main>
+
+    <footer class="pm-footer">
+      <div class="pm-shell">Product Management Study Guide</div>
+    </footer>
+  </body>
+</html>

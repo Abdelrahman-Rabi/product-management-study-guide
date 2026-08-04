@@ -36,6 +36,18 @@ The checklist is intended to catch:
 - [ ] A short lecture has not been expanded unnecessarily
 - [ ] A foundational lecture has not been oversimplified
 
+## Mission, Scaffolding, and Dependencies
+
+- [ ] The lecture advances a relevant success criterion from `LEARNING-MISSION.md`
+- [ ] Concept complexity and learner familiarity were assessed separately
+- [ ] Existing lecture coverage was treated as exposure rather than proof of mastery
+- [ ] Scaffolding uses documented learner context and does not assume unsupported knowledge
+- [ ] Technical analogies clarify Product Management reasoning and state where the analogy stops
+- [ ] Required prerequisites are explained before they are used
+- [ ] Prerequisite, application, and extension links point only to verified existing targets
+- [ ] No missing dependency caused a placeholder, invented link, or invented course order
+- [ ] Reusable teaching patterns organize transcript-supported relationships without importing external content
+
 ## Structure
 
 - [ ] The lecture overview explains what the lecture covers
@@ -100,7 +112,7 @@ The checklist is intended to catch:
 - [ ] The process order is correct
 - [ ] Relationships and arrows are correct
 - [ ] The diagram is simple enough to review quickly
-- [ ] The visual summary does not unnecessarily duplicate a generated visual
+- [ ] The visual summary does not unnecessarily duplicate a verified visual asset
 - [ ] Mermaid syntax is valid when Mermaid is used
 
 ## One-Minute Review
@@ -219,7 +231,7 @@ After completing a lecture:
  No root file was updated unnecessarily
 6. Visual Recommendation Checklist
 
-Before generating visuals:
+Before preparing final visual prompts:
 
  The recommended visual count matches the lecture complexity
  Every visual has a distinct learning purpose
@@ -229,7 +241,21 @@ Before generating visuals:
  Each recommendation explains the purpose
  Each recommendation proposes a clear structure
  The visuals align with the lecture sections
- Visuals were not generated before the user requested them
+ Final production prompts were not prepared before exact visual approval
+
+Manual Prompt Package
+
+- [ ] The manifest lists every approved visual, exact filename, exact destination, and awaiting-user status
+- [ ] One self-contained prompt exists for each approved visual
+- [ ] Each prompt states one learning objective
+- [ ] Each prompt specifies composition, hierarchy, and reading direction
+- [ ] Every visible title, label, step, caption, and key-idea sentence is listed verbatim
+- [ ] The course visual system is specified consistently
+- [ ] Accuracy constraints prevent unsupported relationships or claims
+- [ ] Negative constraints prohibit clutter, tiny text, logos, watermarks, and unintended combined panels
+- [ ] Export instructions require PNG, the approved aspect ratio and resolution, and the exact filename
+- [ ] The prompt does not require unstated repository or transcript context
+- [ ] No image-generation tool was called
 
 Typical ranges:
 
@@ -239,7 +265,7 @@ Level 3: 5–8 visuals
 
 These ranges are guidance, not quotas.
 
-7. Generated Visual Checklist
+7. Manually Supplied Visual Asset Checklist
 Learning Value
  The illustration communicates one primary idea
  The concept matches the lecture
@@ -271,6 +297,8 @@ Design Consistency
  Text remains readable at normal size
  The design matches previously approved visuals
 Storage and Embedding
+ The file has a valid PNG signature, readable dimensions, and non-zero size
+ The manually supplied file count equals the approved visual count
  The filename uses descriptive lowercase kebab-case
  The filename begins with the lecture number
  The file is stored in the correct section visuals/ folder
@@ -279,6 +307,47 @@ Storage and Embedding
  Alt text describes the educational meaning
  An optional caption adds interpretation rather than repetition
  The visual appears in VISUAL-INDEX.md
+7A. Interactive HTML Companion Checklist
+
+Use only when an interactive companion was explicitly approved.
+
+Learning Value
+
+- [ ] The companion has one primary learning outcome
+- [ ] Every widget serves a distinct teaching purpose
+- [ ] The companion transforms approved content rather than duplicating the full lecture
+- [ ] Quiz, exercise, reflection, or assignment widgets match the exact approved interaction types
+- [ ] Feedback explains the relevant Product Management reasoning
+
+Architecture and Content
+
+- [ ] The file is stored under the section-level `interactive/` folder
+- [ ] Its filename starts with the two-digit lecture number and uses lowercase kebab-case
+- [ ] The Markdown lecture links to the companion and the companion links back
+- [ ] Shared CSS and JavaScript paths resolve to `assets/interactive/`
+- [ ] No required lecture explanation exists only in the companion
+- [ ] All claims are grounded in the supplied transcript and approved study guide
+- [ ] Transcript-derived text is safely escaped for HTML
+- [ ] No remote script, CDN, external font, analytics, form submission, or third-party embed exists
+
+Accessibility and Behavior
+
+- [ ] The document has `lang`, charset, viewport, title, one `h1`, and a `main` landmark
+- [ ] Heading order is logical
+- [ ] All controls use native buttons or links and work by keyboard
+- [ ] Buttons declare `type="button"`
+- [ ] Focus indicators remain visible
+- [ ] IDs are unique and ARIA references resolve
+- [ ] Dynamic feedback uses an appropriate live region
+- [ ] Meaning is not communicated by color alone
+- [ ] Reduced-motion preferences are respected
+- [ ] The page remains readable on narrow screens and in print
+- [ ] Approved widgets and expected widget counts match the generated HTML
+- [ ] No template placeholder remains
+- [ ] Every approved manual visual has one resilient HTML placeholder when a companion exists
+- [ ] Each placeholder references the exact approved filename under the section-level `visuals/` folder
+- [ ] Missing files show fallback content and correctly named files display automatically after reload
+
 8. Section Completion Checklist
 
 Use after all lectures in one course section are complete.
