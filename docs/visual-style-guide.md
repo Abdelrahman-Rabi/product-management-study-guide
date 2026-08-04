@@ -260,7 +260,7 @@ Do not create several visuals that communicate essentially the same message.
 
 Visual Recommendation Format
 
-Before generating visuals, provide:
+Before visual approval, recommend:
 
 ## Illustration 1: Visual Title
 
@@ -274,7 +274,25 @@ End the recommendation section with:
 
 Recommended total: X illustrations
 
-Do not generate the illustrations until the user explicitly requests them.
+After exact approval, provide one professional manual-generation prompt per visual. Do not call an image-generation tool. Fix the expected filename and section-level destination before providing the prompt.
+
+## Manual Production Handoff
+
+The learner generates approved visuals manually in ChatGPT or another image interface. For each approved visual, provide:
+
+- One self-contained professional prompt
+- The single learning objective
+- Exact composition and reading direction
+- Exact on-image text
+- The course visual system
+- Accuracy and negative constraints
+- PNG export requirements
+- Exact filename
+- Exact section-level `visuals/` destination
+
+When an approved HTML companion exists, create a resilient placeholder pointing to the final filename. The placeholder must display a clear awaiting-asset state when the file is missing and show the image automatically after the learner places the correctly named file and reloads the page.
+
+Pause after the prompt handoff. Verify manually supplied files before adding Markdown embeds, updating `VISUAL-INDEX.md`, committing, pushing, or opening a pull request.
 
 Visual Placement Inside Lecture Notes
 
@@ -443,8 +461,7 @@ Footer
 Key-idea box
 Overall density
 
-When generating a new visual, use a previously approved visual from the same
-course as the style reference when available.
+When writing a prompt for a new visual, use a previously approved visual from the same course as the style reference when available.
 
 Mermaid Diagrams
 
@@ -457,7 +474,7 @@ Section mind maps
 Part mind maps
 Course-level concept maps
 
-Use generated PNG illustrations when:
+Use manually generated PNG illustrations when:
 
 A polished visual study card is valuable
 Icons improve recognition
@@ -465,7 +482,7 @@ The diagram contains a strong comparison
 The visual is intended for repeated review
 The concept benefits from an editorial infographic design
 
-Mermaid diagrams and generated visuals may coexist when they serve different
+Mermaid diagrams and manually supplied visuals may coexist when they serve different
 purposes.
 
 Avoid generating a polished image that merely duplicates an adequate Mermaid

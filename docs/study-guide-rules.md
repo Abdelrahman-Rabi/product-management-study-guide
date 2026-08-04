@@ -418,7 +418,7 @@ Suggested structure
 
 Do not create two visuals that communicate essentially the same idea.
 
-Do not generate visuals until the user explicitly requests them.
+Do not call an image-generation tool. After the user approves the exact visuals, provide professional prompts for manual generation with fixed filenames and section-level destinations.
 
 Visual Placement
 

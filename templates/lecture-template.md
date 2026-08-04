@@ -163,6 +163,12 @@ Include this section only after visuals have been created.
 
 - [Visual title](./visuals/00-descriptive-visual-name.png)
 
+## Interactive Lesson
+
+Include this section only after an interactive HTML companion has been approved and created.
+
+- [Open the interactive companion](./interactive/00-lecture-title.html)
+
 ## Source
 
 - [Original lecture transcript](../../sources/part-folder/section-folder/00-lecture-title-transcript.md)

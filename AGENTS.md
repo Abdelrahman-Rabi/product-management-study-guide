@@ -49,12 +49,14 @@ Product Management topic.
 
 Before creating or editing a lecture, read:
 
+- LEARNING-MISSION.md
 - docs/study-guide-rules.md
 - docs/repository-structure.md
 - templates/lecture-template.md
 - The relevant section README.md, when available
 - At least one completed lecture in the same section, when available
 - docs/visual-style-guide.md when creating or editing visuals
+- docs/interactive-lesson-style-guide.md when creating or editing interactive HTML companions
 - docs/quality-checklist.md before marking work complete
 
 When processing a lecture from structured course metadata and a supplied transcript, read and follow `skills/process-lecture/SKILL.md` before generating content or modifying repository files.
@@ -88,7 +90,7 @@ the conflict instead of silently choosing one.
 
 ## Lecture Workflow
 
-The process-lecture workflow requires written-content approval and exact visual-selection approval before any GitHub write.
+The process-lecture workflow requires written-content approval and exact learning-asset selection approval before any GitHub write.
 
 For a new lecture:
 
@@ -100,10 +102,10 @@ For a new lecture:
 6. Add valid YAML front matter.
 7. Add meaningful related-concept links.
 8. Add previous, section, part, next, and course-index navigation where known.
-9. Recommend the appropriate visual illustrations.
-10. Generate visuals only after the user explicitly requests them.
-11. Embed each completed visual near the concept it explains.
-12. Update indexes, glossary, navigation, and visual references when requested.
+9. Recommend the appropriate visual illustrations and interactive companion only when they add educational value.
+10. Prepare final visual prompts or generate interactive HTML only after the user explicitly approves the exact assets.
+11. Embed each completed visual near the concept it explains and link any approved companion from the lecture.
+12. Update indexes, glossary, navigation, and learning-asset references when requested.
 13. Run the quality checklist before marking the lecture complete.
 
 ## Section Workflow
@@ -161,6 +163,8 @@ A short italic caption may be added when it provides useful interpretation.
 - Invent sources, files, links, lecture titles, or completed content.
 - Present an instructor's rhetorical claim as a verified statistic.
 - Duplicate large explanations across lecture, section, and part summaries.
-- Generate visuals before the user requests them.
+- Call an image-generation tool during the process-lecture workflow.
+- Prepare final production prompts before the user approves the exact visuals.
+- Generate interactive HTML lessons or widgets before the user approves the exact companion and interaction types.
 - Place all visuals only at the end of a lecture.
 - Mark repository work complete without checking links and required files.

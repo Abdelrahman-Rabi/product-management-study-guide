@@ -56,6 +56,7 @@ The expected structure is:
 PM-Study-Guide/
 │
 ├── AGENTS.md
+├── LEARNING-MISSION.md
 ├── README.md
 ├── COURSE-INDEX.md
 ├── GLOSSARY.md
@@ -177,6 +178,14 @@ Example:
 Do not create the final section summary or mind map until enough lectures exist
 to provide meaningful synthesis.
 
+Interactive HTML Companions
+
+Store an approved companion at:
+
+`<part>/<section>/interactive/<two-digit-lecture-number>-<lecture-slug>.html`
+
+The Markdown lecture remains canonical. Link the two files in both directions. Start from `templates/interactive-lesson-template.html` and reuse the shared files under `assets/interactive/`; do not duplicate CSS or JavaScript inside each lesson. Follow `docs/interactive-lesson-style-guide.md`. Companions must work locally without a build step or network dependency.
+
 Source Transcripts
 
 Store original transcripts separately from polished study-guide files.
@@ -261,6 +270,11 @@ related_concepts:
   - solution space
 ---
 Root Navigation Files
+
+LEARNING-MISSION.md
+
+Defines the learner outcome, learner context, constraints, and boundaries that guide teaching decisions across the course. Use it to calibrate explanations and examples, but never as a source for lecture-content claims.
+
 README.md
 
 Provides:
