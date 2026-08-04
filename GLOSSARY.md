@@ -153,6 +153,46 @@ Delivery focuses on turning a selected solution into reliable working software.
 - Release
 - Quality assurance
 
+### Product Lifecycle
+
+The stages a product moves through from idea, introduction, and growth, to maturity and eventual decline.
+
+**Related concepts:**
+
+- Product-Market Fit (PMF)
+- Product strategy
+
+**Related lectures:**
+
+- [What Does a PM Do?](./01-introduction/01-introduction/03-what-does-a-pm-do.md)
+
+### Product Manager (PM)
+
+The role responsible for driving a product from inception to delivery by owning the "what" and "why" decisions.
+
+**Related concepts:**
+
+- Product lifecycle
+- Product-Market Fit (PMF)
+
+**Related lectures:**
+
+- [What Does a PM Do?](./01-introduction/01-introduction/03-what-does-a-pm-do.md)
+
+### Product-Market Fit (PMF)
+
+The sweet spot where a product successfully solves a critical problem for a customer base that is willing to buy it.
+
+**Related concepts:**
+
+- Product lifecycle
+- Product discovery
+- Validation
+
+**Related lectures:**
+
+- [What Does a PM Do?](./01-introduction/01-introduction/03-what-does-a-pm-do.md)
+
 ### Product Roadmap
 
 A communication tool that explains product direction, priorities, and intended

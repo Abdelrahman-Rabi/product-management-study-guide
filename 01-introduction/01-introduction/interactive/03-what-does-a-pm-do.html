@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive companion for What Does a PM Do?">
+    <title>What Does a PM Do? — Interactive Lesson</title>
+    <link rel="stylesheet" href="../../../assets/interactive/pm-study-guide.css">
+    <script src="../../../assets/interactive/pm-study-guide.js" defer></script>
+  </head>
+  <body>
+    <div class="pm-progress" aria-hidden="true"><span data-progress-bar></span></div>
+    <noscript><div class="pm-shell pm-card pm-warning">Interactive controls require JavaScript. The canonical Markdown lecture remains available through the link at the end of this page.</div></noscript>
+
+    <header class="pm-header pm-shell">
+      <p class="pm-kicker">Product Management Study Guide · Interactive Companion</p>
+      <h1>What Does a PM Do?</h1>
+      <p class="pm-subtitle">Understand the role, lifecycle, and product-market fit boundary.</p>
+      <div class="pm-meta" aria-label="Lesson information">
+        <span class="pm-chip">Part 1</span>
+        <span class="pm-chip">Section 1</span>
+        <span class="pm-chip">Lecture 3</span>
+      </div>
+    </header>
+
+    <main class="pm-shell pm-grid" id="main-content">
+      <nav class="pm-card" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Lesson contents</h2>
+        <ol>
+          <li><a href="#learning-outcome-section">Your goal</a></li>
+          <li><a href="#lecture-overview">Lecture overview</a></li>
+          <li><a href="#central-argument">Central argument</a></li>
+          <li><a href="#concept-1">1. The Decision Boundary: What and Why vs. How</a></li>
+          <li><a href="#concept-2">2. Driving the Product Lifecycle</a></li>
+          <li><a href="#concept-3">3. Uniting the Cross-Functional Team to Find Product-Market Fit</a></li>
+          <li><a href="#comparison">Comparison</a></li>
+          <li><a href="#worked-example">Practical Product Management example</a></li>
+          <li><a href="#misunderstandings">Common misunderstandings</a></li>
+          <li><a href="#definitions">Key concepts and definitions</a></li>
+          <li><a href="#takeaways">Key takeaways</a></li>
+          <li><a href="#visual-summary">Visual summary</a></li>
+          <li><a href="#one-minute-review">One-minute review</a></li>
+          <li><a href="#interactive-practice">Interactive practice</a></li>
+          <li><a href="#related-concepts">Related concepts</a></li>
+        </ol>
+      </nav>
+
+      <section class="pm-card pm-outcome" id="learning-outcome-section" aria-labelledby="learning-outcome">
+        <h2 id="learning-outcome">Your goal</h2>
+        <p>Distinguish between what/why (PM) and how (engineering/design) decisions, map lifecycle stages, and evaluate product-market fit.</p>
+      </section>
+
+      <section class="pm-card" id="lecture-overview" aria-labelledby="lecture-overview-heading">
+        <h2 id="lecture-overview-heading">Lecture overview</h2>
+        <p>This lecture explains the primary responsibilities of a Product Manager (PM). By the end, you should be able to:
+          Distinguish between the decision ownership of the PM (What/Why) and the execution ownership of Design and Engineering (How);
+          Map the stages of the Product Lifecycle and explain the PM's role in extending it; and
+          Define Product-Market Fit (PMF) and the questions required to establish and maintain it in a shifting market.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="central-argument" aria-labelledby="central-argument-heading">
+        <h2 id="central-argument-heading">Central argument</h2>
+        <p>The Product Manager drives a cross-functional team through the product lifecycle to find and maintain product-market fit by owning the <strong>&quot;what&quot;</strong> and <strong>&quot;why&quot;</strong> decisions, while Design and Engineering own the <strong>&quot;how.&quot;</strong></p>
+      </section>
+
+      <section class="pm-card" id="concept-1" aria-labelledby="concept-1-heading">
+        <h2 id="concept-1-heading">1. The Decision Boundary: What and Why vs. How</h2>
+        <p>A fundamental mental model of product development is the division of decision-making ownership:</p>
+        <ul>
+          <li><strong>The Product Manager owns the &quot;What&quot; and &quot;Why&quot;</strong>: The PM is responsible for deciding what features are built, why they are important, who the target customers are, how the product is priced, and how to position the product against competitors.</li>
+          <li><strong>Design and Engineering own the &quot;How&quot;</strong>: Designers and software engineers are responsible for determining how the product will look, feel, behave, and be technically implemented.</li>
+        </ul>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/03-what-and-why-vs-how-boundary.png" alt="Split-screen comparison layout showing PM owning What/Why decisions and Design/Engineering owning How execution" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>03-what-and-why-vs-how-boundary.png</code>
+              <span>Compares the ownership areas of Product Management (What & Why) vs Design and Engineering (How).</span>
+            </div>
+          </div>
+          <figcaption>The boundary ensures distinct areas of responsibility while fostering collaboration.</figcaption>
+        </figure>
+
+        <p>The PM does not do everything. A PM does not write production code, design high-fidelity user interfaces, or run marketing campaigns. Instead, they drive the process by aligning these distinct disciplines toward a unified goal.</p>
+      </section>
+
+      <section class="pm-card" id="concept-2" aria-labelledby="concept-2-heading">
+        <h2 id="concept-2-heading">2. Driving the Product Lifecycle</h2>
+        <p>A product behaves much like a living organism, moving through a predictable lifecycle. The PM is responsible for driving the product through these stages and actively extending its relevance:</p>
+        <ol>
+          <li><strong>Inception / Idea</strong>: Initiated by a product vision or an initial idea.</li>
+          <li><strong>Introduction</strong>: The product is built and launched to early customers.</li>
+          <li><strong>Growth</strong>: The customer base expands, and adoption increases.</li>
+          <li><strong>Maturity</strong>: Growth stabilizes. As technology advances and competitors emerge, the product risks stagnation.</li>
+          <li><strong>Decline</strong>: The product begins to lose relevance and market share.</li>
+        </ol>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/03-product-lifecycle-curve.png" alt="A timeline graph showing relevance over time through stages from Inception to Decline, with a branching line extending from Maturity showing PM Lifecycle Extension" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>03-product-lifecycle-curve.png</code>
+              <span>Visualizes how active Product Management decisions keep a product relevant and prevent decline.</span>
+            </div>
+          </div>
+          <figcaption>A PM's crucial task is extending the product's lifespan during its maturity phase.</figcaption>
+        </figure>
+
+        <p>The instructor emphasizes that a critical role of the PM is to <strong>extend the product's lifecycle</strong>—keeping it alive, modern, and relevant before it slides into decline.</p>
+      </section>
+
+      <section class="pm-card" id="concept-3" aria-labelledby="concept-3-heading">
+        <h2 id="concept-3-heading">3. Uniting the Cross-Functional Team to Find Product-Market Fit</h2>
+        <p>At the heart of the PM's role is the pursuit of <strong>Product-Market Fit (PMF)</strong>. In simple terms, PMF answers the question: <em>Are there people who will buy my product?</em></p>
+        <p>In practice, achieving PMF requires continuous validation. The product team must answer four key questions:</p>
+        <ul>
+          <li>What do our customers look like?</li>
+          <li>Do we solve a critical problem for them?</li>
+          <li>Are they willing to pay for this solution?</li>
+          <li>How do we verify that they need it?</li>
+        </ul>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/03-product-market-fit-sweet-spot.png" alt="A Venn diagram showing three circles: Target Customer Profiles, Validated Critical Problems, and Willingness to Pay, with their intersection representing Product-Market Fit (PMF)" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>03-product-market-fit-sweet-spot.png</code>
+              <span>Shows the sweet spot where customer needs and commercial willingness align.</span>
+            </div>
+          </div>
+          <figcaption>True product-market fit exists at the intersection of a verified customer segment, a critical problem, and a viable business model.</figcaption>
+        </figure>
+
+        <p>PMF is not a one-time achievement. Because markets, technologies, and customer expectations constantly change, PMs and their teams must continuously evaluate and re-find PMF even for mature and highly successful products.</p>
+      </section>
+
+      <section class="pm-card" id="comparison" aria-labelledby="comparison-heading">
+        <h2 id="comparison-heading">Comparison</h2>
+        <p>The table below contrasts the ownership areas between Product Management and the Design/Engineering disciplines:</p>
+        <div class="pm-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Area of Ownership</th>
+                <th scope="col">Product Management (What & Why)</th>
+                <th scope="col">Design & Engineering (How)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Strategic Focus</th>
+                <td>Target customer segments, pricing, competitor positioning, partnerships.</td>
+                <td>User experience, interface layout, technical architecture, codebase scaling.</td>
+              </tr>
+              <tr>
+                <th scope="row">Feature Validation</th>
+                <td>Determining if a feature solves a critical problem and drives business success.</td>
+                <td>Determining how to implement the feature reliably, securely, and intuitively.</td>
+              </tr>
+              <tr>
+                <th scope="row">Success Metrics</th>
+                <td>Product-market fit, customer retention, revenue, adoption.</td>
+                <td>System uptime, performance latency, usability benchmarks, defect rates.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="pm-card" id="worked-example" aria-labelledby="worked-example-heading">
+        <h2 id="worked-example-heading">Practical Product Management example</h2>
+        <h3>Situation</h3>
+        <p>A candidate-assessment platform experiences a decline in customer growth because competitors have launched AI-assisted screening filters. The engineering team wants to rebuild the platform's video-interview storage architecture to support high-definition video, while sales wants a custom interface for a single large customer.</p>
+        <h3>Decision</h3>
+        <p>The PM decides to focus the next development cycle on validating and building an automated candidate shortlisting assistant (the <strong>What</strong> and <strong>Why</strong>), deferring the database rebuild and the custom client request.</p>
+        <h3>Reasoning</h3>
+        <p>The PM's market analysis shows that recruiters' primary pain point is screening time, not video quality. Rebuilding storage or catering to one client does not address the broader market threat. The PM aligns the engineers and designers on the core problem: reducing time-to-hire.</p>
+        <h3>Consequence</h3>
+        <p>Designers map a streamlined shortlisting flow, and Engineers design the AI pipeline architecture (the <strong>How</strong>). The new assistant successfully reduces screening time by 40%, keeping the platform competitive and re-establishing its product-market fit.</p>
+        <h3>Transferable lesson</h3>
+        <p>PMs must guide teams toward validating and solving market-wide customer problems rather than focusing on low-priority technical updates or isolated customer requests.</p>
+      </section>
+
+      <section class="pm-card pm-warning" id="misunderstandings" aria-labelledby="misunderstandings-heading">
+        <h2 id="misunderstandings-heading">Common misunderstandings</h2>
+        <h3>"The PM is the 'CEO of the Product' and dictates the solution"</h3>
+        <p>The PM drives the direction by owning the problem space (what/why) but does not dictate the technical execution. The PM must rely on influence and collaboration, uniting designers, engineers, data scientists, and stakeholders to define the solution together.</p>
+        <p><strong>Decision consequence:</strong> Prevents team friction, leverages specialized design/engineering expertise, and leads to more robust technical implementations.</p>
+
+        <h3>"Product-Market Fit is a one-time milestone"</h3>
+        <p>Achieving PMF at launch does not guarantee future success. A changing market, new technologies, or competitor actions can degrade fit. Finding and re-finding PMF is an ongoing, continuous responsibility.</p>
+        <p><strong>Decision consequence:</strong> Drives continuous discovery and prevents products from sliding into decline during maturity stages.</p>
+      </section>
+
+      <section class="pm-card" id="definitions" aria-labelledby="definitions-heading">
+        <h2 id="definitions-heading">Key concepts and definitions</h2>
+        <dl>
+          <dt>Product Manager (PM)</dt>
+          <dd>The role responsible for driving a product from inception to delivery by owning the "what" and "why" decisions.</dd>
+          <dt>Product-Market Fit (PMF)</dt>
+          <dd>The sweet spot where a product successfully solves a critical problem for a customer base that is willing to buy it.</dd>
+          <dt>Product Lifecycle</dt>
+          <dd>The stages a product moves through from idea, introduction, and growth, to maturity and eventual decline.</dd>
+        </dl>
+      </section>
+
+      <section class="pm-card" id="takeaways" aria-labelledby="takeaways-heading">
+        <h2 id="takeaways-heading">Key takeaways</h2>
+        <ol>
+          <li><strong>Own the What and Why</strong>: The PM's core responsibility is to define what to build and why it is valuable, leaving the "how" to Design and Engineering.</li>
+          <li><strong>Drive, Don't Do Everything</strong>: A PM does not write code or design screens but coordinates cross-functional teams to work as a well-oiled machine.</li>
+          <li><strong>Extend the Lifecycle</strong>: PMs must proactively iterate on mature products to keep them relevant and prevent them from sliding into decline.</li>
+          <li><strong>PMF is Customer-Centric</strong>: Finding PMF requires a deep understanding of target customers, their critical problems, and their willingness to pay.</li>
+          <li><strong>Continuous Re-evaluation</strong>: Because markets shift, maintaining product-market fit is a continuous process of discovery and execution.</li>
+          <li><strong>Unify the Team</strong>: Success depends on aligning diverse roles (engineering, design, data science, legal, marketing) around a single goal: delivering value.</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
+        <h2 id="visual-summary-heading">Visual summary</h2>
+        <pre class="pm-diagram" aria-label="Text equivalent of the approved visual summary">
+flowchart TD
+    subgraph PM_Ownership["Product Management (What & Why)"]
+        A["Product Vision & Strategy"] --> B["Identify Customer Problems"]
+        B --> C["Prioritize Features & Metrics"]
+    end
+    subgraph Execution["Design & Engineering (How)"]
+        C --> D["User Experience & Prototypes"]
+        D --> E["Technical Implementation & Code"]
+    end
+    subgraph Goal["Ultimate Objective"]
+        E --> F["Product-Market Fit (PMF)"]
+    end
+    F -->|"Market Shifts & Competitor Action"| B
+        </pre>
+        <p>The visual summary shows that the product journey starts in the Product Management ownership domain by identifying customer problems based on the vision, leading to feature prioritization. These prioritized decisions cross the boundary into Design and Engineering, where they are executed as UX designs, prototypes, and production code. The ultimate output is evaluated against the market to establish Product-Market Fit. Shifting market dynamics loop back into the PM domain, requiring continuous problem re-evaluation.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="one-minute-review" aria-labelledby="one-minute-review-heading">
+        <h2 id="one-minute-review-heading">One-minute review</h2>
+        <p>Product Managers own the <strong>&quot;what&quot;</strong> and <strong>&quot;why&quot;</strong> decisions of a product, defining features, targets, pricing, and success, while Design and Engineering own the <strong>&quot;how&quot;</strong> of user experience and implementation. The PM drives the product through its entire lifecycle (inception, introduction, growth, maturity, decline) with the core goal of achieving and maintaining <strong>Product-Market Fit (PMF)</strong>—ensuring the product solves critical customer problems that people are willing to pay for in a constantly changing market.</p>
+      </section>
+
+      <!-- Interactive widgets section -->
+      <section class="pm-card" id="interactive-practice" aria-labelledby="interactive-practice-heading">
+        <h2 id="interactive-practice-heading">Interactive practice</h2>
+        
+        <!-- Practice Widget 1: Choice with Feedback (Isolated Scenarios) -->
+        <h3 id="choice-practice-title">Make the Product Management decision</h3>
+        <p>A recruiter platform wants to address a drop in applicant conversions. Classify which of the following decisions belong to you <strong>(What & Why)</strong> vs. your Design & Engineering peers <strong>(How)</strong>.</p>
+        
+        <div class="pm-scenario" data-widget="choice" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 4px solid var(--pm-blue, #1d4ed8); background: #f8fafc;">
+          <h4 style="margin-top: 0; font-size: 1.05rem;">Scenario 1: Decide if we should build an automated screening filter to address recruiters' high screen time.</h4>
+          <div class="pm-actions" aria-label="Decision options for Scenario 1" style="display: flex; gap: 0.5rem; margin-top: 0.75rem;">
+            <button
+              class="pm-button"
+              type="button"
+              aria-pressed="false"
+              data-choice
+              data-correct="true"
+              data-feedback-correct="Correct! Deciding if a feature is important and why it is needed to solve a recruiter problem is a core 'What and Why' decision owned by the PM."
+            >Product Management (What & Why)</button>
+            <button
+              class="pm-button"
+              type="button"
+              aria-pressed="false"
+              data-choice
+              data-correct="false"
+              data-feedback-incorrect="Incorrect. The decision of whether to prioritize a feature to address screen time is a strategic decision (What/Why), which belongs to the PM, not engineering or design."
+            >Design & Engineering (How)</button>
+          </div>
+          <p class="pm-feedback" aria-live="polite" data-choice-feedback style="margin-top: 0.5rem; font-weight: 500;"></p>
+        </div>
+
+        <div class="pm-scenario" data-widget="choice" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 4px solid var(--pm-blue, #1d4ed8); background: #f8fafc;">
+          <h4 style="margin-top: 0; font-size: 1.05rem;">Scenario 2: Choose between a single-page onboarding wizard or a multi-step progressive disclosure flow.</h4>
+          <div class="pm-actions" aria-label="Decision options for Scenario 2" style="display: flex; gap: 0.5rem; margin-top: 0.75rem;">
+            <button
+              class="pm-button"
+              type="button"
+              aria-pressed="false"
+              data-choice
+              data-correct="false"
+              data-feedback-incorrect="Incorrect. The visual layout, flow sequence, and interface patterns are user experience decisions (How) and belong to the Designer."
+            >Product Management (What & Why)</button>
+            <button
+              class="pm-button"
+              type="button"
+              aria-pressed="false"
+              data-choice
+              data-correct="true"
+              data-feedback-correct="Correct! Determining the layout structure and step flow to accomplish the target experience is a user experience design decision (How) owned by Design."
+            >Design & Engineering (How)</button>
+          </div>
+          <p class="pm-feedback" aria-live="polite" data-choice-feedback style="margin-top: 0.5rem; font-weight: 500;"></p>
+        </div>
+
+        <div class="pm-scenario" data-widget="choice" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 4px solid var(--pm-blue, #1d4ed8); background: #f8fafc;">
+          <h4 style="margin-top: 0; font-size: 1.05rem;">Scenario 3: Select the database indexing strategy and query caching model to keep search response under 100ms.</h4>
+          <div class="pm-actions" aria-label="Decision options for Scenario 3" style="display: flex; gap: 0.5rem; margin-top: 0.75rem;">
+            <button
+              class="pm-button"
+              type="button"
+              aria-pressed="false"
+              data-choice
+              data-correct="false"
+              data-feedback-incorrect="Incorrect. Choosing database indexing techniques, caching layers, and system architecture is a technical implementation decision (How) owned by Engineering."
+            >Product Management (What & Why)</button>
+            <button
+              class="pm-button"
+              type="button"
+              aria-pressed="false"
+              data-choice
+              data-correct="true"
+              data-feedback-correct="Correct! Selecting cache strategies, code logic, and databases to meet a target constraint is an engineering execution decision (How)."
+            >Design & Engineering (How)</button>
+          </div>
+          <p class="pm-feedback" aria-live="polite" data-choice-feedback style="margin-top: 0.5rem; font-weight: 500;"></p>
+        </div>
+
+        <!-- Practice Widget 2: Tabs (Product Lifecycle Stages) -->
+        <h3 id="tabs-practice-title">Explore lifecycle stages</h3>
+        <p>Explore what a Product Manager focuses on at each stage of a product's life to sustain and maximize success:</p>
+        <div class="pm-tabs-widget" data-widget="tabs">
+          <div role="tablist" aria-label="Product Lifecycle Stages" style="display: flex; gap: 0.25rem; flex-wrap: wrap; margin-bottom: 1rem;">
+            <button class="pm-button" type="button" id="tab-inception" role="tab" aria-controls="panel-inception" aria-selected="true" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">1. Inception</button>
+            <button class="pm-button" type="button" id="tab-intro" role="tab" aria-controls="panel-intro" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">2. Introduction</button>
+            <button class="pm-button" type="button" id="tab-growth" role="tab" aria-controls="panel-growth" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">3. Growth</button>
+            <button class="pm-button" type="button" id="tab-maturity" role="tab" aria-controls="panel-maturity" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">4. Maturity / Decline</button>
+          </div>
+          
+          <div id="panel-inception" role="tabpanel" aria-labelledby="tab-inception" style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4 style="margin-top: 0;">Inception & Vision</h4>
+            <p><strong>PM Goal:</strong> Formulate a compelling product vision and identify the target customers.</p>
+            <p>At this stage, you focus on defining the <em>why</em>. You do customer interviews, analyze competitors, and map out the critical problem the product must solve. The main output is a hypothesis of product-market fit.</p>
+          </div>
+          
+          <div id="panel-intro" role="tabpanel" aria-labelledby="tab-intro" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4 style="margin-top: 0;">Introduction / Launch</h4>
+            <p><strong>PM Goal:</strong> Validate assumptions with real early adopters.</p>
+            <p>The product is introduced to customers. The PM monitors how users interact with the initial solution, collects qualitative feedback, and verifies if customers are willing to buy the product to solve their problem.</p>
+          </div>
+
+          <div id="panel-growth" role="tabpanel" aria-labelledby="tab-growth" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4 style="margin-top: 0;">Growth & Expansion</h4>
+            <p><strong>PM Goal:</strong> Scale the user base and optimize core metrics.</p>
+            <p>As adoption increases, the PM transitions from validating fundamental needs to scaling. You prioritize features that remove friction, improve onboarding, increase customer retention, and drive acquisition.</p>
+          </div>
+
+          <div id="panel-maturity" role="tabpanel" aria-labelledby="tab-maturity" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4 style="margin-top: 0;">Maturity & Extension</h4>
+            <p><strong>PM Goal:</strong> Extend the product lifecycle and find new fit.</p>
+            <p>When customer growth plateaus, the market shifts, or competitors emerge, the PM must intervene. Your goal is to keep the product relevant by discovering adjacent markets, introducing new features, or pivoting to new tech models to avoid decline.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pm-card" id="related-concepts" aria-labelledby="related-concepts-heading">
+        <h2 id="related-concepts-heading">Related concepts</h2>
+        <ul>
+          <li><a href="../../../GLOSSARY.md#product-discovery">Product Discovery</a></li>
+          <li><a href="../../../GLOSSARY.md#product-delivery">Product Delivery</a></li>
+        </ul>
+      </section>
+
+      <nav class="pm-card" aria-label="Lesson navigation">
+        <h2>Continue learning</h2>
+        <p><a href="../03-what-does-a-pm-do.md">Return to the canonical lecture guide</a></p>
+        <p><a href="../README.md">Section overview</a> · <a href="../../README.md">Part overview</a> · <a href="../../../COURSE-INDEX.md">Course index</a></p>
+        <p><a href="../../../sources/01-introduction/01-introduction/03-what-does-a-pm-do-transcript.md">Original lecture transcript</a></p>
+      </nav>
+    </main>
+
+    <footer class="pm-footer">
+      <div class="pm-shell">Product Management Study Guide</div>
+    </footer>
+  </body>
+</html>
