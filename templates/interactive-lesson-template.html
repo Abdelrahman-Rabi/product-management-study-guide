@@ -24,14 +24,89 @@
     </header>
 
     <main class="pm-shell pm-grid" id="main-content">
+      <nav class="pm-card" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Lesson contents</h2>
+        <ol>
+          <li><a href="#lecture-overview">Lecture overview</a></li>
+          <li><a href="#central-argument">Central argument</a></li>
+          <li><a href="#concept-1">Major concepts</a></li>
+          <li><a href="#comparison">Comparison</a></li>
+          <li><a href="#worked-example">Practical example</a></li>
+          <li><a href="#misunderstandings">Common misunderstandings</a></li>
+          <li><a href="#definitions">Key concepts and definitions</a></li>
+          <li><a href="#takeaways">Key takeaways</a></li>
+          <li><a href="#visual-summary">Visual summary</a></li>
+          <li><a href="#one-minute-review">One-minute review</a></li>
+          <li><a href="#interactive-practice">Interactive practice</a></li>
+        </ol>
+      </nav>
+
       <section class="pm-card pm-outcome" aria-labelledby="learning-outcome">
         <h2 id="learning-outcome">Your goal</h2>
         <p>OBSERVABLE_LEARNING_OUTCOME</p>
       </section>
 
-      <section class="pm-card" aria-labelledby="mental-model">
-        <h2 id="mental-model">Core mental model</h2>
+      <section class="pm-card" id="lecture-overview" aria-labelledby="lecture-overview-heading">
+        <h2 id="lecture-overview-heading">Lecture overview</h2>
+        <p>COMPLETE_APPROVED_LECTURE_OVERVIEW</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="central-argument" aria-labelledby="central-argument-heading">
+        <h2 id="central-argument-heading">Central argument</h2>
         <p>TRANSCRIPT_GROUNDED_MENTAL_MODEL</p>
+      </section>
+
+      <!-- Repeat a complete section for every approved numbered concept. Do not summarize several Markdown sections into one. -->
+      <section class="pm-card" id="concept-1" aria-labelledby="concept-1-heading">
+        <h2 id="concept-1-heading">FIRST_MAJOR_CONCEPT_TITLE</h2>
+        <p>COMPLETE_FIRST_CONCEPT_EXPLANATION_WITH_REASONING_AND_NUANCE</p>
+        <h3>FIRST_REQUIRED_SUBCONCEPT</h3>
+        <p>COMPLETE_SUBCONCEPT_EXPLANATION</p>
+      </section>
+
+      <section class="pm-card" id="concept-2" aria-labelledby="concept-2-heading">
+        <h2 id="concept-2-heading">SECOND_MAJOR_CONCEPT_TITLE</h2>
+        <p>COMPLETE_SECOND_CONCEPT_EXPLANATION_WITH_REASONING_AND_NUANCE</p>
+      </section>
+
+      <!-- Keep only when Markdown contains a meaningful comparison; preserve every row and dimension. -->
+      <section class="pm-card" id="comparison" aria-labelledby="comparison-heading">
+        <h2 id="comparison-heading">Comparison</h2>
+        <div class="pm-table-wrap">
+          <table>
+            <thead><tr><th scope="col">DIMENSION</th><th scope="col">CONCEPT_A</th><th scope="col">CONCEPT_B</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">ROW_1_DIMENSION</th><td>ROW_1_A</td><td>ROW_1_B</td></tr>
+              <tr><th scope="row">ROW_2_DIMENSION</th><td>ROW_2_A</td><td>ROW_2_B</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Required for Level 2 and Level 3. Preserve all five stages. -->
+      <section class="pm-card" id="worked-example" aria-labelledby="worked-example-heading">
+        <h2 id="worked-example-heading">Practical Product Management example</h2>
+        <h3>Situation</h3><p>COMPLETE_SITUATION</p>
+        <h3>Decision</h3><p>COMPLETE_DECISION</p>
+        <h3>Reasoning</h3><p>COMPLETE_REASONING</p>
+        <h3>Consequence</h3><p>COMPLETE_CONSEQUENCE</p>
+        <h3>Transferable lesson</h3><p>COMPLETE_TRANSFERABLE_LESSON</p>
+      </section>
+
+      <!-- Keep every approved misconception repair visible without JavaScript. -->
+      <section class="pm-card pm-warning" id="misunderstandings" aria-labelledby="misunderstandings-heading">
+        <h2 id="misunderstandings-heading">Common misunderstandings</h2>
+        <h3>APPROVED_MISCONCEPTION</h3>
+        <p>WHY_IT_SEEMS_PLAUSIBLE_AND_COMPLETE_CORRECT_MODEL</p>
+        <p><strong>Decision consequence:</strong> CHANGED_PM_BEHAVIOR</p>
+      </section>
+
+      <section class="pm-card" id="definitions" aria-labelledby="definitions-heading">
+        <h2 id="definitions-heading">Key concepts and definitions</h2>
+        <dl>
+          <dt>APPROVED_TERM</dt>
+          <dd>COMPLETE_APPROVED_DEFINITION</dd>
+        </dl>
       </section>
 
       <!-- Keep one figure per approved visual. The fallback disappears automatically when the exact file exists. -->
@@ -50,8 +125,8 @@
         </figure>
       </section>
 
-      <!-- Keep only widgets explicitly approved for this lecture. Delete unused examples. -->
-      <section class="pm-card" aria-labelledby="reveal-heading">
+      <!-- Keep only widgets explicitly approved for this lecture. Practice follows the complete lesson content. -->
+      <section class="pm-card" id="interactive-practice" aria-labelledby="reveal-heading">
         <h2 id="reveal-heading">Predict, then reveal</h2>
         <p>PREDICTION_PROMPT</p>
         <button
@@ -90,8 +165,8 @@
         <p class="pm-feedback" aria-live="polite" data-choice-feedback></p>
       </section>
 
-      <section class="pm-card pm-tabs" aria-labelledby="comparison-heading" data-widget="tabs">
-        <h2 id="comparison-heading">Compare perspectives</h2>
+      <section class="pm-card pm-tabs" aria-labelledby="interactive-comparison-heading" data-widget="tabs">
+        <h2 id="interactive-comparison-heading">Compare perspectives</h2>
         <div role="tablist" aria-label="Comparison perspectives">
           <button class="pm-button" type="button" id="tab-a" role="tab" aria-controls="panel-a" aria-selected="true">PERSPECTIVE_A</button>
           <button class="pm-button" type="button" id="tab-b" role="tab" aria-controls="panel-b" aria-selected="false" tabindex="-1">PERSPECTIVE_B</button>
@@ -104,9 +179,38 @@
         </div>
       </section>
 
+      <section class="pm-card" id="takeaways" aria-labelledby="takeaways-heading">
+        <h2 id="takeaways-heading">Key takeaways</h2>
+        <ol>
+          <li>COMPLETE_APPROVED_TAKEAWAY_1</li>
+          <li>COMPLETE_APPROVED_TAKEAWAY_2</li>
+          <li>REPEAT_UNTIL_EVERY_APPROVED_TAKEAWAY_IS_PRESENT</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
+        <h2 id="visual-summary-heading">Visual summary</h2>
+        <pre class="pm-diagram" aria-label="Text equivalent of the approved visual summary">COMPLETE_ACCESSIBLE_VISUAL_SUMMARY</pre>
+        <p>COMPLETE_EXPLANATION_OF_THE_RELATIONSHIPS_IN_THE_SUMMARY</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="one-minute-review" aria-labelledby="one-minute-review-heading">
+        <h2 id="one-minute-review-heading">One-minute review</h2>
+        <p>COMPLETE_APPROVED_ONE_MINUTE_REVIEW</p>
+      </section>
+
+      <section class="pm-card" id="related-concepts" aria-labelledby="related-concepts-heading">
+        <h2 id="related-concepts-heading">Related concepts</h2>
+        <ul>
+          <li><a href="RELATED_EXISTING_TARGET">RELATED_CONCEPT</a></li>
+        </ul>
+      </section>
+
       <nav class="pm-card" aria-label="Lesson navigation">
         <h2>Continue learning</h2>
         <p><a href="../LECTURE_FILE.md">Return to the canonical lecture guide</a></p>
+        <p><a href="../README.md">Section overview</a> · <a href="../../README.md">Part overview</a> · <a href="../../../COURSE-INDEX.md">Course index</a></p>
+        <p><a href="../../../sources/PART_FOLDER/SECTION_FOLDER/LECTURE_TRANSCRIPT.md">Original lecture transcript</a></p>
       </nav>
     </main>
 

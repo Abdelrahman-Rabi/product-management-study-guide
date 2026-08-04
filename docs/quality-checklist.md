@@ -315,7 +315,12 @@ Learning Value
 
 - [ ] The companion has one primary learning outcome
 - [ ] Every widget serves a distinct teaching purpose
-- [ ] The companion transforms approved content rather than duplicating the full lecture
+- [ ] The HTML teaches the complete approved lecture at the same substantive depth as Markdown
+- [ ] Every substantive Markdown heading maps to a working HTML section ID
+- [ ] All approved claims, distinctions, reasoning, caveats, and examples remain present
+- [ ] Comparison rows, definitions, misconceptions, takeaways, and worked-example stages match Markdown counts
+- [ ] The complete visual-summary meaning and one-minute review are present
+- [ ] Interactive practice follows and reinforces complete explanations rather than replacing them
 - [ ] Quiz, exercise, reflection, or assignment widgets match the exact approved interaction types
 - [ ] Feedback explains the relevant Product Management reasoning
 
@@ -325,7 +330,7 @@ Architecture and Content
 - [ ] Its filename starts with the two-digit lecture number and uses lowercase kebab-case
 - [ ] The Markdown lecture links to the companion and the companion links back
 - [ ] Shared CSS and JavaScript paths resolve to `assets/interactive/`
-- [ ] No required lecture explanation exists only in the companion
+- [ ] Markdown and HTML are each independently complete, with no required explanation exclusive to either format
 - [ ] All claims are grounded in the supplied transcript and approved study guide
 - [ ] Transcript-derived text is safely escaped for HTML
 - [ ] No remote script, CDN, external font, analytics, form submission, or third-party embed exists

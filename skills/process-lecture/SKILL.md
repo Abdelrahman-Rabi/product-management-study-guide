@@ -243,8 +243,12 @@ When the user confirms that files were added, inspect the filesystem and every i
 
 - Generate at most one HTML companion per lecture and only after Gate 2 explicitly approves it and names the widget types.
 - Follow `docs/interactive-lesson-style-guide.md` and start from `templates/interactive-lesson-template.html`.
+- Read and follow [references/html-content-parity.md](references/html-content-parity.md). Treat the HTML as a complete standalone lesson, not a condensed supplement.
 - Store it at `<part>/<section>/interactive/<two-digit-lecture-number>-<lecture-slug>.html`.
 - Keep the Markdown lecture canonical and link the lecture and companion in both directions.
+- Preserve every substantive approved Markdown section, claim, distinction, qualification, comparison row, worked-example stage, misconception repair, definition, takeaway, visual summary, and one-minute review in HTML.
+- Build an internal Markdown-heading-to-HTML-ID coverage map before authoring the page. Use a table of contents and progressive disclosure to manage depth; never manage length by omitting teaching content.
+- Place each interaction after the complete explanation it reinforces. Widgets add practice and feedback; they never replace the lesson explanation.
 - Populate the companion only from the approved guide and supplied transcript. Escape transcript-derived text before inserting it into HTML.
 - Reuse `assets/interactive/pm-study-guide.css` and `assets/interactive/pm-study-guide.js`; do not inline duplicate shared components.
 - Keep it offline-first: no build step, CDN, remote script, external font, analytics, form submission, third-party embed, or network dependency.
@@ -253,7 +257,7 @@ When the user confirms that files were added, inspect the filesystem and every i
 - Treat approval of a reveal, choice with feedback, tabs, or a scenario walkthrough composed from those widgets as approval only for that named interaction.
 - Treat quizzes, exercises, reflection prompts, and assignments as opt-in widgets; never infer their approval from approval of the HTML companion itself.
 - Preserve semantic HTML, keyboard operation, visible focus, reduced-motion support, responsive layout, and print readability.
-- Do not put a required lecture explanation only in the companion.
+- Keep both Markdown and HTML independently complete. Do not put a required explanation only in either format.
 - If companion generation or validation fails, stop before repository writes and report the failure.
 
 ## Finalize Repository Writes
@@ -298,11 +302,15 @@ Validate all applicable checks in `docs/quality-checklist.md`, including:
 - One separate image file exists for each approved visual
 - Actual visual filenames, storage, embeddings, and visual-index entries match
 - Approved companion count and widget types match the generated HTML
+- Every substantive Markdown heading maps to a verified HTML section ID
+- Markdown and HTML counts match for comparison rows, definitions, misconceptions, takeaways, and worked-example stages
+- The HTML preserves all approved claims, reasoning, caveats, visual-summary meaning, and the complete one-minute review
+- Interactive widgets follow rather than replace the complete explanations they reinforce
 - Companion filename, section-level storage, and bidirectional Markdown link match
 - Shared CSS and JavaScript paths resolve without a network dependency
 - HTML structure, unique IDs, ARIA references, keyboard behavior, responsive layout, and print behavior pass the interactive checklist
 - Transcript-derived HTML is escaped and no executable transcript content, inline event handler, remote script, analytics, or form submission exists
-- No required explanation exists only in the companion
+- Markdown and HTML are each independently complete, with no required explanation exclusive to either format
 - No template placeholder remains in the published companion
 - No incomplete file marked `complete`
 - Only lecture-related files changed
