@@ -10,7 +10,7 @@ content_type: "lecture"
 material_level: 2
 status: complete
 source: "Udemy video transcript"
-visuals: 4
+visuals: 5
 related_concepts:
   - product discovery
   - product delivery
@@ -52,6 +52,10 @@ A fundamental mental model of product development is the division of decision-ma
 *Product Management owns the strategic direction (what/why), while Design and Engineering own the technical and visual execution (how).*
 
 The PM does not do everything. A PM does not write production code, design high-fidelity user interfaces, or run marketing campaigns. Instead, they drive the process by aligning these distinct disciplines toward a unified goal.
+
+![Unifying Cross-Functional Teams for Product-Market Fit](./visuals/03-unifying-teams-for-pmf.png)
+
+*The PM coordinates different disciplines—Design, Engineering, Data, and Marketing—under a unified vision to guide the product to success.*
 
 ## 2. Driving the Product Lifecycle
 
@@ -208,6 +212,7 @@ Product Managers own the **"what"** and **"why"** decisions of a product, defini
 ## Visuals in This Lecture
 
 * [The What & Why vs. How Boundary](./visuals/03-what-and-why-vs-how-boundary.png)
+* [Unifying Cross-Functional Teams for Product-Market Fit](./visuals/03-unifying-teams-for-pmf.png)
 * [Product Lifecycle Curve and PM Extension](./visuals/03-product-lifecycle-curve.png)
 * [The Product-Market Fit (PMF) Sweet Spot](./visuals/03-product-market-fit-sweet-spot.png)
 * [The Product Journey Flowchart (Visual Summary)](./visuals/03-visual-summary.png)

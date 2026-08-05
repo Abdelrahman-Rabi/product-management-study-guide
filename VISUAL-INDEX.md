@@ -52,6 +52,16 @@ Section 1: Introduction
 
 ![Split-screen comparison layout showing PM owning What/Why decisions and Design/Engineering owning How execution](./01-introduction/01-introduction/visuals/03-what-and-why-vs-how-boundary.png)
 
+
+#### Unifying Cross-Functional Teams for Product-Market Fit
+
+**Source lecture:**  
+[What Does a PM Do?](./01-introduction/01-introduction/03-what-does-a-pm-do.md)
+
+**Purpose:** Shows the PM coordinating Design, Engineering, Data Science, and Marketing under a single vision.
+
+![The PM coordinating different disciplines under a unified vision to guide the product to success.](./01-introduction/01-introduction/visuals/03-unifying-teams-for-pmf.png)
+
 #### Product Lifecycle Curve and PM Extension
 
 **Source lecture:**  
