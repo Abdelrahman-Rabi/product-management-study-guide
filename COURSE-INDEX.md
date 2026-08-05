@@ -11,6 +11,7 @@ that have not been created yet.
 
 - [Section Overview](./01-introduction/01-introduction/README.md)
 - [What Does a PM Do?](./01-introduction/01-introduction/03-what-does-a-pm-do.md)
+- [What's a Product?](./01-introduction/01-introduction/07-whats-a-product.md)
 
 Lectures will be added here in their original course order as they are
 processed.
