@@ -107,6 +107,15 @@ Section 1: Introduction
 
 ![Flowchart showing raw data sources aligning into data processing sub-products, then into navigation features.](./01-introduction/01-introduction/visuals/07-google-maps-data-pipeline.png)
 
+#### Google Maps Modular Product Architecture (Visual Summary)
+
+**Source lecture:**  
+[What's a Product?](./01-introduction/01-introduction/07-whats-a-product.md)
+
+**Purpose:** Traces the pipeline of data sourcing, core processing, and routing integrations inside Google Maps.
+
+![Google Maps Modular Product Architecture showing Data Sourcing, Core Processing, Integration and Delivery tiers leading to the final mobile application.](./01-introduction/01-introduction/visuals/07-visual-summary.png)
+
 <!-- Example entry: #### The Traditional Product Process **Source lecture:** [Why Product Management Is Broken](./01-introduction/01-introduction/11-why-product-management-is-broken.md) **Purpose:** Shows the sequential product-development process and why validation often happens only after release. ![Traditional product-development process where validation happens at the end](./01-introduction/01-introduction/visuals/11-traditional-product-process.png) -->
 Part 2: Strategy
 

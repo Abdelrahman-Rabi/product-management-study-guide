@@ -212,28 +212,17 @@
 
       <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
         <h2 id="visual-summary-heading">Visual summary</h2>
-        <pre class="pm-diagram" aria-label="Text equivalent of the approved visual summary">
-flowchart TD
-    subgraph DataSourcing["Data Sourcing (Sub-Products)"]
-        A["Street View Cars"] --> D["Imagery & GPS Processing"]
-        B["Satellites"] --> E["Satellite Imagery Align"]
-        C["Transit Agencies"] --> F["Transit Schedules Capture"]
-    end
-    subgraph CoreEngine["Core Processing (Sub-Products)"]
-        D --> G["Road Network Database"]
-        E --> H["Base Map Engine"]
-        F --> I["Transit Trip Planner"]
-    end
-    subgraph Delivery["Integration & Delivery (Sub-Products)"]
-        G --> J["Real-Time Traffic"]
-        H --> K["Navigation Routing"]
-        I --> K
-        J --> K
-    end
-    subgraph UserView["User Application (The Illusion of Monolith)"]
-        K --> L["Google Maps Mobile App"]
-    end
-        </pre>
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/07-visual-summary.png" alt="Google Maps Modular Product Architecture showing Data Sourcing, Core Processing, Integration and Delivery tiers leading to the final mobile application." hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>07-visual-summary.png</code>
+              <span>The Google Maps modular product architecture loops data from ingestion to processing and navigation engines.</span>
+            </div>
+          </div>
+          <figcaption>The Google Maps modular product architecture loops data from ingestion to processing and navigation engines.</figcaption>
+        </figure>
         <p>The visual summary traces the flow of a large-scale product architecture. Raw data ingestion teams (Satellites, Street View, transit agencies) act as inputs into core processing sub-products (databases and layout engines). These core processors feed downstream real-time integration layers (Traffic, Transit schedules), which final routing engines consume to render the single seamless mobile application. Distinct product boundaries and ownership govern each tier.</p>
       </section>
 

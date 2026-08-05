@@ -10,7 +10,7 @@ content_type: "lecture"
 material_level: 2
 status: complete
 source: "Udemy video transcript"
-visuals: 2
+visuals: 3
 related_concepts:
   - product discovery
   - product delivery
@@ -165,6 +165,10 @@ flowchart TD
     end
 ```
 
+![Google Maps Modular Product Architecture](./visuals/07-visual-summary.png)
+
+*The Google Maps modular product architecture loops data from ingestion to processing and navigation engines.*
+
 ---
 
 ## One-Minute Review
@@ -197,6 +201,7 @@ Digital products are abstract, cloud-running software systems. To manage scale a
 
 * [The Monolith Illusion (User View vs. Modular Reality)](./visuals/07-monolith-vs-modular.png)
 * [Google Maps Modular Pipeline](./visuals/07-google-maps-data-pipeline.png)
+* [Google Maps Modular Product Architecture (Visual Summary)](./visuals/07-visual-summary.png)
 
 ---
 
