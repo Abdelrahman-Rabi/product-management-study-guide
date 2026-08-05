@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive companion for What's a Product?">
+    <title>What's a Product? — Interactive Lesson</title>
+    <link rel="stylesheet" href="../../../assets/interactive/pm-study-guide.css">
+    <script src="../../../assets/interactive/pm-study-guide.js" defer></script>
+  </head>
+  <body>
+    <div class="pm-progress" aria-hidden="true"><span data-progress-bar></span></div>
+    <noscript><div class="pm-shell pm-card pm-warning">Interactive controls require JavaScript. The canonical Markdown lecture remains available through the link at the end of this page.</div></noscript>
+
+    <header class="pm-header pm-shell">
+      <p class="pm-kicker">Product Management Study Guide · Interactive Companion</p>
+      <h1>What's a Product?</h1>
+      <p class="pm-subtitle">Understand digital products, abstraction, and decomposition at scale.</p>
+      <div class="pm-meta" aria-label="Lesson information">
+        <span class="pm-chip">Part 1</span>
+        <span class="pm-chip">Section 1</span>
+        <span class="pm-chip">Lecture 7</span>
+      </div>
+    </header>
+
+    <main class="pm-shell pm-grid" id="main-content">
+      <nav class="pm-card" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Lesson contents</h2>
+        <ol>
+          <li><a href="#learning-outcome-section">Your goal</a></li>
+          <li><a href="#lecture-overview">Lecture overview</a></li>
+          <li><a href="#central-argument">Central argument</a></li>
+          <li><a href="#concept-1">1. Defining the Digital Product: Physical vs. Abstract</a></li>
+          <li><a href="#concept-2">2. Product Decomposition: Managing Scale</a></li>
+          <li><a href="#concept-3">3. Case Study: Google Maps Team Topology</a></li>
+          <li><a href="#comparison">Comparison</a></li>
+          <li><a href="#worked-example">Practical Product Management example</a></li>
+          <li><a href="#misunderstandings">Common misunderstandings</a></li>
+          <li><a href="#definitions">Key concepts and definitions</a></li>
+          <li><a href="#takeaways">Key takeaways</a></li>
+          <li><a href="#visual-summary">Visual summary</a></li>
+          <li><a href="#one-minute-review">One-minute review</a></li>
+          <li><a href="#interactive-practice">Interactive practice</a></li>
+          <li><a href="#related-concepts">Related concepts</a></li>
+        </ol>
+      </nav>
+
+      <section class="pm-card pm-outcome" id="learning-outcome-section" aria-labelledby="learning-outcome">
+        <h2 id="learning-outcome">Your goal</h2>
+        <p>Distinguish between physical goods and abstract, cloud-running digital products, explain product decomposition, and describe Google Maps sub-product team setups.</p>
+      </section>
+
+      <section class="pm-card" id="lecture-overview" aria-labelledby="lecture-overview-heading">
+        <h2 id="lecture-overview-heading">Lecture overview</h2>
+        <p>This lecture defines what a "product" is in the digital space and explores how large-scale software platforms are structured. By the end, you should be able to:
+          Distinguish between physical goods and abstract, cloud-running digital products;
+          Explain the concept of product decomposition (dividing large software products into smaller modular components); and
+          Describe how a complex platform (e.g., Google Maps) operates as a federation of distinct sub-products managed by different PMs.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="central-argument" aria-labelledby="central-argument-heading">
+        <h2 id="central-argument-heading">Central argument</h2>
+        <p>In the digital world, a product is often an abstract, cloud-running software service. To manage complexity at scale, software companies decompose large products into modular sub-products, each owned by its own Product Manager, while maintaining a seamless, single-product experience for the end user.</p>
+      </section>
+
+      <section class="pm-card" id="concept-1" aria-labelledby="concept-1-heading">
+        <h2 id="concept-1-heading">1. Defining the Digital Product: Physical vs. Abstract</h2>
+        <p>In the consumer goods space, defining a product is simple: it is a physical item you can hold in your hand, like a bar of soap or toothpaste. In the software industry, however, a product is much more abstract:</p>
+        <ul>
+          <li><strong>Abstract Form</strong>: Most digital products are software applications running on local hardware or remotely on servers.</li>
+          <li><strong>Cloud Infrastructure</strong>: Many modern applications run entirely in the cloud, meaning the user does not install software locally but accesses it through a network.</li>
+          <li><strong>Developer Products</strong>: Digital products are not just consumer applications; they also include datasets, APIs, and infrastructure tools built for other developers.</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="concept-2" aria-labelledby="concept-2-heading">
+        <h2 id="concept-2-heading">2. Product Decomposition: Managing Scale</h2>
+        <p>For large software companies, a digital product can become too massive and complex for a single team to manage. To maintain development speed and focus, organizations use <strong>product decomposition</strong>:</p>
+        <ul>
+          <li><strong>Modular Separation</strong>: The monolithic product is split into multiple smaller, self-contained sub-products.</li>
+          <li><strong>Clear Ownership</strong>: Each sub-product is assigned its own Product Manager (PM) and dedicated engineering team.</li>
+          <li><strong>The Illusion of Monolith</strong>: If designed and integrated correctly, these sub-products interact via APIs and shared data layers to offer a seamless user interface. The end user is entirely unaware of the underlying organizational and component boundaries.</li>
+        </ul>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/07-monolith-vs-modular.png" alt="Split-screen layout contrasting the Monolithic user application view with the back-end Modular network of sub-product PM teams." hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>07-monolith-vs-modular.png</code>
+              <span>Visualizes how a single user experience (like Google Maps) is built from a federation of smaller sub-products.</span>
+            </div>
+          </div>
+          <figcaption>A seamless user interface hides the modular separation of backend sub-product teams.</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-3" aria-labelledby="concept-3-heading">
+        <h2 id="concept-3-heading">3. Case Study: Google Maps Team Topology</h2>
+        <p>Google Maps is a prime example of product decomposition at serious scale, serving over 1.1 billion consumers (14% of the world's population) and supporting over 5 million business integrations. To manage this scale, Google Maps employs over 100 Product Managers and 1,000 Engineers, organized into specialized sub-product teams:</p>
+        
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/07-google-maps-data-pipeline.png" alt="Flowchart showing raw data sources aligning into data processing sub-products, then into navigation features." hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>07-google-maps-data-pipeline.png</code>
+              <span>Shows how distinct sourcing teams feed raw layers into central maps integration.</span>
+            </div>
+          </div>
+          <figcaption>Multiple data ingestion and imagery sub-products feed into the core maps engine.</figcaption>
+        </figure>
+
+        <h3>Specialized Sub-Product Teams</h3>
+        <ul>
+          <li><strong>Data Collection & Ingestion</strong>: Focused on keeping regional geographical data updated. PMs here coordinate ingestion of third-party data, algorithms to detect spam/fraud, and direct outreach to businesses. (20 million contributions/day, 200/second).</li>
+          <li><strong>Street View</strong>: Focused on sourcing, stitching, and mapping 360-degree street-level imagery. PMs here address image-processing seams and overlay GPS/sensor telemetry from survey cars onto map routes.</li>
+          <li><strong>Satellite Imagery</strong>: Manages sourcing, quality processing, and coordinate alignment of space-based images.</li>
+          <li><strong>Traffic</strong>: Algorithmic engine that calculates and paints current traffic conditions onto the map in real time.</li>
+          <li><strong>Road Network</strong>: Focuses on road attribute metadata (speed limits, lanes, one-way markers, road closures, and traffic light locations).</li>
+          <li><strong>Transit</strong>: Captures public transit schedules, routes, and stops by partnering with global transportation providers and integrating them into the Maps trip planner.</li>
+          <li><strong>Navigation</strong>: Consumes road network, traffic, and transit data to calculate optimal travel paths and ETA.</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="comparison" aria-labelledby="comparison-heading">
+        <h2 id="comparison-heading">Comparison</h2>
+        <p>The table below contrasts physical consumer goods with modern cloud-based digital products:</p>
+        <div class="pm-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Dimension</th>
+                <th scope="col">Physical Consumer Goods</th>
+                <th scope="col">Cloud-based Digital Products</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Form & Delivery</th>
+                <td>Tangible object (held, shipped, stored locally).</td>
+                <td>Abstract software running on remote servers or in the cloud.</td>
+              </tr>
+              <tr>
+                <th scope="row">Release Cycles</th>
+                <td>Sequential manufacturing runs; updates require new production.</td>
+                <td>Continuous deployment; updates are rolled out in real time.</td>
+              </tr>
+              <tr>
+                <th scope="row">Team Structure</th>
+                <td>Unified brand/product team managing the physical item.</td>
+                <td>Federated sub-product teams owning distinct modular features or data layers.</td>
+              </tr>
+              <tr>
+                <th scope="row">Integrations</th>
+                <td>Minimal external dependencies.</td>
+                <td>Extensive API networks (e.g., Maps data powering 5 million business apps).</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="pm-card" id="worked-example" aria-labelledby="worked-example-heading">
+        <h2 id="worked-example-heading">Practical Product Management example</h2>
+        <h3>Situation</h3>
+        <p>A large ride-sharing application depends on real-time location data, routing calculations, and traffic updates to calculate fares and match drivers with passengers.</p>
+        <h3>Decision</h3>
+        <p>Rather than attempting to build all mapping, traffic, and street-level components from scratch, the product team decides to treat navigation as a separate subsystem and integrate Google Maps' data APIs as a business user.</p>
+        <h3>Reasoning</h3>
+        <p>Location data, traffic routing, and street imagery are massive, separate domains requiring specialized algorithms and global databases. Utilizing an established mapping service (which is itself maintained by dozens of specialized sub-product teams) allows the ride-sharing company to focus its resources on its core value proposition: matching drivers and passengers.</p>
+        <h3>Consequence</h3>
+        <p>The ride-sharing app achieves immediate global launch capabilities with high-fidelity navigation. It leverages Google's real-time traffic updates and road closure data, avoiding the massive capital expenditure of building proprietary data collection networks.</p>
+        <h3>Transferable lesson</h3>
+        <p>PMs should leverage specialized external API products for non-core capabilities, respecting the boundary between their core product and infrastructure dependencies.</p>
+      </section>
+
+      <section class="pm-card pm-warning" id="misunderstandings" aria-labelledby="misunderstandings-heading">
+        <h2 id="misunderstandings-heading">Common misunderstandings</h2>
+        <h3>"A digital product is defined by its visual user interface (UI)"</h3>
+        <p>The user interface is merely the surface layer. A digital product can be a data feed, a machine learning model, an API, or a background processing service (like the Google Maps road network engine) that has no user-facing UI but provides critical functional value.</p>
+        <p><strong>Decision consequence:</strong> Opens expansion opportunities in API platforms, data feeds, and developer-focused products, decoupling business value from screen layout constraints.</p>
+
+        <h3>"Adding more features to a product requires expanding the core team's scope"</h3>
+        <p>Beyond a certain scale, scaling a single team leads to coordination bottlenecks. Feature expansion must be managed by creating modular sub-products with distinct ownership boundaries, enabling teams to operate in parallel.</p>
+        <p><strong>Decision consequence:</strong> Promotes independent roadmap delivery and scales engineering capacity without introducing communication debt.</p>
+      </section>
+
+      <section class="pm-card" id="definitions" aria-labelledby="definitions-heading">
+        <h2 id="definitions-heading">Key concepts and definitions</h2>
+        <dl>
+          <dt>Digital Product</dt>
+          <dd>A software-based, often cloud-running value proposition (such as an application, API, or dataset) that solves user problems.</dd>
+          <dt>Product Decomposition</dt>
+          <dd>The practice of dividing a complex, large-scale software system into self-contained sub-products with individual ownership.</dd>
+          <dt>Modular Ownership</dt>
+          <dd>An organizational model where separate teams and PMs own distinct components or data layers of a single user-facing platform.</dd>
+        </dl>
+      </section>
+
+      <section class="pm-card" id="takeaways" aria-labelledby="takeaways-heading">
+        <h2 id="takeaways-heading">Key takeaways</h2>
+        <ol>
+          <li><strong>Digital Products are Abstract</strong>: Unlike physical goods, digital products reside on hardware, remote servers, or in the cloud.</li>
+          <li><strong>Decompose to Scale</strong>: Managing massive products requires modular division into sub-products to maintain focus and velocity.</li>
+          <li><strong>The Monolith is an Illusion</strong>: A single user experience (like Google Maps) is often powered by dozens of distinct backend products.</li>
+          <li><strong>Data as a Product</strong>: Sourcing, stitching, and updating data in real time (e.g., Street View or Traffic feeds) is a product in its own right.</li>
+          <li><strong>Clear APIs Enable Autonomy</strong>: Modular sub-product teams collaborate by exposing clean interfaces and data feeds to adjacent teams.</li>
+          <li><strong>Partnership as a Product Lever</strong>: Integrating public and private datasets (e.g., global transit networks) requires dedicated PM partnership focus.</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
+        <h2 id="visual-summary-heading">Visual summary</h2>
+        <pre class="pm-diagram" aria-label="Text equivalent of the approved visual summary">
+flowchart TD
+    subgraph DataSourcing["Data Sourcing (Sub-Products)"]
+        A["Street View Cars"] --> D["Imagery & GPS Processing"]
+        B["Satellites"] --> E["Satellite Imagery Align"]
+        C["Transit Agencies"] --> F["Transit Schedules Capture"]
+    end
+    subgraph CoreEngine["Core Processing (Sub-Products)"]
+        D --> G["Road Network Database"]
+        E --> H["Base Map Engine"]
+        F --> I["Transit Trip Planner"]
+    end
+    subgraph Delivery["Integration & Delivery (Sub-Products)"]
+        G --> J["Real-Time Traffic"]
+        H --> K["Navigation Routing"]
+        I --> K
+        J --> K
+    end
+    subgraph UserView["User Application (The Illusion of Monolith)"]
+        K --> L["Google Maps Mobile App"]
+    end
+        </pre>
+        <p>The visual summary traces the flow of a large-scale product architecture. Raw data ingestion teams (Satellites, Street View, transit agencies) act as inputs into core processing sub-products (databases and layout engines). These core processors feed downstream real-time integration layers (Traffic, Transit schedules), which final routing engines consume to render the single seamless mobile application. Distinct product boundaries and ownership govern each tier.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="one-minute-review" aria-labelledby="one-minute-review-heading">
+        <h2 id="one-minute-review-heading">One-minute review</h2>
+        <p>Digital products are abstract, cloud-running software systems. To manage scale and complexity, massive applications like Google Maps are decomposed into a collection of modular sub-products (such as Traffic, Satellite Imagery, and Transit) owned by separate PMs and engineering teams. These teams operate independently to ingest, process, and align data layers, integrating them via clean interfaces to deliver a single, seamless user experience that hides the underlying system boundaries.</p>
+      </section>
+
+      <!-- Interactive widgets section -->
+      <section class="pm-card" id="interactive-practice" aria-labelledby="interactive-practice-heading">
+        <h2 id="interactive-practice-heading">Interactive practice</h2>
+        
+        <!-- Practice Widget 1: Choice with Feedback (Isolated Scenarios) -->
+        <h3 id="choice-practice-title">Classify Maps Product Challenges</h3>
+        <p>Analyze the mapping challenges below and classify them as a <strong>Data Ingestion & Sourcing</strong> challenge or an <strong>Algorithmic & Integration</strong> challenge.</p>
+        
+        <div class="pm-scenario" data-widget="choice" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 4px solid var(--pm-blue, #1d4ed8); background: #f8fafc;">
+          <h4 style="margin-top: 0; font-size: 1.05rem;">Scenario 1: Sourcing, verifying, and standardizing train and bus timetables from 1,000 public transportation agencies.</h4>
+          <div class="pm-actions" aria-label="Decision options for Scenario 1" style="display: flex; gap: 0.5rem; margin-top: 0.75rem;">
+            <button
+              class="pm-button"
+              type="button"
+              aria-pressed="false"
+              data-choice
+              data-correct="true"
+              data-feedback-correct="Correct! Partnering with public transportation providers to capture schedule layouts is a Data Ingestion and Sourcing capability."
+            >Data Ingestion & Sourcing</button>
+            <button
+              class="pm-button"
+              type="button"
+              aria-pressed="false"
+              data-choice
+              data-correct="false"
+              data-feedback-incorrect="Incorrect. Timetable collection involves coordinate alignment and schedule ingestion partnerships, not mathematical routing calculations."
+            >Algorithmic & Integration</button>
+          </div>
+          <p class="pm-feedback" aria-live="polite" data-choice-feedback style="margin-top: 0.5rem; font-weight: 500;"></p>
+        </div>
+
+        <div class="pm-scenario" data-widget="choice" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 4px solid var(--pm-blue, #1d4ed8); background: #f8fafc;">
+          <h4 style="margin-top: 0; font-size: 1.05rem;">Scenario 2: Calculating the optimal route and travel time (ETA) under current conditions by combining traffic speeds and road network metadata.</h4>
+          <div class="pm-actions" aria-label="Decision options for Scenario 2" style="display: flex; gap: 0.5rem; margin-top: 0.75rem;">
+            <button
+              class="pm-button"
+              type="button"
+              aria-pressed="false"
+              data-choice
+              data-correct="false"
+              data-feedback-incorrect="Incorrect. Calculating travel times and running routing heuristics is an Integration and Algorithmic challenge, not a raw data sourcing task."
+            >Data Ingestion & Sourcing</button>
+            <button
+              class="pm-button"
+              type="button"
+              aria-pressed="false"
+              data-choice
+              data-correct="true"
+              data-feedback-correct="Correct! Navigation and routing calculations require processing road closures, current speed overlays, and running heuristics to output the best path."
+            >Algorithmic & Integration</button>
+          </div>
+          <p class="pm-feedback" aria-live="polite" data-choice-feedback style="margin-top: 0.5rem; font-weight: 500;"></p>
+        </div>
+
+        <!-- Practice Widget 2: Tabs (Maps Sub-products) -->
+        <h3 id="tabs-practice-title">Explore Maps Sub-product Teams</h3>
+        <p>Explore the target responsibilities of different sub-product components inside the Google Maps architecture:</p>
+        <div class="pm-tabs-widget" data-widget="tabs">
+          <div role="tablist" aria-label="Maps Sub-products" style="display: flex; gap: 0.25rem; flex-wrap: wrap; margin-bottom: 1rem;">
+            <button class="pm-button" type="button" id="tab-streetview" role="tab" aria-controls="panel-streetview" aria-selected="true" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Street View</button>
+            <button class="pm-button" type="button" id="tab-traffic" role="tab" aria-controls="panel-traffic" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Traffic</button>
+            <button class="pm-button" type="button" id="tab-roadnetwork" role="tab" aria-controls="panel-roadnetwork" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Road Network</button>
+            <button class="pm-button" type="button" id="tab-transit" role="tab" aria-controls="panel-transit" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Transit</button>
+          </div>
+          
+          <div id="panel-streetview" role="tabpanel" aria-labelledby="tab-streetview" style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4 style="margin-top: 0;">Street View Team</h4>
+            <p><strong>Primary focus:</strong> Sourcing and stitching 360-degree road-level images.</p>
+            <p>This team operates mapping cars, aligns camera lenses with speed/GPS indicators, and runs seamless image processing algorithms to output correct street photos onto maps coordinates.</p>
+          </div>
+          
+          <div id="panel-traffic" role="tabpanel" aria-labelledby="tab-traffic" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4 style="margin-top: 0;">Traffic Team</h4>
+            <p><strong>Primary focus:</strong> Painting real-time congestion levels on top of the base map.</p>
+            <p>This team processes real-time user movement metrics, aggregates speed data, and serves overlays indicating blockages or slowdowns to the navigation engine.</p>
+          </div>
+
+          <div id="panel-roadnetwork" role="tabpanel" aria-labelledby="tab-roadnetwork" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4 style="margin-top: 0;">Road Network Team</h4>
+            <p><strong>Primary focus:</strong> Maintaining road attributes and structures.</p>
+            <p>This team is responsible for speed limits, road widths, temporary closures, traffic light coordinates, and lane limits, ensuring pathfinder algorithms calculate routes safely.</p>
+          </div>
+
+          <div id="panel-transit" role="tabpanel" aria-labelledby="tab-transit" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4 style="margin-top: 0;">Transit Team</h4>
+            <p><strong>Primary focus:</strong> Integrating public train, bus, and ferry lines.</p>
+            <p>This team manages partnerships with public networks around the world, importing standard feeds, schedules, and platform locations to enable transit planning.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pm-card" id="related-concepts" aria-labelledby="related-concepts-heading">
+        <h2 id="related-concepts-heading">Related concepts</h2>
+        <ul>
+          <li><a href="../../../GLOSSARY.md#product-discovery">Product Discovery</a></li>
+          <li><a href="../../../GLOSSARY.md#product-delivery">Product Delivery</a></li>
+          <li><a href="../../../GLOSSARY.md#product-lifecycle">Product Lifecycle</a></li>
+        </ul>
+      </section>
+
+      <nav class="pm-card" aria-label="Lesson navigation">
+        <h2>Continue learning</h2>
+        <p><a href="../07-whats-a-product.md">Return to the canonical lecture guide</a></p>
+        <p><a href="../README.md">Section overview</a> · <a href="../../README.md">Part overview</a> · <a href="../../../COURSE-INDEX.md">Course index</a></p>
+        <p><a href="../../../sources/01-introduction/01-introduction/07-whats-a-product-transcript.md">Original lecture transcript</a></p>
+      </nav>
+    </main>
+
+    <footer class="pm-footer">
+      <div class="pm-shell">Product Management Study Guide</div>
+    </footer>
+  </body>
+</html>

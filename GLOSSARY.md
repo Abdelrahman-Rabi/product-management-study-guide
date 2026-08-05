@@ -54,6 +54,23 @@ solution, adoption level, and implementation complexity may not yet be known.
 
 ---
 
+## D
+
+### Digital Product
+
+A software-based, often cloud-running value proposition (such as an application, API, or dataset) that solves user problems.
+
+Unlike physical goods, a digital product is abstract and typically deployed to remote servers or cloud infrastructure.
+
+**Related concepts:**
+- Product decomposition
+- Product lifecycle
+
+**Related lectures:**
+- [What's a Product?](./01-introduction/01-introduction/07-whats-a-product.md)
+
+---
+
 ## O
 
 ### Outcome
@@ -121,6 +138,20 @@ The problem space focuses on:
 - Customer research
 - Product discovery
 - Problem validation
+
+### Product Decomposition
+
+The practice of dividing a complex, large-scale software system into self-contained sub-products with individual ownership.
+
+Decomposition allows separate teams and Product Managers to run development streams in parallel while maintaining a single, integrated user experience.
+
+**Related concepts:**
+- Digital Product
+- Modular Ownership
+- Product Manager (PM)
+
+**Related lectures:**
+- [What's a Product?](./01-introduction/01-introduction/07-whats-a-product.md)
 
 ### Product Discovery
 

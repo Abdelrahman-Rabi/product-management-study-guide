@@ -89,6 +89,24 @@ Section 1: Introduction
 
 ![Flowchart showing the product journey from Product Vision and Problem Identification to prioritization, Design, Engineering execution, and Product-Market Fit with a feedback loop.](./01-introduction/01-introduction/visuals/03-visual-summary.png)
 
+#### The Monolith Illusion (User View vs. Modular Reality)
+
+**Source lecture:**  
+[What's a Product?](./01-introduction/01-introduction/07-whats-a-product.md)
+
+**Purpose:** Shows how a single seamless user experience hides a complex system of multiple smaller product components and teams.
+
+![Split-screen layout contrasting the Monolithic user application view with the back-end Modular network of sub-product PM teams.](./01-introduction/01-introduction/visuals/07-monolith-vs-modular.png)
+
+#### Google Maps Modular Pipeline
+
+**Source lecture:**  
+[What's a Product?](./01-introduction/01-introduction/07-whats-a-product.md)
+
+**Purpose:** Visualizes how independent teams feed data layers into processing engines to generate real-time features.
+
+![Flowchart showing raw data sources aligning into data processing sub-products, then into navigation features.](./01-introduction/01-introduction/visuals/07-google-maps-data-pipeline.png)
+
 <!-- Example entry: #### The Traditional Product Process **Source lecture:** [Why Product Management Is Broken](./01-introduction/01-introduction/11-why-product-management-is-broken.md) **Purpose:** Shows the sequential product-development process and why validation often happens only after release. ![Traditional product-development process where validation happens at the end](./01-introduction/01-introduction/visuals/11-traditional-product-process.png) -->
 Part 2: Strategy
 
