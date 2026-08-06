@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive companion for Why do so many product initiatives fail?">
+    <title>Why do so many product initiatives fail? — Interactive Lesson</title>
+    <link rel="stylesheet" href="../../../assets/interactive/pm-study-guide.css">
+    <script src="../../../assets/interactive/pm-study-guide.js" defer></script>
+  </head>
+  <body>
+    <div class="pm-progress" aria-hidden="true"><span data-progress-bar></span></div>
+    <noscript><div class="pm-shell pm-card pm-warning">Interactive controls require JavaScript. The canonical Markdown lecture remains available through the link at the end of this page.</div></noscript>
+
+    <header class="pm-header pm-shell">
+      <p class="pm-kicker">Product Management Study Guide · Interactive Companion</p>
+      <h1>Why do so many product initiatives fail?</h1>
+      <p class="pm-subtitle">Exposing the flaws of the traditional sequential planning process.</p>
+      <div class="pm-meta" aria-label="Lesson information">
+        <span class="pm-chip">Part 1</span>
+        <span class="pm-chip">Section 1</span>
+        <span class="pm-chip">Lecture 11</span>
+      </div>
+    </header>
+
+    <main class="pm-shell pm-grid" id="main-content">
+      <nav class="pm-card" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Lesson contents</h2>
+        <ol>
+          <li><a href="#learning-outcome-section">Your goal</a></li>
+          <li><a href="#lecture-overview">Lecture overview</a></li>
+          <li><a href="#central-argument">Central argument</a></li>
+          <li><a href="#concept-1">1. The Traditional Product Development Flow</a></li>
+          <li><a href="#concept-2">2. The Four Primary Failure Points of the Waterfall Process</a></li>
+          <li><a href="#concept-3">3. Output vs. Outcome Roadmaps</a></li>
+          <li><a href="#worked-example">Practical Product Management example</a></li>
+          <li><a href="#misunderstandings">Common misunderstandings</a></li>
+          <li><a href="#definitions">Key concepts and definitions</a></li>
+          <li><a href="#takeaways">Key takeaways</a></li>
+          <li><a href="#visual-summary">Visual summary</a></li>
+          <li><a href="#one-minute-review">One-minute review</a></li>
+          <li><a href="#interactive-practice">Interactive practice</a></li>
+          <li><a href="#related-concepts">Related concepts</a></li>
+        </ol>
+      </nav>
+
+      <section class="pm-card pm-outcome" id="learning-outcome-section" aria-labelledby="learning-outcome">
+        <h2 id="learning-outcome">Your goal</h2>
+        <p>Explain why the traditional product process fails, distinguish between output-focused and outcome-focused roadmaps, and analyze the limitations of early-stage business cases.</p>
+      </section>
+
+      <section class="pm-card" id="lecture-overview" aria-labelledby="lecture-overview-heading">
+        <h2 id="lecture-overview-heading">Lecture overview</h2>
+        <p>This lecture exposes the systemic flaws in the traditional product development process used by the vast majority of tech companies. By the end, you should be able to:
+          Outline the traditional sequential product development flow (waterfall);
+          Explain the four primary failure points of this traditional approach;
+          Distinguish between output-focused (feature-based) roadmaps and outcome-focused (goal-oriented) roadmaps; and
+          Explain the concept of "20% Agile" and why localized agility in delivery does not prevent product failure.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="central-argument" aria-labelledby="central-argument-heading">
+        <h2 id="central-argument-heading">Central argument</h2>
+        <p>Agile delivery (sprints, scrum) is meaningless if it resides at the tail end of a rigid, sequential waterfall planning process. Real agility requires moving validation to the front of the product lifecycle—prioritizing outcomes over feature outputs, leveraging developers for solution ideation, and avoiding speculative, ungrounded business cases.</p>
+      </section>
+
+      <section class="pm-card" id="concept-1" aria-labelledby="concept-1-heading">
+        <h2 id="concept-1-heading">1. The Traditional Product Development Flow</h2>
+        <p>Most tech companies, regardless of size, build products using the same basic sequential flow:</p>
+        <pre class="pm-diagram" style="font-family: monospace; font-size: 0.9rem; background: var(--pm-gray-bg, #f8fafc); padding: 1rem; border-radius: 0.375rem; overflow-x: auto;">
+Ideas ➔ Planning & Business Cases ➔ Feature Roadmap ➔ Requirements ➔ Design ➔ Development (Sprints) ➔ Release & Track
+        </pre>
+        <ol>
+          <li><strong>Ideas Cloud</strong>: Ideas are gathered from internal stakeholders (product vision) and external stakeholders (customers, partners).</li>
+          <li><strong>Planning & Business Cases</strong>: Quarterly or annual planning sessions evaluate ideas using business cases to forecast value and costs.</li>
+          <li><strong>Feature Roadmap</strong>: The approved ideas form a prioritized list of features to build over the next quarter or year.</li>
+          <li><strong>Requirements & Design</strong>: The Product Manager/Owner writes detailed requirements, and designers create visual mockups.</li>
+          <li><strong>Development (Agile Sprints)</strong>: Engineers break down requirements into sprint iterations to build and test code.</li>
+          <li><strong>Release & Tracking</strong>: The completed feature is deployed, and usage is tracked.</li>
+        </ol>
+        <p>Although companies refer to this process as "Agile" because of sprint iterations, the overall sequence remains fundamentally <strong>Waterfall</strong>.</p>
+      </section>
+
+      <section class="pm-card" id="concept-2" aria-labelledby="concept-2-heading">
+        <h2 id="concept-2-heading">2. The Four Primary Failure Points of the Waterfall Process</h2>
+        <p>This sequential planning model introduces four systemic failure points that lead to wasted capital and failed initiatives:</p>
+        
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/11-speculative-business-case.png" alt="Speculative Business Case Dilemma showing Cost and Value estimation blocks leading to ungrounded prioritization." hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>11-speculative-business-case.png</code>
+              <span>Illustrates the speculative cost and value guesswork loop before solution definition.</span>
+            </div>
+          </div>
+          <figcaption>The Speculative Business Case Dilemma: Early prioritization is built on ungrounded estimations.</figcaption>
+        </figure>
+
+        <ul>
+          <li><strong>Late Validation</strong>: Customer validation happens only <em>after</em> the product is released. By the time real user behavior is observed, the company has already spent significant time and money building the solution. If the idea was flawed, it is too late to recoup the investment.</li>
+          <li><strong>Speculative Business Cases</strong>: Business cases require early-stage estimates of forecasted revenue/value and development cost. At this stage, these inputs are unknowable. Cost depends on the solution design (not yet defined), and revenue depends on solution efficacy. As a result, roadmaps are prioritized based on ungrounded, wild guesses.</li>
+          <li><strong>Output-Focused Roadmaps</strong>: Traditional roadmaps are prioritized lists of features and projects (e.g., "Add Apple Pay," "Redesign Sidebar"). Teams focus on shipping outputs (delivering the feature on time) rather than driving outcomes (solving the underlying user or business problem).</li>
+          <li><strong>Delayed Collaboration</strong>: Designers and developers are brought in only at the end of the planning cycle to execute pre-defined requirements. Developers, who understand technical constraints and possibilities best, are excluded from defining the solution space. Designers are unable to run early usability validation.</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="concept-3" aria-labelledby="concept-3-heading">
+        <h2 id="concept-3-heading">3. Output vs. Outcome Roadmaps</h2>
+        <p>The core issue with traditional roadmaps is that they treat features as the final goal rather than a means to an end.</p>
+        
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/11-output-vs-outcome-roadmaps.png" alt="Side-by-side comparison cards illustrating feature-based output lists versus goal-oriented outcome boards." hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>11-output-vs-outcome-roadmaps.png</code>
+              <span>Contrasts a feature-based output roadmap with a goal-oriented outcome roadmap.</span>
+            </div>
+          </div>
+          <figcaption>Feature-focused outputs versus goal-oriented outcomes.</figcaption>
+        </figure>
+
+        <div class="pm-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Dimension</th>
+                <th scope="col">Output-Focused (Traditional)</th>
+                <th scope="col">Outcome-Focused (Modern)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Core Metric</th>
+                <td>Shipping the feature on time and within budget.</td>
+                <td>Solving a user problem or moving a business metric.</td>
+              </tr>
+              <tr>
+                <th scope="row">Roadmap Content</th>
+                <td>A prioritized list of specific features/projects.</td>
+                <td>A list of goals, user problems, and business outcomes.</td>
+              </tr>
+              <tr>
+                <th scope="row">Team Focus</th>
+                <td>"What are we building?" (Outputs).</td>
+                <td>"Why are we building this, and what does success look like?" (Outcomes).</td>
+              </tr>
+              <tr>
+                <th scope="row">Example Item</th>
+                <td>"Build a new Live Chat support tool."</td>
+                <td>"Reduce average customer support ticket resolution time by 20%."</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="pm-card" id="worked-example" aria-labelledby="worked-example-heading">
+        <h2 id="worked-example-heading">Practical Product Management example</h2>
+        <h3>Situation</h3>
+        <p>A health-tech startup has an output-focused roadmap item: "Build an AI-powered calorie tracking scanner" to improve user engagement. The engineering team estimates it will take 4 months to train the vision model and develop the UI.</p>
+        <h3>Decision</h3>
+        <p>The PM decides to reframe this output item to an outcome-oriented goal: "Increase weekly food logging frequency by 30%."</p>
+        <h3>Reasoning</h3>
+        <p>By focusing on the outcome (logging frequency) rather than the output (AI scanner), the team realizes they don't need to build a complex AI model immediately. They can test simpler hypotheses first, such as adding a "frequently logged foods" quick-tap list or barcode scanner.</p>
+        <h3>Consequence</h3>
+        <p>The team implements the "frequently logged foods" feature in 2 weeks. Weekly logging frequency increases by 35% among early adopters. The startup saves 3.5 months of engineering time and avoids the complex AI model entirely.</p>
+        <h3>Transferable lesson</h3>
+        <p>Outcome-based planning frees the product team to find the simplest, lowest-cost solution to a problem instead of locking them into building complex, unvalidated features.</p>
+      </section>
+
+      <section class="pm-card pm-warning" id="misunderstandings" aria-labelledby="misunderstandings-heading">
+        <h2 id="misunderstandings-heading">Common misunderstandings</h2>
+        <h3>"Since our engineering team uses 2-week sprints and Scrum, we are an Agile company."</h3>
+        <p>Sprints are only a <em>delivery</em> tool. If the features in those sprints were locked into a roadmap months ago using speculative business cases, the organization is running a Waterfall process with a "20% Agile" wrapper. True agility requires agile product discovery and early validation.</p>
+        <p><strong>Decision consequence:</strong> Prevents false confidence in organization-wide agility; focuses the PM's effort on setting up discovery validation loops.</p>
+
+        <h3>"Developers should only focus on writing code, not brainstorming product features."</h3>
+        <p>Developers are often the best source of innovation because they understand what is technologically possible. When kept in a silo, they can only build what is requested, missing opportunities for technically elegant, low-cost solutions.</p>
+        <p><strong>Decision consequence:</strong> Harnesses developer expertise upfront, preventing later execution feasibility roadblocks.</p>
+      </section>
+
+      <section class="pm-card" id="definitions" aria-labelledby="definitions-heading">
+        <h2 id="definitions-heading">Key concepts and definitions</h2>
+        <dl>
+          <dt>Waterfall</dt>
+          <dd>A sequential product development process where each phase (planning, design, development, testing) must be completed before the next begins.</dd>
+          <dt>Output</dt>
+          <dd>The tangible assets or features that a team builds and ships (e.g., code, mockups, button designs).</dd>
+          <dt>Outcome</dt>
+          <dd>The measurable change in user behavior or business metrics resulting from shipped features (e.g., increased conversion, higher retention).</dd>
+        </dl>
+      </section>
+
+      <section class="pm-card" id="takeaways" aria-labelledby="takeaways-heading">
+        <h2 id="takeaways-heading">Key takeaways</h2>
+        <ol>
+          <li><strong>Validation Must Happen Early</strong>: Do not wait for a full release to test your hypotheses; validate customer interest and usability upfront.</li>
+          <li><strong>Business Cases are Often Speculative</strong>: Acknowledge that revenue and cost estimates are highly inaccurate before the solution is defined.</li>
+          <li><strong>Move from Outputs to Outcomes</strong>: Measure team success by business goals achieved rather than features shipped.</li>
+          <li><strong>Bring Developers in Early</strong>: Involve engineering in product discovery to leverage their technical insights for solution design.</li>
+          <li><strong>Agile Delivery is Not Enough</strong>: A "20% Agile" process (agile for code construction only) does not prevent shipping the wrong product.</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
+        <h2 id="visual-summary-heading">Visual summary</h2>
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/11-visual-summary.png" alt="The Waterfall Process & 20% Agile Wrapper showing sequential product planning steps and late validation." hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>11-visual-summary.png</code>
+              <span>Illustrates the full sequential waterfall process highlighting agile sprints at the end.</span>
+            </div>
+          </div>
+          <figcaption>The Waterfall Process: Sprints are used only for delivery, keeping the rest of the process rigid and sequential.</figcaption>
+        </figure>
+        <p>The visual summary shows how traditional product planning remains sequential (Waterfall). Ideas feed into unvalidated business case estimates, which are then locked into output-based feature roadmaps. Designers and developers simply execute requirements, and agile sprints exist only at the tail end as delivery mechanisms. Real validation occurs only at release, making it too late to verify critical hypotheses.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="one-minute-review" aria-labelledby="one-minute-review-heading">
+        <h2 id="one-minute-review-heading">One-minute review</h2>
+        <p>Traditional product development is fundamentally a Waterfall process—even when wrapped in 2-week agile sprints. It fails because it lacks early validation, relies on speculative business case guesses, locks teams into output-focused feature roadmaps, and delays developer collaboration. To build successful tech products, teams must shift from shipping outputs (features) to driving outcomes (validated user/business solutions) and collaborate cross-functionally from day one.</p>
+      </section>
+
+      <!-- Interactive widgets section -->
+      <section class="pm-card" id="interactive-practice" aria-labelledby="interactive-practice-heading">
+        <h2 id="interactive-practice-heading">Interactive practice</h2>
+        
+        <!-- Practice Widget 1: Choice with Feedback (Isolated Scenarios) -->
+        <h3 id="choice-practice-title">Classify Output vs. Outcome Roadmap Items</h3>
+        <p>Evaluate the roadmap items below and classify them as **Output (Feature-Focused)** vs. **Outcome (Goal-Oriented)**.</p>
+        
+        <div class="pm-scenario" data-widget="choice" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 4px solid var(--pm-blue, #1d4ed8); background: #f8fafc;">
+          <h4 style="margin-top: 0; font-size: 1.05rem;">Scenario 1: "Add Apple Pay payment option to the checkout screen to reduce transaction friction."</h4>
+          <div class="pm-actions" aria-label="Decision options for Scenario 1" style="display: flex; gap: 0.5rem; margin-top: 0.75rem;">
+            <button
+              class="pm-button"
+              type="button"
+              aria-pressed="false"
+              data-choice
+              data-correct="true"
+              data-feedback-correct="Correct! This is an Output-focused item because it prescribes a specific feature (Apple Pay) to build, rather than leaving the solution open to validation."
+            >Output (Feature-Focused)</button>
+            <button
+              class="pm-button"
+              type="button"
+              aria-pressed="false"
+              data-choice
+              data-correct="false"
+              data-feedback-incorrect="Incorrect. This item specifies the exact mechanism (Apple Pay) to build, making it an output rather than a goal."
+            >Outcome (Goal-Oriented)</button>
+          </div>
+          <p class="pm-feedback" aria-live="polite" data-choice-feedback style="margin-top: 0.5rem; font-weight: 500;"></p>
+        </div>
+
+        <div class="pm-scenario" data-widget="choice" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 4px solid var(--pm-blue, #1d4ed8); background: #f8fafc;">
+          <h4 style="margin-top: 0; font-size: 1.05rem;">Scenario 2: "Reduce payment transaction abandonment rate by 15% during the checkout funnel."</h4>
+          <div class="pm-actions" aria-label="Decision options for Scenario 2" style="display: flex; gap: 0.5rem; margin-top: 0.75rem;">
+            <button
+              class="pm-button"
+              type="button"
+              aria-pressed="false"
+              data-choice
+              data-correct="false"
+              data-feedback-incorrect="Incorrect. This item defines the target metric and business outcome, without locking the team into a specific feature implementation."
+            >Output (Feature-Focused)</button>
+            <button
+              class="pm-button"
+              type="button"
+              aria-pressed="false"
+              data-choice
+              data-correct="true"
+              data-feedback-correct="Correct! This is an Outcome-focused item. It gives the team a clear target metric (abandonment rate) and empowers them to discover and validate the best solutions."
+            >Outcome (Goal-Oriented)</button>
+          </div>
+          <p class="pm-feedback" aria-live="polite" data-choice-feedback style="margin-top: 0.5rem; font-weight: 500;"></p>
+        </div>
+
+        <!-- Practice Widget 2: Tabs (Core Failure Points) -->
+        <h3 id="tabs-practice-title">Explore Core Failure Points</h3>
+        <p>Explore the four critical structural issues that cause traditional product initiatives to fail:</p>
+        <div class="pm-tabs-widget" data-widget="tabs">
+          <div role="tablist" aria-label="Waterfall Failure Points" style="display: flex; gap: 0.25rem; flex-wrap: wrap; margin-bottom: 1rem;">
+            <button class="pm-button" type="button" id="tab-validation" role="tab" aria-controls="panel-validation" aria-selected="true" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Late Validation</button>
+            <button class="pm-button" type="button" id="tab-business" role="tab" aria-controls="panel-business" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Speculative Planning</button>
+            <button class="pm-button" type="button" id="tab-roadmaps" role="tab" aria-controls="panel-roadmaps" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Output Focus</button>
+            <button class="pm-button" type="button" id="tab-collaboration" role="tab" aria-controls="panel-collaboration" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Delayed Collaboration</button>
+          </div>
+          
+          <div id="panel-validation" role="tabpanel" aria-labelledby="tab-validation" style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>Validation happens at the end of the waterfall</h4>
+            <p><strong>Impact:</strong> Wasted time and money. True validation only happens when real customers use the shipped feature. If the user doesn't care about it, all development hours are lost.</p>
+          </div>
+          
+          <div id="panel-business" role="tabpanel" aria-labelledby="tab-business" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>Business cases are built on ungrounded predictions</h4>
+            <p><strong>Impact:</strong> Prioritizing the wrong ideas. We cannot predict revenue or development costs before we have defined or tested the specific solution, leading to wild guesses in roadmap selection.</p>
+          </div>
+
+          <div id="panel-roadmaps" role="tabpanel" aria-labelledby="tab-roadmaps" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>Feature roadmaps focus on building instead of solving</h4>
+            <p><strong>Impact:</strong> Shipping bloated software. Teams measure success by "shipping features" (outputs) rather than resolving user needs or meeting corporate target outcomes (goals).</p>
+          </div>
+
+          <div id="panel-collaboration" role="tabpanel" aria-labelledby="tab-collaboration" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>Designers and developers are brought in too late</h4>
+            <p><strong>Impact:</strong> Feasibility issues and poor user experience. Keeping engineering and design in execution silos limits innovation and ignores developer insights for technical opportunity.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pm-card" id="related-concepts" aria-labelledby="related-concepts-heading">
+        <h2 id="related-concepts-heading">Related concepts</h2>
+        <ul>
+          <li><a href="../../../GLOSSARY.md#product-roadmap">Product Roadmap</a></li>
+          <li><a href="../../../GLOSSARY.md#validation">Validation</a></li>
+          <li><a href="../../../GLOSSARY.md#solution-space">Solution Space</a></li>
+        </ul>
+      </section>
+
+      <nav class="pm-card" aria-label="Lesson navigation">
+        <h2>Continue learning</h2>
+        <p><a href="../11-why-product-initiatives-fail.md">Return to the canonical lecture guide</a></p>
+        <p><a href="../README.md">Section overview</a> · <a href="../../README.md">Part overview</a> · <a href="../../../COURSE-INDEX.md">Course index</a></p>
+        <p><a href="../../../sources/01-introduction/01-introduction/11-why-product-initiatives-fail-transcript.md">Original lecture transcript</a></p>
+      </nav>
+    </main>
+
+    <footer class="pm-footer">
+      <div class="pm-shell">Product Management Study Guide</div>
+    </footer>
+  </body>
+</html>

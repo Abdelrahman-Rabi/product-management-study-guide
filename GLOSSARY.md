@@ -93,6 +93,10 @@ Examples include:
 - Product metric
 - Outcome roadmap
 
+**Related lectures:**
+
+- [Why do so many product initiatives fail?](./01-introduction/01-introduction/11-why-product-initiatives-fail.md)
+
 ### Output
 
 Something a team builds, delivers, or releases.
@@ -114,6 +118,10 @@ a useful outcome.
 - Feature
 - Delivery
 - Roadmap
+
+**Related lectures:**
+
+- [Why do so many product initiatives fail?](./01-introduction/01-introduction/11-why-product-initiatives-fail.md)
 
 ---
 
@@ -349,12 +357,16 @@ Release
 In a waterfall process, feedback and validation often arrive after substantial
 work has already been completed.
 
-Related concepts:
+**Related concepts:**
 
-Agile
-Sequential development
-Late validation
-Product delivery
+- Agile
+- Sequential development
+- Late validation
+- Product delivery
+
+**Related lectures:**
+
+- [Why do so many product initiatives fail?](./01-introduction/01-introduction/11-why-product-initiatives-fail.md)
 Glossary Maintenance Rules
 
 When adding a new term:
