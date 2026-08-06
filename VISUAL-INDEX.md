@@ -170,6 +170,33 @@ Section 1: Introduction
 
 ![The Waterfall Process: Sprints are used only for delivery, keeping the rest of the process rigid and sequential.](./01-introduction/01-introduction/visuals/11-visual-summary.png)
 
+#### The Four Product Risks Matrix
+
+**Source lecture:**  
+[How Effective Product Teams Work](./01-introduction/01-introduction/12-how-effective-product-teams-work.md)
+
+**Purpose:** Helps the learner quickly memorize the four risks (Value, Usability, Feasibility, Viability) and their primary focus questions.
+
+![A 2x2 grid representing Value, Usability, Feasibility, and Viability risks with guiding questions.](./01-introduction/01-introduction/visuals/12-four-product-risks.png)
+
+#### Dual-Track Agile Loop
+
+**Source lecture:**  
+[How Effective Product Teams Work](./01-introduction/01-introduction/12-how-effective-product-teams-work.md)
+
+**Purpose:** Visualizes how Discovery and Delivery loops interact concurrently within a single team.
+
+![Process loops showing Discovery and Delivery pipelines running concurrently within a single team.](./01-introduction/01-introduction/visuals/12-dual-track-agile.png)
+
+#### Product Backlog Gating Flowchart (Visual Summary)
+
+**Source lecture:**  
+[How Effective Product Teams Work](./01-introduction/01-introduction/12-how-effective-product-teams-work.md)
+
+**Purpose:** Flowchart illustrating the gating funnel where discovery experiments filter ideas.
+
+![Product Backlog Gating Flowchart showing how discovery filters ideas and feeds delivery sprints.](./01-introduction/01-introduction/visuals/12-visual-summary.png)
+
 <!-- Example entry: #### The Traditional Product Process **Source lecture:** [Why Product Management Is Broken](./01-introduction/01-introduction/11-why-product-management-is-broken.md) **Purpose:** Shows the sequential product-development process and why validation often happens only after release. ![Traditional product-development process where validation happens at the end](./01-introduction/01-introduction/visuals/11-traditional-product-process.png) -->
 Part 2: Strategy
 
