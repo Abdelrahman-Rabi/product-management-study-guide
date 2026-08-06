@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive companion for How Effective Product Teams Work">
+    <title>How Effective Product Teams Work — Interactive Lesson</title>
+    <link rel="stylesheet" href="../../../assets/interactive/pm-study-guide.css">
+    <script src="../../../assets/interactive/pm-study-guide.js" defer></script>
+  </head>
+  <body>
+    <div class="pm-progress" aria-hidden="true"><span data-progress-bar></span></div>
+    <noscript><div class="pm-shell pm-card pm-warning">Interactive controls require JavaScript. The canonical Markdown lecture remains available through the link at the end of this page.</div></noscript>
+
+    <header class="pm-header pm-shell">
+      <p class="pm-kicker">Product Management Study Guide · Interactive Companion</p>
+      <h1>How Effective Product Teams Work</h1>
+      <p class="pm-subtitle">Learn the principles of risk mitigation and Dual-Track Agile.</p>
+      <div class="pm-meta" aria-label="Lesson information">
+        <span class="pm-chip">Part 1</span>
+        <span class="pm-chip">Section 1</span>
+        <span class="pm-chip">Lecture 12</span>
+      </div>
+    </header>
+
+    <main class="pm-shell pm-grid" id="main-content">
+      <nav class="pm-card" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Lesson contents</h2>
+        <ol>
+          <li><a href="#learning-outcome-section">Your goal</a></li>
+          <li><a href="#lecture-overview">Lecture overview</a></li>
+          <li><a href="#central-argument">Central argument</a></li>
+          <li><a href="#concept-1">1. The Four Core Product Risks</a></li>
+          <li><a href="#concept-2">2. Product Discovery and the Discovery Team</a></li>
+          <li><a href="#concept-3">3. Dual-Track Agile</a></li>
+          <li><a href="#worked-example">Practical Product Management example</a></li>
+          <li><a href="#misunderstandings">Common misunderstandings</a></li>
+          <li><a href="#definitions">Key concepts and definitions</a></li>
+          <li><a href="#takeaways">Key takeaways</a></li>
+          <li><a href="#visual-summary">Visual summary</a></li>
+          <li><a href="#one-minute-review">One-minute review</a></li>
+          <li><a href="#interactive-practice">Interactive practice</a></li>
+          <li><a href="#related-concepts">Related concepts</a></li>
+        </ol>
+      </nav>
+
+      <section class="pm-card pm-outcome" id="learning-outcome-section" aria-labelledby="learning-outcome">
+        <h2 id="learning-outcome">Your goal</h2>
+        <p>Differentiate the four core product risks, outline the structure and roles of a product discovery team, and describe the concurrent, continuous nature of Dual-Track Agile.</p>
+      </section>
+
+      <section class="pm-card" id="lecture-overview" aria-labelledby="lecture-overview-heading">
+        <h2 id="lecture-overview-heading">Lecture overview</h2>
+        <p>This lecture contrasts traditional waterfall execution with the way high-performing product teams build products. By the end, you should be able to:
+          Identify and define the four core product risks that must be tackled upfront;
+          Outline the structure, roles, and collaborative behavior of a Product Discovery team;
+          Explain the workflow of ideas moving through the Ideas Backlog to the Product Backlog; and
+          Define Dual-Track Agile and explain how discovery and delivery tracks run concurrently within a single team.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="central-argument" aria-labelledby="central-argument-heading">
+        <h2 id="central-argument-heading">Central argument</h2>
+        <p>High-performing product teams operate under a single overarching principle: risks are tackled upfront rather than at the end. This is achieved by running product discovery continuously alongside product delivery—using a cross-functional triad (Product Owner, UX Designer, Tech Lead) to run cheap experiments and filter out the 75% of ideas that do not create value, before committing engineering resources to build them.</p>
+      </section>
+
+      <section class="pm-card" id="concept-1" aria-labelledby="concept-1-heading">
+        <h2 id="concept-1-heading">1. The Four Core Product Risks</h2>
+        <p>Product management is fundamentally a form of <strong>risk management</strong>. Effective product teams identify and mitigate four critical risks before writing production code:</p>
+        
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/12-four-product-risks.png" alt="A 2x2 grid representing Value, Usability, Feasibility, and Viability risks with guiding questions." hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>12-four-product-risks.png</code>
+              <span>Shows the 2x2 risk scorecard defining value, usability, feasibility, and viability.</span>
+            </div>
+          </div>
+          <figcaption>The Four Core Product Risks: Tackle value, usability, feasibility, and viability early.</figcaption>
+        </figure>
+
+        <div class="pm-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Risk Type</th>
+                <th scope="col">Guiding Question</th>
+                <th scope="col">Focus Area</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Value Risk</th>
+                <td>Will customers buy it or choose to use it?</td>
+                <td>Customer demand, market fit, and value proposition.</td>
+              </tr>
+              <tr>
+                <th scope="row">Usability Risk</th>
+                <td>Will users be able to figure out how to use it?</td>
+                <td>User experience design, navigation, and cognitive load.</td>
+              </tr>
+              <tr>
+                <th scope="row">Feasibility Risk</th>
+                <td>Can our engineers build it with the available time, skills, and technology?</td>
+                <td>Engineering constraints, architecture, and technology capabilities.</td>
+              </tr>
+              <tr>
+                <th scope="row">Viability Risk</th>
+                <td>Will this solution work for the various stakeholders in our business?</td>
+                <td>Commercial, legal, financial, compliance, and marketing constraints.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="pm-card" id="concept-2" aria-labelledby="concept-2-heading">
+        <h2 id="concept-2-heading">2. Product Discovery and the Discovery Team</h2>
+        <p>To tackle these risks early, modern organizations separate product backlog construction from execution, utilizing a specialized <strong>Discovery Team</strong>.</p>
+        <h3>The Discovery Triad</h3>
+        <p>Rather than relying on a single PM to write requirements in isolation, discovery is run by a collaborative triad:</p>
+        <ul>
+          <li><strong>Product Owner (PM)</strong>: Focuses on value and viability risks.</li>
+          <li><strong>UX Expert (Designer)</strong>: Focuses on usability risks.</li>
+          <li><strong>Technical Lead (Engineer)</strong>: Focuses on feasibility risks.</li>
+        </ul>
+        <p>Together, this triad holds all the cross-functional skills necessary to validate ideas quickly without handing off documents between siloed teams.</p>
+        <h3>The Ideas Backlog Filter</h3>
+        <p>Unlike traditional roadmaps where ideas are committed to delivery directly, modern teams use a multi-tiered backlog model:</p>
+        <ul>
+          <li><strong>The Ideas Backlog</strong>: A raw collection of thoughts from stakeholders, vision, and customers. It is managed by the Discovery Team, not a single owner.</li>
+          <li><strong>The 75% Kill Rate</strong>: Effective teams know that <strong>as many as 75% of ideas in the Ideas Backlog will fail</strong> to address the target user problem. The Discovery Team runs cheap experiments to disprove and kill off these bad ideas early.</li>
+          <li><strong>The Product Backlog</strong>: Only ideas that pass early experiments and mitigate all four risks are moved to the Product Backlog for engineering execution.</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="concept-3" aria-labelledby="concept-3-heading">
+        <h2 id="concept-3-heading">3. Dual-Track Agile</h2>
+        <p>Rather than separating discovery and delivery into sequential steps or separate departments, modern teams run them concurrently as <strong>Dual-Track Agile</strong>.</p>
+        
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/12-dual-track-agile.png" alt="Process loops showing Discovery and Delivery pipelines running concurrently within a single team." hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>12-dual-track-agile.png</code>
+              <span>Illustrates parallel lanes of fast-learning Discovery and high-predictability Delivery.</span>
+            </div>
+          </div>
+          <figcaption>Dual-Track Agile: Discovery and Delivery run continuously and concurrently.</figcaption>
+        </figure>
+
+        <h3>Two Tracks, One Team</h3>
+        <ul>
+          <li><strong>Product Discovery</strong>: All about <strong>fast learning and validation</strong>. The mindset is experimental: weeding out bad ideas quickly with minimal code and effort. Teams may spend 40% to 50% of their time on discovery.</li>
+          <li><strong>Product Delivery</strong>: All about <strong>predictability and quality</strong>. The mindset is engineering rigor: delivering stable, scalable working software at a predictable cadence (e.g., sprints).</li>
+          <li><strong>Concurrence</strong>: Discovery and delivery run concurrently and continuously.</li>
+          <li><strong>"Dual-Track, Not Duel-Track"</strong>: These are <em>not</em> two separate teams. They are a single cohesive team. Team members move fluidly between discovery and delivery tasks based on project needs, ensuring no handoff silos are created.</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="worked-example" aria-labelledby="worked-example-heading">
+        <h2 id="worked-example-heading">Practical Product Management example</h2>
+        <h3>Situation</h3>
+        <p>A SaaS team wants to add an automated invoice-matching feature for enterprise finance users. The business case suggests high demand, but the feature requires complex ML data models that are expensive to build.</p>
+        <h3>Decision</h3>
+        <p>The PM forms a discovery triad with the UX designer and tech lead. Instead of writing a PRD and scheduling it for delivery, they decide to run a discovery validation test.</p>
+        <h3>Reasoning</h3>
+        <p>The tech lead flags massive feasibility risks regarding data access and latency. The UX designer flags usability risks because invoice layouts vary wildly. Building a full ML pipeline immediately introduces massive capital risk.</p>
+        <h3>Consequence</h3>
+        <p>The triad runs a 1-week "Wizard of Oz" prototype experiment: finance users upload invoices on a simple frontend, and team members manually match them in the background. The tech lead checks the upload format compatibility while the UX designer interviews users during the process. The team discovers that while users value the output, they refuse to upload files in the format required by the proposed ML model (high value, high usability risk, low feasibility/viability compatibility). The idea is killed.</p>
+        <h3>Transferable lesson</h3>
+        <p>Running cheap discovery experiments (such as wizard-of-oz or paper prototypes) allows the discovery triad to validate user value, usability, feasibility, and viability before committing a single sprint of delivery code.</p>
+      </section>
+
+      <section class="pm-card pm-warning" id="misunderstandings" aria-labelledby="misunderstandings-heading">
+        <h2 id="misunderstandings-heading">Common misunderstandings</h2>
+        <h3>"The Discovery Team and the Delivery Team should be separate groups of people to maintain focus."</h3>
+        <p>Separating the tracks into separate teams creates a "mini-waterfall" handoff bottleneck. The engineers on the delivery team will feel no ownership over the validated solution, and the discovery team will lose touch with delivery constraints. It is a single team running two tracks concurrently ("Dual-track, not Duel-track").</p>
+        <p><strong>Decision consequence:</strong> Keeps developers close to user pain and designers close to implementation bounds, leading to more realistic validation.</p>
+
+        <h3>"The goal of product discovery is to produce wireframes and detailed specifications for development."</h3>
+        <p>The goal of discovery is <strong>learning and risk mitigation</strong>, not documentation. Discovery is about disproving bad ideas as quickly as possible. The output of discovery is a <em>validated business and user hypothesis</em>, not a thick requirements document.</p>
+        <p><strong>Decision consequence:</strong> Reduces time spent writing unnecessary requirements that are disproved during development.</p>
+      </section>
+
+      <section class="pm-card" id="definitions" aria-labelledby="definitions-heading">
+        <h2 id="definitions-heading">Key concepts and definitions</h2>
+        <dl>
+          <dt>Value Risk</dt>
+          <dd>The likelihood that customers will choose not to buy or use the proposed solution.</dd>
+          <dt>Usability Risk</dt>
+          <dd>The likelihood that users will struggle to understand how to operate the product.</dd>
+          <dt>Feasibility Risk</dt>
+          <dd>The likelihood that the solution cannot be built within the constraints of skills, technology, and time.</dd>
+          <dt>Viability Risk</dt>
+          <dd>The likelihood that the solution will conflict with business stakeholders, legal compliance, or financial models.</dd>
+          <dt>Dual-Track Agile</dt>
+          <dd>A product development methodology where product discovery (learning) and product delivery (building) run concurrently within a single team.</dd>
+        </dl>
+      </section>
+
+      <section class="pm-card" id="takeaways" aria-labelledby="takeaways-heading">
+        <h2 id="takeaways-heading">Key takeaways</h2>
+        <ol>
+          <li><strong>Tackle Risk Upfront</strong>: Identify and resolve value, usability, feasibility, and viability risks before building.</li>
+          <li><strong>Form a Collaborative Triad</strong>: Discovery must be run by PM, UX, and Tech Leads working together, not in silos.</li>
+          <li><strong>Embrace a High Kill Rate</strong>: Expect to reject up to 75% of backlog ideas through cheap experiments.</li>
+          <li><strong>Discovery is About Learning</strong>: Focus discovery on reducing uncertainty, and delivery on shipping quality code.</li>
+          <li><strong>Run Concurrent Tracks</strong>: Discovery and delivery must run continuously and concurrently within a single team ("Dual-track, not Duel-track").</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
+        <h2 id="visual-summary-heading">Visual summary</h2>
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/12-visual-summary.png" alt="Product Backlog Gating Flowchart showing how discovery filters ideas and feeds delivery sprints." hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>12-visual-summary.png</code>
+              <span>The product backlog gating flowchart.</span>
+            </div>
+          </div>
+          <figcaption>Product Backlog Gating Flowchart: Discovery filters out 75% of speculative ideas, passing only validated backlog items to delivery.</figcaption>
+        </figure>
+        <p>The visual summary shows the dual-track agile flow. Ideas enter the Ideas Backlog and are filtered through cheap risk experiments by the discovery triad (PM, UX, Tech Lead). Up to 75% of ideas fail and are killed to save time. The remaining 25% of validated ideas move to the Product Backlog for engineering sprint delivery, producing predictable, high-quality code releases.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="one-minute-review" aria-labelledby="one-minute-review-heading">
+        <h2 id="one-minute-review-heading">One-minute review</h2>
+        <p>High-performing product teams succeed by tackling value, usability, feasibility, and viability risks upfront. Instead of executing fixed feature roadmaps, a discovery triad (PM, UX, Tech Lead) continuously filters ideas from the Ideas Backlog, killing up to 75% of them through cheap experiments. Validated ideas then move to the Product Backlog for delivery. This concurrent workflow of discovery (learning) and delivery (execution) is called Dual-Track Agile, and it runs continuously within a single cohesive team.</p>
+      </section>
+
+      <!-- Interactive widgets section -->
+      <section class="pm-card" id="interactive-practice" aria-labelledby="interactive-practice-heading">
+        <h2 id="interactive-practice-heading">Interactive practice</h2>
+        
+        <!-- Practice Widget 1: Choice with Feedback (Isolated Scenarios) -->
+        <h3 id="choice-practice-title">Classify Product Risks</h3>
+        <p>Evaluate the scenario descriptions below and map them to their corresponding product risk category (**Value**, **Usability**, **Feasibility**, or **Viability**).</p>
+        
+        <div class="pm-scenario" data-widget="choice" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 4px solid var(--pm-blue, #1d4ed8); background: #f8fafc;">
+          <h4 style="margin-top: 0; font-size: 1.05rem;">Scenario 1: "The legal department flags that the new user data-sharing feature violates GDPR compliance regulations."</h4>
+          <div class="pm-actions" aria-label="Decision options for Scenario 1" style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.75rem;">
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="false" data-feedback-incorrect="Incorrect. GDPR and legal constraints relate to business stakeholder alignment rather than customer demand.">Value Risk</button>
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="false" data-feedback-incorrect="Incorrect. This is a legal compliance issue, not an interface learnability concern.">Usability Risk</button>
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="false" data-feedback-incorrect="Incorrect. The team can build it, but they are legally blocked.">Feasibility Risk</button>
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="true" data-feedback-correct="Correct! This is a Viability Risk since it deals with legal constraints and compliance bounds of the company.">Viability Risk</button>
+          </div>
+          <p class="pm-feedback" aria-live="polite" data-choice-feedback style="margin-top: 0.5rem; font-weight: 500;"></p>
+        </div>
+
+        <div class="pm-scenario" data-widget="choice" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 4px solid var(--pm-blue, #1d4ed8); background: #f8fafc;">
+          <h4 style="margin-top: 0; font-size: 1.05rem;">Scenario 2: "Our server infrastructure cannot support real-time audio streaming for more than 50 concurrent users."</h4>
+          <div class="pm-actions" aria-label="Decision options for Scenario 2" style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.75rem;">
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="false" data-feedback-incorrect="Incorrect. This is a technical infrastructure capability block, not a value check.">Value Risk</button>
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="false" data-feedback-incorrect="Incorrect. This is a capacity issue, not a user interface navigation issue.">Usability Risk</button>
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="true" data-feedback-correct="Correct! This is a Feasibility Risk since it deals with whether engineers can build and scale the solution given technical constraints.">Feasibility Risk</button>
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="false" data-feedback-incorrect="Incorrect. Business stakeholders are fine with the feature, but engineering is limited.">Viability Risk</button>
+          </div>
+          <p class="pm-feedback" aria-live="polite" data-choice-feedback style="margin-top: 0.5rem; font-weight: 500;"></p>
+        </div>
+
+        <!-- Practice Widget 2: Tabs (Discovery vs. Delivery) -->
+        <h3 id="tabs-practice-title">Explore Dual-Track Agile Lanes</h3>
+        <p>Explore the two concurrent tracks of work that occur continuously within a single cohesive product team:</p>
+        <div class="pm-tabs-widget" data-widget="tabs">
+          <div role="tablist" aria-label="Product Tracks" style="display: flex; gap: 0.25rem; flex-wrap: wrap; margin-bottom: 1rem;">
+            <button class="pm-button" type="button" id="tab-discovery" role="tab" aria-controls="panel-discovery" aria-selected="true" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Product Discovery</button>
+            <button class="pm-button" type="button" id="tab-delivery" role="tab" aria-controls="panel-delivery" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Product Delivery</button>
+          </div>
+          
+          <div id="panel-discovery" role="tabpanel" aria-labelledby="tab-discovery" style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>Product Discovery Track</h4>
+            <p><strong>Goal:</strong> Fast learning, assumption testing, and risk validation.</p>
+            <p><strong>Focus:</strong> Mitigating Value, Usability, Feasibility, and Viability risks. The team runs rapid experiments, Wizard-of-Oz tests, and user interviews to weed out bad ideas quickly before writing code.</p>
+          </div>
+          
+          <div id="panel-delivery" role="tabpanel" aria-labelledby="tab-delivery" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>Product Delivery Track</h4>
+            <p><strong>Goal:</strong> Predictability and software quality.</p>
+            <p><strong>Focus:</strong> Delivering high-quality working software at a reliable pace. The team uses Agile sprints and Scrum iterations to build, test, and release the validated backlog items.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pm-card" id="related-concepts" aria-labelledby="related-concepts-heading">
+        <h2 id="related-concepts-heading">Related concepts</h2>
+        <ul>
+          <li><a href="../../../GLOSSARY.md#product-discovery">Product Discovery</a></li>
+          <li><a href="../../../GLOSSARY.md#product-delivery">Product Delivery</a></li>
+          <li><a href="../../../GLOSSARY.md#validation">Validation</a></li>
+        </ul>
+      </section>
+
+      <nav class="pm-card" aria-label="Lesson navigation">
+        <h2>Continue learning</h2>
+        <p><a href="../12-how-effective-product-teams-work.md">Return to the canonical lecture guide</a></p>
+        <p><a href="../README.md">Section overview</a> · <a href="../../README.md">Part overview</a> · <a href="../../../COURSE-INDEX.md">Course index</a></p>
+        <p><a href="../../../sources/01-introduction/01-introduction/12-how-effective-product-teams-work-transcript.md">Original lecture transcript</a></p>
+      </nav>
+    </main>
+
+    <footer class="pm-footer">
+      <div class="pm-shell">Product Management Study Guide</div>
+    </footer>
+  </body>
+</html>

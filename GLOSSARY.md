@@ -69,6 +69,39 @@ Unlike physical goods, a digital product is abstract and typically deployed to r
 **Related lectures:**
 - [What's a Product?](./01-introduction/01-introduction/07-whats-a-product.md)
 
+### Dual-Track Agile
+
+A product development methodology where product discovery (learning) and product delivery (building) run concurrently within a single team.
+
+Rather than separating validation and development into sequential steps or different departments, a single cohesive team runs both tracks in parallel.
+
+**Related concepts:**
+- Product Discovery
+- Product Delivery
+- Agile
+
+**Related lectures:**
+- [How Effective Product Teams Work](./01-introduction/01-introduction/12-how-effective-product-teams-work.md)
+
+---
+
+## F
+
+### Feasibility Risk
+
+The likelihood that a proposed solution cannot be built within the constraints of skills, technology, and time.
+
+Feasibility risk is typically managed by having the technical lead/engineer collaborate early during the product discovery phase to identify code constraints.
+
+**Related concepts:**
+- Value Risk
+- Usability Risk
+- Viability Risk
+- Product Discovery
+
+**Related lectures:**
+- [How Effective Product Teams Work](./01-introduction/01-introduction/12-how-effective-product-teams-work.md)
+
 ---
 
 ## O
@@ -178,6 +211,9 @@ and engineering effort.
 - Problem space
 - Solution space
 
+**Related lectures:**
+- [How Effective Product Teams Work](./01-introduction/01-introduction/12-how-effective-product-teams-work.md)
+
 ### Product Delivery
 
 The process of building, testing, releasing, and operating a product or feature.
@@ -191,6 +227,9 @@ Delivery focuses on turning a selected solution into reliable working software.
 - Development
 - Release
 - Quality assurance
+
+**Related lectures:**
+- [How Effective Product Teams Work](./01-introduction/01-introduction/12-how-effective-product-teams-work.md)
 
 ### Product Lifecycle
 
@@ -310,6 +349,25 @@ Tech products are characterized by digital delivery models, rapid iteration cycl
 
 ---
 
+## U
+
+### Usability Risk
+
+The likelihood that users will struggle to understand how to operate or navigate the product.
+
+Usability risk is managed by involving a UX expert/designer during early discovery experiments to run prototype testing.
+
+**Related concepts:**
+- Value Risk
+- Feasibility Risk
+- Viability Risk
+- Product Discovery
+
+**Related lectures:**
+- [How Effective Product Teams Work](./01-introduction/01-introduction/12-how-effective-product-teams-work.md)
+
+---
+
 ## V
 
 ### Validation
@@ -327,6 +385,36 @@ large investment based only on assumptions.
 - Evidence
 - Assumption
 - Learning
+
+### Value Risk
+
+The likelihood that customers will choose not to buy or use the proposed solution.
+
+Value risk is the primary concern of product managers during discovery, focused on validating user demand.
+
+**Related concepts:**
+- Usability Risk
+- Feasibility Risk
+- Viability Risk
+- Product Discovery
+
+**Related lectures:**
+- [How Effective Product Teams Work](./01-introduction/01-introduction/12-how-effective-product-teams-work.md)
+
+### Viability Risk
+
+The likelihood that a proposed solution will conflict with corporate stakeholders, legal regulations, compliance, or financial models.
+
+Viability risks check if the business can support the solution from a legal, marketing, sales, or financial perspective.
+
+**Related concepts:**
+- Value Risk
+- Usability Risk
+- Feasibility Risk
+- Product Discovery
+
+**Related lectures:**
+- [How Effective Product Teams Work](./01-introduction/01-introduction/12-how-effective-product-teams-work.md)
 
 ---
 
