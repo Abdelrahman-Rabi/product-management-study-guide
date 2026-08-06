@@ -244,6 +244,20 @@ A roadmap may focus on:
 - Prioritization
 - Product strategy
 
+### Product Scope
+
+The defined boundaries of a product's features, target platforms, and user workflows.
+
+Defining a clear scope isolates specific development work streams and prevents project complexity from becoming unmanageable, especially during the MVP stage.
+
+**Related concepts:**
+- Product decomposition
+- Minimum Viable Product (MVP)
+- Tech Product
+
+**Related lectures:**
+- [Exercise #1 Choose Your Product](./01-introduction/01-introduction/10-choose-your-product.md)
+
 ---
 
 ## S
@@ -268,6 +282,23 @@ The solution space may include:
 - Product discovery
 - Prototyping
 - Technical feasibility
+
+---
+
+## T
+
+### Tech Product
+
+A value proposition driven by software, hardware, or data engineering rather than physical manufacturing.
+
+Tech products are characterized by digital delivery models, rapid iteration cycles, and integration possibilities via APIs.
+
+**Related concepts:**
+- Digital Product
+- Product Scope
+
+**Related lectures:**
+- [Exercise #1 Choose Your Product](./01-introduction/01-introduction/10-choose-your-product.md)
 
 ---
 
