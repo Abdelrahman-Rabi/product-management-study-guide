@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive companion for Exercise #1 Choose Your Product">
+    <title>Exercise #1: Choose Your Product — Interactive Lesson</title>
+    <link rel="stylesheet" href="../../../assets/interactive/pm-study-guide.css">
+    <script src="../../../assets/interactive/pm-study-guide.js" defer></script>
+  </head>
+  <body>
+    <div class="pm-progress" aria-hidden="true"><span data-progress-bar></span></div>
+    <noscript><div class="pm-shell pm-card pm-warning">Interactive controls require JavaScript. The canonical Markdown lecture remains available through the link at the end of this page.</div></noscript>
+
+    <header class="pm-header pm-shell">
+      <p class="pm-kicker">Product Management Study Guide · Interactive Companion</p>
+      <h1>Exercise #1: Choose Your Product</h1>
+      <p class="pm-subtitle">Learn the criteria for selecting and scoping your study product.</p>
+      <div class="pm-meta" aria-label="Lesson information">
+        <span class="pm-chip">Part 1</span>
+        <span class="pm-chip">Section 1</span>
+        <span class="pm-chip">Lecture 10</span>
+      </div>
+    </header>
+
+    <main class="pm-shell pm-grid" id="main-content">
+      <nav class="pm-card" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Lesson contents</h2>
+        <ol>
+          <li><a href="#learning-outcome-section">Your goal</a></li>
+          <li><a href="#lecture-overview">Lecture overview</a></li>
+          <li><a href="#central-argument">Central argument</a></li>
+          <li><a href="#concept-1">1. Ground Rules for Product Selection</a></li>
+          <li><a href="#concept-2">2. Scoping Down Large-Scale Products</a></li>
+          <li><a href="#concept-3">3. Case Study: Uber Cabs (2009 MVP)</a></li>
+          <li><a href="#comparison">Comparison: Today's Product vs. 2009 MVP</a></li>
+          <li><a href="#worked-example">Practical Product Management example</a></li>
+          <li><a href="#misunderstandings">Common misunderstandings</a></li>
+          <li><a href="#definitions">Key concepts and definitions</a></li>
+          <li><a href="#takeaways">Key takeaways</a></li>
+          <li><a href="#visual-summary">Visual summary</a></li>
+          <li><a href="#one-minute-review">One-minute review</a></li>
+          <li><a href="#interactive-practice">Interactive practice</a></li>
+          <li><a href="#related-concepts">Related concepts</a></li>
+        </ol>
+      </nav>
+
+      <section class="pm-card pm-outcome" id="learning-outcome-section" aria-labelledby="learning-outcome">
+        <h2 id="learning-outcome">Your goal</h2>
+        <p>Select a suitable tech product for study based on strategic criteria (familiarity, accessibility, user access) and define a scoped PM role for complex or large-scale platforms.</p>
+      </section>
+
+      <section class="pm-card" id="lecture-overview" aria-labelledby="lecture-overview-heading">
+        <h2 id="lecture-overview-heading">Lecture overview</h2>
+        <p>This lecture introduces the first practical exercise of the course: choosing a product to study and use for all subsequent exercises. By the end, you should be able to:
+          Apply key criteria (ground rules) to select a suitable study product;
+          Define and constrain a realistic Product Manager role for large-scale platforms; and
+          Structure a baseline product profile using the Uber Cabs (2009) case study from the course workbook.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="central-argument" aria-labelledby="central-argument-heading">
+        <h2 id="central-argument-heading">Central argument</h2>
+        <p>Selecting a viable study product requires matching it against criteria of familiarity, technology-driven value, and user access. For large-scale products, defining a narrow, realistic sub-product scope (like Facebook Newsfeed rather than all of Facebook) is critical to prevent coordination bottlenecks and maintain learning focus.</p>
+      </section>
+
+      <section class="pm-card" id="concept-1" aria-labelledby="concept-1-heading">
+        <h2 id="concept-1-heading">1. Ground Rules for Product Selection</h2>
+        <p>To maximize the value of the course exercises, you must select a study product that fits the following four strategic ground rules:</p>
+        <ul>
+          <li><strong>Technology-Powered</strong>: The product must rely fundamentally on software or hardware engineering (e.g., mobile apps, B2B SaaS, or consumer devices).</li>
+          <li><strong>Existing or New</strong>: You can choose a product you use every day, or a completely new product idea you want to validate.</li>
+          <li><strong>Familiarity & Access</strong>: If choosing an existing product, it must be one you are passionate about, use frequently, and have direct access to.</li>
+          <li><strong>User Access</strong>: You should be able to easily contact and interview other users of the product (e.g., friends, family, or professional colleagues).</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="concept-2" aria-labelledby="concept-2-heading">
+        <h2 id="concept-2-heading">2. Scoping Down Large-Scale Products</h2>
+        <p>If you choose a mature, large-scale platform, you cannot effectively manage or study the entire product as a single PM. You must define a realistic, constrained sub-product or feature role:</p>
+        <ul>
+          <li><strong>Facebook</strong>: Instead of all of Facebook, be the PM for <em>Facebook Newsfeed</em> or <em>Facebook Messaging</em>.</li>
+          <li><strong>Twitter</strong>: Instead of all of Twitter, be the PM for <em>Twitter Direct Messages</em> or <em>Twitter Search</em>.</li>
+          <li><strong>Scoping Benefit</strong>: Constraining your scope isolates specific workflows and prevents your learning exercises from becoming abstract or unmanageable.</li>
+        </ul>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/10-product-selection-flowchart.png" alt="Decision tree diagram illustrating ground rules and branching path for choosing a study product." hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>10-product-selection-flowchart.png</code>
+              <span>Shows the decision steps to select a study product and calibrate its scope.</span>
+            </div>
+          </div>
+          <figcaption>A structured path for selecting and scoping your PM study product.</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-3" aria-labelledby="concept-3-heading">
+        <h2 id="concept-3-heading">3. Case Study: Uber Cabs (2009 MVP)</h2>
+        <p>In the course workbook, the instructor fills out Exercise #1 using <strong>Uber Cabs in 2009</strong> (when it was first conceived) as the study product. This serves as an excellent case study of a product that disrupted a mature industry by launching with a highly constrained MVP scope.</p>
+        
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/10-scope-evolution-uber.png" alt="Comparison canvas showing Uber Cabs 2009 launch MVP interface next to modern Uber global services." hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>10-scope-evolution-uber.png</code>
+              <span>Contrasts the original 2009 iOS three-screen MVP with the modern multi-platform network.</span>
+            </div>
+          </div>
+          <figcaption>Uber's progression from a scoped 2009 MVP to a global transport platform.</figcaption>
+        </figure>
+
+        <h3>Uber Cabs 2009 Baseline Profile</h3>
+        <div class="pm-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Dimension</th>
+                <th scope="col">Details</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Product Name</th>
+                <td>Uber Cabs (2009)</td>
+              </tr>
+              <tr>
+                <th scope="row">What does it do?</th>
+                <td>On-demand ride-hailing service</td>
+              </tr>
+              <tr>
+                <th scope="row">Where is it available? (In 2009)</th>
+                <td>Mobile - iOS only (iPhone MVP)</td>
+              </tr>
+              <tr>
+                <th scope="row">Where is it available? (Today)</th>
+                <td>Desktop browser (m.uber.com), 3rd party integrations (Google Maps), Mobile/Tablet (iOS and Android)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Analysis of the Original 2009 MVP Screenshots</h3>
+        <p>The original UberCab product was highly focused and simple, consisting of three primary screen states:</p>
+        <ol>
+          <li><strong>The Map Screen (Request)</strong>: A basic map layout with a green pin marking the user's location, an address input field, and a single prominent <strong>"Pick me up"</strong> call-to-action button.</li>
+          <li><strong>The Tracking Screen (Ride in Progress)</strong>: A tracking map showing the vehicle's real-time position, a cancellation button, and a bottom card showing the driver's name (<strong>"Ryan"</strong>) and rating (<strong>0 stars</strong> for new/unrated).</li>
+          <li><strong>The Transaction Screen (Payment & Rating)</strong>: A simple confirmation receipt stating <strong>"$15.00 has been electronically paid"</strong> alongside a 1-to-5 star rating selector and a <strong>"Submit Rating"</strong> button.</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="comparison" aria-labelledby="comparison-heading">
+        <h2 id="comparison-heading">Comparison: Today's Product vs. 2009 MVP</h2>
+        <p>The table below contrasts the launch constraints of the original 2009 Uber Cabs MVP with the modern expanded platform:</p>
+        <div class="pm-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Feature</th>
+                <th scope="col">Uber Cabs 2009 MVP</th>
+                <th scope="col">Modern Uber Platform</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Client Platforms</th>
+                <td>iOS only (iPhone).</td>
+                <td>Web browser (desktop), Android, iOS, tablet apps.</td>
+              </tr>
+              <tr>
+                <th scope="row">Integrations</th>
+                <td>None (standalone app).</td>
+                <td>Broad developer APIs (e.g., embedded inside Google Maps).</td>
+              </tr>
+              <tr>
+                <th scope="row">Core Service</th>
+                <td>Single ride-hailing vertical (black cabs).</td>
+                <td>Multiple verticals (UberX, Uber Taxi, Uber Black, Uber Eats, Uber Freight).</td>
+              </tr>
+              <tr>
+                <th scope="row">Scope Boundary</th>
+                <td>Constrained to local on-demand dispatch.</td>
+                <td>Global marketplace matching engine with dynamic surge pricing.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="pm-card" id="worked-example" aria-labelledby="worked-example-heading">
+        <h2 id="worked-example-heading">Practical Product Management example</h2>
+        <h3>Situation</h3>
+        <p>A Product Manager is tasking a team with designing a new peer-to-peer tutoring marketplace app. The initial product vision includes video chat, automated scheduling, payment processing, file sharing, and interactive whiteboards.</p>
+        <h3>Decision</h3>
+        <p>The PM decides to constrain the launch scope (MVP) to a web-based scheduling directory. Video chats will occur over Zoom links, payments will be processed via simple Stripe links, and file sharing will leverage Google Drive.</p>
+        <h3>Reasoning</h3>
+        <p>Attempting to build video chat, interactive whiteboards, and payment infrastructure simultaneously introduces massive development risks and coordination overhead. By utilizing existing tools (Zoom, Stripe, Google Drive), the team can focus on validating the core value proposition: matching students with the right tutors.</p>
+        <h3>Consequence</h3>
+        <p>The tutoring MVP launches within weeks rather than months. The team quickly gathers feedback on customer match rates and student willingness to pay before writing any complex video-streaming code.</p>
+        <h3>Transferable lesson</h3>
+        <p>PMs must separate the core value hypothesis of their product from secondary infrastructure features, launching the simplest possible platform configuration to accelerate validation.</p>
+      </section>
+
+      <section class="pm-card pm-warning" id="misunderstandings" aria-labelledby="misunderstandings-heading">
+        <h2 id="misunderstandings-heading">Common misunderstandings</h2>
+        <h3>"My study product must be a brand-new, unique idea to be valuable"</h3>
+        <p>Studying an existing, mature product (like Slack or Netflix) is often more educational because you can analyze real-world decisions, analyze public metrics, and study how they solved complex scaling and feature prioritization problems.</p>
+        <p><strong>Decision consequence:</strong> Acceleration of learning; study focuses on strategy and metrics rather than speculative user validation.</p>
+
+        <h3>"I should pretend to own the entire product to make full strategic decisions"</h3>
+        <p>In professional tech environments, PMs work on highly specific sub-products. Pretending to own all of Airbnb or Netflix leads to vague, unfeasible roadmaps. True mastery lies in understanding boundaries and API handoffs between teams.</p>
+        <p><strong>Decision consequence:</strong> Prepares the learner for realistic product team setups, focusing on micro-metrics and clean boundary APIs.</p>
+      </section>
+
+      <section class="pm-card" id="definitions" aria-labelledby="definitions-heading">
+        <h2 id="definitions-heading">Key concepts and definitions</h2>
+        <dl>
+          <dt>Product Scope</dt>
+          <dd>The defined boundaries of a product's features, target platforms, and user workflows.</dd>
+          <dt>Minimum Viable Product (MVP)</dt>
+          <dd>The simplest version of a product that can be released to early adopters to validate a core business hypothesis.</dd>
+          <dt>Tech Product</dt>
+          <dd>A value proposition driven by software, hardware, or data engineering rather than physical manufacturing.</dd>
+        </dl>
+      </section>
+
+      <section class="pm-card" id="takeaways" aria-labelledby="takeaways-heading">
+        <h2 id="takeaways-heading">Key takeaways</h2>
+        <ol>
+          <li><strong>Focus on Tech</strong>: Choose a technology-powered product to practice product management concepts effectively.</li>
+          <li><strong>Start with Familiarity</strong>: Choose a product you know, love, and use frequently, so you can think from the user's perspective.</li>
+          <li><strong>Ensure User Access</strong>: You must have access to real users (friends, colleagues, or family) to conduct interviews and run validation tests.</li>
+          <li><strong>Constrain the Scope</strong>: If you choose a massive product, narrow your role to a specific sub-product (e.g., Facebook Messenger instead of Facebook).</li>
+          <li><strong>Study the MVP</strong>: Analyze how successful platforms started simple (like Uber's 2009 iOS-only app with only three core screens) to find product-market fit.</li>
+          <li><strong>Learn Collectively</strong>: Share your product profiles and workbooks to spark ideas and cross-pollinate learning patterns.</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
+        <h2 id="visual-summary-heading">Visual summary</h2>
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/10-visual-summary.png" alt="Product Selection and Scoping Flowchart showing selection ground rules and scope calibration steps." hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>10-visual-summary.png</code>
+              <span>The product selection and scope calibration flowchart.</span>
+            </div>
+          </div>
+          <figcaption>The product selection and scope calibration flowchart.</figcaption>
+        </figure>
+        <p>The visual summary shows the decision workflow for picking a study product. First, evaluate tech dependencies, followed by check paths for familiarity and user accessibility. Finally, calibrate the scale, splitting massive applications into scoped sub-product roles to form the final learning canvas.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="one-minute-review" aria-labelledby="one-minute-review-heading">
+        <h2 id="one-minute-review-heading">One-minute review</h2>
+        <p>To prepare for practical PM training, you must select a technology-powered study product (existing or new) that is familiar, passionate, and has accessible users. For large platforms, you must constrain your scope to a specific sub-product or feature (such as Facebook Messaging). This approach mimics real-world PM roles and focuses your learning, as demonstrated by the original 2009 Uber Cabs MVP launch which succeeded by limiting its initial scope to an iOS-only app with three basic screen states.</p>
+      </section>
+
+      <!-- Interactive widgets section -->
+      <section class="pm-card" id="interactive-practice" aria-labelledby="interactive-practice-heading">
+        <h2 id="interactive-practice-heading">Interactive practice</h2>
+        
+        <!-- Practice Widget 1: Choice with Feedback (Isolated Scenarios) -->
+        <h3 id="choice-practice-title">Classify Study Scope Feasibility</h3>
+        <p>Evaluate the study product selections below and classify their scope boundaries as **Realistic & Constrained** vs. **Overly Broad & Unrealistic**.</p>
+        
+        <div class="pm-scenario" data-widget="choice" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 4px solid var(--pm-blue, #1d4ed8); background: #f8fafc;">
+          <h4 style="margin-top: 0; font-size: 1.05rem;">Scenario 1: Studying Netflix as the Product Manager of the entire Netflix service, including recommendation engine, video compression algorithms, billing, and global content licensing.</h4>
+          <div class="pm-actions" aria-label="Decision options for Scenario 1" style="display: flex; gap: 0.5rem; margin-top: 0.75rem;">
+            <button
+              class="pm-button"
+              type="button"
+              aria-pressed="false"
+              data-choice
+              data-correct="false"
+              data-feedback-incorrect="Correct! This scope is too broad for a single PM study canvas. It covers entirely different engineering and business domains, making exercises unmanageable."
+            >Realistic & Constrained</button>
+            <button
+              class="pm-button"
+              type="button"
+              aria-pressed="false"
+              data-choice
+              data-correct="true"
+              data-feedback-correct="Correct! Managing the entire global Netflix platform simultaneously is unrealistic. It should be constrained to a single sub-product (e.g., Netflix Recommendation Feed or Netflix Billing Interface)."
+            >Overly Broad & Unrealistic</button>
+          </div>
+          <p class="pm-feedback" aria-live="polite" data-choice-feedback style="margin-top: 0.5rem; font-weight: 500;"></p>
+        </div>
+
+        <div class="pm-scenario" data-widget="choice" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 4px solid var(--pm-blue, #1d4ed8); background: #f8fafc;">
+          <h4 style="margin-top: 0; font-size: 1.05rem;">Scenario 2: Studying Slack's "Channels Sidebar & Organization" feature to focus on channel list sorting, search filters, and custom folder management.</h4>
+          <div class="pm-actions" aria-label="Decision options for Scenario 2" style="display: flex; gap: 0.5rem; margin-top: 0.75rem;">
+            <button
+              class="pm-button"
+              type="button"
+              aria-pressed="false"
+              data-choice
+              data-correct="true"
+              data-feedback-correct="Correct! Constraining the study scope to a specific workspace layout allows you to isolate user stories, run surveys, and evaluate metrics in a clean boundary."
+            >Realistic & Constrained</button>
+            <button
+              class="pm-button"
+              type="button"
+              aria-pressed="false"
+              data-choice
+              data-correct="false"
+              data-feedback-incorrect="Incorrect. This is a highly realistic scope that matches how actual Slack PMs are assigned to specific UI components or user pain points."
+            >Overly Broad & Unrealistic</button>
+          </div>
+          <p class="pm-feedback" aria-live="polite" data-choice-feedback style="margin-top: 0.5rem; font-weight: 500;"></p>
+        </div>
+
+        <!-- Practice Widget 2: Tabs (Product Categories) -->
+        <h3 id="tabs-practice-title">Explore Tech Product Verticals</h3>
+        <p>Explore different categories of technology-powered products you can choose for this course's exercises:</p>
+        <div class="pm-tabs-widget" data-widget="tabs">
+          <div role="tablist" aria-label="Product Categories" style="display: flex; gap: 0.25rem; flex-wrap: wrap; margin-bottom: 1rem;">
+            <button class="pm-button" type="button" id="tab-b2c" role="tab" aria-controls="panel-b2c" aria-selected="true" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">B2C Platforms</button>
+            <button class="pm-button" type="button" id="tab-b2b" role="tab" aria-controls="panel-b2b" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">B2B SaaS</button>
+            <button class="pm-button" type="button" id="tab-devices" role="tab" aria-controls="panel-devices" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Devices & Hardware</button>
+            <button class="pm-button" type="button" id="tab-mobile" role="tab" aria-controls="panel-mobile" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Platform Apps</button>
+          </div>
+          
+          <div id="panel-b2c" role="tabpanel" aria-labelledby="tab-b2c" style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>B2C Marketplaces & Consumer Services</h4>
+            <p><strong>Examples:</strong> Netflix, Airbnb, Etsy, eBay.</p>
+            <p>These products connect consumers to entertainment or sellers. They focus on conversion funnels, onboarding, search discoverability, and customer retention metrics.</p>
+          </div>
+          
+          <div id="panel-b2b" role="tabpanel" aria-labelledby="tab-b2b" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>B2B SaaS & Business tools</h4>
+            <p><strong>Examples:</strong> Salesforce, Trello, Slack, Jira.</p>
+            <p>These products serve corporate users to improve workflow efficiency. They focus on account metrics, admin controls, integration APIs, and multi-user collaboration.</p>
+          </div>
+
+          <div id="panel-devices" role="tabpanel" aria-labelledby="tab-devices" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>Smart Devices & Hardware</h4>
+            <p><strong>Examples:</strong> Sonos speaker systems, Apple Watch, Tesla cars.</p>
+            <p>These physical items contain embedded software. They focus on hardware-software interfaces, local connectivity, firmware updates, and physical industrial design constraints.</p>
+          </div>
+
+          <div id="panel-mobile" role="tabpanel" aria-labelledby="tab-mobile" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>Platform-Specific Applications</h4>
+            <p><strong>Examples:</strong> Uber, Audible, Instagram.</p>
+            <p>These apps depend on mobile features (GPS, camera, voice, push notifications). They focus on device performance, offline readiness, and app store conversion rates.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pm-card" id="related-concepts" aria-labelledby="related-concepts-heading">
+        <h2 id="related-concepts-heading">Related concepts</h2>
+        <ul>
+          <li><a href="../../../GLOSSARY.md#product-discovery">Product Discovery</a></li>
+          <li><a href="../../../GLOSSARY.md#product-manager-pm">Product Manager (PM)</a></li>
+          <li><a href="../../../GLOSSARY.md#product-lifecycle">Product Lifecycle</a></li>
+        </ul>
+      </section>
+
+      <nav class="pm-card" aria-label="Lesson navigation">
+        <h2>Continue learning</h2>
+        <p><a href="../10-choose-your-product.md">Return to the canonical lecture guide</a></p>
+        <p><a href="../README.md">Section overview</a> · <a href="../../README.md">Part overview</a> · <a href="../../../COURSE-INDEX.md">Course index</a></p>
+        <p><a href="../../../sources/01-introduction/01-introduction/10-choose-your-product-transcript.md">Original lecture transcript</a></p>
+      </nav>
+    </main>
+
+    <footer class="pm-footer">
+      <div class="pm-shell">Product Management Study Guide</div>
+    </footer>
+  </body>
+</html>
