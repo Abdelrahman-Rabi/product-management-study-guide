@@ -10,7 +10,7 @@ content_type: "lecture"
 material_level: 2
 status: complete
 source: "Udemy video transcript"
-visuals: 2
+visuals: 3
 related_concepts:
   - product scope
   - product discovery
@@ -173,6 +173,10 @@ flowchart TD
     end
 ```
 
+![Study Product Selection & Scoping Flowchart](./visuals/10-visual-summary.png)
+
+*The product selection and scope calibration flowchart.*
+
 ---
 
 ## One-Minute Review
@@ -205,6 +209,7 @@ To prepare for practical PM training, you must select a technology-powered study
 
 * [Product Selection Flowchart](./visuals/10-product-selection-flowchart.png)
 * [Scope Evolution Canvas (Uber Cabs)](./visuals/10-scope-evolution-uber.png)
+* [Product Selection & Scoping Flowchart (Visual Summary)](./visuals/10-visual-summary.png)
 
 ---
 

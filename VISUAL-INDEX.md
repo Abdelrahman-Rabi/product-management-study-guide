@@ -134,6 +134,15 @@ Section 1: Introduction
 
 ![Comparison canvas showing Uber Cabs 2009 launch MVP interface next to modern Uber global services.](./01-introduction/01-introduction/visuals/10-scope-evolution-uber.png)
 
+#### Product Selection & Scoping Flowchart (Visual Summary)
+
+**Source lecture:**  
+[Exercise #1 Choose Your Product](./01-introduction/01-introduction/10-choose-your-product.md)
+
+**Purpose:** Traces the workflow of checking ground rules and calibrating study product scale.
+
+![Product Selection and Scoping Flowchart showing selection ground rules and scope calibration steps.](./01-introduction/01-introduction/visuals/10-visual-summary.png)
+
 <!-- Example entry: #### The Traditional Product Process **Source lecture:** [Why Product Management Is Broken](./01-introduction/01-introduction/11-why-product-management-is-broken.md) **Purpose:** Shows the sequential product-development process and why validation often happens only after release. ![Traditional product-development process where validation happens at the end](./01-introduction/01-introduction/visuals/11-traditional-product-process.png) -->
 Part 2: Strategy
 

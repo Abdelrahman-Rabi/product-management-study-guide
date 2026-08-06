@@ -240,25 +240,17 @@
 
       <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
         <h2 id="visual-summary-heading">Visual summary</h2>
-        <pre class="pm-diagram" aria-label="Text equivalent of the approved visual summary">
-flowchart TD
-    subgraph Select["1. Selection Ground Rules"]
-        A["Is it Tech-Powered?"] -->|Yes| B["New or Existing?"]
-        A -->|No| Reject["Reject Product"]
-        B --> C["Familiar & Passionate?"]
-        C -->|Yes| D["User Access Available?"]
-        C -->|No| Reject
-        D -->|Yes| Evaluate["Evaluate Scale"]
-        D -->|No| Reject
-    end
-    subgraph Scope["2. Scope Calibration"]
-        Evaluate --> E{"Is it a Large Scale Platform?"}
-        E -->|Yes| F["Constrain to Sub-Product / Specific Feature Role"]
-        E -->|No| G["Use Entire Product Scope"]
-        F --> H["Final Study Canvas"]
-        G --> H
-    end
-        </pre>
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/10-visual-summary.png" alt="Product Selection and Scoping Flowchart showing selection ground rules and scope calibration steps." hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>10-visual-summary.png</code>
+              <span>The product selection and scope calibration flowchart.</span>
+            </div>
+          </div>
+          <figcaption>The product selection and scope calibration flowchart.</figcaption>
+        </figure>
         <p>The visual summary shows the decision workflow for picking a study product. First, evaluate tech dependencies, followed by check paths for familiarity and user accessibility. Finally, calibrate the scale, splitting massive applications into scoped sub-product roles to form the final learning canvas.</p>
       </section>
 
