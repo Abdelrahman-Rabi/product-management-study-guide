@@ -13,6 +13,7 @@ that have not been created yet.
 - [What Does a PM Do?](./01-introduction/01-introduction/03-what-does-a-pm-do.md)
 - [What's a Product?](./01-introduction/01-introduction/07-whats-a-product.md)
 - [Exercise #1 Choose Your Product](./01-introduction/01-introduction/10-choose-your-product.md)
+- [Why do so many product initiatives fail?](./01-introduction/01-introduction/11-why-product-initiatives-fail.md)
 
 Lectures will be added here in their original course order as they are
 processed.

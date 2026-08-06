@@ -143,6 +143,33 @@ Section 1: Introduction
 
 ![Product Selection and Scoping Flowchart showing selection ground rules and scope calibration steps.](./01-introduction/01-introduction/visuals/10-visual-summary.png)
 
+#### Output-Focused vs. Outcome-Focused Roadmaps
+
+**Source lecture:**  
+[Why do so many product initiatives fail?](./01-introduction/01-introduction/11-why-product-initiatives-fail.md)
+
+**Purpose:** Contrasting feature-based (output) roadmaps with goal-oriented (outcome) roadmaps.
+
+![Contrasting feature-based (output) roadmaps with goal-oriented (outcome) roadmaps.](./01-introduction/01-introduction/visuals/11-output-vs-outcome-roadmaps.png)
+
+#### Speculative Business Case Dilemma
+
+**Source lecture:**  
+[Why do so many product initiatives fail?](./01-introduction/01-introduction/11-why-product-initiatives-fail.md)
+
+**Purpose:** Shows how value and cost estimations are impossible early-stage calculations.
+
+![Speculative Business Case Dilemma showing Cost and Value estimation blocks leading to ungrounded prioritization.](./01-introduction/01-introduction/visuals/11-speculative-business-case.png)
+
+#### The Waterfall Process & 20% Agile Wrapper (Visual Summary)
+
+**Source lecture:**  
+[Why do so many product initiatives fail?](./01-introduction/01-introduction/11-why-product-initiatives-fail.md)
+
+**Purpose:** Flowchart illustrating the sequential waterfall process highlighting agile sprints at the end.
+
+![The Waterfall Process: Sprints are used only for delivery, keeping the rest of the process rigid and sequential.](./01-introduction/01-introduction/visuals/11-visual-summary.png)
+
 <!-- Example entry: #### The Traditional Product Process **Source lecture:** [Why Product Management Is Broken](./01-introduction/01-introduction/11-why-product-management-is-broken.md) **Purpose:** Shows the sequential product-development process and why validation often happens only after release. ![Traditional product-development process where validation happens at the end](./01-introduction/01-introduction/visuals/11-traditional-product-process.png) -->
 Part 2: Strategy
 
