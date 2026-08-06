@@ -56,6 +56,34 @@ solution, adoption level, and implementation complexity may not yet be known.
 
 ## D
 
+### Data Product Manager
+
+A Product Manager who leverages large datasets, statistics, and SQL queries to personalize experiences at scale and build data-driven features.
+
+Data PMs work closely with data scientists and analysts to structure data pipelines, though they must guard against losing the big picture by getting lost in analytical details.
+
+**Related concepts:**
+- AI Product Manager
+- Technical Product Manager
+- Product Discovery
+
+**Related lectures:**
+- [How the PM Role Varies](./01-introduction/01-introduction/13-how-the-pm-role-varies.md)
+
+### Design Product Manager
+
+A Product Manager with a UX or design background who excels at customer research, user empathy, and frontend usability.
+
+Design PMs focus heavily on the user experience but must manage high cognitive context-switching between daily firefighting, sprint planning, and long-term roadmapping.
+
+**Related concepts:**
+- Business Product Manager
+- Usability Risk
+- Context Switching
+
+**Related lectures:**
+- [How the PM Role Varies](./01-introduction/01-introduction/13-how-the-pm-role-varies.md)
+
 ### Digital Product
 
 A software-based, often cloud-running value proposition (such as an application, API, or dataset) that solves user problems.
@@ -101,6 +129,24 @@ Feasibility risk is typically managed by having the technical lead/engineer coll
 
 **Related lectures:**
 - [How Effective Product Teams Work](./01-introduction/01-introduction/12-how-effective-product-teams-work.md)
+
+---
+
+## G
+
+### Growth Product Manager
+
+A Product Manager who focuses on optimizing specific business metrics (such as acquisition, subscription activation, or retention) through rapid micro-experiments rather than owning a core feature suite or long-term product lifecycle.
+
+Growth PMs operate heavily within Product-Led Growth (PLG) strategies to optimize customer acquisition funnels.
+
+**Related concepts:**
+- Product-Led Growth (PLG)
+- Business Product Manager
+- Experimentation
+
+**Related lectures:**
+- [How the PM Role Varies](./01-introduction/01-introduction/13-how-the-pm-role-varies.md)
 
 ---
 
@@ -346,6 +392,20 @@ Tech products are characterized by digital delivery models, rapid iteration cycl
 
 **Related lectures:**
 - [Exercise #1 Choose Your Product](./01-introduction/01-introduction/10-choose-your-product.md)
+
+### Technical Product Manager
+
+A Product Manager with a strong technical or STEM engineering background who handles technically complex domains, APIs, or developer platforms.
+
+Technical PMs bring high credibility to developers but must avoid micromanaging technical solution architecture or acting solely as an engineering manager.
+
+**Related concepts:**
+- Business Product Manager
+- Data Product Manager
+- Feasibility Risk
+
+**Related lectures:**
+- [How the PM Role Varies](./01-introduction/01-introduction/13-how-the-pm-role-varies.md)
 
 ---
 
