@@ -197,6 +197,33 @@ Section 1: Introduction
 
 ![Product Backlog Gating Flowchart showing how discovery filters ideas and feeds delivery sprints.](./01-introduction/01-introduction/visuals/12-visual-summary.png)
 
+#### The Six PM Personas Comparison Matrix
+
+**Source lecture:**  
+[How the PM Role Varies](./01-introduction/01-introduction/13-how-the-pm-role-varies.md)
+
+**Purpose:** Matrix detailing Background, Core Strength, and Pitfalls for the six PM role variations.
+
+![A matrix grid of cards displaying the backgrounds, strengths, weaknesses, and companies for the six PM personas.](./01-introduction/01-introduction/visuals/13-six-pm-personas.png)
+
+#### The PM Operational Modes (Context Switching)
+
+**Source lecture:**  
+[How the PM Role Varies](./01-introduction/01-introduction/13-how-the-pm-role-varies.md)
+
+**Purpose:** Visualizes context switching between daily Firefighting, weekly Sprints, and strategic Long-Term roadmapping.
+
+![Diagram showing the three cognitive horizons (Firefighting, Short-term, Long-term) and action pathways to balance load.](./01-introduction/01-introduction/visuals/13-pm-operational-modes.png)
+
+#### PM Career Transition Map (Visual Summary)
+
+**Source lecture:**  
+[How the PM Role Varies](./01-introduction/01-introduction/13-how-the-pm-role-varies.md)
+
+**Purpose:** Career transition roadmap mapping backgrounds to target PM roles and key skill gaps.
+
+![Career Mapping Flowchart routing background tracks to PM profiles and corporate archetypes.](./01-introduction/01-introduction/visuals/13-visual-summary.png)
+
 #### The Product Triad Venn Diagram
 
 **Source lecture:**  

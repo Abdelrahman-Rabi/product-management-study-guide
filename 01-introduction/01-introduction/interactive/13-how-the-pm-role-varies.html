@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive companion for How the PM Role Varies">
+    <title>How the PM Role Varies — Interactive Lesson</title>
+    <link rel="stylesheet" href="../../../assets/interactive/pm-study-guide.css">
+    <script src="../../../assets/interactive/pm-study-guide.js" defer></script>
+  </head>
+  <body>
+    <div class="pm-progress" aria-hidden="true"><span data-progress-bar></span></div>
+    <noscript><div class="pm-shell pm-card pm-warning">Interactive controls require JavaScript. The canonical Markdown lecture remains available through the link at the end of this page.</div></noscript>
+
+    <header class="pm-header pm-shell">
+      <p class="pm-kicker">Product Management Study Guide · Interactive Companion</p>
+      <h1>How the PM Role Varies</h1>
+      <p class="pm-subtitle">Differentiate the six PM roles and understand context switching.</p>
+      <div class="pm-meta" aria-label="Lesson information">
+        <span class="pm-chip">Part 1</span>
+        <span class="pm-chip">Section 1</span>
+        <span class="pm-chip">Lecture 13</span>
+      </div>
+    </header>
+
+    <main class="pm-shell pm-grid" id="main-content">
+      <nav class="pm-card" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Lesson contents</h2>
+        <ol>
+          <li><a href="#learning-outcome-section">Your goal</a></li>
+          <li><a href="#lecture-overview">Lecture overview</a></li>
+          <li><a href="#central-argument">Central argument</a></li>
+          <li><a href="#concept-1">1. The Six PM Personas</a></li>
+          <li><a href="#concept-2">2. The Three Operational Modes (Context Switching)</a></li>
+          <li><a href="#concept-3">3. Data PM vs. AI PM: The Specialized Data Pipelines</a></li>
+          <li><a href="#worked-example">Practical Product Management example</a></li>
+          <li><a href="#misunderstandings">Common misunderstandings</a></li>
+          <li><a href="#definitions">Key concepts and definitions</a></li>
+          <li><a href="#takeaways">Key takeaways</a></li>
+          <li><a href="#visual-summary">Visual summary</a></li>
+          <li><a href="#one-minute-review">One-minute review</a></li>
+          <li><a href="#interactive-practice">Interactive practice</a></li>
+          <li><a href="#related-concepts">Related concepts</a></li>
+        </ol>
+      </nav>
+
+      <section class="pm-card pm-outcome" id="learning-outcome-section" aria-labelledby="learning-outcome">
+        <h2 id="learning-outcome">Your goal</h2>
+        <p>Differentiate the six key product manager roles based on background, strengths, weaknesses, and companies, and describe the three daily operational modes (firefighting, short-term, long-term).</p>
+      </section>
+
+      <section class="pm-card" id="lecture-overview" aria-labelledby="lecture-overview-heading">
+        <h2 id="lecture-overview-heading">Lecture overview</h2>
+        <p>Product management is a vast domain that cannot be encapsulated by a single job description. Because PMs come from diverse educational and professional pathways, their actual day-to-day responsibilities vary significantly. By the end of this lecture, you should be able to:
+          Compare and contrast the six primary types of Product Managers;
+          Identify typical strengths, pitfalls, target employers, and iconic leaders for each PM type;
+          Describe the three operational modes (Firefighting, Short-Term, Long-Term) and explain how to manage context-switching bottlenecks; and
+          Differentiate the scope and life cycle of a Data PM from that of a specialized AI PM.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="central-argument" aria-labelledby="central-argument-heading">
+        <h2 id="central-argument-heading">Central argument</h2>
+        <p>There is no single path or single definition for a Product Manager. The PM role varies dynamically based on the candidate's background, the company's business model (e.g., Product-Led Growth), and technology domains (e.g., Data/AI). Successful PMs leverage their specific backgrounds while actively working to bridge skill gaps—such as non-technical PMs building developer credibility or technical PMs avoiding the pitfall of micromanaging execution.</p>
+      </section>
+
+      <section class="pm-card" id="concept-1" aria-labelledby="concept-1-heading">
+        <h2 id="concept-1-heading">1. The Six PM Personas</h2>
+        <p>The table below breaks down the six primary product manager roles based on background, core traits, common pitfalls, target employers, and exemplary industry leaders:</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="active">
+          <img src="../visuals/13-six-pm-personas.png" alt="A matrix grid of cards displaying the backgrounds, strengths, weaknesses, and companies for the six PM personas.">
+          <figcaption>The Six PM Personas: Comparison matrix of backgrounds, strengths, and weaknesses.</figcaption>
+        </figure>
+
+        <div class="pm-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">PM Persona</th>
+                <th scope="col">Typical Background</th>
+                <th scope="col">Core Strengths</th>
+                <th scope="col">Key Pitfall / Weakness</th>
+                <th scope="col">Target Companies</th>
+                <th scope="col">Iconic Leader</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Business PM</th>
+                <td>MBA, Sales, Marketing, Consulting</td>
+                <td>Strong problem-solving, communications, and strategic vision</td>
+                <td>Struggling with tech/design bounds; developer credibility issues</td>
+                <td>Amazon, Microsoft</td>
+                <td><strong>Ken Norton</strong> (Google Ventures)</td>
+              </tr>
+              <tr>
+                <th scope="row">Tech PM</th>
+                <td>STEM degree, software engineering</td>
+                <td>Hands-on engineering support, high technical credibility</td>
+                <td>Acts as engineering manager; struggles with monetization/GTM</td>
+                <td>Google, Atlassian</td>
+                <td><strong>Elon Musk</strong> (Tesla/SpaceX)</td>
+              </tr>
+              <tr>
+                <th scope="row">Data PM</th>
+                <td>Data science, analytics, SQL</td>
+                <td>Personalization at scale, analytical, queries databases</td>
+                <td>Gets caught in details; loses sight of the big picture</td>
+                <td>Netflix, Amazon, Google</td>
+                <td><strong>Sebastian Thrun</strong> (Udacity)</td>
+              </tr>
+              <tr>
+                <th scope="row">Design PM</th>
+                <td>UX/UI design, frontend HTML/CSS</td>
+                <td>Deep user empathy, customer research, layout design</td>
+                <td>Struggles with massive context-switching and firefighting</td>
+                <td>Apple</td>
+                <td><strong>Steve Jobs</strong> (Apple)</td>
+              </tr>
+              <tr>
+                <th scope="row">Growth PM</th>
+                <td>Data analysis, marketing experiments</td>
+                <td>Optimizing specific business metrics (funnels, freemium)</td>
+                <td>Narrow short-term focus; does not own entire product life cycle</td>
+                <td>Product-Led Growth (PLG) firms</td>
+                <td><strong>Chamath Palihapitiya</strong> (Facebook Growth)</td>
+              </tr>
+              <tr>
+                <th scope="row">AI PM</th>
+                <td>Data science, machine learning</td>
+                <td>Specialized technical skills in classification/regression</td>
+                <td>High project failure rates (85% fail); long build loops</td>
+                <td>Google (over 4,000 ML projects)</td>
+                <td><strong>Anthony Goldbloom</strong> (Kaggle)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="pm-card" id="concept-2" aria-labelledby="concept-2-heading">
+        <h2 id="concept-2-heading">2. The Three Operational Modes (Context Switching)</h2>
+        <p>Product Managers must constantly toggle between three distinct time horizons and execution modes. This context-switching is a primary source of cognitive load:</p>
+        <ol>
+          <li><strong>Firefighting Mode (Immediate / Daily)</strong>: Resolving unexpected blocks, fixing production bugs, or addressing immediate client escalation.</li>
+          <li><strong>Short-Term Mode (Weekly / Sprint)</strong>: Planning upcoming sprints, writing immediate user stories, grooming the backlog, and aligning with developers/designers.</li>
+          <li><strong>Long-Term Mode (Quarterly / Annual)</strong>: Building and communicating the product roadmap, defining OKRs, and aligning on product strategy.</li>
+        </ol>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="active">
+          <img src="../visuals/13-pm-operational-modes.png" alt="Diagram showing the three cognitive horizons (Firefighting, Short-term, Long-term) and action pathways to balance load.">
+          <figcaption>The PM Operational Modes: Firefighting, Short-Term, and Long-Term horizons.</figcaption>
+        </figure>
+
+        <h3>Design PMs and Context-Switching</h3>
+        <p>Design-background PMs are particularly susceptible to context-switching bottlenecks because design work typically demands long blocks of uninterrupted focus. When moving into a PM role, they must actively mitigate this stress by:</p>
+        <ul>
+          <li><strong>Prioritizing</strong>: Running ruthless triage on immediate requests.</li>
+          <li><strong>Automating</strong>: Setting up automated reporting and metrics tracking dashboards.</li>
+          <li><strong>Delegating</strong>: Empowering tech leads or delivery teams to run execution checks independently.</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="concept-3" aria-labelledby="concept-3-heading">
+        <h2 id="concept-3-heading">3. Data PM vs. AI PM: The Specialized Data Pipelines</h2>
+        <p>While closely related, Data PMs and AI PMs own different lifecycle stages and pipeline structures:</p>
+        <ul>
+          <li><strong>Data Product Manager</strong>: Focuses on data collection, database querying (SQL), statistical analysis, and basic personalization engines (e.g., Netflix recommendations). Measures progress by dashboard availability, query performance, and user segmentation accuracy.</li>
+          <li><strong>AI Product Manager</strong>: Focuses specifically on Machine Learning (ML) initiatives, which account for over 99% of modern AI projects. Manages complex pipelines: Ideation ➔ Feature Development ➔ Data Management ➔ Experimentation ➔ Modeling. Must navigate <strong>high failure rates</strong> (only 15% of AI initiatives make it to production) and highly volatile, non-linear development timelines.</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="worked-example" aria-labelledby="worked-example-heading">
+        <h2 id="worked-example-heading">Practical Product Management example</h2>
+        <h3>Situation</h3>
+        <p>A mobile-based subscription streaming app wants to increase its checkout conversion rate. The company employs both a core Video Player PM (a Tech/Design PM) and a Growth PM.</p>
+        <h3>Decision</h3>
+        <p>The <strong>Video Player PM</strong> focuses on the core product experience (reducing video load times, optimizing playback quality, redesigning subtitles). The <strong>Growth PM</strong> does not own the player. Instead, they own the <em>Checkout Conversion Rate</em> metric. The Growth PM runs a series of micro-experiments: testing a 7-day free trial pop-up, changing the layout of the billing page, and running email reminders for abandoned carts.</p>
+        <h3>Reasoning</h3>
+        <p>The Video Player PM requires deep uninterrupted design and engineering focus to deliver platform quality. The Growth PM operates on short-term micro-level cycles, running quick validation experiments to optimize the acquisition funnel without modifying core product infrastructure.</p>
+        <h3>Consequence</h3>
+        <p>While the core PM successfully delivers a 10% improvement in playback performance, the Growth PM increases the payment rate by 8% using checkout UI test variations.</p>
+        <h3>Transferable lesson</h3>
+        <p>Growth PMs focus on rapid conversion and metric loops rather than core product features, working side-by-side with traditional PMs to accelerate business returns.</p>
+      </section>
+
+      <section class="pm-card pm-warning" id="misunderstandings" aria-labelledby="misunderstandings-heading">
+        <h2 id="misunderstandings-heading">Common misunderstandings</h2>
+        <h3>"Technical PMs should decide how the software is architected and write code alongside engineers."</h3>
+        <p>Tech PMs who write code or dictate technical solutions are micromanaging. A PM's job is to define the "what" and "why" (problems and business goals), leaving the "how" (technical design, architecture, coding) to the Tech Lead and engineering team.</p>
+        <p><strong>Decision consequence:</strong> Prevents team conflicts and establishes clear boundaries between product requirements and engineering design.</p>
+
+        <h3>"Growth PMs own the long-term vision and lifecycle of the core product."</h3>
+        <p>Growth PMs own metrics (e.g., retention rate, sign-ups), not products. They run short-term experiments on micro-funnels. A core product PM still owns the long-term product roadmap and value proposition.</p>
+        <p><strong>Decision consequence:</strong> Avoids fragmented roadmaps and ensures metric optimization does not cannibalize user experience.</p>
+      </section>
+
+      <section class="pm-card" id="definitions" aria-labelledby="definitions-heading">
+        <h2 id="definitions-heading">Key concepts and definitions</h2>
+        <dl>
+          <dt>Product-Led Growth (PLG)</dt>
+          <dd>A business strategy that relies on self-serve product experience (freemium/trials) to drive user acquisition, activation, and retention.</dd>
+          <dt>Context Switching</dt>
+          <dd>The process of shifting cognitive focus between unrelated tasks or time horizons (e.g., switching from sprint planning to strategic roadmapping).</dd>
+          <dt>Machine Learning (ML)</dt>
+          <dd>A subfield of AI that uses algorithms to parse data, learn patterns, and make predictions (regression, classification, clustering).</dd>
+          <dt>AI Product Pipeline</dt>
+          <dd>The development loop of AI products: Ideation ➔ Feature Development ➔ Data Management ➔ Experimentation ➔ Modeling.</dd>
+        </dl>
+      </section>
+
+      <section class="pm-card" id="takeaways" aria-labelledby="takeaways-heading">
+        <h2 id="takeaways-heading">Key takeaways</h2>
+        <ol>
+          <li><strong>Textual Native Skills</strong>: Whether coming from MBA, engineering, or UX, utilize your native skills while identifying gap areas.</li>
+          <li><strong>Avoid Micromanagement</strong>: Tech PMs must define problems, not implement code or step on the Engineering Manager's toes.</li>
+          <li><strong>Protect Your Focus</strong>: Manage the three operational modes (Firefighting, Short-Term, Long-Term) by automating and prioritizing.</li>
+          <li><strong>Growth PMs Focus on Metrics</strong>: Growth PMs own metric optimization loops rather than feature suites or product life cycles.</li>
+          <li><strong>AI Projects Have High Fail Rates</strong>: AI PMs must manage long, non-linear pipelines where 85% of projects fail to reach production.</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
+        <h2 id="visual-summary-heading">Visual summary</h2>
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="active">
+          <img src="../visuals/13-visual-summary.png" alt="Career Mapping Flowchart routing background tracks to PM profiles and corporate archetypes.">
+          <figcaption>Career Mapping Flowchart: Transition paths from business, engineering, design, or data roles to target PM variations.</figcaption>
+        </figure>
+        <p>The career mapping flowchart traces candidates' raw backgrounds (CS, MBA, UX, DS) to the corresponding PM profiles and target companies (Google, Amazon, Apple, Atlassian), highlighting key gaps to resolve during transition.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="one-minute-review" aria-labelledby="one-minute-review-heading">
+        <h2 id="one-minute-review-heading">One-minute review</h2>
+        <p>Product management roles adapt to personal backgrounds and technical scopes. Business PMs excel at strategic communication, Tech PMs at developer alignment, Data PMs at metrics, Design PMs at user empathy, Growth PMs at funnel optimization, and AI PMs at ML model pipelines. To survive, PMs must balance three operational modes: immediate Firefighting, weekly Short-Term planning, and strategic Long-Term roadmapping. Managing context-switching and respecting role boundaries (like Tech PMs not micromanaging code) separates average teams from high-performing ones.</p>
+      </section>
+
+      <!-- Interactive widgets section -->
+      <section class="pm-card" id="interactive-practice" aria-labelledby="interactive-practice-heading">
+        <h2 id="interactive-practice-heading">Interactive practice</h2>
+        
+        <!-- Practice Widget 1: Choice with Feedback -->
+        <h3 id="choice-practice-title">Match PM Scenarios</h3>
+        <p>Review the professional situations below and map them to the correct Product Manager role variation.</p>
+        
+        <div class="pm-scenario" data-widget="choice" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 4px solid var(--pm-blue, #1d4ed8); background: #f8fafc;">
+          <h4 style="margin-top: 0; font-size: 1.05rem;">Scenario 1: "A candidate with an MBA background who excels at stakeholder presentation and business strategy but struggles to outline front-end architecture."</h4>
+          <div class="pm-actions" aria-label="Decision options for Scenario 1" style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.75rem;">
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="true" data-feedback-correct="Correct! MBA candidates with strong strategic and communication skills but lower technical fluency typically fit the Business PM persona.">Business PM</button>
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="false" data-feedback-incorrect="Incorrect. Tech PMs usually come from STEM backgrounds and transition from engineering roles.">Tech PM</button>
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="false" data-feedback-incorrect="Incorrect. Design PMs typically come from UX backgrounds and understand user empathy.">Design PM</button>
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="false" data-feedback-incorrect="Incorrect. Growth PMs are laser-focused on optimizing specific activation or retention metrics.">Growth PM</button>
+          </div>
+          <p class="pm-feedback" aria-live="polite" data-choice-feedback style="margin-top: 0.5rem; font-weight: 500;"></p>
+        </div>
+
+        <div class="pm-scenario" data-widget="choice" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 4px solid var(--pm-blue, #1d4ed8); background: #f8fafc;">
+          <h4 style="margin-top: 0; font-size: 1.05rem;">Scenario 2: "A PM who does not own the core feature suite, but instead runs continuous split testing and experiments to optimize user activation funnels."</h4>
+          <div class="pm-actions" aria-label="Decision options for Scenario 2" style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.75rem;">
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="false" data-feedback-incorrect="Incorrect. Data PMs build data-science interfaces and personalization models, rather than self-serve conversion loops.">Data PM</button>
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="false" data-feedback-incorrect="Incorrect. Design PMs redesign layouts and workflows for empathy, rather than focus purely on conversion metrics.">Design PM</button>
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="true" data-feedback-correct="Correct! Growth PMs focus on optimizing funnel metrics and running micro-experiments on landing and checkout funnels.">Growth PM</button>
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="false" data-feedback-incorrect="Incorrect. AI PMs focus on specialized machine learning model classification and regression loops.">AI PM</button>
+          </div>
+          <p class="pm-feedback" aria-live="polite" data-choice-feedback style="margin-top: 0.5rem; font-weight: 500;"></p>
+        </div>
+
+        <!-- Practice Widget 2: Tabs -->
+        <h3 id="tabs-practice-title">Explore PM Operational Modes</h3>
+        <p>Explore the three modes that dictate a PM's daily context-switching load:</p>
+        <div class="pm-tabs-widget" data-widget="tabs">
+          <div role="tablist" aria-label="Operational Modes" style="display: flex; gap: 0.25rem; flex-wrap: wrap; margin-bottom: 1rem;">
+            <button class="pm-button" type="button" id="tab-firefighting" role="tab" aria-controls="panel-firefighting" aria-selected="true" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Firefighting</button>
+            <button class="pm-button" type="button" id="tab-short" role="tab" aria-controls="panel-short" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Short-Term</button>
+            <button class="pm-button" type="button" id="tab-long" role="tab" aria-controls="panel-long" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Long-Term</button>
+          </div>
+          
+          <div id="panel-firefighting" role="tabpanel" aria-labelledby="tab-firefighting" style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>Firefighting Mode</h4>
+            <p><strong>Time horizon:</strong> Immediate / Daily.</p>
+            <p><strong>Activities:</strong> Unblocking software builds, resolving production bugs, answering immediate client escalations, and troubleshooting developer blockers.</p>
+          </div>
+          
+          <div id="panel-short" role="tabpanel" aria-labelledby="tab-short" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>Short-Term Mode</h4>
+            <p><strong>Time horizon:</strong> Weekly / Sprints.</p>
+            <p><strong>Activities:</strong> Drafting user stories, grooming backlogs, attending standups, and running weekly sprint planning syncs.</p>
+          </div>
+
+          <div id="panel-long" role="tabpanel" aria-labelledby="tab-long" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>Long-Term Mode</h4>
+            <p><strong>Time horizon:</strong> Quarterly / Annual.</p>
+            <p><strong>Activities:</strong> Defining product vision, updating the strategic roadmap, mapping OKRs, and coordinating business monetization models with executives.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pm-card" id="related-concepts" aria-labelledby="related-concepts-heading">
+        <h2 id="related-concepts-heading">Related concepts</h2>
+        <ul>
+          <li><a href="../../../GLOSSARY.md#product-manager-pm">Product Manager (PM)</a></li>
+          <li><a href="../../../GLOSSARY.md#digital-product">Digital Product</a></li>
+          <li><a href="../../../GLOSSARY.md#product-discovery">Product Discovery</a></li>
+        </ul>
+      </section>
+
+      <nav class="pm-card" aria-label="Lesson navigation">
+        <h2>Continue learning</h2>
+        <p><a href="../13-how-the-pm-role-varies.md">Return to the canonical lecture guide</a></p>
+        <p><a href="../README.md">Section overview</a> · <a href="../../README.md">Part overview</a> · <a href="../../../COURSE-INDEX.md">Course index</a></p>
+        <p><a href="../../../sources/01-introduction/01-introduction/13-how-the-pm-role-varies-transcript.md">Original lecture transcript</a></p>
+      </nav>
+    </main>
+
+    <footer class="pm-footer">
+      <div class="pm-shell">Product Management Study Guide</div>
+    </footer>
+  </body>
+</html>

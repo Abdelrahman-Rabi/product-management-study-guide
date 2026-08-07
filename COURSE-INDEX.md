@@ -15,6 +15,7 @@ that have not been created yet.
 - [Exercise #1 Choose Your Product](./01-introduction/01-introduction/10-choose-your-product.md)
 - [Why do so many product initiatives fail?](./01-introduction/01-introduction/11-why-product-initiatives-fail.md)
 - [How Effective Product Teams Work](./01-introduction/01-introduction/12-how-effective-product-teams-work.md)
+- [How the PM Role Varies](./01-introduction/01-introduction/13-how-the-pm-role-varies.md)
 - [Empowered Product Teams](./01-introduction/01-introduction/15-empowered-product-teams.md)
 
 
