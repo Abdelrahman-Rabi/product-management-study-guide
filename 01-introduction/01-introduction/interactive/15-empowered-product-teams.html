@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive companion for Empowered Product Teams">
+    <title>Empowered Product Teams — Interactive Lesson</title>
+    <link rel="stylesheet" href="../../../assets/interactive/pm-study-guide.css">
+    <script src="../../../assets/interactive/pm-study-guide.js" defer></script>
+  </head>
+  <body>
+    <div class="pm-progress" aria-hidden="true"><span data-progress-bar></span></div>
+    <noscript><div class="pm-shell pm-card pm-warning">Interactive controls require JavaScript. The canonical Markdown lecture remains available through the link at the end of this page.</div></noscript>
+
+    <header class="pm-header pm-shell">
+      <p class="pm-kicker">Product Management Study Guide · Interactive Companion</p>
+      <h1>Empowered Product Teams</h1>
+      <p class="pm-subtitle">Understand team dynamics, triad risks, and outcomes ownership.</p>
+      <div class="pm-meta" aria-label="Lesson information">
+        <span class="pm-chip">Part 1</span>
+        <span class="pm-chip">Section 1</span>
+        <span class="pm-chip">Lecture 15</span>
+      </div>
+    </header>
+
+    <main class="pm-shell pm-grid" id="main-content">
+      <nav class="pm-card" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Lesson contents</h2>
+        <ol>
+          <li><a href="#learning-outcome-section">Your goal</a></li>
+          <li><a href="#lecture-overview">Lecture overview</a></li>
+          <li><a href="#central-argument">Central argument</a></li>
+          <li><a href="#concept-1">1. The Non-Hierarchical Product Triad</a></li>
+          <li><a href="#concept-2">2. Responsibilities within the Triad</a></li>
+          <li><a href="#concept-3">3. Delivery Teams vs. Empowered Product Teams</a></li>
+          <li><a href="#worked-example">Practical Product Management example</a></li>
+          <li><a href="#misunderstandings">Common misunderstandings</a></li>
+          <li><a href="#definitions">Key concepts and definitions</a></li>
+          <li><a href="#takeaways">Key takeaways</a></li>
+          <li><a href="#visual-summary">Visual summary</a></li>
+          <li><a href="#one-minute-review">One-minute review</a></li>
+          <li><a href="#interactive-practice">Interactive practice</a></li>
+          <li><a href="#related-concepts">Related concepts</a></li>
+        </ol>
+      </nav>
+
+      <section class="pm-card pm-outcome" id="learning-outcome-section" aria-labelledby="learning-outcome">
+        <h2 id="learning-outcome">Your goal</h2>
+        <p>Differentiate the organizational structure and measurements of Delivery Teams vs. Empowered Product Teams, and describe the peer-level collaboration model of the product triad.</p>
+      </section>
+
+      <section class="pm-card" id="lecture-overview" aria-labelledby="lecture-overview-heading">
+        <h2 id="lecture-overview-heading">Lecture overview</h2>
+        <p>To successfully build products, a Product Manager must become intimately familiar with three pillars: their team, their customers, and their business. This lecture focuses on the first pillar—the product team. By the end of this lecture, you should be able to:
+          Explain why the PM role is a peer-level, non-hierarchical position rather than a people manager;
+          Define the core roles of the product triad (Product Manager, Product Designer, Tech Lead) and their respective risk responsibilities;
+          Contrast the characteristics of Delivery Teams (backlog administrators) with Empowered Product Teams (problem solvers); and
+          Differentiate output-focused feature roadmaps from outcome-focused problem briefs.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="central-argument" aria-labelledby="central-argument-heading">
+        <h2 id="central-argument-heading">Central argument</h2>
+        <p>A Product Manager is not a true manager in the hierarchical sense; they do not manage people, but rather lead peers through collaborative influence. Product teams lie on a spectrum: the majority operate as Delivery Teams (where a Product Owner acts as a backlog administrator shipping fixed features), while the most successful operate as Empowered Product Teams (where a cross-functional triad is given business problems to solve and is measured by customer and business outcomes).</p>
+      </section>
+
+      <section class="pm-card" id="concept-1" aria-labelledby="concept-1-heading">
+        <h2 id="concept-1-heading">1. The Non-Hierarchical Product Triad</h2>
+        <p>A common misconception is that the Product Manager is the "boss" of the product team. In high-performing organizations, the PM is a peer, not a supervisor:</p>
+        <ul>
+          <li><strong>No Direct Reports</strong>: No one on the product team reports to the PM. Developers report to Engineering Managers, and Designers report to Design Directors.</li>
+          <li><strong>Fearless Collaboration</strong>: This peer-level dynamic is intentional. If team members feared hierarchical repercussions, they would hesitate to share bad news, flag feasibility blocks, or challenge unviable hypotheses.</li>
+          <li><strong>Hands-on & Tactical</strong>: PM is a hands-on, highly tactical role. PMs do not have the operational capacity or time to manage people, write performance reviews, or handle HR tasks.</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="concept-2" aria-labelledby="concept-2-heading">
+        <h2 id="concept-2-heading">2. Responsibilities within the Triad</h2>
+        <p>The core product team is structured as a collaborative triad where responsibilities are clear but tightly integrated:</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="active">
+          <img src="../visuals/15-product-triad.png" alt="Venn diagram showing the intersection of Usability, Feasibility, and Value/Viability.">
+          <figcaption>The Product Triad: Designing products that are usable, feasible, and viable.</figcaption>
+        </figure>
+
+        <div class="pm-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Role</th>
+                <th scope="col">Primary Responsibility</th>
+                <th scope="col">Focus Risks</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Product Manager (PM)</th>
+                <td>Ensures the solution is valuable and viable</td>
+                <td><strong>Value Risk</strong> (Will they use/buy it?) &amp; <strong>Viability Risk</strong> (Does it fit business bounds?)</td>
+              </tr>
+              <tr>
+                <th scope="row">Product Designer (UX)</th>
+                <td>Ensures the solution is usable</td>
+                <td><strong>Usability Risk</strong> (Can users figure out how to navigate it?)</td>
+              </tr>
+              <tr>
+                <th scope="row">Technical Lead (Engineering)</th>
+                <td>Ensures the solution is feasible</td>
+                <td><strong>Feasibility Risk</strong> (Can we build it given time, skills, and code constraints?)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>High-performing teams discover solutions at the intersection of these three domains, running an intense collaborative "tug of war" to balance usability, feasibility, and viability.</p>
+      </section>
+
+      <section class="pm-card" id="concept-3" aria-labelledby="concept-3-heading">
+        <h2 id="concept-3-heading">3. Delivery Teams vs. Empowered Product Teams</h2>
+        <p>Product teams operate on a broad organizational spectrum:</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="active">
+          <img src="../visuals/15-team-spectrum.png" alt="A diagram comparing delivery feature factory traits with empowered team outcome traits.">
+          <figcaption>Delivery vs. Empowered Team Spectrum: Shift focus from feature output to customer outcomes.</figcaption>
+        </figure>
+
+        <h3>Delivery Teams (Feature Factories)</h3>
+        <ul>
+          <li><strong>Backlog Administration</strong>: The Product Owner (PO) acts as a backlog administrator. They receive a prioritized list of features from executives or stakeholders and focus on execution.</li>
+          <li><strong>Output Focus</strong>: The team is measured by <em>what</em> they ship (features, points, velocity) rather than <em>how</em> it impacts the business.</li>
+          <li><strong>Risk Hand-off</strong>: Business viability and user value risks are assumed by the stakeholder who requested the feature. The team assumes no accountability for whether the feature actually succeeds in the market.</li>
+        </ul>
+        <h3>Empowered Product Teams</h3>
+        <ul>
+          <li><strong>Outcome Focus</strong>: The team is measured by <em>outcomes</em> (problems solved, business metrics moved). They are not given a list of features to build, but rather a strategic goal or problem to solve.</li>
+          <li><strong>Cross-functional &amp; Embedded</strong>: Designers, UX researchers, and engineers are fully embedded in the team, collaborating continuously from discovery through delivery.</li>
+          <li><strong>Ownership of the "How"</strong>: The business defines the "what" and "why" (problems and opportunities), but the team is fully empowered to discover and design the "how" (the solution).</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="worked-example" aria-labelledby="worked-example-heading">
+        <h2 id="worked-example-heading">Practical Product Management example</h2>
+        <h3>Situation</h3>
+        <p>An e-commerce company notices a 30% drop-off in user completion at the checkout stage.</p>
+        <h3>Decision</h3>
+        <ul>
+          <li><strong>The Delivery Team Approach</strong>: The executive requests: "Build a PayPal payment integration by Q3." The Product Owner adds "PayPal integration" to the backlog, grooms the tickets, and the developers write the code. They launch on time, but checkout drop-off remains unchanged because the actual problem was confusing form inputs, not payment options.</li>
+          <li><strong>The Empowered Team Approach</strong>: The executive briefs the team: "Reduce cart abandonment during the payment step by 15%." The triad collaborates:
+            <ol>
+              <li>UX Designer reviews screen recordings and flags usability risks in checkout input fields.</li>
+              <li>Tech Lead suggests pre-filling addresses using browser autofill APIs (feasibility check).</li>
+              <li>PM checks that address pre-filling complies with GDPR regulations (viability check).</li>
+            </ol>
+          </li>
+        </ul>
+        <h3>Reasoning</h3>
+        <p>Empowering the team to investigate the root cause instead of prescribing a feature isolates the true bottleneck (usability load rather than payment options) and saves engineering resources.</p>
+        <h3>Consequence</h3>
+        <p>The team launches a revised billing form that reduces form fields by half, successfully decreasing cart abandonment by 18% in three weeks.</p>
+        <h3>Transferable lesson</h3>
+        <p>Empowered teams achieve business outcomes faster because they are given problem statements to solve collaboratively, rather than feature checklists to implement blindly.</p>
+      </section>
+
+      <section class="pm-card pm-warning" id="misunderstandings" aria-labelledby="misunderstandings-heading">
+        <h2 id="misunderstandings-heading">Common misunderstandings</h2>
+        <h3>"The PM is the CEO of the product and has authority over the designer and lead engineer."</h3>
+        <p>The PM has zero authority over the team members. PM leadership is driven by <strong>influence, evidence, and clear communication of business context</strong>. Dictating solutions destroys the collaborative triad.</p>
+        <p><strong>Decision consequence:</strong> Fosters psychological safety so developers and designers flag feasibility or usability errors early.</p>
+
+        <h3>"Empowered teams can build whatever features they want without aligning with corporate goals."</h3>
+        <p>Empowered teams do not operate in a vacuum. They are constrained by business viability (compliance, budgets, legal) and are given specific strategic outcomes by business leaders. They are empowered to solve the business's problems, not play in a sandbox.</p>
+        <p><strong>Decision consequence:</strong> Keeps the team's creative discovery solutions strictly bound to business outcomes.</p>
+      </section>
+
+      <section class="pm-card" id="definitions" aria-labelledby="definitions-heading">
+        <h2 id="definitions-heading">Key concepts and definitions</h2>
+        <dl>
+          <dt>Delivery Team</dt>
+          <dd>A software team that focuses on shipping output (pre-defined features) rather than resolving user problems.</dd>
+          <dt>Empowered Product Team</dt>
+          <dd>A cross-functional team given business problems to solve and measured by outcomes rather than features shipped.</dd>
+          <dt>Product Triad</dt>
+          <dd>The core collaboration group (PM, Designer, Tech Lead) responsible for balancing value, usability, feasibility, and viability.</dd>
+          <dt>Output vs. Outcome</dt>
+          <dd>Output is what you build (a feature); Outcome is the measurable business or customer change resulting from what you build.</dd>
+        </dl>
+      </section>
+
+      <section class="pm-card" id="takeaways" aria-labelledby="takeaways-heading">
+        <h2 id="takeaways-heading">Key takeaways</h2>
+        <ol>
+          <li><strong>PM is a Peer, Not a Boss</strong>: Leadership is driven by influence and evidence, not hierarchy.</li>
+          <li><strong>Triad Owns Risk</strong>: PM (value/viability), UX (usability), and Tech Lead (feasibility) must collaborate continuously.</li>
+          <li><strong>Move to Outcomes</strong>: Empowered teams are measured by metric improvements, not feature lists.</li>
+          <li><strong>Given Problems, Not Features</strong>: Empowered teams are briefed on target opportunities and discover the solution themselves.</li>
+          <li><strong>Backlog Admin is Not Product Management</strong>: Real PMs discover viable business solutions, whereas backlog administrators simply manage execution velocity.</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
+        <h2 id="visual-summary-heading">Visual summary</h2>
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="active">
+          <img src="../visuals/15-visual-summary.png" alt="Flowcharts showing side-by-side organizational flows of delivery and empowered models.">
+          <figcaption>Organizational Flow Comparison: Side-by-side comparison of delivery team routing vs. empowered team outcome discovery loops.</figcaption>
+        </figure>
+        <p>The visual summary flowcharts trace requirements from executives down to release. In the delivery model, prescribed features flow through fixed roadmaps to a backlog admin. In the empowered model, strategic problems route to a triad who run discovery experiments to feed a validated backlog, resulting in real outcome achievement.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="one-minute-review" aria-labelledby="one-minute-review-heading">
+        <h2 id="one-minute-review-heading">One-minute review</h2>
+        <p>High-performing product organizations succeed by shifting from delivery teams to empowered product teams. Instead of treating the PM as a hierarchical manager or backlog administrator shipping prescribed features, they form a collaborative peer triad (PM, Designer, Tech Lead) that tackles risks upfront. These teams are not handed a feature roadmap; they are given target business problems and goals. By running continuous discovery experiments, they design solutions that sit at the intersection of usability, feasibility, value, and viability, ensuring the company invests in outcomes rather than empty outputs.</p>
+      </section>
+
+      <!-- Interactive widgets section -->
+      <section class="pm-card" id="interactive-practice" aria-labelledby="interactive-practice-heading">
+        <h2 id="interactive-practice-heading">Interactive practice</h2>
+        
+        <!-- Practice Widget 1: Choice with Feedback -->
+        <h3 id="choice-practice-title">Classify Team Behaviors</h3>
+        <p>Review the team operational scenarios below and map them to their corresponding team structure (**Delivery Team** or **Empowered Team**).</p>
+        
+        <div class="pm-scenario" data-widget="choice" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 4px solid var(--pm-blue, #1d4ed8); background: #f8fafc;">
+          <h4 style="margin-top: 0; font-size: 1.05rem;">Scenario 1: "The executive gives the team a roadmap document stating: 'Build PayPal integration by Q3'. The team is measured by whether it ships on time."</h4>
+          <div class="pm-actions" aria-label="Decision options for Scenario 1" style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.75rem;">
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="true" data-feedback-correct="Correct! This team behaves like a Delivery Team, receiving prescribed features and focusing solely on shipping output on time.">Delivery Team</button>
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="false" data-feedback-incorrect="Incorrect. Empowered teams are given problem statements (outcomes) rather than fixed feature checklists.">Empowered Team</button>
+          </div>
+          <p class="pm-feedback" aria-live="polite" data-choice-feedback style="margin-top: 0.5rem; font-weight: 500;"></p>
+        </div>
+
+        <div class="pm-scenario" data-widget="choice" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 4px solid var(--pm-blue, #1d4ed8); background: #f8fafc;">
+          <h4 style="margin-top: 0; font-size: 1.05rem;">Scenario 2: "The executive briefs the team on drop-off statistics, stating: 'Reduce payment abandonment by 15%'. The team is given the authority to discover how to achieve this goal."</h4>
+          <div class="pm-actions" aria-label="Decision options for Scenario 2" style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.75rem;">
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="false" data-feedback-incorrect="Incorrect. Delivery teams receive prescribed features rather than metric-based problem statements.">Delivery Team</button>
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="true" data-feedback-correct="Correct! Empowered teams are given high-level problem goals and are responsible for discovering the solution.">Empowered Team</button>
+          </div>
+          <p class="pm-feedback" aria-live="polite" data-choice-feedback style="margin-top: 0.5rem; font-weight: 500;"></p>
+        </div>
+
+        <!-- Practice Widget 2: Tabs -->
+        <h3 id="tabs-practice-title">Explore Triad Accountabilities</h3>
+        <p>Explore the three roles that make up the collaborative product triad:</p>
+        <div class="pm-tabs-widget" data-widget="tabs">
+          <div role="tablist" aria-label="Triad Roles" style="display: flex; gap: 0.25rem; flex-wrap: wrap; margin-bottom: 1rem;">
+            <button class="pm-button" type="button" id="tab-pm" role="tab" aria-controls="panel-pm" aria-selected="true" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Product Manager</button>
+            <button class="pm-button" type="button" id="tab-ux" role="tab" aria-controls="panel-ux" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Product Designer</button>
+            <button class="pm-button" type="button" id="tab-eng" role="tab" aria-controls="panel-eng" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Technical Lead</button>
+          </div>
+          
+          <div id="panel-pm" role="tabpanel" aria-labelledby="tab-pm" style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>Product Manager (PM)</h4>
+            <p><strong>Primary focus:</strong> Value and Business Viability risks.</p>
+            <p><strong>Responsibility:</strong> Ensuring that the solution solves a real problem so users choose to buy or use it (Value), and ensuring it fits business constraints such as sales, legal, finance, and marketing compliance (Viability).</p>
+          </div>
+          
+          <div id="panel-ux" role="tabpanel" aria-labelledby="tab-ux" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>Product Designer (UX)</h4>
+            <p><strong>Primary focus:</strong> Usability risk.</p>
+            <p><strong>Responsibility:</strong> Creating a delightful user experience and ensuring users can easily figure out how to operate and navigate the interface without cognitive overload.</p>
+          </div>
+
+          <div id="panel-eng" role="tabpanel" aria-labelledby="tab-eng" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>Technical Lead (Engineering)</h4>
+            <p><strong>Primary focus:</strong> Feasibility risk.</p>
+            <p><strong>Responsibility:</strong> Ensuring that the solution can be built and operated reliably within the constraints of skills, technology stack, budget, and development timelines.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pm-card" id="related-concepts" aria-labelledby="related-concepts-heading">
+        <h2 id="related-concepts-heading">Related concepts</h2>
+        <ul>
+          <li><a href="../../../GLOSSARY.md#product-manager-pm">Product Manager (PM)</a></li>
+          <li><a href="../../../GLOSSARY.md#product-discovery">Product Discovery</a></li>
+          <li><a href="../../../GLOSSARY.md#value-risk">Value Risk</a></li>
+        </ul>
+      </section>
+
+      <nav class="pm-card" aria-label="Lesson navigation">
+        <h2>Continue learning</h2>
+        <p><a href="../15-empowered-product-teams.md">Return to the canonical lecture guide</a></p>
+        <p><a href="../README.md">Section overview</a> · <a href="../../README.md">Part overview</a> · <a href="../../../COURSE-INDEX.md">Course index</a></p>
+        <p><a href="../../../sources/01-introduction/01-introduction/15-empowered-product-teams-transcript.md">Original lecture transcript</a></p>
+      </nav>
+    </main>
+
+    <footer class="pm-footer">
+      <div class="pm-shell">Product Management Study Guide</div>
+    </footer>
+  </body>
+</html>

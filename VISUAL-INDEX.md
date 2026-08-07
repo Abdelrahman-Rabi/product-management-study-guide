@@ -224,6 +224,33 @@ Section 1: Introduction
 
 ![Career Mapping Flowchart routing background tracks to PM profiles and corporate archetypes.](./01-introduction/01-introduction/visuals/13-visual-summary.png)
 
+#### The Product Triad Venn Diagram
+
+**Source lecture:**  
+[Empowered Product Teams](./01-introduction/01-introduction/15-empowered-product-teams.md)
+
+**Purpose:** 3-circle Venn diagram depicting Usability (Designer), Feasibility (Tech Lead), and Value/Viability (PM).
+
+![Venn diagram showing the intersection of Usability, Feasibility, and Value/Viability.](./01-introduction/01-introduction/visuals/15-product-triad.png)
+
+#### Delivery vs. Empowered Team Spectrum
+
+**Source lecture:**  
+[Empowered Product Teams](./01-introduction/01-introduction/15-empowered-product-teams.md)
+
+**Purpose:** Visual comparison spectrum contrasting feature delivery constraints with empowered team ownership.
+
+![A diagram comparing delivery feature factory traits with empowered team outcome traits.](./01-introduction/01-introduction/visuals/15-team-spectrum.png)
+
+#### Organizational Flow Comparison (Visual Summary)
+
+**Source lecture:**  
+[Empowered Product Teams](./01-introduction/01-introduction/15-empowered-product-teams.md)
+
+**Purpose:** Flowcharts tracing how requirements translate into final releases in both Delivery and Empowered models.
+
+![Flowcharts showing side-by-side organizational flows of delivery and empowered models.](./01-introduction/01-introduction/visuals/15-visual-summary.png)
+
 <!-- Example entry: #### The Traditional Product Process **Source lecture:** [Why Product Management Is Broken](./01-introduction/01-introduction/11-why-product-management-is-broken.md) **Purpose:** Shows the sequential product-development process and why validation often happens only after release. ![Traditional product-development process where validation happens at the end](./01-introduction/01-introduction/visuals/11-traditional-product-process.png) -->
 Part 2: Strategy
 

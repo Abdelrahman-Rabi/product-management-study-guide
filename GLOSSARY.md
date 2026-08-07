@@ -70,6 +70,20 @@ Data PMs work closely with data scientists and analysts to structure data pipeli
 **Related lectures:**
 - [How the PM Role Varies](./01-introduction/01-introduction/13-how-the-pm-role-varies.md)
 
+### Delivery Team
+
+A software development team that focuses on shipping output (pre-defined features on a roadmap) rather than validating user problems or business outcomes.
+
+In a delivery team, the Product Owner typically acts as a backlog administrator, while stakeholders assume the responsibility for business viability and user value.
+
+**Related concepts:**
+- Empowered Product Team
+- Product Owner (PO)
+- Output vs. Outcome
+
+**Related lectures:**
+- [Empowered Product Teams](./01-introduction/01-introduction/15-empowered-product-teams.md)
+
 ### Design Product Manager
 
 A Product Manager with a UX or design background who excels at customer research, user empathy, and frontend usability.
@@ -110,6 +124,24 @@ Rather than separating validation and development into sequential steps or diffe
 
 **Related lectures:**
 - [How Effective Product Teams Work](./01-introduction/01-introduction/12-how-effective-product-teams-work.md)
+
+---
+
+## E
+
+### Empowered Product Team
+
+A cross-functional, collaborative product team given business problems to solve and measured by outcomes rather than features shipped.
+
+Empowered teams are fully embedded with design and engineering peers who tackle value, usability, feasibility, and viability risks upfront during discovery.
+
+**Related concepts:**
+- Delivery Team
+- Product Triad
+- Product Discovery
+
+**Related lectures:**
+- [Empowered Product Teams](./01-introduction/01-introduction/15-empowered-product-teams.md)
 
 ---
 
@@ -294,14 +326,31 @@ The stages a product moves through from idea, introduction, and growth, to matur
 
 The role responsible for driving a product from inception to delivery by owning the "what" and "why" decisions.
 
-**Related concepts:**
+In an empowered product team, the PM leads peers (Designer and Technical Lead) through collaborative influence rather than hierarchical management, and is directly responsible for ensuring value and business viability.
 
-- Product lifecycle
-- Product-Market Fit (PMF)
+**Related concepts:**
+- Product Owner (PO)
+- Product Triad
+- Value Risk
+- Viability Risk
 
 **Related lectures:**
-
 - [What Does a PM Do?](./01-introduction/01-introduction/03-what-does-a-pm-do.md)
+- [Empowered Product Teams](./01-introduction/01-introduction/15-empowered-product-teams.md)
+
+### Product Owner (PO)
+
+A role defined in the Agile/Scrum framework responsible for managing the product backlog.
+
+In many feature-focused delivery teams, the Product Owner role is constrained to backlog administration, prioritizing tickets from stakeholders rather than discovering customer solutions.
+
+**Related concepts:**
+- Product Manager (PM)
+- Delivery Team
+- Backlog
+
+**Related lectures:**
+- [Empowered Product Teams](./01-introduction/01-introduction/15-empowered-product-teams.md)
 
 ### Product-Market Fit (PMF)
 
