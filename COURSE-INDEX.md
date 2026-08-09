@@ -17,6 +17,8 @@ that have not been created yet.
 - [How Effective Product Teams Work](./01-introduction/01-introduction/12-how-effective-product-teams-work.md)
 - [How the PM Role Varies](./01-introduction/01-introduction/13-how-the-pm-role-varies.md)
 - [Empowered Product Teams](./01-introduction/01-introduction/15-empowered-product-teams.md)
+- [The Modern Product Designer](./01-introduction/01-introduction/16-the-modern-product-designer.md)
+
 
 
 Lectures will be added here in their original course order as they are

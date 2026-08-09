@@ -251,6 +251,33 @@ Section 1: Introduction
 
 ![Flowcharts showing side-by-side organizational flows of delivery and empowered models.](./01-introduction/01-introduction/visuals/15-visual-summary.png)
 
+#### Old vs. New Collaboration Structure
+
+**Source lecture:**  
+[The Modern Product Designer](./01-introduction/01-introduction/16-the-modern-product-designer.md)
+
+**Purpose:** Diagram contrasting the traditional sequential requirements hand-off model with the modern embedded triad continuous collaboration model.
+
+![Designer Collaboration](./01-introduction/01-introduction/visuals/16-designer-collaboration.png)
+
+#### The Holistic UX Iceberg
+
+**Source lecture:**  
+[The Modern Product Designer](./01-introduction/01-introduction/16-the-modern-product-designer.md)
+
+**Purpose:** Iceberg graphic showing that the User Interface (UI) is the visible tip, while the submerged base spans interaction design, onboarding, and offline services.
+
+![The Holistic UX Iceberg](./01-introduction/01-introduction/visuals/16-holistic-ux-iceberg.png)
+
+#### Modern Design Iteration Flow (Visual Summary)
+
+**Source lecture:**  
+[The Modern Product Designer](./01-introduction/01-introduction/16-the-modern-product-designer.md)
+
+**Purpose:** Flowchart tracking design iteration cycles from customer problem to low-fidelity sketching, usability/feasibility validation, and high-fidelity mockups.
+
+![Design Iteration Flow](./01-introduction/01-introduction/visuals/16-visual-summary.png)
+
 <!-- Example entry: #### The Traditional Product Process **Source lecture:** [Why Product Management Is Broken](./01-introduction/01-introduction/11-why-product-management-is-broken.md) **Purpose:** Shows the sequential product-development process and why validation often happens only after release. ![Traditional product-development process where validation happens at the end](./01-introduction/01-introduction/visuals/11-traditional-product-process.png) -->
 Part 2: Strategy
 
