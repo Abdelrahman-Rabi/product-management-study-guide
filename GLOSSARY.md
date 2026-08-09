@@ -182,6 +182,24 @@ Growth PMs operate heavily within Product-Led Growth (PLG) strategies to optimiz
 
 ---
 
+## I
+
+### Interaction Design
+
+The design of how a user interacts with various aspects of a product, focusing on predictability, learnability, consistency, and usability.
+
+Interaction design concerns the user interface's behaviors, screen transitions, response loops, and navigation patterns.
+
+**Related concepts:**
+- Visual Design
+- Usability Risk
+- Product Designer
+
+**Related lectures:**
+- [The Modern Product Designer](./01-introduction/01-introduction/16-the-modern-product-designer.md)
+
+---
+
 ## O
 
 ### Outcome
@@ -308,6 +326,21 @@ Delivery focuses on turning a selected solution into reliable working software.
 
 **Related lectures:**
 - [How Effective Product Teams Work](./01-introduction/01-introduction/12-how-effective-product-teams-work.md)
+
+### Product Designer
+
+A role responsible for discovering and building the user experience (UX) of a product.
+
+In modern product teams, the Product Designer sits embedded as a peer in the product triad, collaborating from discovery through delivery, and is measured by product success (outcomes) rather than the output of design assets.
+
+**Related concepts:**
+- Product Triad
+- Interaction Design
+- Visual Design
+- Usability Risk
+
+**Related lectures:**
+- [The Modern Product Designer](./01-introduction/01-introduction/16-the-modern-product-designer.md)
 
 ### Product Lifecycle
 
@@ -464,16 +497,19 @@ Technical PMs bring high credibility to developers but must avoid micromanaging 
 
 The likelihood that users will struggle to understand how to operate or navigate the product.
 
-Usability risk is managed by involving a UX expert/designer during early discovery experiments to run prototype testing.
+In modern product teams, usability risk is the primary concern and responsibility of the Product Designer, who manages it by conducting discovery experiments, user interviews, and prototyping.
 
 **Related concepts:**
 - Value Risk
 - Feasibility Risk
 - Viability Risk
 - Product Discovery
+- Product Designer
+- Interaction Design
 
 **Related lectures:**
 - [How Effective Product Teams Work](./01-introduction/01-introduction/12-how-effective-product-teams-work.md)
+- [The Modern Product Designer](./01-introduction/01-introduction/16-the-modern-product-designer.md)
 
 ---
 
@@ -524,6 +560,20 @@ Viability risks check if the business can support the solution from a legal, mar
 
 **Related lectures:**
 - [How Effective Product Teams Work](./01-introduction/01-introduction/12-how-effective-product-teams-work.md)
+
+### Visual Design
+
+The design of a product's aesthetics and visual ergonomics, focusing on layout, typography, visual hierarchy, contrast, whitespace, and color.
+
+Visual design creates spatial balance and emphasizes important interface options, working in tandem with interaction design to reduce user cognitive load.
+
+**Related concepts:**
+- Interaction Design
+- Product Designer
+- Usability Risk
+
+**Related lectures:**
+- [The Modern Product Designer](./01-introduction/01-introduction/16-the-modern-product-designer.md)
 
 ---
 
