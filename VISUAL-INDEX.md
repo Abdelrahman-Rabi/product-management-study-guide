@@ -278,6 +278,33 @@ Section 1: Introduction
 
 ![Design Iteration Flow](./01-introduction/01-introduction/visuals/16-visual-summary.png)
 
+#### The What/Why vs. How Collaboration Boundary
+
+**Source lecture:**  
+[The Modern Product Developer](./01-introduction/01-introduction/17-the-modern-product-developer.md)
+
+**Purpose:** Diagram visualizing the split of product ownership (What/Why for PM, How for Devs) and the Tech Lead discovery bridge.
+
+![The What/Why vs. How Boundary](./01-introduction/01-introduction/visuals/17-collaboration-boundary.png)
+
+#### Developer Mindset Alignment (Missionary vs. Mercenary)
+
+**Source lecture:**  
+[The Modern Product Developer](./01-introduction/01-introduction/17-the-modern-product-developer.md)
+
+**Purpose:** Side-by-side card layouts contrasting command-and-control task routing with customer context transparency.
+
+![Missionary vs. Mercenary Developers](./01-introduction/01-introduction/visuals/17-missionary-vs-mercenary.png)
+
+#### Daily Tech Lead Interaction Loops (Visual Summary)
+
+**Source lecture:**  
+[The Modern Product Developer](./01-introduction/01-introduction/17-the-modern-product-developer.md)
+
+**Purpose:** Loop diagrams mapping the concurrent daily discovery input flow and the delivery sprint clarification flow.
+
+![Daily Interaction Loops](./01-introduction/01-introduction/visuals/17-visual-summary.png)
+
 <!-- Example entry: #### The Traditional Product Process **Source lecture:** [Why Product Management Is Broken](./01-introduction/01-introduction/11-why-product-management-is-broken.md) **Purpose:** Shows the sequential product-development process and why validation often happens only after release. ![Traditional product-development process where validation happens at the end](./01-introduction/01-introduction/visuals/11-traditional-product-process.png) -->
 Part 2: Strategy
 

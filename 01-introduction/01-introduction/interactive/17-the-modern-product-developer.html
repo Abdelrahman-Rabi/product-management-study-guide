@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive companion for The Modern Product Developer">
+    <title>The Modern Product Developer — Interactive Lesson</title>
+    <link rel="stylesheet" href="../../../assets/interactive/pm-study-guide.css">
+    <script src="../../../assets/interactive/pm-study-guide.js" defer></script>
+  </head>
+  <body>
+    <div class="pm-progress" aria-hidden="true"><span data-progress-bar></span></div>
+    <noscript><div class="pm-shell pm-card pm-warning">Interactive controls require JavaScript. The canonical Markdown lecture remains available through the link at the end of this page.</div></noscript>
+
+    <header class="pm-header pm-shell">
+      <p class="pm-kicker">Product Management Study Guide · Interactive Companion</p>
+      <h1>The Modern Product Developer</h1>
+      <p class="pm-subtitle">Differentiate engineering roles, map boundaries, and foster missionary mindsets.</p>
+      <div class="pm-meta" aria-label="Lesson information">
+        <span class="pm-chip">Part 1</span>
+        <span class="pm-chip">Section 1</span>
+        <span class="pm-chip">Lecture 17</span>
+      </div>
+    </header>
+
+    <main class="pm-shell pm-grid" id="main-content">
+      <nav class="pm-card" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Lesson contents</h2>
+        <ol>
+          <li><a href="#learning-outcome-section">Your goal</a></li>
+          <li><a href="#lecture-overview">Lecture overview</a></li>
+          <li><a href="#central-argument">Central argument</a></li>
+          <li><a href="#concept-1">1. The Six Core Engineering Roles</a></li>
+          <li><a href="#concept-2">2. Missionary vs. Mercenary Developers</a></li>
+          <li><a href="#concept-3">3. PM-Developer Collaboration Best Practices</a></li>
+          <li><a href="#concept-4">4. The Tech Lead Partnership</a></li>
+          <li><a href="#worked-example">Practical Product Management example</a></li>
+          <li><a href="#misunderstandings">Common misunderstandings</a></li>
+          <li><a href="#definitions">Key concepts and definitions</a></li>
+          <li><a href="#takeaways">Key takeaways</a></li>
+          <li><a href="#visual-summary">Visual summary</a></li>
+          <li><a href="#one-minute-review">One-minute review</a></li>
+          <li><a href="#interactive-practice">Interactive practice</a></li>
+          <li><a href="#related-concepts">Related concepts</a></li>
+        </ol>
+      </nav>
+
+      <section class="pm-card pm-outcome" id="learning-outcome-section" aria-labelledby="learning-outcome">
+        <h2 id="learning-outcome">Your goal</h2>
+        <p>Explain the responsibilities of the six developer roles, contrast missionary vs. mercenary developers, and apply best practices for PM-Developer collaboration and Tech Lead alignment.</p>
+      </section>
+
+      <section class="pm-card" id="lecture-overview" aria-labelledby="lecture-overview-heading">
+        <h2 id="lecture-overview-heading">Lecture overview</h2>
+        <p>A Product Manager's relationship with the engineering team is the single most critical operational partnership for product success. By the end of this lecture, you should be able to:
+          Contrast the focus areas and tooling of the six core developer roles (Front-end, Back-end, Full-stack, QA, DevOps, Security);
+          Differentiate between "missionary" and "mercenary" developer mindsets and explain how to foster the former;
+          Apply collaboration best practices, respecting the boundary between "what/why" and "how"; and
+          Structure daily interaction loops with the Technical Lead.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="central-argument" aria-labelledby="central-argument-heading">
+        <h2 id="central-argument-heading">Central argument</h2>
+        <p>Successful products require a partnership of mutual respect between the PM and developers. Fostering this alignment requires the PM to share customer pain transparently—moving developers from mercenaries to missionaries—and to respect the boundary of owning the "what" and "why" while leaving the "how" to the engineers. Direct, daily alignment with the Tech Lead bridges discovery feasibility and delivery execution.</p>
+      </section>
+
+      <section class="pm-card" id="concept-1" aria-labelledby="concept-1-heading">
+        <h2 id="concept-1-heading">1. The Six Core Engineering Roles</h2>
+        <p>While all developers work towards providing a seamless user experience, they specialize in different architectural layers:</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="active">
+          <img src="../visuals/17-collaboration-boundary.png" alt="Card diagram showing PM owning What and Why, Developers owning How, and the Tech Lead bridging the gap.">
+          <figcaption>The What/Why vs. How Boundary: Clear scope boundaries prevent micromanagement.</figcaption>
+        </figure>
+
+        <div class="pm-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Role</th>
+                <th scope="col">Focus Area</th>
+                <th scope="col">Common Tooling/Languages</th>
+                <th scope="col">PM Interface</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Front-end Engineer</th>
+                <td>Layer closest to the user; builds the visual interface, layouts, and cross-device aesthetics.</td>
+                <td>HTML, CSS, JavaScript, React, Angular.</td>
+                <td>Works closely with the UX Designer to translate wireframes into code.</td>
+              </tr>
+              <tr>
+                <th scope="row">Back-end Engineer</th>
+                <td>Core application logic, database integration, server scalability, and performance.</td>
+                <td>Python, Java, Node.js, databases, APIs.</td>
+                <td>Consults on data structures, API limitations, and backend integrations.</td>
+              </tr>
+              <tr>
+                <th scope="row">Full-stack Engineer</th>
+                <td>Capable of handling both front-end and back-end tasks.</td>
+                <td>HTML/JS + Python/Java/Node.js.</td>
+                <td>High versatility; commonly found in resource-constrained startups.</td>
+              </tr>
+              <tr>
+                <th scope="row">QA (Quality) Engineer</th>
+                <td>Writing software to validate the quality, security, and behavior of the application.</td>
+                <td>Selenium, automated tests, Postman.</td>
+                <td>Defines test coverage, reviews regression issues, and verifies bug fixes.</td>
+              </tr>
+              <tr>
+                <th scope="row">DevOps Engineer</th>
+                <td>Bridges development and operations; builds deployment pipelines and maintains system uptime.</td>
+                <td>Jenkins, Docker, CI/CD pipelines.</td>
+                <td>Coordinates release velocities, deployment stability, and build hooks.</td>
+              </tr>
+              <tr>
+                <th scope="row">Security Engineer</th>
+                <td>Penetration testing, threat modeling, and resolving system vulnerabilities.</td>
+                <td>Argus, NMAP, ethical hacking tools.</td>
+                <td>Evaluates security compliance, GDPR, and data protection bounds.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="pm-card" id="concept-2" aria-labelledby="concept-2-heading">
+        <h2 id="concept-2-heading">2. Missionary vs. Mercenary Developers</h2>
+        <p>Modern product management rejects the traditional approach of keeping developers isolated in a "build-only sandbox."</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="active">
+          <img src="../visuals/17-missionary-vs-mercenary.png" alt="A side-by-side card comparison between output-measured mercenaries and problem-solving missionaries.">
+          <figcaption>Missionary vs. Mercenary Developers: Shift focus from velocity tickets to solving user problems.</figcaption>
+        </figure>
+
+        <h3>Mercenary Developers</h3>
+        <ul>
+          <li><strong>Mindset</strong>: "Just tell me what to build." They behave as hired guns.</li>
+          <li><strong>Collaboration</strong>: Isolated from customer contact; receive detailed feature specifications and focus on velocity or story-point output.</li>
+          <li><strong>Outcome</strong>: Lack empathy for the customer; build exact specifications even if the solution fails to solve the user's actual problem.</li>
+        </ul>
+        <h3>Missionary Developers</h3>
+        <ul>
+          <li><strong>Mindset</strong>: "Let's solve this customer problem together." They behave as partners.</li>
+          <li><strong>Collaboration</strong>: Fully exposed to customer context and pain; understand <em>why</em> they are building a feature and participate in discovery.</li>
+          <li><strong>Outcome</strong>: Highly motivated to find creative technical solutions; assume shared ownership for business and customer success.</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="concept-3" aria-labelledby="concept-3-heading">
+        <h2 id="concept-3-heading">3. PM-Developer Collaboration Best Practices</h2>
+        <p>Building credibility with smart, naturally skeptical engineers requires adhering to four operational guidelines:</p>
+        <ol>
+          <li><strong>Don't Fake It</strong>: If you do not understand a technical concept (e.g., APIs, containerization), admit it. Engineers respect honesty and will explain it; they do not respect bluffing.</li>
+          <li><strong>Appreciate Engineering Complexity</strong>: Do not underestimate the difficulty of refactoring, scaling, or technical debt. PMs are encouraged to learn basic programming concepts to facilitate technical empathy.</li>
+          <li><strong>Maintain Absolute Transparency</strong>: Share customer feedback, user analytics, and business goals. Let developers engage directly with customers or view raw session recordings.</li>
+          <li><strong>Respect the What/Why vs. How Boundary</strong>: The PM owns the <strong>What</strong> (business constraints, target metrics) and the <strong>Why</strong> (user pain, strategic alignment). The engineers own the <strong>How</strong> (database schemas, software architecture, technical implementation). Specifying details of the "how" destroys developer ownership.</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="concept-4" aria-labelledby="concept-4-heading">
+        <h2 id="concept-4-heading">4. The Tech Lead Partnership</h2>
+        <p>The Tech Lead (or Lead Engineer) is a senior developer with broad architecture knowledge who leads the engineering team and shares explicit discovery accountability:</p>
+        <h3>Tech Lead Discovery Role</h3>
+        <p>The Tech Lead is a key partner in the product triad (with the PM and Designer), responsible for evaluating <strong>Feasibility Risk</strong> early in discovery before coding starts.</p>
+        <h3>Daily Interaction Loops</h3>
+        <p>A successful PM interacts with the engineering team daily in two separate paths:</p>
+        <ol>
+          <li><strong>Discovery Loop (Soliciting Ideas)</strong>: PM gathers engineering feedback, evaluates feasibility, and brainstorms technical opportunities for upcoming ideas.</li>
+          <li><strong>Delivery Loop (Clarifying Tickets)</strong>: PM answers developer questions, resolves requirements blocks, and refines edge cases for current development tasks.</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="worked-example" aria-labelledby="worked-example-heading">
+        <h2 id="worked-example-heading">Practical Product Management example</h2>
+        <h3>Situation</h3>
+        <p>A SaaS system dispatch search button has a 3-second delay, causing warehouse managers to double-click and generate duplicate entries.</p>
+        <h3>Decision</h3>
+        <ul>
+          <li><strong>The Mercenary / Command Approach</strong>: The PM writes a detailed ticket: "Add a database index to table `dispatch_records` and disable double-clicking." The engineers write the code, but search remains slow because the bottleneck was actually a redundant API search loop executing on every keystroke rather than a database index.</li>
+          <li><strong>The Missionary / Collaborative Approach</strong>: The PM shares a video recording of the warehouse manager's screen with the Tech Lead, explaining the business impact: dispatch delays are causing late shipments. The Tech Lead investigates the API traffic (how) and notices the redundant request loop.</li>
+        </ul>
+        <h3>Reasoning</h3>
+        <p>By sharing the user pain and business impact ("what" and "why") rather than prescribing a technical layout, the PM allows the Tech Lead to identify the true root cause.</p>
+        <h3>Consequence</h3>
+        <p>The Tech Lead implements debouncing and local client caching. Dispatches become instantaneous, and errors drop to zero in half a day.</p>
+        <h3>Transferable lesson</h3>
+        <p>PMs must communicate customer pain and business metrics rather than specifying code implementations, giving developers room to design the correct technical solution.</p>
+      </section>
+
+      <section class="pm-card pm-warning" id="misunderstandings" aria-labelledby="misunderstandings-heading">
+        <h2 id="misunderstandings-heading">Common misunderstandings</h2>
+        <h3>"The PM should write technical user stories detailing database schemas."</h3>
+        <p>The PM should focus on user needs and business rules. The Tech Lead and developers design the database schema. PMs who write technical tickets micromanage the "how" and strip engineers of ownership.</p>
+        <p><strong>Decision consequence:</strong> Fosters engineering motivation as developers own technical execution and architecture optimization.</p>
+
+        <h3>"Developers should be shielded from customers to protect build time."</h3>
+        <p>Shielding developers turns them into mercenaries. Sharing customer context and letting them see real user pain increases empathy, leading to better technical architecture and innovative solutions.</p>
+        <p><strong>Decision consequence:</strong> Fosters missionary developers who proactively flag edge cases that would break customer value.</p>
+      </section>
+
+      <section class="pm-card" id="definitions" aria-labelledby="definitions-heading">
+        <h2 id="definitions-heading">Key concepts and definitions</h2>
+        <dl>
+          <dt>Missionary Developer</dt>
+          <dd>An engineer who understands customer context and collaborates to solve user problems, rather than just coding feature checklists.</dd>
+          <dt>Mercenary Developer</dt>
+          <dd>An engineer focused solely on building features from specifications without understanding the customer context.</dd>
+          <dt>Technical Lead</dt>
+          <dd>A senior engineer responsible for leading the dev team and partnering with the PM and Designer to resolve feasibility risks.</dd>
+          <dt>What/Why vs. How</dt>
+          <dd>The boundary separating product definitions (What/Why owned by PM) from technical architecture (How owned by Engineering).</dd>
+        </dl>
+      </section>
+
+      <section class="pm-card" id="takeaways" aria-labelledby="takeaways-heading">
+        <h2 id="takeaways-heading">Key takeaways</h2>
+        <ol>
+          <li><strong>Don't Bluff</strong>: Admit technical gaps honestly; engineers value transparency.</li>
+          <li><strong>Build Missionaries</strong>: Share customer pain and analytics directly with developers.</li>
+          <li><strong>Own the What/Why</strong>: Let developers own the "how" (architecture, database schemas, code layout).</li>
+          <li><strong>Partner with the Tech Lead</strong>: Align on technical feasibility early during discovery.</li>
+          <li><strong>Engage Daily</strong>: Run daily discovery loops for future ideas and delivery loops for active sprints.</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
+        <h2 id="visual-summary-heading">Visual summary</h2>
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="active">
+          <img src="../visuals/17-visual-summary.png" alt="Loop diagrams mapping the daily discovery feed and delivery ticket clarification flows.">
+          <figcaption>Daily Interaction Loops: Side-by-side loops showing the discovery alignment loop (feasibility inputs) and delivery clarification loop (ticket edge cases).</figcaption>
+        </figure>
+        <p>The visual summary flowcharts trace requirements through daily design validation. The loops detail the discovery loop (soliciting tech ideas and feasibility gates) running in parallel with the delivery loop (answering engineering questions on code tickets).</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="one-minute-review" aria-labelledby="one-minute-review-heading">
+        <h2 id="one-minute-review-heading">One-minute review</h2>
+        <p>Product success hinges on a relationship of trust and collaboration with developers. Rather than treating engineers as mercenaries who build feature lists, PMs should share customer pain transparently to build missionary developers. PMs must respect the operational boundary of owning the "what" and "why" while leaving the technical "how" to the engineers. Engaging daily with the Tech Lead ensures that feasibility risks are addressed early in discovery, leading to scalable, outcome-driven solutions that solve real user problems.</p>
+      </section>
+
+      <!-- Interactive widgets section -->
+      <section class="pm-card" id="interactive-practice" aria-labelledby="interactive-practice-heading">
+        <h2 id="interactive-practice-heading">Interactive practice</h2>
+        
+        <!-- Practice Widget 1: Choice with Feedback -->
+        <h3 id="choice-practice-title">Classify Collaboration Behaviors</h3>
+        <p>Review the operational scenarios below and map them to their corresponding developer mindset alignment (**Mercenary Builder** or **Missionary Partner**).</p>
+        
+        <div class="pm-scenario" data-widget="choice" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 4px solid var(--pm-blue, #1d4ed8); background: #f8fafc;">
+          <h4 style="margin-top: 0; font-size: 1.05rem;">Scenario 1: "The PM gives developers a database column specification, stating: 'Create a new table column for search logs with these exact attributes. Don't worry about why we need it.'"</h4>
+          <div class="pm-actions" aria-label="Decision options for Scenario 1" style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.75rem;">
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="true" data-feedback-correct="Correct! This behavior breeds a Mercenary mindset by isolating developers and prescribing the 'how' without context.">Mercenary Builder</button>
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="false" data-feedback-incorrect="Incorrect. Missionary developers are given customer context and are involved in designing the 'how' collaboratively.">Missionary Partner</button>
+          </div>
+          <p class="pm-feedback" aria-live="polite" data-choice-feedback style="margin-top: 0.5rem; font-weight: 500;"></p>
+        </div>
+
+        <div class="pm-scenario" data-widget="choice" style="margin-bottom: 1.5rem; padding: 1rem; border-left: 4px solid var(--pm-blue, #1d4ed8); background: #f8fafc;">
+          <h4 style="margin-top: 0; font-size: 1.05rem;">Scenario 2: "The PM shares a video recording of driver search delays with the team, stating: 'This is causing 10% delivery delays. Let's collaborate to resolve it.'"</h4>
+          <div class="pm-actions" aria-label="Decision options for Scenario 2" style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.75rem;">
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="false" data-feedback-incorrect="Incorrect. Mercenaries are kept isolated from user metrics and direct visual feedback of customer pain.">Mercenary Builder</button>
+            <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="true" data-feedback-correct="Correct! This behavior builds a Missionary mindset by exposing developers to real user pain and inviting collaborative problem-solving.">Missionary Partner</button>
+          </div>
+          <p class="pm-feedback" aria-live="polite" data-choice-feedback style="margin-top: 0.5rem; font-weight: 500;"></p>
+        </div>
+
+        <!-- Practice Widget 2: Tabs -->
+        <h3 id="tabs-practice-title">Explore Engineering Roles</h3>
+        <p>Explore the details and focus areas of the six core developer roles that make up the software team:</p>
+        <div class="pm-tabs-widget" data-widget="tabs">
+          <div role="tablist" aria-label="Engineering Roles" style="display: flex; gap: 0.25rem; flex-wrap: wrap; margin-bottom: 1rem;">
+            <button class="pm-button" type="button" id="tab-frontend" role="tab" aria-controls="panel-frontend" aria-selected="true" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Front-end</button>
+            <button class="pm-button" type="button" id="tab-backend" role="tab" aria-controls="panel-backend" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Back-end</button>
+            <button class="pm-button" type="button" id="tab-fullstack" role="tab" aria-controls="panel-fullstack" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Full-stack</button>
+            <button class="pm-button" type="button" id="tab-qa" role="tab" aria-controls="panel-qa" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">QA</button>
+            <button class="pm-button" type="button" id="tab-devops" role="tab" aria-controls="panel-devops" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">DevOps</button>
+            <button class="pm-button" type="button" id="tab-security" role="tab" aria-controls="panel-security" aria-selected="false" tabindex="-1" style="padding: 0.5rem 0.75rem; font-size: 0.9rem;">Security</button>
+          </div>
+          
+          <div id="panel-frontend" role="tabpanel" aria-labelledby="tab-frontend" style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>Front-end Engineer</h4>
+            <p><strong>Primary focus:</strong> User interface, device compatibility, layouts, aesthetics, and user transitions.</p>
+            <p><strong>Common stack:</strong> HTML, CSS, JavaScript, React, Angular, Bootstrap.</p>
+          </div>
+          
+          <div id="panel-backend" role="tabpanel" aria-labelledby="tab-backend" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>Back-end Engineer</h4>
+            <p><strong>Primary focus:</strong> Core business logic, server side data transformations, database indexing, APIs, and performance scalability.</p>
+            <p><strong>Common stack:</strong> Python, Java, Node.js, PHP, APIs, databases.</p>
+          </div>
+
+          <div id="panel-fullstack" role="tabpanel" aria-labelledby="tab-fullstack" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>Full-stack Engineer</h4>
+            <p><strong>Primary focus:</strong> Handles both client-side and server-side engineering work. Highly versatile and key for startups.</p>
+            <p><strong>Common stack:</strong> UI languages + server languages.</p>
+          </div>
+
+          <div id="panel-qa" role="tabpanel" aria-labelledby="tab-qa" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>QA Engineer</h4>
+            <p><strong>Primary focus:</strong> Building automated testing software to validate quality, reliability, and regression safeties.</p>
+            <p><strong>Common stack:</strong> Selenium, Postman, test harnesses.</p>
+          </div>
+
+          <div id="panel-devops" role="tabpanel" aria-labelledby="tab-devops" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>DevOps Engineer</h4>
+            <p><strong>Primary focus:</strong> CI/CD deployment pipelines, server uptime, cloud infrastructure, and deployment velocity.</p>
+            <p><strong>Common stack:</strong> Jenkins, Docker, Kubernetes.</p>
+          </div>
+
+          <div id="panel-security" role="tabpanel" aria-labelledby="tab-security" hidden style="padding: 1rem; border: 1px solid var(--pm-gray-border, #e2e8f0); border-radius: 0.375rem; background: #fff;">
+            <h4>Security Engineer</h4>
+            <p><strong>Primary focus:</strong> Ethical hacking, penetration testing, threat modeling, and code security compliance.</p>
+            <p><strong>Common stack:</strong> Argus, NMAP, scanning tools.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pm-card" id="related-concepts" aria-labelledby="related-concepts-heading">
+        <h2 id="related-concepts-heading">Related concepts</h2>
+        <ul>
+          <li><a href="../../../GLOSSARY.md#product-manager-pm">Product Manager (PM)</a></li>
+          <li><a href="../../../GLOSSARY.md#technical-lead-tech-lead">Technical Lead (Tech Lead)</a></li>
+          <li><a href="../../../GLOSSARY.md#feasibility-risk">Feasibility Risk</a></li>
+        </ul>
+      </section>
+
+      <nav class="pm-card" aria-label="Lesson navigation">
+        <h2>Continue learning</h2>
+        <p><a href="../17-the-modern-product-developer.md">Return to the canonical lecture guide</a></p>
+        <p><a href="../README.md">Section overview</a> · <a href="../../README.md">Part overview</a> · <a href="../../../COURSE-INDEX.md">Course index</a></p>
+        <p><a href="../../../sources/01-introduction/01-introduction/17-the-modern-product-developer-transcript.md">Original lecture transcript</a></p>
+      </nav>
+    </main>
+
+    <footer class="pm-footer">
+      <div class="pm-shell">Product Management Study Guide</div>
+    </footer>
+  </body>
+</html>

@@ -151,16 +151,18 @@ Empowered teams are fully embedded with design and engineering peers who tackle 
 
 The likelihood that a proposed solution cannot be built within the constraints of skills, technology, and time.
 
-Feasibility risk is typically managed by having the technical lead/engineer collaborate early during the product discovery phase to identify code constraints.
+In modern product teams, feasibility risk is the primary concern and responsibility of the Technical Lead, who manages it by participating in early discovery experiments, reviewing architecture constraints, and building technical prototypes.
 
 **Related concepts:**
 - Value Risk
 - Usability Risk
 - Viability Risk
 - Product Discovery
+- Technical Lead (Tech Lead)
 
 **Related lectures:**
 - [How Effective Product Teams Work](./01-introduction/01-introduction/12-how-effective-product-teams-work.md)
+- [The Modern Product Developer](./01-introduction/01-introduction/17-the-modern-product-developer.md)
 
 ---
 
@@ -197,6 +199,39 @@ Interaction design concerns the user interface's behaviors, screen transitions, 
 
 **Related lectures:**
 - [The Modern Product Designer](./01-introduction/01-introduction/16-the-modern-product-designer.md)
+
+---
+
+## M
+
+### Mercenary Developer
+
+An engineer who builds features solely from given specifications, focused on output velocity and story points, without understanding the customer context or user pain.
+
+Mercenary developers operate in a build-only sandbox, receiving requirements from the PM without contributing to problem discovery or technical co-creation.
+
+**Related concepts:**
+- Missionary Developer
+- Output
+- Backlog
+
+**Related lectures:**
+- [The Modern Product Developer](./01-introduction/01-introduction/17-the-modern-product-developer.md)
+
+### Missionary Developer
+
+An engineer who understands customer context, experiences user pain directly (e.g., via video recordings or user feedback), and collaborates with the product triad to co-design solutions.
+
+Missionary developers own product outcomes rather than just output velocity, using their technical expertise to solve user problems.
+
+**Related concepts:**
+- Mercenary Developer
+- Outcome
+- Product Discovery
+- Technical Lead (Tech Lead)
+
+**Related lectures:**
+- [The Modern Product Developer](./01-introduction/01-introduction/17-the-modern-product-developer.md)
 
 ---
 
@@ -474,6 +509,21 @@ Tech products are characterized by digital delivery models, rapid iteration cycl
 
 **Related lectures:**
 - [Exercise #1 Choose Your Product](./01-introduction/01-introduction/10-choose-your-product.md)
+
+### Technical Lead (Tech Lead)
+
+A senior developer responsible for leading the engineering team, designing the technical architecture, and partnering in the product triad to mitigate feasibility risks.
+
+In modern product teams, the Tech Lead works daily with the PM and Designer to co-create solutions during discovery, rather than receiving specifications only at sprint kickoff.
+
+**Related concepts:**
+- Product Triad
+- Feasibility Risk
+- Missionary Developer
+
+**Related lectures:**
+- [Empowered Product Teams](./01-introduction/01-introduction/15-empowered-product-teams.md)
+- [The Modern Product Developer](./01-introduction/01-introduction/17-the-modern-product-developer.md)
 
 ### Technical Product Manager
 
