@@ -18,6 +18,8 @@ that have not been created yet.
 - [How the PM Role Varies](./01-introduction/01-introduction/13-how-the-pm-role-varies.md)
 - [Empowered Product Teams](./01-introduction/01-introduction/15-empowered-product-teams.md)
 - [The Modern Product Designer](./01-introduction/01-introduction/16-the-modern-product-designer.md)
+- [The Modern Product Developer](./01-introduction/01-introduction/17-the-modern-product-developer.md)
+
 
 
 
