@@ -305,8 +305,44 @@ Section 1: Introduction
 
 ![Daily Interaction Loops](./01-introduction/01-introduction/visuals/17-visual-summary.png)
 
+#### The Product Journey: Vision vs. PMF
+
+**Source lecture:**  
+[Product-Market Fit vs. Product Vision](./01-introduction/01-introduction/18-product-market-fit-vs-product-vision.md)
+
+**Purpose:** Contrasts a 2-5 year destination guess (Product Vision) with short-term early adopter validation (PMF).
+
+![Comparison between product vision and product-market fit](./01-introduction/01-introduction/visuals/18-vision-vs-pmf.png)
+
+#### Technology Adoption Curve for Product Managers
+
+**Source lecture:**  
+[Product-Market Fit vs. Product Vision](./01-introduction/01-introduction/18-product-market-fit-vs-product-vision.md)
+
+**Purpose:** Displays the Technology Adoption Curve segments and highlights the target focus for early validation.
+
+![The Technology Adoption Curve divided into customer segments](./01-introduction/01-introduction/visuals/18-technology-adoption-curve.png)
+
+#### Case Study: The Original iPhone Evolution
+
+**Source lecture:**  
+[Product-Market Fit vs. Product Vision](./01-introduction/01-introduction/18-product-market-fit-vs-product-vision.md)
+
+**Purpose:** Timeline showing how the original limited iPhone found early PMF and iterated to fulfill the mainstream vision.
+
+![Timeline of the iPhone evolution from launch to maturity](./01-introduction/01-introduction/visuals/18-iphone-evolution-case-study.png)
+
+#### PMF vs. Product Vision Visual Summary
+
+**Source lecture:**  
+[Product-Market Fit vs. Product Vision](./01-introduction/01-introduction/18-product-market-fit-vs-product-vision.md)
+
+**Purpose:** Process flowchart mapping the transition from early adopter PMF validation to mainstream majority scaling.
+
+![Product-Market Fit vs. Product Vision Visual Summary](./01-introduction/01-introduction/visuals/18-visual-summary.png)
+
 <!-- Example entry: #### The Traditional Product Process **Source lecture:** [Why Product Management Is Broken](./01-introduction/01-introduction/11-why-product-management-is-broken.md) **Purpose:** Shows the sequential product-development process and why validation often happens only after release. ![Traditional product-development process where validation happens at the end](./01-introduction/01-introduction/visuals/11-traditional-product-process.png) -->
-Part 2: Strategy
+## Part 2: Strategy
 
 Visuals will be added when this part begins.
 

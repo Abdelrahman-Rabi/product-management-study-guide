@@ -129,6 +129,21 @@ Rather than separating validation and development into sequential steps or diffe
 
 ## E
 
+### Early Evangelist
+
+An early adopter or innovator on the technology adoption curve who feels a product management pain point deeply enough to tolerate early product bugs and limitations in exchange for core value. Early evangelists are willing to collaborate with the product triad to test hypotheses and discover a viable solution.
+
+**Related concepts:**
+- Innovators
+- Early Adopter
+- Product-Market Fit (PMF)
+- Technology Adoption Curve
+
+**Related lectures:**
+- [Product-Market Fit vs. Product Vision](./01-introduction/01-introduction/18-product-market-fit-vs-product-vision.md)
+
+---
+
 ### Empowered Product Team
 
 A cross-functional, collaborative product team given business problems to solve and measured by outcomes rather than features shipped.
@@ -236,6 +251,20 @@ Missionary developers own product outcomes rather than just output velocity, usi
 ---
 
 ## O
+
+### Opportunity-Market Fit
+
+The process of validating a major new initiative, feature set, or product direction on an existing product, verifying that the proposed addition aligns with customer needs and market opportunities.
+
+**Related concepts:**
+- Product-Market Fit (PMF)
+- Validation
+- Product discovery
+
+**Related lectures:**
+- [Product-Market Fit vs. Product Vision](./01-introduction/01-introduction/18-product-market-fit-vs-product-vision.md)
+
+---
 
 ### Outcome
 
@@ -433,6 +462,7 @@ The sweet spot where a product successfully solves a critical problem for a cust
 **Related lectures:**
 
 - [What Does a PM Do?](./01-introduction/01-introduction/03-what-does-a-pm-do.md)
+- [Product-Market Fit vs. Product Vision](./01-introduction/01-introduction/18-product-market-fit-vs-product-vision.md)
 
 ### Product Roadmap
 
@@ -467,6 +497,19 @@ Defining a clear scope isolates specific development work streams and prevents p
 
 **Related lectures:**
 - [Exercise #1 Choose Your Product](./01-introduction/01-introduction/10-choose-your-product.md)
+
+### Product Vision
+
+The long-term aspirational destination of the product, typically looking 2–5 years out for software/service companies and 5–10 years out for hardware/device companies. It defines the core services you plan to provide and the target customers you intend to serve, acting as an alignment and motivational tool for the team.
+
+**Related concepts:**
+- Product-Market Fit (PMF)
+- Technology Adoption Curve
+- Early Adopter
+- Product strategy
+
+**Related lectures:**
+- [Product-Market Fit vs. Product Vision](./01-introduction/01-introduction/18-product-market-fit-vs-product-vision.md)
 
 ---
 
@@ -538,6 +581,18 @@ Technical PMs bring high credibility to developers but must avoid micromanaging 
 
 **Related lectures:**
 - [How the PM Role Varies](./01-introduction/01-introduction/13-how-the-pm-role-varies.md)
+
+### Technology Adoption Curve
+
+A sociological model that describes how different customer segments (Innovators, Early Adopters, Early Majority, Late Majority, Laggards) adopt new technological innovations. Product Managers use this model to scope their target customers during validation, focusing first on early evangelists before scaling.
+
+**Related concepts:**
+- Early Adopter
+- Product-Market Fit (PMF)
+- Product Vision
+
+**Related lectures:**
+- [Product-Market Fit vs. Product Vision](./01-introduction/01-introduction/18-product-market-fit-vs-product-vision.md)
 
 ---
 
