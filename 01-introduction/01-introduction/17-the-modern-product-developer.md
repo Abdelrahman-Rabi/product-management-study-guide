@@ -25,7 +25,7 @@ related_concepts:
 ·
 [Part Overview](../README.md)
 ·
-[Next Lecture →](unavailable)
+[Next Lecture →](./18-product-market-fit-vs-product-vision.md)
 
 # The Modern Product Developer
 
@@ -242,5 +242,5 @@ Product success hinges on a relationship of trust and collaboration with develop
 - Previous: [The Modern Product Designer](./16-the-modern-product-designer.md)
 - Section: [Section 1: Introduction](./README.md)
 - Part: [Part 1: Introduction](../README.md)
-- Next: (Unavailable)
+- Next: [Product-Market Fit vs. Product Vision](./18-product-market-fit-vs-product-vision.md)
 - Course index: [Full Course Index](../../COURSE-INDEX.md)

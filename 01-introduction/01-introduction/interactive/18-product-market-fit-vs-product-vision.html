@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive companion for Product-Market Fit vs. Product Vision">
+    <title>Product-Market Fit vs. Product Vision — Interactive Lesson</title>
+    <link rel="stylesheet" href="../../../assets/interactive/pm-study-guide.css">
+    <script src="../../../assets/interactive/pm-study-guide.js" defer></script>
+  </head>
+  <body>
+    <div class="pm-progress" aria-hidden="true"><span data-progress-bar></span></div>
+    <noscript><div class="pm-shell pm-card pm-warning">Interactive controls require JavaScript. The canonical Markdown lecture remains available through the link at the end of this page.</div></noscript>
+
+    <header class="pm-header pm-shell">
+      <p class="pm-kicker">Product Management Study Guide · Interactive Companion</p>
+      <h1>Product-Market Fit vs. Product Vision</h1>
+      <p class="pm-subtitle">Understand the relationship between long-term product vision and immediate product-market fit, and practice target audience segmenting.</p>
+      <div class="pm-meta" aria-label="Lesson information">
+        <span class="pm-chip">Part 1</span>
+        <span class="pm-chip">Section 1</span>
+        <span class="pm-chip">Lecture 18</span>
+      </div>
+    </header>
+
+    <main class="pm-shell pm-grid" id="main-content">
+      <nav class="pm-card" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Lesson contents</h2>
+        <ol>
+          <li><a href="#lecture-overview">Lecture overview</a></li>
+          <li><a href="#central-argument">Central argument</a></li>
+          <li><a href="#concept-1">1. The Role of a Product Vision</a></li>
+          <li><a href="#concept-2">2. The Product Vision as a Validated Guess</a></li>
+          <li><a href="#concept-3">3. The Technology Adoption Curve and Early Evangelists</a></li>
+          <li><a href="#concept-4">4. Bridging the Gap: From Early Fit to Long-Term Vision</a></li>
+          <li><a href="#comparison">Comparison: Vision vs. PMF</a></li>
+          <li><a href="#worked-example">Practical PM Example</a></li>
+          <li><a href="#misunderstandings">Common misunderstandings</a></li>
+          <li><a href="#definitions">Key concepts and definitions</a></li>
+          <li><a href="#takeaways">Key takeaways</a></li>
+          <li><a href="#visual-summary">Visual summary</a></li>
+          <li><a href="#one-minute-review">One-minute review</a></li>
+          <li><a href="#interactive-practice">Interactive practice</a></li>
+        </ol>
+      </nav>
+
+      <section class="pm-card pm-outcome" aria-labelledby="learning-outcome">
+        <h2 id="learning-outcome">Your goal</h2>
+        <p>Distinguish between a product vision and product-market fit, and explain how a product team uses early evangelists to validate value hypotheses before expanding to the mainstream market.</p>
+      </section>
+
+      <section class="pm-card" id="lecture-overview" aria-labelledby="lecture-overview-heading">
+        <h2 id="lecture-overview-heading">Lecture overview</h2>
+        <p>Before starting any product development journey, you must establish a clear destination. This lecture examines the relationship between where your product wants to go (the product vision) and the validation steps required to get there (product-market fit).</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="central-argument" aria-labelledby="central-argument-heading">
+        <h2 id="central-argument-heading">Central argument</h2>
+        <p>A product vision is a long-term destination, but for new products or major initiatives, it is initially an unvalidated guess composed of beliefs. To avoid the trap of trying to please everyone and pleasing no one, product managers must validate these beliefs by first securing product-market fit with a narrow set of highly motivated early evangelists. This initial validation takes weeks or months, whereas developing the product to meet broader mainstream needs and realize the full product vision takes years.</p>
+      </section>
+
+      <section class="pm-card" id="concept-1" aria-labelledby="concept-1-heading">
+        <h2 id="concept-1-heading">1. The Role of a Product Vision</h2>
+        <p>A <strong>product vision</strong> describes the future that a product team is trying to create. It defines the type of services you plan to provide and the types of customers you intend to serve. The vision serves as the product’s final destination. Having this destination in mind is critical: if you don't know where you are going, you have little chance of getting there.</p>
+        
+        <h3>Timeframes for Vision Planning</h3>
+        <p>The strategic horizon of a product vision depends on the nature of the industry and its development cycles:</p>
+        <ul>
+          <li><strong>Software and Service-Centric Companies:</strong> Typically plan over a <strong>two-to-five-year</strong> timeframe.</li>
+          <li><strong>Hardware or Device-Centric Companies:</strong> Typically plan over a <strong>five-to-ten-year</strong> timeframe due to longer manufacturing lead times, supply chains, and physical engineering cycles.</li>
+        </ul>
+
+        <h3>The Vision as an Organizational Tool</h3>
+        <p>A compelling and clear product vision is one of a Product Manager’s most effective leadership tools. Strong technology professionals are drawn to inspiring visions because they want to work on something meaningful. It serves to motivate and unite the team, providing a clear answer to why their daily work matters.</p>
+      </section>
+
+      <section class="pm-card" id="concept-2" aria-labelledby="concept-2-heading">
+        <h2 id="concept-2-heading">2. The Product Vision as a Validated Guess</h2>
+        <p>While a product vision must be inspiring, product managers working on a new product must acknowledge that their vision is initially a <strong>guess</strong>. A product vision is built on a set of unvalidated beliefs: what customers will find valuable, and what business model can eventually sustain the company. To build a successful product, the team must get these beliefs out on the table and systematically validate them.</p>
+        
+        <h3>Validation Stages</h3>
+        <ul>
+          <li><strong>Product-Market Fit (PMF):</strong> Used when validating a <em>new</em> product idea. It verifies whether the core value hypothesis matches the needs of a target customer segment.</li>
+          <li><strong>Opportunity-Market Fit:</strong> Used when planning a <em>major new initiative</em> or feature set for an <em>existing</em> product.</li>
+        </ul>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/18-vision-vs-pmf.png" alt="Comparison between product vision and product-market fit" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>18-vision-vs-pmf.png</code>
+              <span>Compares a 2-5 year destination guess with short-term early adopter validation.</span>
+            </div>
+          </div>
+          <figcaption>Figure 1: The Product Journey: Product Vision vs. Product-Market Fit</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-3" aria-labelledby="concept-3-heading">
+        <h2 id="concept-3-heading">3. The Technology Adoption Curve and Early Evangelists</h2>
+        <p>A common mistake made by teams seeking product-market fit is failing to focus on a specific customer. A foundational lesson in Product Management is: <strong>trying to please everyone at once will almost certainly please no one.</strong> To avoid this trap, teams must understand the Technology Adoption Curve, which describes how different groups approach new innovations.</p>
+        
+        <h3>The Curve Segments</h3>
+        <ol>
+          <li><strong>Innovators:</strong> The very first group willing to try a new product. They have a high tolerance for risk and are willing to take chances either because they feel the pain point acutely or because they enjoy trying new, unproven technologies that might fail.</li>
+          <li><strong>Early Adopters:</strong> The second wave of users who adopt innovations early. Together with innovators, these users form the target group of <strong>early evangelists</strong>.</li>
+          <li><strong>Early Majority:</strong> The start of the mainstream market, requiring more polished, comprehensive solutions.</li>
+          <li><strong>Late Majority:</strong> Mainstream users who adopt the technology only after it has become highly established.</li>
+          <li><strong>Laggards:</strong> The final group to adopt, typically resistant to change.</li>
+        </ol>
+
+        <h3>The Role of Early Evangelists</h3>
+        <p>When validating a value hypothesis, the PM's goal is to find a set of potential customers who believe in the vision and are willing to collaborate to discover a solution. These early evangelists are highly motivated and pain-aware. Product teams must establish a clear boundary for what they expect from these customers:</p>
+        <ul>
+          <li><strong>What to expect:</strong> A willingness to try an incomplete, limited product, tolerate early bugs, and help test whether the core solution solves their problem.</li>
+          <li><strong>What NOT to expect:</strong> Teams should <em>never</em> expect customers to design or give them the solution. The product team remains responsible for defining the solution based on customer testing.</li>
+        </ul>
+        <p>During this stage, the team must remain highly open to learning. If early testing shows that the core value hypotheses are not reflected in customer behavior, the team must <strong>pivot</strong>—either targeting different customers, developing different solutions, or addressing entirely different problems.</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/18-technology-adoption-curve.png" alt="The Technology Adoption Curve divided into customer segments" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>18-technology-adoption-curve.png</code>
+              <span>Shows the Technology Adoption Curve segments and target early validation focus.</span>
+            </div>
+          </div>
+          <figcaption>Figure 2: Technology Adoption Curve for Product Managers</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-4" aria-labelledby="concept-4-heading">
+        <h2 id="concept-4-heading">4. Bridging the Gap: From Early Fit to Long-Term Vision</h2>
+        <p>Achieving product-market fit with early adopters is not the end of the product journey; it is the beginning. There is a major difference between serving early evangelists and serving the mainstream majority. Early Evangelists are small in number, highly motivated, and willing to accept a product with significant feature gaps if it addresses their core pain. The Mainstream Majority represents a much broader market with lower risk tolerance and expects a complete, polished product.</p>
+        <p>To move from early adopters to the mainstream majority, product teams must continuously develop the product by expanding customer scope to include user profiles with lower risk tolerance, and running product discovery activities to identify and design solutions that meet their broader requirements.</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/18-iphone-evolution-case-study.png" alt="Timeline of the iPhone evolution from launch to maturity" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>18-iphone-evolution-case-study.png</code>
+              <span>Timeline showing original limited iPhone finding early PMF and iterating to mainstream success.</span>
+            </div>
+          </div>
+          <figcaption>Figure 3: Case Study: The Original iPhone Evolution</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="comparison" aria-labelledby="comparison-heading">
+        <h2 id="comparison-heading">Comparison: Vision vs. PMF</h2>
+        <div class="pm-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Dimension</th>
+                <th scope="col">Product Vision</th>
+                <th scope="col">Product-Market Fit (PMF)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Definition</th>
+                <td>The long-term aspirational destination of the product.</td>
+                <td>The alignment of a validated solution with an active target customer group.</td>
+              </tr>
+              <tr>
+                <th scope="row">Timeframe</th>
+                <td>2–5 years (software) / 5–10 years (hardware).</td>
+                <td>Weeks to months (initial validation).</td>
+              </tr>
+              <tr>
+                <th scope="row">Nature</th>
+                <td>A <strong>guess</strong> composed of strategic beliefs.</td>
+                <td>A <strong>proven alignment</strong> backed by customer behavior.</td>
+              </tr>
+              <tr>
+                <th scope="row">Audience Focus</th>
+                <td>The broad mainstream market.</td>
+                <td>A narrow group of early evangelists (innovators/early adopters).</td>
+              </tr>
+              <tr>
+                <th scope="row">Primary Goal</th>
+                <td>Inspire, recruit, motivate, and direct the team.</td>
+                <td>Validate value hypotheses and ensure willingness to buy.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="pm-card" id="worked-example" aria-labelledby="worked-example-heading">
+        <h2 id="worked-example-heading">Practical Product Management example</h2>
+        <h3>Situation</h3>
+        <p>A PM at a startup is designing an AI-powered candidate assessment platform designed to automate resume screening and interview grading. The ultimate product vision is to serve massive enterprise corporations (5,000+ employees), which requires advanced role-based access control, complex enterprise integrations (ATS/HRIS), and SOC 2 security compliance. Building these features immediately would require two years of development without validation.</p>
+        <h3>Decision</h3>
+        <p>The PM decides to narrow the initial target market to early-stage technology startups (10–50 employees) that are hiring rapidly. The PM launches a simple web app containing only the core AI screening tool. It lacks custom roles, ATS integrations, and SOC 2 certification.</p>
+        <h3>Reasoning</h3>
+        <p>The PM identifies rapidly hiring startups as early evangelists. They feel the pain of resume overload acutely and have a high tolerance for security and integration gaps in exchange for a tool that immediately saves them hours of manual review. They are willing to work with the team to test the AI's accuracy, whereas enterprise buyers would immediately reject it.</p>
+        <h3>Consequence</h3>
+        <p>Within two months, the team signs 15 startup customers who actively use the tool, validating the core AI value hypothesis and securing early product-market fit. With this validated base, they spend the next two years adding compliance and integrations to successfully move upstream and fulfill their long-term vision.</p>
+        <h3>Transferable lesson</h3>
+        <p>Secure product-market fit by validating your core value hypothesis with highly motivated, risk-tolerant early adopters before investing heavy resources into the scaling requirements of the mainstream market.</p>
+      </section>
+
+      <section class="pm-card pm-warning" id="misunderstandings" aria-labelledby="misunderstandings-heading">
+        <h2 id="misunderstandings-heading">Common misunderstandings</h2>
+        <h3>"The product vision is an execution roadmap"</h3>
+        <p>The product vision is not a detailed project plan. It is a strategic destination based on beliefs. Treating the vision as a fixed roadmap leads to building features without validating if customers actually want them.</p>
+        <p><strong>Decision consequence:</strong> Instead of executing the vision blindly, the PM prioritizes validating underlying assumptions through discovery.</p>
+        
+        <h3>"Product-market fit means satisfying the entire target market at launch"</h3>
+        <p>Trying to satisfy the entire market from day one causes teams to build too many features, diluting focus and depleting resources. You must find fit with early adopters first. They will tolerate gaps (like the original iPhone missing copy/paste) as long as you solve their primary pain.</p>
+        <p><strong>Decision consequence:</strong> The PM scopes the initial launch tightly around the core value hook, ignoring mainstream request noise.</p>
+
+        <h3>"Early adopters will provide the product solution"</h3>
+        <p>Early adopters are valuable for identifying pain and testing your product, but they cannot design the solution for you. As the PM, you must extract their underlying problems and design a solution that is technically feasible and business-viable.</p>
+        <p><strong>Decision consequence:</strong> The PM uses customer sessions to observe behavior and validate hypotheses rather than copying feature feature requests verbatim.</p>
+      </section>
+
+      <section class="pm-card" id="definitions" aria-labelledby="definitions-heading">
+        <h2 id="definitions-heading">Key concepts and definitions</h2>
+        <dl>
+          <dt>Product Vision</dt>
+          <dd>The long-term destination (2-5 years for software, 5-10 years for hardware) defining the services to provide and customers to serve.</dd>
+          <dt>Product-Market Fit (PMF)</dt>
+          <dd>The alignment of a validated solution with a specific customer group who find enough value in it to buy or adopt it.</dd>
+          <dt>Opportunity-Market Fit</dt>
+          <dd>The validation of a major new initiative or feature set within an existing product.</dd>
+          <dt>Early Evangelist</dt>
+          <dd>An early adopter or innovator who feels a pain point deeply enough to tolerate initial product limitations and collaborate on discovering a solution.</dd>
+          <dt>Technology Adoption Curve</dt>
+          <dd>A sociological model describing how different user groups (Innovators, Early Adopters, Early Majority, Late Majority, Laggards) adopt new innovations over time.</dd>
+        </dl>
+      </section>
+
+      <section class="pm-card" id="interactive-practice" aria-labelledby="simulator-heading">
+        <h1 id="simulator-heading" style="border-bottom: 2px solid var(--pm-blue, #2196f3); padding-bottom: 0.5rem; margin-top: 0;">PM Strategy Simulator: Scoping for PMF</h1>
+        
+        <!-- Phase 1: Customer Target -->
+        <div id="sim-phase-1">
+          <h3>Simulation Phase 1: Target Audience Selection</h3>
+          <p>You are the PM at a startup building an AI-powered candidate screening platform. Your ultimate vision is to serve Fortune 500 enterprise companies. Which group should you target for your first release?</p>
+          
+          <div data-widget="choice">
+            <div class="pm-actions" aria-label="Target selection options">
+              <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="true" 
+                data-feedback-correct="Correct! Fast-growing tech startups feel the resume sorting pain intensely and are willing to use a basic tool to solve it. Proceed to Phase 2 below."
+                data-feedback-incorrect="Incorrect. Targeting Fortune 500 enterprises immediately requires complex integrations (ATS) and strict security compliance (SOC 2), which would take months or years to build without value validation."
+              >Option A: Rapidly hiring tech startups (10-50 employees)</button>
+              <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="false"
+                data-feedback-correct="Correct! Fast-growing tech startups feel the resume sorting pain intensely and are willing to use a basic tool to solve it. Proceed to Phase 2 below."
+                data-feedback-incorrect="Incorrect. Targeting Fortune 500 enterprises immediately requires complex integrations (ATS) and strict security compliance (SOC 2), which would take months or years to build without value validation."
+              >Option B: Fortune 500 Enterprise Corporations (5,000+ employees)</button>
+            </div>
+            <p class="pm-feedback" aria-live="polite" data-choice-feedback></p>
+          </div>
+
+          <div style="margin-top: 1.5rem;">
+            <button class="pm-button" type="button" aria-expanded="false" aria-controls="sim-phase-2" data-reveal-target="sim-phase-2" data-show-label="Proceed to Phase 2: Feature Scoping" data-hide-label="Hide Phase 2: Feature Scoping">Proceed to Phase 2: Feature Scoping</button>
+          </div>
+        </div>
+
+        <!-- Phase 2: Feature Scoping -->
+        <div class="pm-reveal" id="sim-phase-2" hidden style="margin-top: 2rem; border-top: 1px solid var(--pm-border, #d1d1d1); padding-top: 1.5rem;">
+          <h3>Simulation Phase 2: Initial Feature Scoping</h3>
+          <p>Now that you've selected tech startups as your early adopters, they tell you they need resume screening but also request single sign-on (SSO) and ATS integrations to fit their current workflow. What do you build for the initial MVP?</p>
+          
+          <div data-widget="choice">
+            <div class="pm-actions" aria-label="Feature scoping options">
+              <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="false"
+                data-feedback-correct="Correct! Building only the core AI screening tool (manual PDF uploads) lets you validate the value hypothesis immediately with minimum waste. Startup early adopters will tolerate manual uploads if the AI screening accuracy is high. Proceed to Phase 3 below."
+                data-feedback-incorrect="Incorrect. Building integrations and SSO before validating the accuracy and value of the AI screening logic increases delivery risk. Early adopters are willing to upload PDFs manually if the AI provides high value."
+              >Option A: Build the core AI screening tool PLUS custom ATS integrations and SSO.</button>
+              <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="true"
+                data-feedback-correct="Correct! Building only the core AI screening tool (manual PDF uploads) lets you validate the value hypothesis immediately with minimum waste. Startup early adopters will tolerate manual uploads if the AI screening accuracy is high. Proceed to Phase 3 below."
+                data-feedback-incorrect="Incorrect. Building integrations and SSO before validating the accuracy and value of the AI screening logic increases delivery risk. Early adopters are willing to upload PDFs manually if the AI provides high value."
+              >Option B: Build the core AI screening tool only, requiring manual resume PDF uploads.</button>
+            </div>
+            <p class="pm-feedback" aria-live="polite" data-choice-feedback></p>
+          </div>
+
+          <div style="margin-top: 1.5rem;">
+            <button class="pm-button" type="button" aria-expanded="false" aria-controls="sim-phase-3" data-reveal-target="sim-phase-3" data-show-label="Proceed to Phase 3: The Outcome" data-hide-label="Hide Phase 3: The Outcome">Proceed to Phase 3: The Outcome</button>
+          </div>
+        </div>
+
+        <!-- Phase 3: The Outcome -->
+        <div class="pm-reveal" id="sim-phase-3" hidden style="margin-top: 2rem; border-top: 1px solid var(--pm-border, #d1d1d1); padding-top: 1.5rem;">
+          <h3>Simulation Phase 3: Realizing the Vision</h3>
+          <p>By launching the core AI screening tool to tech startups, you validated the value hypothesis in 2 months. You signed 15 early startup customers, received direct feedback to refine the AI model, and generated early revenue. Now, you can use these validated results to secure resources, build integrations and security compliance, and begin signing enterprise clients—realizing your product vision step-by-step.</p>
+          <div style="margin-top: 1rem; padding: 1rem; background-color: #e0f2f1; border: 1px solid #b2dfdb; border-radius: 8px;">
+            <strong>Simulation Complete!</strong><br>
+            <em>Transferable Lesson:</em> Start with early evangelists (high pain, high risk tolerance) to validate core value in weeks or months, then expand capabilities iteratively over years to fulfill your product vision.
+          </div>
+        </div>
+      </section>
+
+      <section class="pm-card" aria-labelledby="classification-heading" data-widget="choice">
+        <h2 id="classification-heading">Identify the Customer Profile</h2>
+        <p>A prospect gives you the following feedback during discovery:</p>
+        <blockquote class="pm-quote" style="margin: 1rem 0; padding-left: 1rem; border-left: 4px solid var(--pm-blue, #2196f3); font-style: italic;">
+          "We are hiring 10 people a month and our founders are spending all weekend reading resumes. This tool looks raw, but if the AI can help us filter the top 20% of applicants, we'll start using it today and give you feedback every week."
+        </blockquote>
+        <p>Which segment of the Technology Adoption Curve does this prospect represent?</p>
+        <div class="pm-actions" aria-label="Customer profile options">
+          <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="false"
+            data-feedback-incorrect="Incorrect. The mainstream majority has a low tolerance for bugs, expects completed workflows, and rarely has time or interest in co-creating raw products with startups."
+          >A) Mainstream Majority (Early/Late Majority)</button>
+          <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="true"
+            data-feedback-correct="Correct! This prospect represents an Early Adopter (Early Evangelist). They feel the pain acutely, tolerate product limitations, and are motivated to collaborate with you to find a solution."
+          >B) Early Evangelist (Innovator/Early Adopter)</button>
+          <button class="pm-button" type="button" aria-pressed="false" data-choice data-correct="false"
+            data-feedback-incorrect="Incorrect. Laggards are highly resistant to change and only adopt products when forced to by industry obsolescence, not during early-stage raw validation."
+          >C) Laggard</button>
+        </div>
+        <p class="pm-feedback" aria-live="polite" data-choice-feedback></p>
+      </section>
+
+      <section class="pm-card" id="takeaways" aria-labelledby="takeaways-heading">
+        <h2 id="takeaways-heading">Key takeaways</h2>
+        <ol>
+          <li><strong>A product vision</strong> defines the future destination, including services provided and target customers.</li>
+          <li><strong>Software product visions</strong> look out 2–5 years, while <strong>hardware visions</strong> extend 5–10 years due to physical manufacturing constraints.</li>
+          <li><strong>Strong technology professionals</strong> are highly motivated by inspiring visions that offer meaningful work.</li>
+          <li><strong>At launch, a product vision is a guess</strong> based on unvalidated beliefs about customer value and business sustainability.</li>
+          <li><strong>Opportunity-market fit</strong> is the validation process used for major initiatives on existing products, parallel to product-market fit for new products.</li>
+          <li><strong>Trying to please everyone at once pleases no one;</strong> teams must focus on a narrow target segment first.</li>
+          <li><strong>Early evangelists</strong> are composed of innovators and early adopters on the Technology Adoption Curve.</li>
+          <li><strong>Innovators and early adopters</strong> have high risk tolerance because they experience the core pain point deeply or have high tolerance for failure.</li>
+          <li><strong>We do not expect early adopters to give us the solution;</strong> we use their feedback to test whether our designed solution works for them.</li>
+          <li><strong>The transition from early fit to mainstream majority</strong> requires continuous product discovery and scope expansion, taking years to achieve.</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
+        <h2 id="visual-summary-heading">Visual summary</h2>
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/18-visual-summary.png" alt="Flowchart of the Product-Market Fit vs Product Vision process" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>18-visual-summary.png</code>
+              <span>Process flowchart mapping the transition from early adopter PMF validation to mainstream majority scaling.</span>
+            </div>
+          </div>
+          <figcaption>Figure 4: PMF vs. Product Vision Visual Summary</figcaption>
+        </figure>
+
+        <p>The diagram represents the temporal and audience difference in the product lifecycle. Validation starts within weeks or months by matching unvalidated beliefs in the Product Vision with early adopters to secure initial Product-Market Fit. If this fails, the team pivots. Once early PMF is secured, the team enters a multi-year scaling phase where they run discovery and expand scope to reach the Mainstream Market and ultimately realize the full Product Vision.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="one-minute-review" aria-labelledby="one-minute-review-heading">
+        <h2 id="one-minute-review-heading">One-minute review</h2>
+        <p><strong>The Vision is a Destination:</strong> A product vision provides a 2–10 year destination to align the team and attract talent, but for new products, it remains a guess based on beliefs. <strong>Fit Starts Small:</strong> To validate those beliefs, teams must avoid broad targeting and instead secure product-market fit (or opportunity-market fit) with early evangelists (innovators and early adopters) who feel the pain acutely and tolerate early gaps. <strong>Discovery Bridges the Gap:</strong> While finding initial fit takes weeks or months, scaling the product by expanding scope to meet the demands of the mainstream majority and fulfill the complete product vision takes years.</p>
+      </section>
+
+      <section class="pm-card" id="related-concepts" aria-labelledby="related-concepts-heading">
+        <h2 id="related-concepts-heading">Related concepts</h2>
+        <ul>
+          <li><a href="../03-what-does-a-pm-do.md">What Does a PM Do?</a></li>
+          <li><a href="../11-why-product-initiatives-fail.md">Why do so many product initiatives fail?</a></li>
+          <li><a href="../17-the-modern-product-developer.md">The Modern Product Developer</a></li>
+        </ul>
+      </section>
+
+      <nav class="pm-card" aria-label="Lesson navigation">
+        <h2>Continue learning</h2>
+        <p><a href="../18-product-market-fit-vs-product-vision.md">Return to the canonical lecture guide</a></p>
+        <p><a href="../README.md">Section overview</a> · <a href="../../README.md">Part overview</a> · <a href="../../../COURSE-INDEX.md">Course index</a></p>
+        <p><a href="../../../sources/01-introduction/01-introduction/18-product-market-fit-vs-product-vision-transcript.md">Original lecture transcript</a></p>
+      </nav>
+    </main>
+
+    <footer class="pm-footer">
+      <div class="pm-shell">Product Management Study Guide</div>
+    </footer>
+  </body>
+</html>

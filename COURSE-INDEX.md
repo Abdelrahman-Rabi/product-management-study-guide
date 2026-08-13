@@ -19,6 +19,7 @@ that have not been created yet.
 - [Empowered Product Teams](./01-introduction/01-introduction/15-empowered-product-teams.md)
 - [The Modern Product Designer](./01-introduction/01-introduction/16-the-modern-product-designer.md)
 - [The Modern Product Developer](./01-introduction/01-introduction/17-the-modern-product-developer.md)
+- [Product-Market Fit vs. Product Vision](./01-introduction/01-introduction/18-product-market-fit-vs-product-vision.md)
 
 
 
