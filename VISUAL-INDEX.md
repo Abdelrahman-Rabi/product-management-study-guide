@@ -341,6 +341,42 @@ Section 1: Introduction
 
 ![Product-Market Fit vs. Product Vision Visual Summary](./01-introduction/01-introduction/visuals/18-visual-summary.png)
 
+#### Vision vs. Strategy: The Dance School Pivot
+
+**Source lecture:**  
+[Exercise #3: Create a Product Vision Board](./01-introduction/01-introduction/19-create-a-product-vision-board.md)
+
+**Purpose:** Concept map illustrating how a fixed broad vision remains stable while the underlying execution strategy pivots during disruptions.
+
+![Vision vs. Strategy: The Dance School Pivot](./01-introduction/01-introduction/visuals/19-vision-vs-strategy-pivot.png)
+
+#### The Product Vision Board Template
+
+**Source lecture:**  
+[Exercise #3: Create a Product Vision Board](./01-introduction/01-introduction/19-create-a-product-vision-board.md)
+
+**Purpose:** Layout template showing the five distinct columns of the Product Vision Board.
+
+![The Product Vision Board Template](./01-introduction/01-introduction/visuals/19-product-vision-board-template.png)
+
+#### Case Study: Uber Cabs (2009) Vision Board
+
+**Source lecture:**  
+[Exercise #3: Create a Product Vision Board](./01-introduction/01-introduction/19-create-a-product-vision-board.md)
+
+**Purpose:** Completed vision board for Uber Cabs (2009) displaying the strategic alignment for a two-sided marketplace.
+
+![Case Study: Uber Cabs (2009) Vision Board](./01-introduction/01-introduction/visuals/19-uber-2009-vision-board.png)
+
+#### Product Vision Board Framework
+
+**Source lecture:**  
+[Exercise #3: Create a Product Vision Board](./01-introduction/01-introduction/19-create-a-product-vision-board.md)
+
+**Purpose:** Process flowchart displaying the top-down alignment from the high-level Product Vision to the four strategic execution pillars.
+
+![Product Vision Board Framework](./01-introduction/01-introduction/visuals/19-visual-summary.png)
+
 <!-- Example entry: #### The Traditional Product Process **Source lecture:** [Why Product Management Is Broken](./01-introduction/01-introduction/11-why-product-management-is-broken.md) **Purpose:** Shows the sequential product-development process and why validation often happens only after release. ![Traditional product-development process where validation happens at the end](./01-introduction/01-introduction/visuals/11-traditional-product-process.png) -->
 ## Part 2: Strategy
 

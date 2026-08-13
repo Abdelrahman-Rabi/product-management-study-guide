@@ -510,6 +510,21 @@ The long-term aspirational destination of the product, typically looking 2–5 y
 
 **Related lectures:**
 - [Product-Market Fit vs. Product Vision](./01-introduction/01-introduction/18-product-market-fit-vs-product-vision.md)
+- [Exercise #3: Create a Product Vision Board](./01-introduction/01-introduction/19-create-a-product-vision-board.md)
+
+### Product Vision Board
+
+A strategic framework designed by Roman Pichler to capture and align a high-level product vision with its core execution pillars: Target Group, Needs, Product capabilities, and Business Goals.
+
+**Related concepts:**
+- Product Vision
+- Target Group
+- User Needs
+- Business Goals
+- Two-Sided Marketplace
+
+**Related lectures:**
+- [Exercise #3: Create a Product Vision Board](./01-introduction/01-introduction/19-create-a-product-vision-board.md)
 
 ---
 
@@ -535,6 +550,18 @@ The solution space may include:
 - Product discovery
 - Prototyping
 - Technical feasibility
+
+### Strategy Pivot
+
+A structured change in a product's execution strategy (such as changing the target customer segment, product features, or business model) to achieve value validation or market fit, while keeping the high-level product vision constant.
+
+**Related concepts:**
+- Product Vision
+- Product-Market Fit (PMF)
+- Product strategy
+
+**Related lectures:**
+- [Exercise #3: Create a Product Vision Board](./01-introduction/01-introduction/19-create-a-product-vision-board.md)
 
 ---
 
@@ -593,6 +620,18 @@ A sociological model that describes how different customer segments (Innovators,
 
 **Related lectures:**
 - [Product-Market Fit vs. Product Vision](./01-introduction/01-introduction/18-product-market-fit-vs-product-vision.md)
+
+### Two-Sided Marketplace
+
+A business model and platform linking two distinct user groups—suppliers and consumers (e.g., drivers and passengers on Uber)—where both sides must derive clear value for the marketplace to function and scale.
+
+**Related concepts:**
+- Target Group
+- User Needs
+- Product Vision Board
+
+**Related lectures:**
+- [Exercise #3: Create a Product Vision Board](./01-introduction/01-introduction/19-create-a-product-vision-board.md)
 
 ---
 

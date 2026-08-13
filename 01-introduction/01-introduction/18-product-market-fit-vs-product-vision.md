@@ -25,7 +25,7 @@ related_concepts:
 ·
 [Part Overview](../README.md)
 ·
-[Next Lecture →](unavailable)
+[Next Lecture →](./19-create-a-product-vision-board.md)
 
 # Product-Market Fit vs. Product Vision
 
@@ -273,5 +273,5 @@ Secure product-market fit by validating your core value hypothesis with highly m
 * Previous: [The Modern Product Developer](./17-the-modern-product-developer.md)
 * Section: [Introduction](./README.md)
 * Part: [Introduction](../README.md)
-* Next: [Next Lecture](unavailable)
+* Next: [Exercise #3: Create a Product Vision Board](./19-create-a-product-vision-board.md)
 * Course index: [Full Course Index](../../COURSE-INDEX.md)
