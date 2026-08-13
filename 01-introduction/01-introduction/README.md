@@ -35,6 +35,8 @@ List of lectures in their original course order:
 - [Empowered Product Teams](./15-empowered-product-teams.md)
 - [The Modern Product Designer](./16-the-modern-product-designer.md)
 - [The Modern Product Developer](./17-the-modern-product-developer.md)
+- [Product-Market Fit vs. Product Vision](./18-product-market-fit-vs-product-vision.md)
+- [Exercise #3: Create a Product Vision Board](./19-create-a-product-vision-board.md)
 
 ## Section Resources
 
