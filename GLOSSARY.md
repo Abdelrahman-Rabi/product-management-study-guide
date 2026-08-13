@@ -111,6 +111,18 @@ Unlike physical goods, a digital product is abstract and typically deployed to r
 **Related lectures:**
 - [What's a Product?](./01-introduction/01-introduction/07-whats-a-product.md)
 
+### Disruption Vulnerability
+
+The risk of losing market share to a simpler, faster competitor who focuses entirely on doing one core thing exceptionally well, leaving bloated established products struggling to compete due to their technical debt.
+
+**Related concepts:**
+- Feature Bloat
+- Sunk Cost Fallacy
+- Feature Audit Matrix
+
+**Related lectures:**
+- [Evaluating Your Product](./01-introduction/01-introduction/20-evaluating-your-product.md)
+
 ### Dual-Track Agile
 
 A product development methodology where product discovery (learning) and product delivery (building) run concurrently within a single team.
@@ -178,6 +190,35 @@ In modern product teams, feasibility risk is the primary concern and responsibil
 **Related lectures:**
 - [How Effective Product Teams Work](./01-introduction/01-introduction/12-how-effective-product-teams-work.md)
 - [The Modern Product Developer](./01-introduction/01-introduction/17-the-modern-product-developer.md)
+
+---
+
+## F
+
+### Feature Audit Matrix
+
+A strategic 2x2 grid that plots features based on user adoption (percentage of users) and frequency of use to determine product health and identify sunsetting opportunities.
+
+**Related concepts:**
+- Feature Bloat
+- Sunk Cost Fallacy
+- Disruption Vulnerability
+
+**Related lectures:**
+- [Evaluating Your Product](./01-introduction/01-introduction/20-evaluating-your-product.md)
+
+### Feature Bloat
+
+The accumulation of unnecessary features that add product complexity, complicate the user interface, and increase technical debt without adding value.
+
+**Related concepts:**
+- Feature Audit Matrix
+- Technical Debt
+- Disruption Vulnerability
+
+**Related lectures:**
+- [Why do so many product initiatives fail?](./01-introduction/01-introduction/11-why-product-initiatives-fail.md)
+- [Evaluating Your Product](./01-introduction/01-introduction/20-evaluating-your-product.md)
 
 ---
 
@@ -562,6 +603,18 @@ A structured change in a product's execution strategy (such as changing the targ
 
 **Related lectures:**
 - [Exercise #3: Create a Product Vision Board](./01-introduction/01-introduction/19-create-a-product-vision-board.md)
+
+### Sunk Cost Fallacy
+
+The tendency to continue investing resources (time, money, effort) in an underperforming or failed feature or project because of the resources already spent on it, rather than evaluating its current potential and viability.
+
+**Related concepts:**
+- Feature Sunsetting
+- Feature Audit Matrix
+- Technical Debt
+
+**Related lectures:**
+- [Evaluating Your Product](./01-introduction/01-introduction/20-evaluating-your-product.md)
 
 ---
 

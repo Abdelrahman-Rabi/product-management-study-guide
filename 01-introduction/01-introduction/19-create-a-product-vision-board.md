@@ -25,7 +25,7 @@ related_concepts:
 ·
 [Part Overview](../README.md)
 ·
-[Next Lecture →](unavailable)
+[Next Lecture →](./20-evaluating-your-product.md)
 
 # Exercise #3: Create a Product Vision Board
 
@@ -247,5 +247,5 @@ Use the Product Vision Board to draw boundaries around your product's scope, ens
 * Previous: [Product-Market Fit vs. Product Vision](./18-product-market-fit-vs-product-vision.md)
 * Section: [Introduction](./README.md)
 * Part: [Introduction](../README.md)
-* Next: [Next Lecture](unavailable)
+* Next: [Evaluating Your Product](./20-evaluating-your-product.md)
 * Course index: [Full Course Index](../../COURSE-INDEX.md)

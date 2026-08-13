@@ -377,6 +377,51 @@ Section 1: Introduction
 
 ![Product Vision Board Framework](./01-introduction/01-introduction/visuals/19-visual-summary.png)
 
+#### The Feature Audit Matrix (2x2 Grid)
+
+**Source lecture:**  
+[Evaluating Your Product](./01-introduction/01-introduction/20-evaluating-your-product.md)
+
+**Purpose:** Plotted 2x2 matrix analyzing feature performance by adoption and frequency.
+
+![The Feature Audit Matrix (2x2 Grid)](./01-introduction/01-introduction/visuals/20-feature-audit-matrix.png)
+
+#### Feature Adoption: Clean vs. Messy Reality
+
+**Source lecture:**  
+[Evaluating Your Product](./01-introduction/01-introduction/20-evaluating-your-product.md)
+
+**Purpose:** Contrasts a clean adoption pattern with the reality of feature bloat.
+
+![Feature Adoption: Clean vs. Messy Reality](./01-introduction/01-introduction/visuals/20-clean-vs-messy-adoption.png)
+
+#### Disruption Vulnerability: The Bloated Product vs. The Simple Disruptor
+
+**Source lecture:**  
+[Evaluating Your Product](./01-introduction/01-introduction/20-evaluating-your-product.md)
+
+**Purpose:** Explains why carrying unused features makes a product vulnerable to simple competitors.
+
+![Disruption Vulnerability: The Bloated Product vs. The Simple Disruptor](./01-introduction/01-introduction/visuals/20-disruption-vulnerability.png)
+
+#### The Four Choices for Low-Adoption Features
+
+**Source lecture:**  
+[Evaluating Your Product](./01-introduction/01-introduction/20-evaluating-your-product.md)
+
+**Purpose:** Strategic options and paths for handling underperforming features.
+
+![The Four Choices for Low-Adoption Features](./01-introduction/01-introduction/visuals/20-low-adoption-choices.png)
+
+#### Feature Audit Matrix and Strategic Decisions
+
+**Source lecture:**  
+[Evaluating Your Product](./01-introduction/01-introduction/20-evaluating-your-product.md)
+
+**Purpose:** Process flowchart displaying the top-down alignment from the high-level Product Vision to the four strategic execution pillars.
+
+![Feature Audit Matrix and Strategic Decisions](./01-introduction/01-introduction/visuals/20-visual-summary.png)
+
 <!-- Example entry: #### The Traditional Product Process **Source lecture:** [Why Product Management Is Broken](./01-introduction/01-introduction/11-why-product-management-is-broken.md) **Purpose:** Shows the sequential product-development process and why validation often happens only after release. ![Traditional product-development process where validation happens at the end](./01-introduction/01-introduction/visuals/11-traditional-product-process.png) -->
 ## Part 2: Strategy
 
