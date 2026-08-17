@@ -38,6 +38,7 @@ List of lectures in their original course order:
 - [Product-Market Fit vs. Product Vision](./18-product-market-fit-vs-product-vision.md)
 - [Exercise #3: Create a Product Vision Board](./19-create-a-product-vision-board.md)
 - [Evaluating Your Product](./20-evaluating-your-product.md)
+- [Exercise #4: The Feature Audit](./21-the-feature-audit.md)
 
 ## Section Resources
 

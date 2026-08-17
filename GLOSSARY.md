@@ -122,6 +122,7 @@ The risk of losing market share to a simpler, faster competitor who focuses enti
 
 **Related lectures:**
 - [Evaluating Your Product](./01-introduction/01-introduction/20-evaluating-your-product.md)
+- [Exercise #4: The Feature Audit](./01-introduction/01-introduction/21-the-feature-audit.md)
 
 ### Dual-Track Agile
 
@@ -240,6 +241,22 @@ Growth PMs operate heavily within Product-Led Growth (PLG) strategies to optimiz
 
 ---
 
+## H
+
+### Hypothesis-Driven Audit
+
+The process of evaluating product feature usage by forming an initial hypothesis based on experience or qualitative observations, and then systematically validating it with quantitative analytics and user interviews.
+
+**Related concepts:**
+- Feature Audit Matrix
+- Self-Referential Bias
+- Metrics Correlation
+
+**Related lectures:**
+- [Exercise #4: The Feature Audit](./01-introduction/01-introduction/21-the-feature-audit.md)
+
+---
+
 ## I
 
 ### Interaction Design
@@ -273,6 +290,18 @@ Mercenary developers operate in a build-only sandbox, receiving requirements fro
 
 **Related lectures:**
 - [The Modern Product Developer](./01-introduction/01-introduction/17-the-modern-product-developer.md)
+
+### Metrics Correlation
+
+A statistical or logical relationship between two features where changes in the usage metrics of one correspond to changes in the other, indicating an underlying dependency or user behavior loop.
+
+**Related concepts:**
+- Feature Audit Matrix
+- Technical Debt
+- In-App Chat
+
+**Related lectures:**
+- [Exercise #4: The Feature Audit](./01-introduction/01-introduction/21-the-feature-audit.md)
 
 ### Missionary Developer
 
@@ -570,6 +599,18 @@ A strategic framework designed by Roman Pichler to capture and align a high-leve
 ---
 
 ## S
+
+### Self-Referential Bias
+
+The cognitive bias where a product manager or developer mistakenly assumes that their personal usage patterns, preferences, and technical behaviors are representative of the broader target customer base.
+
+**Related concepts:**
+- Hypothesis-Driven Audit
+- Target Group
+- User Needs
+
+**Related lectures:**
+- [Exercise #4: The Feature Audit](./01-introduction/01-introduction/21-the-feature-audit.md)
 
 ### Solution Space
 

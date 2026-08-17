@@ -22,6 +22,7 @@ that have not been created yet.
 - [Product-Market Fit vs. Product Vision](./01-introduction/01-introduction/18-product-market-fit-vs-product-vision.md)
 - [Exercise #3: Create a Product Vision Board](./01-introduction/01-introduction/19-create-a-product-vision-board.md)
 - [Evaluating Your Product](./01-introduction/01-introduction/20-evaluating-your-product.md)
+- [Exercise #4: The Feature Audit](./01-introduction/01-introduction/21-the-feature-audit.md)
 
 
 

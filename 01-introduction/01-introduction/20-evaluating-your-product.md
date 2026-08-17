@@ -25,7 +25,7 @@ related_concepts:
 ·
 [Part Overview](../README.md)
 ·
-[Next Lecture →](unavailable)
+[Next Lecture →](./21-the-feature-audit.md)
 
 # Evaluating Your Product
 
@@ -272,5 +272,5 @@ Do not let sentimentality or sunk costs keep dead features alive. Kill features 
 * Previous: [Exercise #3: Create a Product Vision Board](./19-create-a-product-vision-board.md)
 * Section: [Introduction](./README.md)
 * Part: [Introduction](../README.md)
-* Next: [Next Lecture](unavailable)
+* Next: [Exercise #4: The Feature Audit](./21-the-feature-audit.md)
 * Course index: [Full Course Index](../../COURSE-INDEX.md)

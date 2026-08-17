@@ -422,6 +422,51 @@ Section 1: Introduction
 
 ![Feature Audit Matrix and Strategic Decisions](./01-introduction/01-introduction/visuals/20-visual-summary.png)
 
+#### The Validation Loop (Hypothesis to Hard Numbers)
+
+**Source lecture:**  
+[Exercise #4: The Feature Audit](./01-introduction/01-introduction/21-the-feature-audit.md)
+
+**Purpose:** Flowchart mapping the validation loop from single-user hypothesis to formal quantitative and qualitative validation.
+
+![The Validation Loop (Hypothesis to Hard Numbers)](./01-introduction/01-introduction/visuals/21-validation-loop.png)
+
+#### Correlation: Track Driver vs. In-App Chat Usage
+
+**Source lecture:**  
+[Exercise #4: The Feature Audit](./01-introduction/01-introduction/21-the-feature-audit.md)
+
+**Purpose:** Diagrams showing how driver tracking and in-app chat volume exhibit an inverse correlation driven by user anxiety.
+
+![Correlation: Track Driver vs. In-App Chat Usage](./01-introduction/01-introduction/visuals/21-metrics-correlation.png)
+
+#### Uber (2020) Rider App Feature Audit Matrix
+
+**Source lecture:**  
+[Exercise #4: The Feature Audit](./01-introduction/01-introduction/21-the-feature-audit.md)
+
+**Purpose:** Plotted matrix mapping the outliers of the Uber 2020 Rider App feature set based on adoption and frequency.
+
+![Uber (2020) Rider App Feature Audit Matrix](./01-introduction/01-introduction/visuals/21-uber-2020-audit.png)
+
+#### Decision Factors Beyond Usage (Add Multiple Drop-offs in 2020)
+
+**Source lecture:**  
+[Exercise #4: The Feature Audit](./01-introduction/01-introduction/21-the-feature-audit.md)
+
+**Purpose:** Explains why sunsetting group rides in 2020 was driven by health/safety, brand backlash, and government lockdown regulations.
+
+![Decision Factors Beyond Usage (Add Multiple Drop-offs in 2020)](./01-introduction/01-introduction/visuals/21-non-data-risks.png)
+
+#### The Feature Audit Workflow
+
+**Source lecture:**  
+[Exercise #4: The Feature Audit](./01-introduction/01-introduction/21-the-feature-audit.md)
+
+**Purpose:** Process flowchart mapping the Exercise 4 hypothesis formation, correlation analysis, verification, risk assessment, and decision routing.
+
+![The Feature Audit Workflow](./01-introduction/01-introduction/visuals/21-visual-summary.png)
+
 <!-- Example entry: #### The Traditional Product Process **Source lecture:** [Why Product Management Is Broken](./01-introduction/01-introduction/11-why-product-management-is-broken.md) **Purpose:** Shows the sequential product-development process and why validation often happens only after release. ![Traditional product-development process where validation happens at the end](./01-introduction/01-introduction/visuals/11-traditional-product-process.png) -->
 ## Part 2: Strategy
 
