@@ -111,6 +111,19 @@ Unlike physical goods, a digital product is abstract and typically deployed to r
 **Related lectures:**
 - [What's a Product?](./01-introduction/01-introduction/07-whats-a-product.md)
 
+### Disruption Vulnerability
+
+The risk of losing market share to a simpler, faster competitor who focuses entirely on doing one core thing exceptionally well, leaving bloated established products struggling to compete due to their technical debt.
+
+**Related concepts:**
+- Feature Bloat
+- Sunk Cost Fallacy
+- Feature Audit Matrix
+
+**Related lectures:**
+- [Evaluating Your Product](./01-introduction/01-introduction/20-evaluating-your-product.md)
+- [Exercise #4: The Feature Audit](./01-introduction/01-introduction/21-the-feature-audit.md)
+
 ### Dual-Track Agile
 
 A product development methodology where product discovery (learning) and product delivery (building) run concurrently within a single team.
@@ -181,6 +194,35 @@ In modern product teams, feasibility risk is the primary concern and responsibil
 
 ---
 
+## F
+
+### Feature Audit Matrix
+
+A strategic 2x2 grid that plots features based on user adoption (percentage of users) and frequency of use to determine product health and identify sunsetting opportunities.
+
+**Related concepts:**
+- Feature Bloat
+- Sunk Cost Fallacy
+- Disruption Vulnerability
+
+**Related lectures:**
+- [Evaluating Your Product](./01-introduction/01-introduction/20-evaluating-your-product.md)
+
+### Feature Bloat
+
+The accumulation of unnecessary features that add product complexity, complicate the user interface, and increase technical debt without adding value.
+
+**Related concepts:**
+- Feature Audit Matrix
+- Technical Debt
+- Disruption Vulnerability
+
+**Related lectures:**
+- [Why do so many product initiatives fail?](./01-introduction/01-introduction/11-why-product-initiatives-fail.md)
+- [Evaluating Your Product](./01-introduction/01-introduction/20-evaluating-your-product.md)
+
+---
+
 ## G
 
 ### Growth Product Manager
@@ -196,6 +238,22 @@ Growth PMs operate heavily within Product-Led Growth (PLG) strategies to optimiz
 
 **Related lectures:**
 - [How the PM Role Varies](./01-introduction/01-introduction/13-how-the-pm-role-varies.md)
+
+---
+
+## H
+
+### Hypothesis-Driven Audit
+
+The process of evaluating product feature usage by forming an initial hypothesis based on experience or qualitative observations, and then systematically validating it with quantitative analytics and user interviews.
+
+**Related concepts:**
+- Feature Audit Matrix
+- Self-Referential Bias
+- Metrics Correlation
+
+**Related lectures:**
+- [Exercise #4: The Feature Audit](./01-introduction/01-introduction/21-the-feature-audit.md)
 
 ---
 
@@ -232,6 +290,18 @@ Mercenary developers operate in a build-only sandbox, receiving requirements fro
 
 **Related lectures:**
 - [The Modern Product Developer](./01-introduction/01-introduction/17-the-modern-product-developer.md)
+
+### Metrics Correlation
+
+A statistical or logical relationship between two features where changes in the usage metrics of one correspond to changes in the other, indicating an underlying dependency or user behavior loop.
+
+**Related concepts:**
+- Feature Audit Matrix
+- Technical Debt
+- In-App Chat
+
+**Related lectures:**
+- [Exercise #4: The Feature Audit](./01-introduction/01-introduction/21-the-feature-audit.md)
 
 ### Missionary Developer
 
@@ -530,6 +600,18 @@ A strategic framework designed by Roman Pichler to capture and align a high-leve
 
 ## S
 
+### Self-Referential Bias
+
+The cognitive bias where a product manager or developer mistakenly assumes that their personal usage patterns, preferences, and technical behaviors are representative of the broader target customer base.
+
+**Related concepts:**
+- Hypothesis-Driven Audit
+- Target Group
+- User Needs
+
+**Related lectures:**
+- [Exercise #4: The Feature Audit](./01-introduction/01-introduction/21-the-feature-audit.md)
+
 ### Solution Space
 
 The possible ways a product team may address a validated problem or achieve a
@@ -562,6 +644,18 @@ A structured change in a product's execution strategy (such as changing the targ
 
 **Related lectures:**
 - [Exercise #3: Create a Product Vision Board](./01-introduction/01-introduction/19-create-a-product-vision-board.md)
+
+### Sunk Cost Fallacy
+
+The tendency to continue investing resources (time, money, effort) in an underperforming or failed feature or project because of the resources already spent on it, rather than evaluating its current potential and viability.
+
+**Related concepts:**
+- Feature Sunsetting
+- Feature Audit Matrix
+- Technical Debt
+
+**Related lectures:**
+- [Evaluating Your Product](./01-introduction/01-introduction/20-evaluating-your-product.md)
 
 ---
 

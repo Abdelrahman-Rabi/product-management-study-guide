@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive companion for Exercise #4: The Feature Audit">
+    <title>Exercise #4: The Feature Audit — Interactive Lesson</title>
+    <link rel="stylesheet" href="../../../assets/interactive/pm-study-guide.css">
+    <script src="../../../assets/interactive/pm-study-guide.js" defer></script>
+  </head>
+  <body>
+    <div class="pm-progress" aria-hidden="true"><span data-progress-bar></span></div>
+    <noscript><div class="pm-shell pm-card pm-warning">Interactive controls require JavaScript. The canonical Markdown lecture remains available through the link at the end of this page.</div></noscript>
+
+    <header class="pm-header pm-shell">
+      <p class="pm-kicker">Product Management Study Guide · Interactive Companion</p>
+      <h1>Exercise #4: The Feature Audit</h1>
+      <p class="pm-subtitle">Learn how to structure feature hypotheses, analyze metric correlations, and evaluate non-data business risks like safety, branding, and regulation.</p>
+      <div class="pm-meta" aria-label="Lesson information">
+        <span class="pm-chip">Part 1</span>
+        <span class="pm-chip">Section 1</span>
+        <span class="pm-chip">Lecture 21</span>
+      </div>
+    </header>
+
+    <main class="pm-shell pm-grid" id="main-content">
+      <nav class="pm-card" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Lesson contents</h2>
+        <ol>
+          <li><a href="#lecture-overview">Lecture overview</a></li>
+          <li><a href="#central-argument">Central argument</a></li>
+          <li><a href="#concept-1">1. Auditing Without Internal Analytics</a></li>
+          <li><a href="#concept-2">2. Metrics Correlations Between Intersecting Features</a></li>
+          <li><a href="#concept-3">3. Case Study: Uber Rider App (2020) Feature Audit</a></li>
+          <li><a href="#concept-4">4. Evaluating Sunsetting Candidates Beyond the Data</a></li>
+          <li><a href="#comparison">Comparison: Phased Action Matrix</a></li>
+          <li><a href="#worked-example">Practical PM Example</a></li>
+          <li><a href="#misunderstandings">Common Misunderstandings</a></li>
+          <li><a href="#definitions">Key Concepts & Definitions</a></li>
+          <li><a href="#takeaways">Key Takeaways</a></li>
+          <li><a href="#visual-summary">Visual Summary</a></li>
+          <li><a href="#one-minute-review">One-minute review</a></li>
+          <li><a href="#interactive-practice">Interactive Practice</a></li>
+        </ol>
+      </nav>
+
+      <section class="pm-card pm-outcome" aria-labelledby="learning-outcome">
+        <h2 id="learning-outcome">Your goal</h2>
+        <p>Formulate a feature-usage hypothesis when direct analytics are unavailable, identify metrics correlations between features, and evaluate non-data risks (branding, regulatory, health) when deciding whether to kill or improve features.</p>
+      </section>
+
+      <section class="pm-card" id="lecture-overview" aria-labelledby="lecture-overview-heading">
+        <h2 id="lecture-overview-heading">Lecture overview</h2>
+        <p>This lecture introduces the fourth practical exercise of the course: performing a feature audit on your chosen study product. It covers how to structure feature hypotheses, check for metrics correlations, and evaluate external business risks.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="central-argument" aria-labelledby="central-argument-heading">
+        <h2 id="central-argument-heading">Central argument</h2>
+        <p>In professional product environments, feature audits are driven by quantitative product analytics. When accessing internal company data is impossible, product managers must start by forming structured usage hypotheses based on personal experience. However, a PM is rarely a typical user; these hypotheses must be validated through hard numbers and user interviews. Furthermore, the decision to sunset or improve a feature must incorporate broader business risks—such as safety hazards, branding backlash, and government regulations—rather than relying solely on metrics.</p>
+      </section>
+
+      <section class="pm-card" id="concept-1" aria-labelledby="concept-1-heading">
+        <h2 id="concept-1-heading">1. Auditing Without Internal Analytics</h2>
+        <p>When direct analytics access is unavailable (e.g., studying a competitor or during early validation), you can follow a hypothesis-driven audit workflow: form a usage hypothesis based on personal experience, acknowledge your self-referential bias, and plan quantitative (hard numbers) and qualitative (interviews) validation pathways.</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/21-validation-loop.png" alt="Flowchart displaying the validation loop from hypothesis to validation methods" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>21-validation-loop.png</code>
+              <span>Horizontal pipeline diagram showing the progression from forming a hypothesis based on personal experience, to validating it via quantitative click tracking and qualitative user interviews.</span>
+            </div>
+          </div>
+          <figcaption>Figure 1: The Validation Loop (Hypothesis to Hard Numbers)</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-2" aria-labelledby="concept-2-heading">
+        <h2 id="concept-2-heading">2. Metrics Correlations Between Intersecting Features</h2>
+        <p>Features do not exist in isolation. A metrics correlation is a relationship where the performance or behavior of one feature directly drives the metrics of another. In the Uber Rider App, map tracking reliability directly correlates with chat usage: when GPS tracking is accurate, support chat volume drops; when tracking lag occurs, chat volume spikes.</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/21-metrics-correlation.png" alt="Graph comparing track driver reliability with in-app chat usage" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>21-metrics-correlation.png</code>
+              <span>Side-by-side flow diagrams contrasting System A (smooth driver tracking coordinates location silently, leading to low chat volume) with System B (map lag causes passenger anxiety, prompting an in-app chat volume spike).</span>
+            </div>
+          </div>
+          <figcaption>Figure 2: Correlation: Track Driver vs. In-App Chat Usage</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-3" aria-labelledby="concept-3-heading">
+        <h2 id="concept-3-heading">3. Case Study: Uber Rider App (2020) Feature Audit</h2>
+        <p>This case study analyzes passenger-facing features on the Uber Rider app in 2020. The audit maps outliers—such as the high-usage Book Now button and real-time tracking, vs the low-usage Multiple Drop-offs and Promo widgets—on the Feature Audit Matrix.</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/21-uber-2020-audit.png" alt="2x2 grid mapping Uber Rider features by adoption and frequency" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>21-uber-2020-audit.png</code>
+              <span>A 2x2 Feature Audit Matrix mapping Uber (2020) Rider app capabilities. Plotted items: Book Now and Track Driver (Stars), Trip History and Account Settings (Administrative), and Add Multiple Drop-offs (Kill Candidate).</span>
+            </div>
+          </div>
+          <figcaption>Figure 3: Uber (2020) Rider App Feature Audit Matrix</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-4" aria-labelledby="concept-4-heading">
+        <h2 id="concept-4-heading">4. Evaluating Sunsetting Candidates Beyond the Data</h2>
+        <p>Deciding to kill a feature involves analyzing business factors beyond pure usage numbers. For group rides (Add Multiple Drop-offs) in 2020, safety hazards (COVID-19 proximity), brand backlash, and government lockdowns were primary non-data risks that dictated restricting the feature.</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/21-non-data-risks.png" alt="Diagram showing safety, branding, and regulatory risks surrounding group rides" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>21-non-data-risks.png</code>
+              <span>A central card labeled group rides branching into three warning shield vectors: COVID-19 Health & Safety Hazard, Brand Damage & Lockdowns backlash, and Regulatory Compliance risks.</span>
+            </div>
+          </div>
+          <figcaption>Figure 4: Decision Factors Beyond Usage (Add Multiple Drop-offs in 2020)</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="comparison" aria-labelledby="comparison-heading">
+        <h2 id="comparison-heading">Comparison: Phased Action Matrix</h2>
+        <div class="pm-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Feature</th>
+                <th scope="col">Audit Hypothesis</th>
+                <th scope="col">Proposed Choice</th>
+                <th scope="col">Strategic Justification</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Add Multiple Drop-offs</th>
+                <td>Low adoption, high health hazard.</td>
+                <td><strong>Kill / Restrict</strong></td>
+                <td>High COVID-19 safety risk, brand backlash, and government lockdown regulations.</td>
+              </tr>
+              <tr>
+                <th scope="row">Track Driver</th>
+                <td>High adoption, high utility.</td>
+                <td><strong>Improve</strong></td>
+                <td>Invest in GPS tracking accuracy to reduce in-app chat support overhead.</td>
+              </tr>
+              <tr>
+                <th scope="row">Book for Later</th>
+                <td>Low adoption, low awareness.</td>
+                <td><strong>Increase Adoption</strong></td>
+                <td>Shift customer perception of Uber from on-demand only to scheduled transit.</td>
+              </tr>
+              <tr>
+                <th scope="row">Rate Driver</th>
+                <td>Mid-adoption, emotionally biased.</td>
+                <td><strong>Increase Frequency</strong></td>
+                <td>Prompt ratings for average, middle-of-the-road experiences to gather unbiased driver data.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="pm-card" id="worked-example" aria-labelledby="worked-example-heading">
+        <h2 id="worked-example-heading">Practical Product Management example</h2>
+        <h3>Situation</h3>
+        <p>A PM at an ed-tech video streaming platform is reviewing a feature called "Group Study Room" (which lets users watch lectures together and chat). Internal database records show that only 1.8% of active users utilize the feature. However, the engineering team spends 20% of their maintenance sprint fixing websocket connection drops and audio lag bugs related to the study room code.</p>
+        
+        <h3>Decision</h3>
+        <p>The PM drafts a feature audit. They form a hypothesis that users prefer individual study with simple discussion boards. They validate this hypothesis by looking at telemetry data (showing high discussion board usage) and running 10 user interviews. The interviews reveal that users find the group video study rooms awkward. Furthermore, the PM identifies a regulatory risk: hosting open, unmoderated student video chats creates compliance risks under child safety laws (COPPA). The PM decides to kill the Group Study Room feature.</p>
+        
+        <h3>Reasoning</h3>
+        <p>The feature has low adoption and low frequency. Retaining it represents a double threat: high engineering maintenance costs (technical debt) and a severe child safety compliance risk. The value does not justify the risk.</p>
+        
+        <h3>Consequence</h3>
+        <p>The PM removes the feature. The developer team immediately reallocates 20% of their time to optimizing the core video player load speed (which is a Star feature used by 95% of users daily). Student safety risks are eliminated, and page-load performance increases by 25%.</p>
+        
+        <h3>Transferable lesson</h3>
+        <p>Sunsetting decisions must evaluate engineering maintenance costs (technical debt) and external risks (compliance, safety, brand) alongside usage metrics. A low-adoption feature that carries high risk is a prime candidate to be killed.</p>
+      </section>
+
+      <section class="pm-card pm-warning" id="misunderstandings" aria-labelledby="misunderstandings-heading">
+        <h2 id="misunderstandings-heading">Common misunderstandings</h2>
+        
+        <h3>"A PM's personal usage pattern is representative of the target market"</h3>
+        <p><strong>Correction:</strong> This is the <strong>Self-Referential Design Bias</strong>. Product managers are power users who understand the product inside out. Your usage is almost never representative of the average user. Always validate your personal experience hypotheses with quantitative user logs and qualitative testing.</p>
+
+        <h3>"If a feature has low adoption, we must immediately kill it"</h3>
+        <p><strong>Correction:</strong> Not all low-adoption features should be killed. The feature might be a <strong>niche feature</strong> (low adoption, high frequency) that is highly valuable to your most profitable customers, or it could be an <strong>essential utility</strong> (like the Emergency Button on Uber) that must remain for safety and compliance.</p>
+
+        <h3>"Features operate independently of one another"</h3>
+        <p><strong>Correction:</strong> Features exist within an ecosystem. A change in one feature can cause a ripple effect in another's metrics. For example, improving Uber's map tracking automatically decreases in-app chat volume because the user's need to ask "where are you?" is resolved.</p>
+      </section>
+
+      <section class="pm-card" id="definitions" aria-labelledby="definitions-heading">
+        <h2 id="definitions-heading">Key concepts and definitions</h2>
+        <ul>
+          <li><strong>Hypothesis-Driven Audit:</strong> The process of evaluating feature usage by forming an initial hypothesis based on experience, and then validating it with data.</li>
+          <li><strong>Metrics Correlation:</strong> A statistical relationship between two features where changes in the usage of one correspond to changes in the other.</li>
+          <li><strong>Self-Referential Bias:</strong> The cognitive bias where a product creator mistakenly assumes that their preferences and behaviors match those of the average user.</li>
+          <li><strong>Non-Data Risks:</strong> External factors (such as government regulations, branding backlash, and safety hazards) that influence product decisions.</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="takeaways" aria-labelledby="takeaways-heading">
+        <h2 id="takeaways-heading">Key takeaways</h2>
+        <ol>
+          <li>Hypotheses are starting points, not facts; personal experience must be validated with quantitative logs and user interviews.</li>
+          <li>Metrics correlations reveal how features interact (e.g., laggy map tracking directly spikes in-app chat support tickets).</li>
+          <li>Ratings features naturally capture emotional extremes (very happy or very unhappy users), leaving average experiences undocumented.</li>
+          <li>Sunsetting decisions must evaluate non-data risks (safety, branding, regulatory) that metrics tables cannot capture.</li>
+          <li>Add Multiple Drop-offs was restricted by Uber in 2020 due to COVID-19 health hazards, branding risks, and lockdowns.</li>
+          <li>Book for Later represents an adoption growth opportunity to change Uber's perception from purely on-demand to scheduled travel.</li>
+          <li>Trip History and Emergency Buttons are low-frequency but essential utilities that must be retained for billing and safety.</li>
+          <li>Audit outlier features first (the most and least used) to identify high-leverage optimization and sunsetting candidates quickly.</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
+        <h2 id="visual-summary-heading">Visual summary</h2>
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/21-visual-summary.png" alt="Visual summary flowchart of the Exercise #4 Audit Workflow" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>21-visual-summary.png</code>
+              <span>Process flowchart displaying the Exercise #4 Audit Workflow: forming a hypothesis from personal experience, measuring metrics correlations, validating with analytics/interviews, identifying non-data risks, and making strategic choices.</span>
+            </div>
+          </div>
+          <figcaption>Figure 5: The Feature Audit Workflow</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card pm-outcome" id="one-minute-review" aria-labelledby="one-minute-review-heading">
+        <h2 id="one-minute-review-heading">One-minute review</h2>
+        <p><strong>Hypothesis to Validation:</strong> Start an audit by listing outlier features based on experience, but always validate these hypotheses using telemetry data and user interviews to eliminate bias. <strong>Correlation & Ecosystems:</strong> Understand how features interact; a glitch in a primary feature (real-time tracking) directly drives up usage in secondary support channels (in-app chat). <strong>Evaluate Broader Risks:</strong> When deciding whether to sunset a low-adoption feature, look beyond the numbers. Consider health and safety hazards, branding backlash, and government regulations.</p>
+      </section>
+
+      <section class="pm-card" id="interactive-practice" aria-labelledby="interactive-practice-heading">
+        <h2 id="interactive-practice-heading">Interactive Practice</h2>
+        <p>Explore the strategic decisions for the Uber (2020) Rider App Audit. Toggle the tabs below to read the strategic justification and metrics split for each audited outlier.</p>
+
+        <div class="pm-tabs" data-widget="tabs">
+          <div class="pm-tablist" role="tablist" aria-label="Uber 2020 Audited Features">
+            <button class="pm-tab" role="tab" aria-selected="true" aria-controls="panel-multiple" id="tab-multiple">Multiple Drop-offs</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-tracking" id="tab-tracking" tabindex="-1">Driver Tracking</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-scheduled" id="tab-scheduled" tabindex="-1">Book for Later</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-rating" id="tab-rating" tabindex="-1">Driver Ratings</button>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-multiple" aria-labelledby="tab-multiple">
+            <h3>Add Multiple Drop-offs: Restrict / Kill</h3>
+            <p><strong>Hypothesized Metrics:</strong> Low adoption, low frequency.</p>
+            <p><strong>Non-Data Risks:</strong> COVID-19 close physical contact, negative brand publicity, regulatory lockdowns.</p>
+            <p><strong>Action Rationale:</strong> Deprecating or highly restricting this feature protects the brand safety reputation and matches lockdown travel laws, outweighing any minor usage metrics.</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-tracking" aria-labelledby="tab-tracking" hidden>
+            <h3>Real-Time Driver Tracking: Improve</h3>
+            <p><strong>Hypothesized Metrics:</strong> Near 100% adoption, high frequency.</p>
+            <p><strong>Action Rationale:</strong> Improving map accuracy reduces driver coordinate anxiety, directly lowering high-overhead support tickets (in-app chat volume) due to inverse metric correlation.</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-scheduled" aria-labelledby="tab-scheduled" hidden>
+            <h3>Book for Later: Increase Adoption</h3>
+            <p><strong>Hypothesized Metrics:</strong> Low adoption (assumed 10% vs 90% immediate book split).</p>
+            <p><strong>Action Rationale:</strong> Most users do not know Uber has scheduling options. Driving awareness through onboarding and UI cues expands the customer base to planned business travellers.</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-rating" aria-labelledby="tab-rating" hidden>
+            <h3>Rate Driver: Increase Frequency</h3>
+            <p><strong>Hypothesized Metrics:</strong> Mid adoption, high frequency, emotional bias.</p>
+            <p><strong>Action Rationale:</strong> Users primarily rate when extremely pleased or angry, losing data on average trips. Introducing neutral rating prompts collects more objective driver performance data.</p>
+          </div>
+        </div>
+
+        <p style="margin-top: 3rem;">Test your ability to apply the action matrix. Choose the correct action for each product situation below.</p>
+
+        <div class="pm-choice-widget" data-widget="choice">
+          <h3>Question 1: Feature Audit Decision</h3>
+          <p class="pm-question-text">Your telemetry shows that a video-conferencing tool's Virtual Background feature is highly popular, but users frequently complain about lag and device overheating. What is the correct strategic route?</p>
+          
+          <div class="pm-options">
+            <button class="pm-option" data-option="a">Kill it</button>
+            <button class="pm-option" data-option="b" data-correct>Improve it</button>
+            <button class="pm-option" data-option="c">Increase Adoption</button>
+            <button class="pm-option" data-option="d">Increase Frequency</button>
+          </div>
+
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="a" hidden>
+            <strong>Incorrect.</strong> The feature is highly popular (high adoption). Killing it would frustrate a large segment of your active users.
+          </div>
+          <div class="pm-feedback pm-alert pm-success" data-feedback="b" hidden>
+            <strong>Correct!</strong> Since the feature has high adoption but technical performance issues (lag, overheating), the correct choice is to work with the dev team to improve it.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="c" hidden>
+            <strong>Incorrect.</strong> Adoption is already high; marketing onboarding is not the issue here.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="d" hidden>
+            <strong>Incorrect.</strong> Driving frequency is not the solution when technical performance bugs are actively causing device crashes.
+          </div>
+        </div>
+
+        <div class="pm-choice-widget" data-widget="choice" style="margin-top: 2rem;">
+          <h3>Question 2: Metrics Correlation Diagnosis</h3>
+          <p class="pm-question-text">You notice a sudden 40% spike in customer support tickets regarding "payment transaction failures." At the same time, checkout conversion rates remain steady. What does this correlation suggest?</p>
+          
+          <div class="pm-options">
+            <button class="pm-option" data-option="a" data-correct>The payment UI has a confusing error state, but transactions actually succeed</button>
+            <button class="pm-option" data-option="b">The payment gateway is completely down</button>
+            <button class="pm-option" data-option="c">The pricing model is too expensive</button>
+            <button class="pm-option" data-option="d">Users are not clicking the checkout button</button>
+          </div>
+
+          <div class="pm-feedback pm-alert pm-success" data-feedback="a" hidden>
+            <strong>Correct!</strong> Since checkouts actually succeed (steady conversion) but support tickets spike, this indicates a UI/UX glitch where users receive false failure notices, prompting them to contact support.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="b" hidden>
+            <strong>Incorrect.</strong> If the payment gateway were completely down, checkout conversion rates would crash to zero.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="c" hidden>
+            <strong>Incorrect.</strong> Pricing sentiment does not cause a sudden, correlated spike in technical payment transaction failure tickets.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="d" hidden>
+            <strong>Incorrect.</strong> If they weren't clicking the checkout button, conversion rates would drop.
+          </div>
+        </div>
+      </section>
+
+      <nav class="pm-card" aria-label="Lesson navigation">
+        <h2>Continue learning</h2>
+        <p><a href="../21-the-feature-audit.md">Return to the canonical lecture guide</a></p>
+        <p><a href="../README.md">Section overview</a> · <a href="../../README.md">Part overview</a> · <a href="../../../COURSE-INDEX.md">Course index</a></p>
+        <p><a href="../../../sources/01-introduction/01-introduction/21-the-feature-audit-transcript.md">Original lecture transcript</a></p>
+      </nav>
+    </main>
+  </body>
+</html>

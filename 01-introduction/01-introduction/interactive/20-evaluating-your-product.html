@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive companion for Evaluating Your Product">
+    <title>Evaluating Your Product — Interactive Lesson</title>
+    <link rel="stylesheet" href="../../../assets/interactive/pm-study-guide.css">
+    <script src="../../../assets/interactive/pm-study-guide.js" defer></script>
+  </head>
+  <body>
+    <div class="pm-progress" aria-hidden="true"><span data-progress-bar></span></div>
+    <noscript><div class="pm-shell pm-card pm-warning">Interactive controls require JavaScript. The canonical Markdown lecture remains available through the link at the end of this page.</div></noscript>
+
+    <header class="pm-header pm-shell">
+      <p class="pm-kicker">Product Management Study Guide · Interactive Companion</p>
+      <h1>Evaluating Your Product</h1>
+      <p class="pm-subtitle">Learn to run a feature audit, recognize feature bloat, protect your product from disruption, and choose the right path for underperforming features.</p>
+      <div class="pm-meta" aria-label="Lesson information">
+        <span class="pm-chip">Part 1</span>
+        <span class="pm-chip">Section 1</span>
+        <span class="pm-chip">Lecture 20</span>
+      </div>
+    </header>
+
+    <main class="pm-shell pm-grid" id="main-content">
+      <nav class="pm-card" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Lesson contents</h2>
+        <ol>
+          <li><a href="#lecture-overview">Lecture overview</a></li>
+          <li><a href="#central-argument">Central argument</a></li>
+          <li><a href="#concept-1">1. The Feature Audit Matrix</a></li>
+          <li><a href="#concept-2">2. Real-World Product Adoption and Feature Bloat</a></li>
+          <li><a href="#concept-3">3. Disruption and the Threat of Feature Bloat</a></li>
+          <li><a href="#concept-4">4. The Four Choices for Low-Adoption Features</a></li>
+          <li><a href="#comparison">Comparison: Product vs. Marketing Initiatives</a></li>
+          <li><a href="#worked-example">Practical PM Example</a></li>
+          <li><a href="#misunderstandings">Common Misunderstandings</a></li>
+          <li><a href="#definitions">Key Concepts & Definitions</a></li>
+          <li><a href="#takeaways">Key Takeaways</a></li>
+          <li><a href="#visual-summary">Visual Summary</a></li>
+          <li><a href="#one-minute-review">One-minute review</a></li>
+          <li><a href="#interactive-practice">Interactive Practice</a></li>
+        </ol>
+      </nav>
+
+      <section class="pm-card pm-outcome" aria-labelledby="learning-outcome">
+        <h2 id="learning-outcome">Your goal</h2>
+        <p>Construct and interpret a Feature Audit Matrix using user adoption and frequency of use, identify product vulnerability to disruption, and apply the Four Choices framework to make sunsetting or improvement decisions.</p>
+      </section>
+
+      <section class="pm-card" id="lecture-overview" aria-labelledby="lecture-overview-heading">
+        <h2 id="lecture-overview-heading">Lecture overview</h2>
+        <p>Most Product Managers inherit existing products rather than building them from scratch. Before planning new features, a PM must audit the existing product to understand how users interact with its capabilities and identify feature bloat.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="central-argument" aria-labelledby="central-argument-heading">
+        <h2 id="central-argument-heading">Central argument</h2>
+        <p>Product success can be a lousy teacher, leading teams to build unnecessary features that result in feature bloat. An inherited product must be evaluated through a feature audit to identify which features deliver core value and which are underperforming. Unused features must be improved, marketed, or killed; carrying unnecessary features dilutes product focus, increases code maintenance costs, and makes the product vulnerable to simpler, highly optimized disruptors.</p>
+      </section>
+
+      <section class="pm-card" id="concept-1" aria-labelledby="concept-1-heading">
+        <h2 id="concept-1-heading">1. The Feature Audit Matrix</h2>
+        <p>A feature audit maps every product feature onto a 2x2 grid based on two key axes:</p>
+        <ul>
+          <li><strong>Adoption (X-Axis):</strong> What percentage of your customer base actually uses the feature.</li>
+          <li><strong>Frequency (Y-Axis):</strong> How often active users engage with the feature (e.g., daily, monthly, or yearly).</li>
+        </ul>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/20-feature-audit-matrix.png" alt="2x2 grid mapping features by adoption and frequency of use" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>20-feature-audit-matrix.png</code>
+              <span>A 2x2 grid displaying Frequency of Use on the Y-axis and Adoption (% of users) on the X-axis. Quadrants are labeled: Stars (top-right), Administrative (bottom-right), Niche/Spin-off (top-left), and Kill candidates (bottom-left).</span>
+            </div>
+          </div>
+          <figcaption>Figure 1: The Feature Audit Matrix (2x2 Grid)</figcaption>
+        </figure>
+
+        <h3>The Four Quadrants</h3>
+        <ul>
+          <li><strong>Stars (Top-Right):</strong> High adoption, high frequency. These are the core value drivers of your product that you should never neglect.</li>
+          <li><strong>Administrative (Bottom-Right):</strong> High adoption, low frequency. Crucial, utility tasks (like password reset) that everyone uses but rarely. They must be kept.</li>
+          <li><strong>Niche (Top-Left):</strong> Low adoption, high frequency. Used often by a small segment of users. Offers opportunities to spin off separate products or drive adoption to the mainstream.</li>
+          <li><strong>Kill Candidates (Bottom-Left):</strong> Low adoption, low frequency. Failed or unvalidated features that clutter the product and codebase. They should be killed off.</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="concept-2" aria-labelledby="concept-2-heading">
+        <h2 id="concept-2-heading">2. Real-World Product Adoption and Feature Bloat</h2>
+        <p>Every PM hopes feature adoption looks clean and widespread, but in reality, products become bloated and messy. Succesful launches of core features breed overconfidence, leading teams to build additional features (like calendars or chat rooms) without validating if they solve critical user pains.</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/20-clean-vs-messy-adoption.png" alt="Bar charts comparing ideal high adoption with real messy feature bloat" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>20-clean-vs-messy-adoption.png</code>
+              <span>Side-by-side bar charts. Chart A shows high, clean adoption across 4 core features. Chart B shows the messy reality of feature bloat, with high adoption on core features, but failing adoption on botch-launched additions.</span>
+            </div>
+          </div>
+          <figcaption>Figure 2: Clean Adoption vs. Messy Product Reality</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-3" aria-labelledby="concept-3-heading">
+        <h2 id="concept-3-heading">3. Disruption and the Threat of Feature Bloat</h2>
+        <p>Feature bloat is not just an interface issue; it represents a major security vulnerability for the business. When your product carries a single, popular workflow wrapped inside a complex shell of unused features, it becomes highly vulnerable to **disruption**.</p>
+        <p>A simple competitor can build a single-purpose product that focuses on your one key feature, making it faster, simpler, and superior. You will struggle to compete because your engineering resources are tied up maintaining the technical debt of your unwanted "junk" features.</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/20-disruption-vulnerability.png" alt="Cartoon comparing a heavily loaded runner to a lightweight focused runner" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>20-disruption-vulnerability.png</code>
+              <span>Visual comparison between a heavily loaded runner ("Bloated Product") carrying a heavy backpack of unused features, and a lightweight focused runner ("Simple Disruptor") carrying only a single, optimized core baton.</span>
+            </div>
+          </div>
+          <figcaption>Figure 3: Disruption Vulnerability: The Bloated Product vs. The Simple Disruptor</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-4" aria-labelledby="concept-4-heading">
+        <h2 id="concept-4-heading">4. The Four Choices for Low-Adoption Features</h2>
+        <p>When you identify underperforming features, you have four choices, split between engineering changes (Product Development) and marketing activities:</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/20-low-adoption-choices.png" alt="Decision tree mapping the four choices for low-adoption features" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>20-low-adoption-choices.png</code>
+              <span>A decision tree branching from a low-adoption feature into Product Development (Kill, Improve) and Marketing (Increase Adoption, Increase Frequency) strategic choices.</span>
+            </div>
+          </div>
+          <figcaption>Figure 4: The Four Choices for Low-Adoption Features</figcaption>
+        </figure>
+
+        <h3>Product Development Initiatives (Dev Team)</h3>
+        <ul>
+          <li><strong>Kill It:</strong> Remove it entirely. Eliminates technical debt and simplifies the UX.</li>
+          <li><strong>Improve It:</strong> Redesign or optimize performance to help the users who actively rely on it.</li>
+        </ul>
+
+        <h3>Marketing Initiatives (Growth Team)</h3>
+        <ul>
+          <li><strong>Increase Adoption:</strong> Drive awareness among users who don't know the feature exists.</li>
+          <li><strong>Increase Frequency:</strong> Prompt existing users to use it more often via push notifications, email alerts, or tips.</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="comparison" aria-labelledby="comparison-heading">
+        <h2 id="comparison-heading">Comparison: Product vs. Marketing Initiatives</h2>
+        <div class="pm-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Strategic Choice</th>
+                <th scope="col">Primary Owner</th>
+                <th scope="col">Target Metric</th>
+                <th scope="col">Typical Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Kill It</th>
+                <td>Product / Engineering</td>
+                <td>Core Code Complexity</td>
+                <td>Deprecate feature, remove UI entry, clean up codebase.</td>
+              </tr>
+              <tr>
+                <th scope="row">Improve It</th>
+                <td>Product / Engineering</td>
+                <td>Feature Usability / Performance</td>
+                <td>Redesign workflows, optimize load times, fix bugs.</td>
+              </tr>
+              <tr>
+                <th scope="row">Increase Adoption</th>
+                <td>Product / Marketing</td>
+                <td>User Adoption Rate (%)</td>
+                <td>Update product tour, highlight feature in marketing campaigns.</td>
+              </tr>
+              <tr>
+                <th scope="row">Increase Frequency</th>
+                <td>Product / Marketing</td>
+                <td>Sessions per User / Event Frequency</td>
+                <td>Implement email triggers, push notifications, or UI badges.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="pm-card" id="worked-example" aria-labelledby="worked-example-heading">
+        <h2 id="worked-example-heading">Practical Product Management example</h2>
+        <h3>Situation</h3>
+        <p>A PM inherits a collaborative project management tool that has been on the market for three years. The product has solid document sharing and file storage features (used by 92% of active users daily). However, the team has also built a time-tracking widget (used by 12% of users daily) and a group calendar feature (used by 3% of users monthly). The calendar code is fragile and frequently causes system slowdowns.</p>
+        
+        <h3>Decision</h3>
+        <p>The PM conducts a feature audit and classifies the features. Document Sharing & Storage are categorized as Stars. The Time-Tracking Widget is classified as a Niche feature (highly valuable for freelance agencies). The Group Calendar is classified as a Kill Candidate due to low adoption, low frequency, and technical debt. The PM decides to kill the calendar completely and update the onboarding tour to increase adoption of the time-tracking widget for agency accounts.</p>
+        
+        <h3>Reasoning</h3>
+        <p>The calendar is not operationally essential and causes system performance risks. Retaining it increases technical debt, making the product vulnerable to simpler, fast document-sharing competitors. The time-tracking widget has verified utility for a specific segment, making adoption-driving onboarding updates a high-leverage growth tactic.</p>
+        
+        <h3>Consequence</h3>
+        <p>Removing the calendar simplifies the user interface and immediately resolves the system slowdowns, reducing engineering maintenance tickets by 15%. Updating the onboarding tour increases time-tracking adoption from 12% to 28% within three months, locking in freelance clients who now use the platform as their primary agency workflow tool.</p>
+        
+        <h3>Transferable lesson</h3>
+        <p>Do not let sentimentality or sunk costs keep dead features alive. Kill features that fail to achieve adoption to protect product performance and focus resources on core value and high-leverage niche features.</p>
+      </section>
+
+      <section class="pm-card pm-warning" id="misunderstandings" aria-labelledby="misunderstandings-heading">
+        <h2 id="misunderstandings-heading">Common misunderstandings</h2>
+        
+        <h3>"Every feature with low frequency of use should be killed"</h3>
+        <p><strong>Correction:</strong> Frequency of use must be evaluated alongside user adoption and necessity. Administrative features like password reset or account deletion have extremely low frequency of use, but they are essential for operations. Only kill features that have <em>both</em> low adoption and low frequency and are not operationally essential.</p>
+
+        <h3>"Killing a feature is a waste of the engineering hours spent building it"</h3>
+        <p><strong>Correction:</strong> This is the <strong>Sunk Cost Fallacy</strong>. Keeping a failed feature in the product does not recover the cost of building it. Instead, it creates ongoing costs: developers must test it during updates, write documentation for it, fix its bugs, and carry it as technical debt, which slows down future development.</p>
+
+        <h3>"A feature audit is a one-time launch task"</h3>
+        <p><strong>Correction:</strong> A feature audit is an ongoing lifecycle activity. Products naturally accumulate feature bloat over time as teams attempt to solve new problems. PMs must run feature audits periodically to keep the product focused, performant, and safe from disruptors.</p>
+      </section>
+
+      <section class="pm-card" id="definitions" aria-labelledby="definitions-heading">
+        <h2 id="definitions-heading">Key concepts and definitions</h2>
+        <ul>
+          <li><strong>Feature Audit Matrix:</strong> A strategic 2x2 grid that plots features based on user adoption (percentage of users) and frequency of use to determine product health.</li>
+          <li><strong>Feature Bloat:</strong> The accumulation of unnecessary features that add product complexity, complicate the user interface, and increase technical debt without adding value.</li>
+          <li><strong>Sunk Cost Fallacy:</strong> The tendency to continue investing in a failed feature or project because of the resources (time, money, effort) already spent on it.</li>
+          <li><strong>Disruption Vulnerability:</strong> The risk of losing market share to a simpler, faster competitor who focuses entirely on doing one core thing exceptionally well.</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="takeaways" aria-labelledby="takeaways-heading">
+        <h2 id="takeaways-heading">Key takeaways</h2>
+        <ol>
+          <li>PMs almost always inherit products rather than starting from scratch, making a feature audit the necessary first step on the job.</li>
+          <li>The Feature Audit Matrix plots features based on user adoption (X-axis) and frequency of use (Y-axis) to diagnose product health.</li>
+          <li>Core value "Star" features have high adoption and frequency, representing the primary reasons users choose the product.</li>
+          <li>Administrative features have high adoption but low frequency, and because they are operationally essential, they must not be removed.</li>
+          <li>Niche features (low adoption, high frequency) offer opportunities to spin off separate products or drive adoption to the mainstream.</li>
+          <li>Feature bloat occurs when teams continually build new features without validation, leaving the product carrying failed, complex codebases.</li>
+          <li>Bloated products are vulnerable to disruption by simple competitors who optimize a single core feature and avoid carrying unwanted feature weight.</li>
+          <li>Handling low-adoption features requires choosing to kill or improve them (Product Development), or increase their adoption or frequency (Marketing).</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
+        <h2 id="visual-summary-heading">Visual summary</h2>
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/20-visual-summary.png" alt="Visual summary flowchart of the Feature Audit Matrix and subsequent strategic decisions" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>20-visual-summary.png</code>
+              <span>A flowchart displaying the progression from running the Feature Audit Matrix (Adoption vs. Frequency), to classifying features into quadrants, and finally routing low-adoption features into specific product development or marketing choices.</span>
+            </div>
+          </div>
+          <figcaption>Figure 5: Feature Audit Matrix and Strategic Decisions</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card pm-outcome" id="one-minute-review" aria-labelledby="one-minute-review-heading">
+        <h2 id="one-minute-review-heading">One-minute review</h2>
+        <p><strong>Plot Feature Usage:</strong> Perform a feature audit by mapping features on a 2x2 grid of Adoption (how many use it) vs. Frequency (how often). <strong>Sunsetting is Strategy:</strong> Core stars must be protected, administrative items are kept, niche items are optimized, and low-adoption/low-frequency features should be sunsetted (killed) to eliminate technical debt. <strong>Four Strategic Choices:</strong> For underperforming features, choose to <strong>Kill</strong> or <strong>Improve</strong> them (working with engineering), or <strong>Increase Adoption</strong> or <strong>Increase Frequency</strong> (working with marketing/growth).</p>
+      </section>
+
+      <section class="pm-card" id="interactive-practice" aria-labelledby="interactive-practice-heading">
+        <h2 id="interactive-practice-heading">Interactive Practice</h2>
+        <p>Audit your understanding of feature categorization. For each scenario below, decide which quadrant of the Feature Audit Matrix the feature belongs to.</p>
+
+        <div class="pm-choice-widget" data-widget="choice">
+          <h3>Scenario 1: Account Password Reset Link</h3>
+          <p class="pm-question-text">This feature is used by 99% of your total user base, but each user accesses it on average only once every six months.</p>
+          
+          <div class="pm-options">
+            <button class="pm-option" data-option="a">Stars (Core Value)</button>
+            <button class="pm-option" data-option="b" data-correct>Administrative (Essential)</button>
+            <button class="pm-option" data-option="c">Niche / Spin-Off Opportunity</button>
+            <button class="pm-option" data-option="d">Kill Candidate</button>
+          </div>
+
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="a" hidden>
+            <strong>Incorrect.</strong> Stars have both high adoption and high frequency of use. Password reset is accessed very rarely by any individual user.
+          </div>
+          <div class="pm-feedback pm-alert pm-success" data-feedback="b" hidden>
+            <strong>Correct!</strong> Since almost all users adopt it (99%) but use it very infrequently (once every six months), this fits the Administrative quadrant. It is essential and cannot be removed.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="c" hidden>
+            <strong>Incorrect.</strong> Niche features have low adoption but high frequency of use among that small group. Password reset is used by almost everyone.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="d" hidden>
+            <strong>Incorrect.</strong> While it has low frequency, it has near-universal adoption and is operationally essential, so it must not be killed.
+          </div>
+        </div>
+
+        <div class="pm-choice-widget" data-widget="choice" style="margin-top: 2rem;">
+          <h3>Scenario 2: Advanced Code Sandbox Compiler</h3>
+          <p class="pm-question-text">Only 4% of your total users (all senior backend engineers) access this feature, but they write and compile code using it multiple times every single day.</p>
+          
+          <div class="pm-options">
+            <button class="pm-option" data-option="a">Stars (Core Value)</button>
+            <button class="pm-option" data-option="b">Administrative (Essential)</button>
+            <button class="pm-option" data-option="c" data-correct>Niche / Spin-Off Opportunity</button>
+            <button class="pm-option" data-option="d">Kill Candidate</button>
+          </div>
+
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="a" hidden>
+            <strong>Incorrect.</strong> While this feature has high frequency of use, its overall adoption rate across the entire user base is very low (4%).
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="b" hidden>
+            <strong>Incorrect.</strong> Administrative features have high overall adoption (used by almost everyone eventually), but low frequency.
+          </div>
+          <div class="pm-feedback pm-alert pm-success" data-feedback="c" hidden>
+            <strong>Correct!</strong> Since it has low adoption (4% of users) but very high frequency of use (multiple times a day by those users), it sits in the Niche/Spin-off quadrant.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="d" hidden>
+            <strong>Incorrect.</strong> Niche features have high engagement from their specific users, meaning they add real value and should not be killed without evaluating if they can be spun off or promoted.
+          </div>
+        </div>
+
+        <div class="pm-choice-widget" data-widget="choice" style="margin-top: 2rem;">
+          <h3>Scenario 3: Botched Internal Chat Rooms</h3>
+          <p class="pm-question-text">This feature was added to a document editing suite last year. It is currently used by only 2% of your users, and those users create a chat room less than once a year.</p>
+          
+          <div class="pm-options">
+            <button class="pm-option" data-option="a">Stars (Core Value)</button>
+            <button class="pm-option" data-option="b">Administrative (Essential)</button>
+            <button class="pm-option" data-option="c">Niche / Spin-Off Opportunity</button>
+            <button class="pm-option" data-option="d" data-correct>Kill Candidate</button>
+          </div>
+
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="a" hidden>
+            <strong>Incorrect.</strong> Stars require high adoption and high frequency.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="b" hidden>
+            <strong>Incorrect.</strong> Administrative features require high adoption (everyone needs it eventually). This has 2% adoption.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="c" hidden>
+            <strong>Incorrect.</strong> Niche features require high frequency among their small user group. These users use it less than once a year.
+          </div>
+          <div class="pm-feedback pm-alert pm-success" data-feedback="d" hidden>
+            <strong>Correct!</strong> With both low adoption (2% of users) and low frequency of use (less than once a year), this feature is a clear Kill Candidate. It adds maintenance overhead without user value.
+          </div>
+        </div>
+      </section>
+
+      <nav class="pm-card" aria-label="Lesson navigation">
+        <h2>Continue learning</h2>
+        <p><a href="../20-evaluating-your-product.md">Return to the canonical lecture guide</a></p>
+        <p><a href="../README.md">Section overview</a> · <a href="../../README.md">Part overview</a> · <a href="../../../COURSE-INDEX.md">Course index</a></p>
+        <p><a href="../../../sources/01-introduction/01-introduction/20-evaluating-your-product-transcript.md">Original lecture transcript</a></p>
+      </nav>
+    </main>
+  </body>
+</html>
