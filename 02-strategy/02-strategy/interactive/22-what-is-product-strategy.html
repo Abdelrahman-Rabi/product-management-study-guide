@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive companion for What is Product Strategy?">
+    <title>What is Product Strategy? — Interactive Lesson</title>
+    <link rel="stylesheet" href="../../../assets/interactive/pm-study-guide.css">
+    <script src="../../../assets/interactive/pm-study-guide.js" defer></script>
+  </head>
+  <body>
+    <div class="pm-progress" aria-hidden="true"><span data-progress-bar></span></div>
+    <noscript><div class="pm-shell pm-card pm-warning">Interactive controls require JavaScript. The canonical Markdown lecture remains available through the link at the end of this page.</div></noscript>
+
+    <header class="pm-header pm-shell">
+      <p class="pm-kicker">Product Management Study Guide · Interactive Companion</p>
+      <h1>What is Product Strategy?</h1>
+      <p class="pm-subtitle">Learn to define product strategy, balance strategic "big rocks" with daily agile "sand", separate problem/solution space boundaries, and peel nested customer needs.</p>
+      <div class="pm-meta" aria-label="Lesson information">
+        <span class="pm-chip">Part 2</span>
+        <span class="pm-chip">Section 2</span>
+        <span class="pm-chip">Lecture 22</span>
+      </div>
+    </header>
+
+    <main class="pm-shell pm-grid" id="main-content">
+      <nav class="pm-card" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Lesson contents</h2>
+        <ol>
+          <li><a href="#lecture-overview">Lecture overview</a></li>
+          <li><a href="#central-argument">Central argument</a></li>
+          <li><a href="#concept-1">1. What is Product Strategy?</a></li>
+          <li><a href="#concept-2">2. Metaphor: Big Rocks vs. Sand</a></li>
+          <li><a href="#concept-3">3. Product Strategy and the PMF Pyramid</a></li>
+          <li><a href="#concept-4">4. Problem Space vs. Solution Space</a></li>
+          <li><a href="#concept-5">5. Decomposing Needs: Peeling the Onion</a></li>
+          <li><a href="#worked-example">Practical PM Example</a></li>
+          <li><a href="#misunderstandings">Common Misunderstandings</a></li>
+          <li><a href="#definitions">Key Concepts & Definitions</a></li>
+          <li><a href="#takeaways">Key Takeaways</a></li>
+          <li><a href="#visual-summary">Visual Summary</a></li>
+          <li><a href="#one-minute-review">One-minute review</a></li>
+          <li><a href="#interactive-practice">Interactive Practice</a></li>
+        </ol>
+      </nav>
+
+      <section class="pm-card pm-outcome" aria-labelledby="learning-outcome">
+        <h2 id="learning-outcome">Your goal</h2>
+        <p>Define Product Strategy and explain its role as a bridge between vision and daily delivery, apply Olsen's PMF Pyramid and the Rocks/Sand metaphor, and isolate customer needs from technical feature implementations.</p>
+      </section>
+
+      <section class="pm-card" id="lecture-overview" aria-labelledby="lecture-overview-heading">
+        <h2 id="lecture-overview-heading">Lecture overview</h2>
+        <p>A great product vision is meaningless without a concrete plan to execute it. This lecture introduces <strong>Product Strategy</strong> as the plan that turns a high-level vision into reality, acting as the critical bridge connecting your long-term goal with short-term user stories.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="central-argument" aria-labelledby="central-argument-heading">
+        <h2 id="central-argument-heading">Central argument</h2>
+        <p>Many companies fail to build effective product strategies because they focus on short-term agile outputs (the "sand") and lack structured frameworks to formulate long-term goals. A successful Product Manager must define strategy in terms of customer benefits (the problem space) rather than features (the solution space). By prioritizing the strategic "big rocks" first and decomposing customer needs through structured problem-space mapping, PMs ensure that daily development work drives actual business and user value.</p>
+      </section>
+
+      <section class="pm-card" id="concept-1" aria-labelledby="concept-1-heading">
+        <h2 id="concept-1-heading">1. What is Product Strategy?</h2>
+        <p>Product strategy is the plan for making your product vision a reality. It bridges the gap between the ultimate destination ("Why") and the sprint backlog files ("What/How").</p>
+        <p>Companies struggle with strategy because they focus on short-term weekly sprint velocity (often guilty in Agile teams where the Product Owner has no time for the bigger picture) and because strategy is difficult without structured frameworks.</p>
+      </section>
+
+      <section class="pm-card" id="concept-2" aria-labelledby="concept-2-heading">
+        <h2 id="concept-2-heading">2. Metaphor: Big Rocks vs. Sand</h2>
+        <p>If you fill a jar with sand first, you won't have room for big rocks. But if you put the rocks in first, everything fits. The <strong>Sand</strong> represents daily minor tasks (emails, meetings, bug patches). The <strong>Big Rocks</strong> represent long-term strategic initiatives (validating customer needs, refactoring architecture, scaling platforms).</p>
+        <p>Agile velocity cycles are all about continuous delivery (the sand). Leadership and PMs must protect and schedule the "big rocks" first, letting the rocks guide where the sand goes.</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/22-rocks-vs-sand.png" alt="Rocks vs. Sand Jars comparison showing prioritization order" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>22-rocks-vs-sand.png</code>
+              <span>Side-by-side jars diagram. Jar A (sand first) shows overflow and rocks failing to fit. Jar B (rocks first) shows the rocks resting stably at the bottom with pebbles and sand filling the gaps.</span>
+            </div>
+          </div>
+          <figcaption>Figure 1: Metaphor: Big Rocks vs. Sand Jars</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-3" aria-labelledby="concept-3-heading">
+        <h2 id="concept-3-heading">3. Product Strategy and the PMF Pyramid</h2>
+        <p>Dan Olsen's Product-Market Fit Pyramid splits a product lifecycle into a Market segment and a Product segment. Market layers (Target Customer and Needs) cannot be controlled directly. Product layers (Value Proposition, Features, UX) are controlled by the team. **Product Strategy lives at the Value Proposition layer**—the choice of which customer benefits to deliver.</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/22-pmf-pyramid.png" alt="The Product-Market Fit Pyramid highlighting the Value Proposition Strategy layer" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>22-pmf-pyramid.png</code>
+              <span>The 5-tiered PMF Pyramid. The top three layers represent Product Execution (UX, Features) and Product Strategy (Value Proposition), while the bottom two represent Market (Needs, Customers). Tier 3 Strategy is highlighted in teal.</span>
+            </div>
+          </div>
+          <figcaption>Figure 2: The Product-Market Fit Pyramid & Strategy Layer</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-4" aria-labelledby="concept-4-heading">
+        <h2 id="concept-4-heading">4. Problem Space vs. Solution Space</h2>
+        <p>Product strategy must focus on customer benefits, not features. The <strong>Problem Space</strong> describes the user's unmet need or desired benefit (Why/Who). The <strong>Solution Space</strong> is a specific technical design or implementation (How/What).</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/22-problem-vs-solution.png" alt="Graphic comparing problem-space needs with solution-space implementations" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>22-problem-vs-solution.png</code>
+              <span>Comparative split diagram. Left side shows green target labeled Problem Space: 'Share running location during emergencies'. Right side shows blue wrench labeled Solution Space options: 'SMS share widget, dropdown selector, push notification'.</span>
+            </div>
+          </div>
+          <figcaption>Figure 3: Problem Space vs. Solution Space Mapping</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-5" aria-labelledby="concept-5-heading">
+        <h2 id="concept-5-heading">5. Decomposing Needs: Peeling the Onion</h2>
+        <p>Isolating critical business problems requires "peeling the onion"—asking "Why" during user research to peel away superficial requests and expose nested customer needs. The Uber (2009) passenger goal "Get a ride" peels into speed needs (low wait times, routes) and cheap needs (no surprises, no billing overcharges).</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/22-peeling-onion.png" alt="Concentric rings of an onion decomposing Uber passenger needs" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>22-peeling-onion.png</code>
+              <span>Concentric onion ring diagram. Outer layer is 'Get a ride'. Middle layer splits into 'Get there fast' and 'Cheap travel'. Inner core exposes 'low wait times, best route' and 'no surprise fees, zero billing fraud'.</span>
+            </div>
+          </div>
+          <figcaption>Figure 4: Problem Decomposition: Peeling the Onion (Uber Cabs 2009)</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="worked-example" aria-labelledby="worked-example-heading">
+        <h2 id="worked-example-heading">Practical Product Management example</h2>
+        <h3>Situation</h3>
+        <p>A PM at a fitness tracking app receives a high-priority feature request from stakeholders: <em>"We need to add a dropdown menu of pre-written messaging status templates to our running tracker."</em> The engineering team has already started writing database migrations to store template strings.</p>
+        
+        <h3>Decision</h3>
+        <p>The PM halts the development work to validate the problem space. They apply the "Five Whys" analysis to peel the request: Why do users need messaging templates? To share their location quickly. Why do they need to share location quickly? To let family members know where they are while jogging. Why do they need family members to know? In case they get injured or run into trouble on isolated trails. The PM realizes the core benefit is personal safety tracking. The PM re-writes the backlog requirement in the problem space: <em>"As an outdoor runner, I want my emergency contacts to monitor my live route so that they can assist me if I get injured."</em></p>
+        
+        <h3>Reasoning</h3>
+        <p>The dropdown menu is a solution-space guess. By focusing on the problem space (safety tracking), the PM opens up superior solutions. Instead of complex template dropdowns, the engineering team proposes a simple "Send Live Track" button that integrates with the phone's native GPS and SMS apps.</p>
+        
+        <h3>Consequence</h3>
+        <p>The development team avoids writing custom template storage code, saving 2 weeks of sprint time. The "Send Live Track" feature launches quickly and achieves 78% daily active use among early adopters. User feedback indicates that safety tracking (the problem space) was the primary reason joggers recommended the app to friends.</p>
+        
+        <h3>Transferable lesson</h3>
+        <p>Never let feature requests bypass problem-space validation. Peel the onion by asking "Why" to isolate the core customer benefit before writing code. This avoids bloating the product with unnecessary UI features.</p>
+      </section>
+
+      <section class="pm-card pm-warning" id="misunderstandings" aria-labelledby="misunderstandings-heading">
+        <h2 id="misunderstandings-heading">Common misunderstandings</h2>
+        
+        <h3>"Product strategy is our product roadmap of features"</h3>
+        <p><strong>Correction:</strong> A list of features is not a strategy. Features live in the solution space. Product strategy lives in the <strong>value proposition layer</strong> of the PMF Pyramid and defines the customer benefits you choose to deliver. Roadmaps should be structured around outcomes and user benefits, not delivery dates for code.</p>
+
+        <h3>"Agile development automatically builds good product strategy"</h3>
+        <p><strong>Correction:</strong> Agile is a delivery methodology optimized for shipping continuous increments of code (the "sand"). It does not generate product strategy. Without strong leadership protecting the "big rocks" first, agile teams naturally fall into the "feature factory" trap—shipping code fast without verifying if it solves strategic user problems.</p>
+
+        <h3>"We must solve the entire problem space at once"</h3>
+        <p><strong>Correction:</strong> The problem space can be massive (like the Uber cab onion layers). A PM must prioritize which specific underserved needs to tackle first. Attempting to solve all layers of the onion on day one leads to scope creep and delayed launches.</p>
+      </section>
+
+      <section class="pm-card" id="definitions" aria-labelledby="definitions-heading">
+        <h2 id="definitions-heading">Key concepts and definitions</h2>
+        <ul>
+          <li><strong>Product Strategy:</strong> The plan for making a product vision a reality, living at the value proposition layer of the PMF Pyramid.</li>
+          <li><strong>Big Rocks vs. Sand:</strong> A prioritization metaphor where "rocks" represent long-term strategic goals and "sand" represents short-term daily tasks.</li>
+          <li><strong>Problem Space:</strong> The set of customer needs, pain points, and desired benefits that a product is designed to solve.</li>
+          <li><strong>Solution Space:</strong> The specific features, software designs, and technical implementations built to solve problem-space needs.</li>
+          <li><strong>PMF Pyramid:</strong> A 5-layer framework mapping Target Customer and Needs (Market) to Value Proposition, Features, and UX (Product).</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="takeaways" aria-labelledby="takeaways-heading">
+        <h2 id="takeaways-heading">Key takeaways</h2>
+        <ol>
+          <li>Strategy is the plan to realize your vision, bridging the gap between high-level purpose and daily backlog delivery.</li>
+          <li>The "Big Rocks vs. Sand" metaphor dictates that you must schedule long-term strategic work first, or daily tasks will overwhelm your team.</li>
+          <li>Agile focus on continuous output naturally prioritizes the "sand," making strong product leadership essential to protect the "rocks."</li>
+          <li>Product Strategy lives at the Value Proposition layer of the Product-Market Fit Pyramid, not in features or UX.</li>
+          <li>You cannot control your market (customer needs), but you control which market segment your product strategy targets.</li>
+          <li>Separate the problem space (Why/Who) from the solution space (How/What) to avoid building unvalidated, complex features.</li>
+          <li>Peel the onion by asking "Why" during user research to decompose high-level goals into detailed layers of underserved needs.</li>
+          <li>Uber Cabs (2009) decomposed needs from "get a ride" down to speed (low wait times) and cost trust (no surprise fees).</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
+        <h2 id="visual-summary-heading">Visual summary</h2>
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/22-visual-summary.png" alt="Visual summary flowchart of the Product Strategy Framework" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>22-visual-summary.png</code>
+              <span>Flowchart connecting Product Vision at the top, to Product Strategy (Value Prop / Rocks first), descending into Problem Space (Peeling onion), and ending in Solution Space (Backlog execution).</span>
+            </div>
+          </div>
+          <figcaption>Figure 5: The Product Strategy Framework</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card pm-outcome" id="one-minute-review" aria-labelledby="one-minute-review-heading">
+        <h2 id="one-minute-review-heading">One-minute review</h2>
+        <p><strong>Define Strategy First:</strong> Product strategy is your value proposition—the specific customer benefits you choose to deliver to realize your vision. <strong>Prioritize Big Rocks:</strong> Put the rocks (strategy) in first. If you focus on the sand (daily agile delivery), your product will lack long-term direction. <strong>Focus on the Problem:</strong> Keep your backlog in the problem space (needs). Ask "Why" to peel back feature requests and uncover the real user problems.</p>
+      </section>
+
+      <section class="pm-card" id="interactive-practice" aria-labelledby="interactive-practice-heading">
+        <h2 id="interactive-practice-heading">Interactive Practice</h2>
+        <p>Review the components of the Product-Market Fit (PMF) Pyramid. Click on the tabs below to read the strategic definition for each tier.</p>
+
+        <div class="pm-tabs" data-widget="tabs">
+          <div class="pm-tablist" role="tablist" aria-label="PMF Pyramid Layers">
+            <button class="pm-tab" role="tab" aria-selected="true" aria-controls="panel-target" id="tab-target">Tier 1: Target Customer</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-needs" id="tab-needs" tabindex="-1">Tier 2: Underserved Needs</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-value" id="tab-value" tabindex="-1">Tier 3: Value Prop (Strategy)</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-features" id="tab-features" tabindex="-1">Tier 4: Feature Set</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-ux" id="tab-ux" tabindex="-1">Tier 5: User Experience</button>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-target" aria-labelledby="tab-target">
+            <h3>Target Customer (Market Layer)</h3>
+            <p>The specific demographic, user profile, or customer persona you intend to serve. You cannot modify customer demographics directly, but you choose which market segment to target.</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-needs" aria-labelledby="tab-needs" hidden>
+            <h3>Underserved Customer Needs (Market Layer)</h3>
+            <p>The user pain points or desires that are not currently satisfied by existing products. This describes the problem space requirements that the market demands.</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-value" aria-labelledby="tab-value" hidden>
+            <h3>Value Proposition (Product Layer - Strategy)</h3>
+            <p>The core customer benefits your product chooses to deliver to satisfy the underserved needs. <strong>This is where Product Strategy lives.</strong> It dictates the value statement before any code is drafted.</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-features" aria-labelledby="tab-features" hidden>
+            <h3>Feature / Functionality Set (Product Layer)</h3>
+            <p>The specific technological capabilities, software functions, or widgets built to deliver the promised value proposition benefits (lives in the solution space).</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-ux" aria-labelledby="tab-ux" hidden>
+            <h3>User Experience (Product Layer)</h3>
+            <p>The visual design, interactions, screen flows, and styling that bring the technical features to life in a way that is easy and pleasing for the target customer to operate.</p>
+          </div>
+        </div>
+
+        <p style="margin-top: 3rem;">Test your ability to separate the problem space from the solution space. Classify each product item below into its correct category.</p>
+
+        <div class="pm-choice-widget" data-widget="choice">
+          <h3>Question 1: In which space does this user requirement belong?</h3>
+          <p class="pm-question-text"><em>"As a jogger, I want to let my family members track my location in real-time in case of an emergency."</em></p>
+          
+          <div class="pm-options">
+            <button class="pm-option" data-option="a" data-correct>Problem Space (Customer Benefit / Need)</button>
+            <button class="pm-option" data-option="b">Solution Space (Feature / Implementation)</button>
+          </div>
+
+          <div class="pm-feedback pm-alert pm-success" data-feedback="a" hidden>
+            <strong>Correct!</strong> This statement describes the user need, pain point, and core benefit (personal safety during emergencies) without dictating how the software should execute it.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="b" hidden>
+            <strong>Incorrect.</strong> Solution space statements describe the specific implementation (e.g. sending an SMS coordinate link). This describes the customer requirement.
+          </div>
+        </div>
+
+        <div class="pm-choice-widget" data-widget="choice" style="margin-top: 2rem;">
+          <h3>Question 2: In which space does this requirement belong?</h3>
+          <p class="pm-question-text"><em>"Add a dropdown menu of message status templates in the app sidebar."</em></p>
+          
+          <div class="pm-options">
+            <button class="pm-option" data-option="a">Problem Space (Customer Benefit / Need)</button>
+            <button class="pm-option" data-option="b" data-correct>Solution Space (Feature / Implementation)</button>
+          </div>
+
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="a" hidden>
+            <strong>Incorrect.</strong> This describes the specific interface control and code specification (how to build it), not the customer problem being solved.
+          </div>
+          <div class="pm-feedback pm-alert pm-success" data-feedback="b" hidden>
+            <strong>Correct!</strong> This describes a specific UI design decision and code target, representing a solution space guess to solve the messaging need.
+          </div>
+        </div>
+      </section>
+
+      <nav class="pm-card" aria-label="Lesson navigation">
+        <h2>Continue learning</h2>
+        <p><a href="../22-what-is-product-strategy.md">Return to the canonical lecture guide</a></p>
+        <p><a href="../README.md">Section overview</a> · <a href="../../README.md">Part overview</a> · <a href="../../../COURSE-INDEX.md">Course index</a></p>
+        <p><a href="../../../sources/02-strategy/02-strategy/22-what-is-product-strategy-transcript.md">Original lecture transcript</a></p>
+      </nav>
+    </main>
+  </body>
+</html>

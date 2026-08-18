@@ -470,7 +470,52 @@ Section 1: Introduction
 <!-- Example entry: #### The Traditional Product Process **Source lecture:** [Why Product Management Is Broken](./01-introduction/01-introduction/11-why-product-management-is-broken.md) **Purpose:** Shows the sequential product-development process and why validation often happens only after release. ![Traditional product-development process where validation happens at the end](./01-introduction/01-introduction/visuals/11-traditional-product-process.png) -->
 ## Part 2: Strategy
 
-Visuals will be added when this part begins.
+### Section 2: Strategy
+
+#### Big Rocks vs. Sand Metaphor
+
+**Source lecture:**  
+[What is Product Strategy?](./02-strategy/02-strategy/22-what-is-product-strategy.md)
+
+**Purpose:** Prioritization metaphor demonstrating how scheduling rocks (strategy) first ensures daily ad-hoc sand (tasks) does not overwhelm the calendar.
+
+![Big Rocks vs. Sand Metaphor](./02-strategy/02-strategy/visuals/22-rocks-vs-sand.png)
+
+#### The Product-Market Fit Pyramid & Strategy Layer
+
+**Source lecture:**  
+[What is Product Strategy?](./02-strategy/02-strategy/22-what-is-product-strategy.md)
+
+**Purpose:** Pyramidal diagram mapping Dan Olsen's tiers, highlighting that Product Strategy lives at the Value Proposition layer.
+
+![The Product-Market Fit Pyramid & Strategy Layer](./02-strategy/02-strategy/visuals/22-pmf-pyramid.png)
+
+#### Problem Space vs. Solution Space Mapping
+
+**Source lecture:**  
+[What is Product Strategy?](./02-strategy/02-strategy/22-what-is-product-strategy.md)
+
+**Purpose:** Comparative illustration helping developers isolate user benefits (Problem) from implementation code specs (Solution).
+
+![Problem Space vs. Solution Space Mapping](./02-strategy/02-strategy/visuals/22-problem-vs-solution.png)
+
+#### Problem Decomposition: Peeling the Onion (Uber Cabs 2009)
+
+**Source lecture:**  
+[What is Product Strategy?](./02-strategy/02-strategy/22-what-is-product-strategy.md)
+
+**Purpose:** Onion ring structure decomposing passenger goals down to low wait times and zero billing fraud.
+
+![Problem Decomposition: Peeling the Onion (Uber Cabs 2009)](./02-strategy/02-strategy/visuals/22-peeling-onion.png)
+
+#### The Product Strategy Framework
+
+**Source lecture:**  
+[What is Product Strategy?](./02-strategy/02-strategy/22-what-is-product-strategy.md)
+
+**Purpose:** Top-down flowchart mapping the progression from high-level Product Vision down to Solution Space backlog stories.
+
+![The Product Strategy Framework](./02-strategy/02-strategy/visuals/22-visual-summary.png)
 
 Part 3: Discovery
 

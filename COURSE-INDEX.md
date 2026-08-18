@@ -32,10 +32,10 @@ processed.
 
 ## Part 2: Strategy
 
-The part introduction and section folders will be added when this part begins.
+### Section 2: Strategy
+- [What is Product Strategy?](./02-strategy/02-strategy/22-what-is-product-strategy.md)
 
 Planned sections:
-
 - Section 3: The Problem Space
 - Section 4: Goal Setting
 - Section 5: The Solution Space

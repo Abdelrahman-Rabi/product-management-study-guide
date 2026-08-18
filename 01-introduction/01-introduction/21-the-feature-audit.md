@@ -25,7 +25,7 @@ related_concepts:
 ·
 [Part Overview](../README.md)
 ·
-[Next Lecture →](unavailable)
+[Next Lecture →](../../02-strategy/02-strategy/22-what-is-product-strategy.md)
 
 # Exercise #4: The Feature Audit
 
@@ -264,5 +264,5 @@ sunsetting decisions must evaluate engineering maintenance costs (technical debt
 * Previous: [Evaluating Your Product](./20-evaluating-your-product.md)
 * Section: [Introduction](./README.md)
 * Part: [Introduction](../README.md)
-* Next: [Next Lecture](unavailable)
+* Next: [What is Product Strategy?](../../02-strategy/02-strategy/22-what-is-product-strategy.md)
 * Course index: [Full Course Index](../../COURSE-INDEX.md)

@@ -424,6 +424,22 @@ Decomposition allows separate teams and Product Managers to run development stre
 **Related lectures:**
 - [What's a Product?](./01-introduction/01-introduction/07-whats-a-product.md)
 
+---
+
+## P
+
+### Problem Space
+
+The set of customer needs, pain points, desires, and underserved benefits that a product is designed to satisfy. Product strategy begins by defining and prioritizing the problem space before committing to specific implementations.
+
+**Related concepts:**
+- Solution Space
+- Product Strategy
+- User Needs
+
+**Related lectures:**
+- [What is Product Strategy?](./02-strategy/02-strategy/22-what-is-product-strategy.md)
+
 ### Product Discovery
 
 The process of investigating customer problems, assumptions, risks, and
@@ -568,6 +584,19 @@ Defining a clear scope isolates specific development work streams and prevents p
 **Related lectures:**
 - [Exercise #1 Choose Your Product](./01-introduction/01-introduction/10-choose-your-product.md)
 
+### Product Strategy
+
+The plan for making a product vision a reality, which lives at the value proposition layer of the PMF Pyramid and defines the specific customer benefits the product chooses to deliver.
+
+**Related concepts:**
+- Product Vision
+- Product-Market Fit (PMF)
+- Problem Space
+- Solution Space
+
+**Related lectures:**
+- [What is Product Strategy?](./02-strategy/02-strategy/22-what-is-product-strategy.md)
+
 ### Product Vision
 
 The long-term aspirational destination of the product, typically looking 2–5 years out for software/service companies and 5–10 years out for hardware/device companies. It defines the core services you plan to provide and the target customers you intend to serve, acting as an alignment and motivational tool for the team.
@@ -627,11 +656,13 @@ The solution space may include:
 - Alternative implementation paths
 
 **Related concepts:**
-
 - Problem space
 - Product discovery
 - Prototyping
 - Technical feasibility
+
+**Related lectures:**
+- [What is Product Strategy?](./02-strategy/02-strategy/22-what-is-product-strategy.md)
 
 ### Strategy Pivot
 
