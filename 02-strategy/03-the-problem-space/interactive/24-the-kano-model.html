@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive companion for The Kano Model">
+    <title>The Kano Model — Interactive Lesson</title>
+    <link rel="stylesheet" href="../../../assets/interactive/pm-study-guide.css">
+    <script src="../../../assets/interactive/pm-study-guide.js" defer></script>
+  </head>
+  <body>
+    <div class="pm-progress" aria-hidden="true"><span data-progress-bar></span></div>
+    <noscript><div class="pm-shell pm-card pm-warning">Interactive controls require JavaScript. The canonical Markdown lecture remains available through the link at the end of this page.</div></noscript>
+
+    <header class="pm-header pm-shell">
+      <p class="pm-kicker">Product Management Study Guide · Interactive Companion</p>
+      <h1>The Kano Model</h1>
+      <p class="pm-subtitle">Learn to prioritize user needs on two dimensions, identify must-haves, performance features, and delighters, and filter waste/danger from roadmaps.</p>
+      <div class="pm-meta" aria-label="Lesson information">
+        <span class="pm-chip">Part 2</span>
+        <span class="pm-chip">Section 3</span>
+        <span class="pm-chip">Lecture 24</span>
+      </div>
+    </header>
+
+    <main class="pm-shell pm-grid" id="main-content">
+      <nav class="pm-card" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Lesson contents</h2>
+        <ol>
+          <li><a href="#lecture-overview">Lecture overview</a></li>
+          <li><a href="#central-argument">Central argument</a></li>
+          <li><a href="#concept-1">1. What is the Kano Model?</a></li>
+          <li><a href="#concept-2">2. Roadmap Exclusions: Indifferent and Unwanted Needs</a></li>
+          <li><a href="#concept-3">3. The Core Kano Categories: Must-Haves, Performance, and Delighters</a></li>
+          <li><a href="#concept-4">4. The Dynamic Decay of Delighters</a></li>
+          <li><a href="#worked-example">Practical PM Example</a></li>
+          <li><a href="#misunderstandings">Common Misunderstandings</a></li>
+          <li><a href="#definitions">Key Concepts & Definitions</a></li>
+          <li><a href="#takeaways">Key Takeaways</a></li>
+          <li><a href="#visual-summary">Visual Summary</a></li>
+          <li><a href="#one-minute-review">One-minute review</a></li>
+          <li><a href="#interactive-practice">Interactive Practice</a></li>
+        </ol>
+      </nav>
+
+      <section class="pm-card pm-outcome" aria-labelledby="learning-outcome">
+        <h2 id="learning-outcome">Your goal</h2>
+        <p>Prioritize customer needs using the Kano Model, categorize features into must-haves, performance, and delighters, and identify temporal decay trends of customer expectations.</p>
+      </section>
+
+      <section class="pm-card" id="lecture-overview" aria-labelledby="lecture-overview-heading">
+        <h2 id="lecture-overview-heading">Lecture overview</h2>
+        <p>Once a product team compiles a list of customer needs, they must decide which ones to prioritize with their limited resources. This lecture introduces the **Kano Model** as a prioritization framework.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="central-argument" aria-labelledby="central-argument-heading">
+        <h2 id="central-argument-heading">Central argument</h2>
+        <p>Product Managers must never treat all feature requests equally. To construct a viable roadmap, PMs must categorize needs using the Kano Model, filtering out wasteful indifferent features and dangerous unwanted features first. Successful execution requires delivering functional must-haves (which prevent dissatisfaction but do not increase delight) and scaling performance features linearly, while selectively introducing delighters to capture market share. Because customer expectations are dynamic, yesterday's delighters (like mobile GPS maps) inevitably decay into today's must-haves, requiring continuous strategic innovation.</p>
+      </section>
+
+      <section class="pm-card" id="concept-1" aria-labelledby="concept-1-heading">
+        <h2 id="concept-1-heading">1. What is the Kano Model?</h2>
+        <p>Developed by Dr. Noriaki Kano, this quality-management framework maps customer sentiment on a grid. The **horizontal axis** represents need fulfillment/execution (Absent to Fully met). The **vertical axis** represents user satisfaction (Dissatisfied to Delighted).</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/24-kano-grid.png" alt="Graph displaying Kano Model curves for must-have, performance, and delighter features" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>24-kano-grid.png</code>
+              <span>Core Kano Model chart. Display must-have curve flattening below the neutral line, linear diagonal performance line, and top-right curve for delighters.</span>
+            </div>
+          </div>
+          <figcaption>Figure 1: The Kano Model Diagram (Core Grid)</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-2" aria-labelledby="concept-2-heading">
+        <h2 id="concept-2-heading">2. Roadmap Exclusions: Indifferent and Unwanted Needs</h2>
+        <p>Two categories must be excluded from the roadmap. **Indifferent needs** represent useless waste that users do not care about (e.g. Uber car paint color). **Unwanted needs** represent active danger that users hate or fear, such as sharing rider/driver addresses (safety/privacy violation).</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/24-exclusions.png" alt="Illustration comparing Indifferent and Unwanted roadmap exclusions" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>24-exclusions.png</code>
+              <span>Exclusions infographic. Shows a paint bucket color-picker representing indifferent features, and two address profile cards crossed out representing unwanted privacy features.</span>
+            </div>
+          </div>
+          <figcaption>Figure 2: Excluded Roadmap Categories: Indifferent vs. Unwanted</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-3" aria-labelledby="concept-3-heading">
+        <h2 id="concept-3-heading">3. The Core Kano Categories: Must-Haves, Performance, and Delighters</h2>
+        <p>The core triad curves define product strategy:
+          <ul>
+            <li><strong>Must-Haves:</strong> Basic expectations (table stakes) that cause extreme dissatisfaction if broken, but yield neutral satisfaction if met. More investment flattens out satisfaction.</li>
+            <li><strong>Performance:</strong> Linear features where satisfaction is directly proportional to execution (e.g., fuel efficiency, ETA speed).</li>
+            <li><strong>Delighters:</strong> Unexpected elements that drive customer delight if present, but cause no dissatisfaction if absent.</li>
+          </ul>
+        </p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/24-seatbelt-rule.png" alt="Seat belt flattening metaphor diagram" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>24-seatbelt-rule.png</code>
+              <span>Seat belt flattening comparison. Shows one functional seat belt (Need Met - Neutral/Expected) vs five seat belts on one seat (Over-engineered waste - no extra satisfaction).</span>
+            </div>
+          </div>
+          <figcaption>Figure 3: Must-Have Flattening Metaphor (The Seat Belt Rule)</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-4" aria-labelledby="concept-4-heading">
+        <h2 id="concept-4-heading">4. The Dynamic Decay of Delighters</h2>
+        <p>Expectations migrate downward over time. GPS navigation was a high-end **delighter** in 2000. By 2010, screen map response was a **performance** metric. Today, mobile GPS routing is an expected **must-have**; without it, mapping apps are uninstalled. Technology evolution continuously commoditizes innovation.</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/24-decay-timeline.png" alt="GPS navigation Kano decay timeline" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>24-decay-timeline.png</code>
+              <span>Decay timeline showing arrow. In 2000, GPS is a Delighter. In 2010, it's a Performance metric. In 2020+, it's a Must-Have commodity.</span>
+            </div>
+          </div>
+          <figcaption>Figure 4: The Delighter Decay: GPS Navigation Migration Timeline</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="worked-example" aria-labelledby="worked-example-heading">
+        <h2 id="worked-example-heading">Practical Product Management example</h2>
+        <h3>Situation</h3>
+        <p>A PM at an email client startup is planning the next quarter's roadmap. The engineering team has proposed two major initiatives: Initiative A (Delighter)—an AI-powered email summary widget that drafts response templates; Initiative B (Must-Have)—resolving an active database bug that causes push notifications to drop 8% of incoming emails on mobile devices. The sales team is pushing hard for Initiative A because they believe the AI features will drive marketing buzz and attract new sign-ups.</p>
+        
+        <h3>Decision</h3>
+        <p>The PM maps both initiatives on the Kano Model. Initiative A is a Delighter (unexpected, high satisfaction if present, but zero dissatisfaction if absent). Initiative B is a Must-Have (expected basic quality; dropping emails causes extreme dissatisfaction). The PM rejects the sales team's request to prioritize the AI widget and schedules Initiative B (fixing notification delivery) as the top priority.</p>
+        
+        <h3>Reasoning</h3>
+        <p>According to the Kano Model, must-haves must be satisfied first. A broken must-have (dropped notifications/lost emails) creates massive customer dissatisfaction. Even if the team ships a state-of-the-art AI email summaries widget (delighter), it cannot compensate for a product that fails to deliver basic emails. Delight cannot exist on top of a broken foundation.</p>
+        
+        <h3>Consequence</h3>
+        <p>The development team fixes the notification bug. Mobile churn rates drop by 22% over the next month. Once the basic must-have is stabilized, the PM allocates the next sprint to build a light version of the AI summary widget, which successfully wins positive reviews in industry tech blogs.</p>
+        
+        <h3>Transferable lesson</h3>
+        <p>Always satisfy must-haves before investing in delighters. A product with delightful extras but broken basics will fail, as users will abandon it because of the frustration of unfulfilled core expectations.</p>
+      </section>
+
+      <section class="pm-card pm-warning" id="misunderstandings" aria-labelledby="misunderstandings-heading">
+        <h2 id="misunderstandings-heading">Common misunderstandings</h2>
+        
+        <h3>"Must-have features are where we should spend most of our marketing budget"</h3>
+        <p><strong>Correction:</strong> Must-haves are table stakes. Customers expect them and take them for granted. You do not win customers by marketing that your car has seat belts or that your email app sends emails. Spend marketing resources highlighting your <strong>performance metrics</strong> (faster compile times) and your unique <strong>delighters</strong> (AI integrations).</p>
+
+        <h3>"Once a must-have feature is built, we should keep optimizing it"</h3>
+        <p><strong>Correction:</strong> Must-have satisfaction curves flatten out. Once a must-have is functional and meets the market standard, additional investment yields diminishing returns. Shift engineering capacity to performance features and delighters rather than over-engineering basic expectations once met.</p>
+
+        <h3>"We should let customers vote on delighters"</h3>
+        <p><strong>Correction:</strong> Customers rarely ask for delighters because they do not know they are possible. If you ask customers what they want, they will request faster execution of existing features (performance) or basic missing items (must-haves). PMs must identify delighters through observation, customer empathy, and technological capability.</p>
+      </section>
+
+      <section class="pm-card" id="definitions" aria-labelledby="definitions-heading">
+        <h2 id="definitions-heading">Key concepts and definitions</h2>
+        <ul>
+          <li><strong>Kano Model:</strong> A prioritization framework mapping Execution (X-axis) to Customer Satisfaction (Y-axis) to categorize user needs.</li>
+          <li><strong>Must-Have:</strong> A basic requirement that causes high dissatisfaction if missing, but yields neutral satisfaction if present.</li>
+          <li><strong>Performance Feature:</strong> A feature where customer satisfaction scales in a direct, linear relationship with the level of execution.</li>
+          <li><strong>Delighter:</strong> An unexpected feature that generates high satisfaction if present, but causes no dissatisfaction if absent.</li>
+          <li><strong>Indifferent Need:</strong> A feature that the user does not care about, representing waste that should be excluded from the roadmap.</li>
+          <li><strong>Unwanted Feature:</strong> A feature that users actively dislike or fear (such as privacy violations), which must be excluded.</li>
+          <li><strong>Delighter Decay:</strong> The natural temporal migration of features moving from Delighters down to must-haves over time.</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="takeaways" aria-labelledby="takeaways-heading">
+        <h2 id="takeaways-heading">Key takeaways</h2>
+        <ol>
+          <li>Prioritize needs using Kano to prevent treating all roadmap requests as having equal value.</li>
+          <li>Filter out Indifferent and Unwanted needs first to protect development resources and protect customer trust.</li>
+          <li>Must-haves are essential table stakes; they must work perfectly to prevent customer dissatisfaction.</li>
+          <li>Must-have satisfaction curves flatten; do not waste resources over-engineering basic expectations once met.</li>
+          <li>Performance features scale linearly; invest in them to deliver proportionate increases in customer value.</li>
+          <li>Delighters are unexpected value-adds; they drive marketing buzz and customer delight.</li>
+          <li>Yesterday's delighters become today's must-haves; the decay of delighters requires continuous product innovation.</li>
+          <li>Uber's visual map was a 2009 delighter; today, it is a must-have table stake for any ride-sharing platform.</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
+        <h2 id="visual-summary-heading">Visual summary</h2>
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/24-visual-summary.png" alt="Visual summary flowchart of the Kano Model strategy triage workflow" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>24-visual-summary.png</code>
+              <span>Flowchart display: identify need, route through triage filters (Indifferent/Unwanted), map remaining into Kano Triad curves, showing Delighter decay migration path.</span>
+            </div>
+          </div>
+          <figcaption>Figure 5: Kano Model Strategy Grid</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card pm-outcome" id="one-minute-review" aria-labelledby="one-minute-review-heading">
+        <h2 id="one-minute-review-heading">One-minute review</h2>
+        <p><strong>Cover the Basics:</strong> Fix must-haves first. If seat belts are missing, a passenger does not care if the car has a cooler in the back. <strong>Scale the Performance:</strong> Invest in performance features where execution linearly increases satisfaction (speed, efficiency). <strong>Innovate to Delight:</strong> Deliver unexpected delighters to stand out, but remember they will decay into must-haves over time.</p>
+      </section>
+
+      <section class="pm-card" id="interactive-practice" aria-labelledby="interactive-practice-heading">
+        <h2 id="interactive-practice-heading">Interactive Practice</h2>
+        <p>Decompose user needs using the Kano Model categories. Select each tab below to view descriptions and Uber examples.</p>
+
+        <div class="pm-tabs" data-widget="tabs">
+          <div class="pm-tablist" role="tablist" aria-label="Kano Model Categories">
+            <button class="pm-tab" role="tab" aria-selected="true" aria-controls="panel-must" id="tab-must">Must-Have</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-perf" id="tab-perf" tabindex="-1">Performance</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-delight" id="tab-delight" tabindex="-1">Delighter</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-indiff" id="tab-indiff" tabindex="-1">Indifferent</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-unwanted" id="tab-unwanted" tabindex="-1">Unwanted</button>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-must" aria-labelledby="tab-must">
+            <h3>Must-Have (Table Stakes)</h3>
+            <p><strong>Definition:</strong> Minimum requirements. Customer takes them for granted. Missing causes extreme anger, but present adds zero extra satisfaction.</p>
+            <p><strong>Uber Example:</strong> Functional seat belts inside the vehicle.</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-perf" aria-labelledby="tab-perf" hidden>
+            <h3>Performance (Linear Feature)</h3>
+            <p><strong>Definition:</strong> Satisfaction increases in direct proportion to execution (linear scaling).</p>
+            <p><strong>Uber Example:</strong> ETA arrival accuracy, vehicle fuel efficiency, ride price discount.</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-delight" aria-labelledby="tab-delight" hidden>
+            <h3>Delighter (Attractive Quality)</h3>
+            <p><strong>Definition:</strong> Unexpected features that generate delight if present, but cause no dissatisfaction if missing.</p>
+            <p><strong>Uber Example:</strong> Visual car tracking map when launched in 2009.</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-indiff" aria-labelledby="tab-indiff" hidden>
+            <h3>Indifferent (Waste)</h3>
+            <p><strong>Definition:</strong> Customer does not care. Added code yields no value but consumes engineering resources.</p>
+            <p><strong>Uber Example:</strong> Letting riders choose driver car paint color.</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-unwanted" aria-labelledby="tab-unwanted" hidden>
+            <h3>Unwanted (Danger)</h3>
+            <p><strong>Definition:</strong> Feature actively disliked by users. Causes privacy leaks or safety risks.</p>
+            <p><strong>Uber Example:</strong> Displaying rider marital status publicly on profile headers.</p>
+          </div>
+        </div>
+
+        <p style="margin-top: 3rem;">Triage backlog items using the Kano Model. Select the correct category for each feature proposal.</p>
+
+        <div class="pm-choice-widget" data-widget="choice">
+          <h3>Question 1: Backlog Prioritization</h3>
+          <p class="pm-question-text">You are building a mobile banking app. A stakeholder proposes: <em>"Send users an email newsletter of local branch updates when they log in."</em> Customer interviews indicate zero interest, and testing shows it complicates the home dashboard view. What is this?</p>
+          
+          <div class="pm-options">
+            <button class="pm-option" data-option="a">Must-Have</button>
+            <button class="pm-option" data-option="b">Performance</button>
+            <button class="pm-option" data-option="c" data-correct>Indifferent / Waste</button>
+            <button class="pm-option" data-option="d">Delighter</button>
+          </div>
+
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="a" hidden>
+            <strong>Incorrect.</strong> A local branch newsletter is not an expected banking table stake.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="b" hidden>
+            <strong>Incorrect.</strong> Banking satisfaction does not scale linearly with local branch newsletters.
+          </div>
+          <div class="pm-feedback pm-alert pm-success" data-feedback="c" hidden>
+            <strong>Correct!</strong> Since users do not care about this feature and it adds zero value to core app utility, it represents an indifferent need that should be excluded from the roadmap to save resources.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="d" hidden>
+            <strong>Incorrect.</strong> A newsletter does not surprise or delight customers in a banking interface.
+          </div>
+        </div>
+
+        <div class="pm-choice-widget" data-widget="choice" style="margin-top: 2rem;">
+          <h3>Question 2: Expectation Migration</h3>
+          <p class="pm-question-text">Your navigation app currently maps coordinates. A competitor launches real-time traffic route alerts, which goes viral. A year later, every mapping app in the store has this feature. How has this feature migrated?</p>
+          
+          <div class="pm-options">
+            <button class="pm-option" data-option="a">Must-Have to Delighter</button>
+            <button class="pm-option" data-option="b" data-correct>Delighter to Must-Have</button>
+            <button class="pm-option" data-option="c">Unwanted to Indifferent</button>
+            <button class="pm-option" data-option="d">Performance to Unwanted</button>
+          </div>
+
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="a" hidden>
+            <strong>Incorrect.</strong> Features migrate downward as customer expectations increase, not upward from basic to surprise.
+          </div>
+          <div class="pm-feedback pm-alert pm-success" data-feedback="b" hidden>
+            <strong>Correct!</strong> Over time, what was an unexpected surprise (delighter) becomes copied by competitors and is taken for granted by users as a basic expectation (must-have).
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="c" hidden>
+            <strong>Incorrect.</strong> Valid features do not migrate into safety threats (unwanted) or ignored features (indifferent) through standard evolution.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="d" hidden>
+            <strong>Incorrect.</strong> Linear metrics do not become actively hated simply because they exist across competitors.
+          </div>
+        </div>
+      </section>
+
+      <nav class="pm-card" aria-label="Lesson navigation">
+        <h2>Continue learning</h2>
+        <p><a href="../24-the-kano-model.md">Return to the canonical lecture guide</a></p>
+        <p><a href="../README.md">Section overview</a> · <a href="../../README.md">Part overview</a> · <a href="../../../COURSE-INDEX.md">Course index</a></p>
+        <p><a href="../../../sources/02-strategy/03-the-problem-space/24-the-kano-model-transcript.md">Original lecture transcript</a></p>
+      </nav>
+    </main>
+  </body>
+</html>

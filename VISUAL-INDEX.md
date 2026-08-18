@@ -562,6 +562,51 @@ Section 1: Introduction
 
 ![Problem Space Exploration Process (Visual Summary)](./02-strategy/03-the-problem-space/visuals/23-visual-summary.png)
 
+#### The Kano Model Diagram (Core Grid)
+
+**Source lecture:**  
+[The Kano Model](./02-strategy/03-the-problem-space/24-the-kano-model.md)
+
+**Purpose:** Priority graph illustrating Y-axis satisfaction vs. X-axis execution dimensions for must-haves, performance features, and delighters.
+
+![The Kano Model Diagram (Core Grid)](./02-strategy/03-the-problem-space/visuals/24-kano-grid.png)
+
+#### Excluded Roadmap Categories: Indifferent vs. Unwanted
+
+**Source lecture:**  
+[The Kano Model](./02-strategy/03-the-problem-space/24-the-kano-model.md)
+
+**Purpose:** Infographic comparing wasteful indifferent features (car color selector) with dangerous unwanted privacy leaks (profile marital status display).
+
+![Excluded Roadmap Categories: Indifferent vs. Unwanted](./02-strategy/03-the-problem-space/visuals/24-exclusions.png)
+
+#### Must-Have Flattening Metaphor (The Seat Belt Rule)
+
+**Source lecture:**  
+[The Kano Model](./02-strategy/03-the-problem-space/24-the-kano-model.md)
+
+**Purpose:** Visual comparison demonstrating how over-engineering expected basic must-haves results in flat customer satisfaction returns.
+
+![Must-Have Flattening Metaphor (The Seat Belt Rule)](./02-strategy/03-the-problem-space/visuals/24-seatbelt-rule.png)
+
+#### The Delighter Decay: GPS Navigation Migration Timeline
+
+**Source lecture:**  
+[The Kano Model](./02-strategy/03-the-problem-space/24-the-kano-model.md)
+
+**Purpose:** Timeline illustrating how innovative delighters decay into standard performance features and expected must-have commodities.
+
+![The Delighter Decay: GPS Navigation Migration Timeline](./02-strategy/03-the-problem-space/visuals/24-decay-timeline.png)
+
+#### Kano Model Strategy Grid (Visual Summary)
+
+**Source lecture:**  
+[The Kano Model](./02-strategy/03-the-problem-space/24-the-kano-model.md)
+
+**Purpose:** Flowchart illustrating the workflow of triaging features out of the roadmap and mapping competitor priority grids.
+
+![Kano Model Strategy Grid (Visual Summary)](./02-strategy/03-the-problem-space/visuals/24-visual-summary.png)
+
 Part 3: Discovery
 
 Visuals will be added when this part begins.
