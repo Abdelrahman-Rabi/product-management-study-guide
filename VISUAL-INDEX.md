@@ -515,7 +515,52 @@ Section 1: Introduction
 
 **Purpose:** Top-down flowchart mapping the progression from high-level Product Vision down to Solution Space backlog stories.
 
-![The Product Strategy Framework](./02-strategy/02-strategy/visuals/22-visual-summary.png)
+### Section 3: The Problem Space
+
+#### Uber (2009) Decomposed Action-Verb Needs Tree
+
+**Source lecture:**  
+[Exercise #5: Problem Space Definition](./02-strategy/03-the-problem-space/23-problem-space-definition.md)
+
+**Purpose:** Tree structure mapping decomposed rider needs into Faster, Cheaper, Cleaner, and Safer, written using action verbs.
+
+![Uber (2009) Decomposed Action-Verb Needs Tree](./02-strategy/03-the-problem-space/visuals/23-needs-tree.png)
+
+#### Reframing the Goal: Speed vs. Engagement
+
+**Source lecture:**  
+[Exercise #5: Problem Space Definition](./02-strategy/03-the-problem-space/23-problem-space-definition.md)
+
+**Purpose:** Split comparison showing how to reframe wait time boredom to productivity/engagement solutions.
+
+![Reframing the Goal: Speed vs. Engagement](./02-strategy/03-the-problem-space/visuals/23-reframe-speed.png)
+
+#### Reframing Cleaner Cars: The Nice Driver Experiment
+
+**Source lecture:**  
+[Exercise #5: Problem Space Definition](./02-strategy/03-the-problem-space/23-problem-space-definition.md)
+
+**Purpose:** Balance scale demonstrating the reframe of vehicle cleanliness limits to driver hospitality experiments.
+
+![Reframing Cleaner Cars: The Nice Driver Experiment](./02-strategy/03-the-problem-space/visuals/23-reframe-clean.png)
+
+#### The Safety Boundary: Real Security vs. Security Theater
+
+**Source lecture:**  
+[Exercise #5: Problem Space Definition](./02-strategy/03-the-problem-space/23-problem-space-definition.md)
+
+**Purpose:** Shield visual highlighting that safety must never be reframed, and real verification is required instead of UI shortcuts.
+
+![The Safety Boundary: Real Security vs. Security Theater](./02-strategy/03-the-problem-space/visuals/23-safety-boundary.png)
+
+#### Problem Space Exploration Process (Visual Summary)
+
+**Source lecture:**  
+[Exercise #5: Problem Space Definition](./02-strategy/03-the-problem-space/23-problem-space-definition.md)
+
+**Purpose:** Flowchart showing the sequence of problem space definition, tech bottlenecks, reframing choices, and safety boundaries.
+
+![Problem Space Exploration Process (Visual Summary)](./02-strategy/03-the-problem-space/visuals/23-visual-summary.png)
 
 Part 3: Discovery
 

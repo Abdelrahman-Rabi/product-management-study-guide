@@ -225,6 +225,19 @@ The accumulation of unnecessary features that add product complexity, complicate
 
 ## G
 
+### Goal Reframing
+
+The strategic process of redefining a customer's problem by looking at their underlying emotional, psychological, or operational needs. Goal reframing allows a product team to solve a user's pain through alternative feature paths when direct technical or physical optimization is blocked by constraints.
+
+**Related concepts:**
+- Problem Space
+- Solution Space
+- User Needs
+- Operational Limit
+
+**Related lectures:**
+- [Exercise #5: Problem Space Definition](./02-strategy/03-the-problem-space/23-problem-space-definition.md)
+
 ### Growth Product Manager
 
 A Product Manager who focuses on optimizing specific business metrics (such as acquisition, subscription activation, or retention) through rapid micro-experiments rather than owning a core feature suite or long-term product lifecycle.
@@ -322,6 +335,17 @@ Missionary developers own product outcomes rather than just output velocity, usi
 
 ## O
 
+### Operational Limit
+
+The boundary where a company cannot directly control, monitor, or enforce physical services, maintenance, or partner actions on a day-to-day basis. PMs must design alternative features or hospitality initiatives to reframe this limitation.
+
+**Related concepts:**
+- Goal Reframing
+- Customer Experience (CX)
+
+**Related lectures:**
+- [Exercise #5: Problem Space Definition](./02-strategy/03-the-problem-space/23-problem-space-definition.md)
+
 ### Opportunity-Market Fit
 
 The process of validating a major new initiative, feature set, or product direction on an existing product, verifying that the proposed addition aligns with customer needs and market opportunities.
@@ -404,11 +428,14 @@ The problem space focuses on:
 - Why existing alternatives are insufficient
 
 **Related concepts:**
-
 - Solution space
 - Customer research
 - Product discovery
 - Problem validation
+
+**Related lectures:**
+- [What is Product Strategy?](./02-strategy/02-strategy/22-what-is-product-strategy.md)
+- [Exercise #5: Problem Space Definition](./02-strategy/03-the-problem-space/23-problem-space-definition.md)
 
 ### Product Decomposition
 
@@ -628,6 +655,18 @@ A strategic framework designed by Roman Pichler to capture and align a high-leve
 ---
 
 ## S
+
+### Security Theater
+
+The implementation of superficial user interface indicators, animations, or alerts that create a false perception of safety, security, or trust without backing it with real security infrastructure. Security theater represents a violation of product safety ethics.
+
+**Related concepts:**
+- Safety Ethics
+- User Interface (UI)
+- Trust
+
+**Related lectures:**
+- [Exercise #5: Problem Space Definition](./02-strategy/03-the-problem-space/23-problem-space-definition.md)
 
 ### Self-Referential Bias
 
