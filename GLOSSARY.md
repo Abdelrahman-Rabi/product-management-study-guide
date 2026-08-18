@@ -70,6 +70,18 @@ Data PMs work closely with data scientists and analysts to structure data pipeli
 **Related lectures:**
 - [How the PM Role Varies](./01-introduction/01-introduction/13-how-the-pm-role-varies.md)
 
+### Delighter
+
+An unexpected product feature that generates high customer satisfaction and excitement if present, but causes zero dissatisfaction if missing since users do not expect it. Delighters represent key competitive differentiators that tend to decay into must-haves over time.
+
+**Related concepts:**
+- Kano Model
+- Must-Have
+- Performance Feature
+
+**Related lectures:**
+- [The Kano Model](./02-strategy/03-the-problem-space/24-the-kano-model.md)
+
 ### Delivery Team
 
 A software development team that focuses on shipping output (pre-defined features on a roadmap) rather than validating user problems or business outcomes.
@@ -288,6 +300,23 @@ Interaction design concerns the user interface's behaviors, screen transitions, 
 
 ---
 
+## K
+
+### Kano Model
+
+A product prioritization framework developed by Dr. Noriaki Kano that maps customer needs based on Execution (X-axis) and Customer Satisfaction (Y-axis), dividing them into five categories: Must-Haves, Performance Features, Delighters, Indifferent, and Unwanted.
+
+**Related concepts:**
+- Prioritization
+- Must-Have
+- Performance Feature
+- Delighter
+
+**Related lectures:**
+- [The Kano Model](./02-strategy/03-the-problem-space/24-the-kano-model.md)
+
+---
+
 ## M
 
 ### Mercenary Developer
@@ -330,6 +359,18 @@ Missionary developers own product outcomes rather than just output velocity, usi
 
 **Related lectures:**
 - [The Modern Product Developer](./01-introduction/01-introduction/17-the-modern-product-developer.md)
+
+### Must-Have
+
+A core customer expectation or basic requirement that causes extreme dissatisfaction if missing or broken, but flattens out to neutral satisfaction once fully met. Must-haves represent the table stakes for a product to enter a market.
+
+**Related concepts:**
+- Kano Model
+- Performance Feature
+- Delighter
+
+**Related lectures:**
+- [The Kano Model](./02-strategy/03-the-problem-space/24-the-kano-model.md)
 
 ---
 
@@ -413,6 +454,18 @@ a useful outcome.
 ---
 
 ## P
+
+### Performance Feature
+
+A feature where customer satisfaction scales in a direct, linear relationship with the level of need fulfillment or execution. Investing more in performance features (e.g., speed, fuel efficiency) results in a proportional increase in customer delight.
+
+**Related concepts:**
+- Kano Model
+- Must-Have
+- Delighter
+
+**Related lectures:**
+- [The Kano Model](./02-strategy/03-the-problem-space/24-the-kano-model.md)
 
 ### Problem Space
 

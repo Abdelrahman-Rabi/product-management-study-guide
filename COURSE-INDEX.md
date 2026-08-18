@@ -35,8 +35,8 @@ processed.
 ### Section 2: Strategy
 - [What is Product Strategy?](./02-strategy/02-strategy/22-what-is-product-strategy.md)
 
-### Section 3: The Problem Space
 - [Exercise #5: Problem Space Definition](./02-strategy/03-the-problem-space/23-problem-space-definition.md)
+- [The Kano Model](./02-strategy/03-the-problem-space/24-the-kano-model.md)
 
 Planned sections:
 - Section 4: Goal Setting

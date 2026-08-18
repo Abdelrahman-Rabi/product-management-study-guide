@@ -6,6 +6,7 @@ This section covers how to define and decompose customer goals, formulate action
 
 List of lectures in their original course order:
 - [Exercise #5: Problem Space Definition](./23-problem-space-definition.md)
+- [The Kano Model](./24-the-kano-model.md)
 
 ## Section Resources
 

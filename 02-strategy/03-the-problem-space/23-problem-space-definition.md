@@ -25,7 +25,7 @@ related_concepts:
 ·
 [Part Overview](../README.md)
 ·
-[Next Lecture →](unavailable)
+[Next Lecture →](./24-the-kano-model.md)
 
 # Exercise #5: Problem Space Definition
 
@@ -294,5 +294,5 @@ When physical or technical bottlenecks block direct optimization, reframe the go
 * Previous: [What is Product Strategy?](../../02-strategy/02-strategy/22-what-is-product-strategy.md)
 * Section: [The Problem Space](./README.md)
 * Part: [Strategy](../README.md)
-* Next: [Next Lecture](unavailable)
+* Next: [The Kano Model](./24-the-kano-model.md)
 * Course index: [Full Course Index](../../COURSE-INDEX.md)
