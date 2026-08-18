@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive companion for Exercise #5: Problem Space Definition">
+    <title>Exercise #5: Problem Space Definition — Interactive Lesson</title>
+    <link rel="stylesheet" href="../../../assets/interactive/pm-study-guide.css">
+    <script src="../../../assets/interactive/pm-study-guide.js" defer></script>
+  </head>
+  <body>
+    <div class="pm-progress" aria-hidden="true"><span data-progress-bar></span></div>
+    <noscript><div class="pm-shell pm-card pm-warning">Interactive controls require JavaScript. The canonical Markdown lecture remains available through the link at the end of this page.</div></noscript>
+
+    <header class="pm-header pm-shell">
+      <p class="pm-kicker">Product Management Study Guide · Interactive Companion</p>
+      <h1>Exercise #5: Problem Space Definition</h1>
+      <p class="pm-subtitle">Learn to decompose high-level needs using action verbs, apply goal reframing, and manage strict ethical boundaries around product safety.</p>
+      <div class="pm-meta" aria-label="Lesson information">
+        <span class="pm-chip">Part 2</span>
+        <span class="pm-chip">Section 3</span>
+        <span class="pm-chip">Lecture 23</span>
+      </div>
+    </header>
+
+    <main class="pm-shell pm-grid" id="main-content">
+      <nav class="pm-card" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Lesson contents</h2>
+        <ol>
+          <li><a href="#lecture-overview">Lecture overview</a></li>
+          <li><a href="#central-argument">Central argument</a></li>
+          <li><a href="#concept-1">1. The Collaborative and Hypothesis-Driven Problem Space</a></li>
+          <li><a href="#concept-2">2. Structuring Action-Verb Needs</a></li>
+          <li><a href="#concept-3">3. Case Study: Uber Cabs (2009) Needs Decomposition</a></li>
+          <li><a href="#concept-4">4. The Concept of Goal Reframing</a></li>
+          <li><a href="#concept-5">5. The Ethical Safety Boundary</a></li>
+          <li><a href="#comparison">Comparison: Strategic Action Matrix</a></li>
+          <li><a href="#worked-example">Practical PM Example</a></li>
+          <li><a href="#misunderstandings">Common Misunderstandings</a></li>
+          <li><a href="#definitions">Key Concepts & Definitions</a></li>
+          <li><a href="#takeaways">Key Takeaways</a></li>
+          <li><a href="#visual-summary">Visual Summary</a></li>
+          <li><a href="#one-minute-review">One-minute review</a></li>
+          <li><a href="#interactive-practice">Interactive Practice</a></li>
+        </ol>
+      </nav>
+
+      <section class="pm-card pm-outcome" aria-labelledby="learning-outcome">
+        <h2 id="learning-outcome">Your goal</h2>
+        <p>Decompose high-level customer goals into actionable, action-verb sub-needs, apply goal reframing on operational/technical limits, and identify safety constraints where reframing is strictly prohibited.</p>
+      </section>
+
+      <section class="pm-card" id="lecture-overview" aria-labelledby="lecture-overview-heading">
+        <h2 id="lecture-overview-heading">Lecture overview</h2>
+        <p>This lecture covers the fifth practical exercise of the course: drilling down into the problem space of your chosen study product. It teaches how to write user needs from the customer's perspective and reframe goals when technology hits a physical limit.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="central-argument" aria-labelledby="central-argument-heading">
+        <h2 id="central-argument-heading">Central argument</h2>
+        <p>A PM cannot define the problem space in isolation; it must be co-created with customers and cross-functional teams. To keep the problem space actionable, needs must be written using action verbs from the user's perspective rather than listing feature solutions. When physical or technological limits prevent further product optimization, a skilled PM must reframe the goal to satisfy the underlying human need (e.g., entertaining a passenger during a slow ride). However, safety represents a strict ethical boundary: PMs must never reframe safety or use "security theater" to create a false perception of trust.</p>
+      </section>
+
+      <section class="pm-card" id="concept-1" aria-labelledby="concept-1-heading">
+        <h2 id="concept-1-heading">1. The Collaborative and Hypothesis-Driven Problem Space</h2>
+        <p>In professional product management, a PM never defines the problem space alone. Needs mapping requires co-creation with customers and cross-functional team members (designer, tech lead). It represents a hypothesis that must be validated through observations and user interviews during the discovery phase.</p>
+      </section>
+
+      <section class="pm-card" id="concept-2" aria-labelledby="concept-2-heading">
+        <h2 id="concept-2-heading">2. Structuring Action-Verb Needs</h2>
+        <p>User needs must be written using action verbs from the customer's perspective. Focusing on active user behaviors (e.g., "get upfront estimated time") rather than software requirements (e.g., "Implement SQL route queries") keeps the backlog strictly in the problem space, preserving flexibility for development.</p>
+      </section>
+
+      <section class="pm-card" id="concept-3" aria-labelledby="concept-3-heading">
+        <h2 id="concept-3-heading">3. Case Study: Uber Cabs (2009) Needs Decomposition</h2>
+        <p>Decomposing the high-level need "Take me where I want to go" reveals nested layers of needs under four key categories: Faster (Speed), Cheaper (Cost), Cleaner (Quality), and Safer (Trust).</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/23-needs-tree.png" alt="Tree diagram decomposing Uber rider needs using action verbs" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>23-needs-tree.png</code>
+              <span>Need decomposition tree. Root node is 'Take me where I want to go'. Branches out into Faster, Cheaper, Cleaner, and Safer, displaying actionable action-verb sub-needs for each.</span>
+            </div>
+          </div>
+          <figcaption>Figure 1: Uber (2009) Action-Verb Needs Tree</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-4" aria-labelledby="concept-4-heading">
+        <h2 id="concept-4-heading">4. The Concept of Goal Reframing</h2>
+        <p>Goal Reframing is the process of redefining a customer's problem by examining their underlying psychological needs, letting you solve the pain through alternative pathways when direct execution is blocked by physical or technical limits.</p>
+        <p>For example, traffic limits how fast an Uber can travel. By asking why the user hates waiting, Uber reframes speed into engagement (e.g., in-car Wi-Fi, music) to make travel time productive and enjoyable.</p>
+
+        <div class="pm-carousel" data-widget="carousel" style="margin-top: 1.5rem;">
+          <div class="pm-carousel-slides">
+            <div class="pm-carousel-slide" data-slide-active>
+              <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+                <img src="../visuals/23-reframe-speed.png" alt="Speed vs. Engagement reframing" hidden>
+                <div class="pm-visual-fallback" data-visual-fallback role="status">
+                  <div>
+                    <strong>Visual awaiting manual generation</strong>
+                    <code>23-reframe-speed.png</code>
+                    <span>Split graphic: Left shows direct speed optimization blocked by traffic congestion. Right shows the reframed goal: providing Wi-Fi to keep the waiting rider productive.</span>
+                  </div>
+                </div>
+                <figcaption>Slide 1: Reframing Speed to Engagement</figcaption>
+              </figure>
+            </div>
+            <!-- slide -->
+            <div class="pm-carousel-slide">
+              <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+                <img src="../visuals/23-reframe-clean.png" alt="Cleanliness vs. Hospitality reframing" hidden>
+                <div class="pm-visual-fallback" data-visual-fallback role="status">
+                  <div>
+                    <strong>Visual awaiting manual generation</strong>
+                    <code>23-reframe-clean.png</code>
+                    <span>Balanced scales showing: Left scale represents operational cleanliness inspection limits (hard to inspect daily). Right scale represents the reframed hospitality solution (warm driver experience).</span>
+                  </div>
+                </div>
+                <figcaption>Slide 2: Reframing Cleanliness to Hospitality</figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="pm-carousel-controls">
+            <button class="pm-carousel-btn" data-carousel-prev aria-label="Previous slide">←</button>
+            <button class="pm-carousel-btn" data-carousel-next aria-label="Next slide">→</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="pm-card" id="concept-5" aria-labelledby="concept-5-heading">
+        <h2 id="concept-5-heading">5. The Ethical Safety Boundary</h2>
+        <p>While reframing speed or cleanliness is a valid growth strategy, safety must never be reframed. PMs must avoid "security theater"—using visual status checkmarks or fake scans to create a false perception of safety without backing it with real security. Safety must be solved with real, verified infrastructures (background checks, emergency buttons).</p>
+
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/23-safety-boundary.png" alt="Safety non-negotiable boundary illustration" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>23-safety-boundary.png</code>
+              <span>Split shield illustration. Left side (Prohibited) shows fake green checkmark UI theater crossed out. Right side (Required) shows infrastructure security background checks and emergency buttons.</span>
+            </div>
+          </div>
+          <figcaption>Figure 2: The Safety Boundary: Real Security vs. Security Theater</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="comparison" aria-labelledby="comparison-heading">
+        <h2 id="comparison-heading">Comparison: Strategic Action Matrix</h2>
+        <div class="pm-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Need Category</th>
+                <th scope="col">Underlying Customer Pain</th>
+                <th scope="col">Technical / Operational Limit</th>
+                <th scope="col">Reframed Goal Strategy</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Faster</th>
+                <td>Waiting in a car is boring and unproductive.</td>
+                <td>Limited by city traffic and physical vehicle speed.</td>
+                <td><strong>Reframe:</strong> Make the travel time productive/entertaining (e.g., provide in-car Wi-Fi).</td>
+              </tr>
+              <tr>
+                <th scope="row">Cheaper</th>
+                <td>Fear of driver route manipulation and fare inflation.</td>
+                <td>Muted profit margins under commodity fare pricing.</td>
+                <td><strong>Reframe:</strong> Compete on non-price factors (e.g., convenience, vehicle class) to avoid commoditization.</td>
+              </tr>
+              <tr>
+                <th scope="row">Cleaner</th>
+                <td>Entering dirty, uncooled, or damaged vehicles.</td>
+                <td>Impossible to inspect thousands of partner cars daily.</td>
+                <td><strong>Reframe:</strong> Emphasize driver friendliness and hospitality to offset minor cleanliness issues.</td>
+              </tr>
+              <tr>
+                <th scope="row">Safer</th>
+                <td>Anxiety regarding driver trust and physical security.</td>
+                <td><strong>Ethical Boundary:</strong> Zero shortcuts allowed.</td>
+                <td><strong>No Reframing:</strong> Implement strict background checks and real emergency monitoring.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="pm-card" id="worked-example" aria-labelledby="worked-example-heading">
+        <h2 id="worked-example-heading">Practical Product Management example</h2>
+        <h3>Situation</h3>
+        <p>A PM at a grocery delivery app is reviewing customer complaints. The data shows that the primary user pain point is delivery speed during peak hours (e.g., Friday evenings), where deliveries take up to 90 minutes. The logistics team states that delivery times cannot be reduced further because of local traffic bottlenecks and a shortage of delivery drivers.</p>
+        
+        <h3>Decision</h3>
+        <p>The PM holds a collaborative session with the lead developer and designer. They realize that the direct solution (hiring more drivers) has reached a financial limit. They decide to reframe the goal. Instead of focusing on physical transit speed, they examine the user's anxiety during the wait. They reframe the problem from <em>"Get the food here faster"</em> to <em>"Make the waiting time predictable and stress-free."</em></p>
+        
+        <h3>Reasoning</h3>
+        <p>The user's real frustration is not just the 90-minute wait; it is the uncertainty of when the food will arrive, which prevents them from planning their evening.</p>
+        
+        <h3>Consequence</h3>
+        <p>The engineering team builds a real-time visual delivery tracker (similar to Uber's tracking map) showing the driver's vehicle progress, along with an interactive game/recipe selector in the app. While the physical delivery still takes 90 minutes, support tickets regarding late orders drop by 45%, and customer satisfaction scores for peak hours increase by 30%. The user's psychological need for control and predictability was successfully satisfied through reframing.</p>
+        
+        <h3>Transferable lesson</h3>
+        <p>When physical or technical bottlenecks block direct optimization, reframe the goal to address the underlying psychological anxiety or user experience. Satisfying the user's need for transparency or engagement can resolve the pain point without changing the physical constraints.</p>
+      </section>
+
+      <section class="pm-card pm-warning" id="misunderstandings" aria-labelledby="misunderstandings-heading">
+        <h2 id="misunderstandings-heading">Common misunderstandings</h2>
+        
+        <h3>"Reframing a problem is a way to trick the user"</h3>
+        <p><strong>Correction:</strong> Reframing is not about deception. It is about understanding the root human need (e.g., reducing boredom or anxiety) and satisfying it through alternative features when physical limits are reached. Deceptive practices (like fake UI loading animations that hide service errors) damage trust and represent poor product management.</p>
+
+        <h3>"The PM should write down the exact database schema in the needs document"</h3>
+        <p><strong>Correction:</strong> Needs must remain strictly in the problem space. Describing a need as <em>"We need a MySQL table for driver ratings"</em> is a solution-space error. Express the need from the user's perspective using action verbs (<em>"As a rider, I want to rate my driver so that I can reward good service"</em>), leaving the engineering team free to choose the best database structure.</p>
+
+        <h3>"Safety features can be optimized or skipped if they have low usage metrics"</h3>
+        <p><strong>Correction:</strong> Safety is a non-negotiable ethical boundary. Even if an emergency button has 0.01% usage, it must not be removed or deprioritized. Product safety must be solved with real-world infrastructure, not metrics-driven cost cuts.</p>
+      </section>
+
+      <section class="pm-card" id="definitions" aria-labelledby="definitions-heading">
+        <h2 id="definitions-heading">Key concepts and definitions</h2>
+        <ul>
+          <li><strong>Goal Reframing:</strong> Redefining a customer's problem by looking at their underlying psychological needs to solve it in a new way.</li>
+          <li><strong>Action-Verb Needs:</strong> Defining customer requirements using active, user-centric verbs (e.g., "track car") rather than passive features.</li>
+          <li><strong>Operational Limit:</strong> The boundary where a company cannot directly control or monitor physical services on a day-to-day basis.</li>
+          <li><strong>Security Theater:</strong> Implementing superficial UI indicators to create a perception of safety without backing it with real security.</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="takeaways" aria-labelledby="takeaways-heading">
+        <h2 id="takeaways-heading">Key takeaways</h2>
+        <ol>
+          <li>Problem space definition is collaborative; co-create needs maps with cross-functional teams and customers to gather diverse viewpoints.</li>
+          <li>State needs using action verbs from the customer's point of view to avoid premature solution-space commitments.</li>
+          <li>Decompose broad goals ("Get a ride") into actionable sub-needs (Faster, Cheaper, Cleaner, Safer) using onion-peeling.</li>
+          <li>Reframe the goal when physical traffic or technical bottlenecks prevent direct speed or cost optimization.</li>
+          <li>Reframing speed to engagement (like providing Wi-Fi or tracking map entertainment) makes waiting times feel faster.</li>
+          <li>Reframe cleanliness to hospitality (emphasizing driver friendliness) to mitigate minor car maintenance issues.</li>
+          <li>Safety is an ethical boundary; it must never be reframed, and security theater must be avoided in favor of real security.</li>
+          <li>Uber Cabs (2009) prioritized trust and security using background checks and monitoring rather than UI tricks.</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
+        <h2 id="visual-summary-heading">Visual summary</h2>
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/23-visual-summary.png" alt="Visual summary flowchart of the Problem Space Exploration Process" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>23-visual-summary.png</code>
+              <span>Flowchart display: start at high-level goal, branch into action-verb categories, identify physical/operational constraints, route to reframing categories (Speed/Cost/Clean) or strict safety boundary check.</span>
+            </div>
+          </div>
+          <figcaption>Figure 3: Problem Space Exploration Process</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card pm-outcome" id="one-minute-review" aria-labelledby="one-minute-review-heading">
+        <h2 id="one-minute-review-heading">One-minute review</h2>
+        <p><strong>Use Active Verbs:</strong> Define your problem space using active, user-centric statements. Focus on what the user wants to do, not the software files you plan to build. <strong>Reframe on Limits:</strong> When physical or technological boundaries block speed or quality improvements, reframe the problem to solve the underlying psychological pain. <strong>Safety is Absolute:</strong> Never reframe safety. Implement verified, real-world security frameworks rather than visual UI shortcuts.</p>
+      </section>
+
+      <section class="pm-card" id="interactive-practice" aria-labelledby="interactive-practice-heading">
+        <h2 id="interactive-practice-heading">Interactive Practice</h2>
+        <p>Decompose the Uber (2009) passenger needs. Toggle the tabs below to read the strategic split and sub-needs for each category of the problem space onion.</p>
+
+        <div class="pm-tabs" data-widget="tabs">
+          <div class="pm-tablist" role="tablist" aria-label="Uber passenger needs categories">
+            <button class="pm-tab" role="tab" aria-selected="true" aria-controls="panel-faster" id="tab-faster">Faster (Speed)</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-cheaper" id="tab-cheaper" tabindex="-1">Cheaper (Cost)</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-cleaner" id="tab-cleaner" tabindex="-1">Cleaner (Quality)</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-safer" id="tab-safer" tabindex="-1">Safer (Trust)</button>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-faster" aria-labelledby="tab-faster">
+            <h3>Faster: The Speed Category</h3>
+            <p><strong>Sub-Needs:</strong> Book in 1 click, get upfront estimated trip time, minimize wait time, navigate optimal routes, track car live.</p>
+            <p><strong>Reframed Goal Strategy:</strong> Make travel time productive or entertaining (e.g., provide in-car Wi-Fi) when traffic jams block further speed optimization.</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-cheaper" aria-labelledby="tab-cheaper" hidden>
+            <h3>Cheaper: The Cost Category</h3>
+            <p><strong>Sub-Needs:</strong> Get upfront fare calculations, prevent driver route manipulation (no billing surprises).</p>
+            <p><strong>Reframed Goal Strategy:</strong> Compete on non-price factors (convenience, safety trust, ride selection) to avoid commodity price battles.</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-cleaner" aria-labelledby="tab-cleaner" hidden>
+            <h3>Cleaner: The Quality Category</h3>
+            <p><strong>Sub-Needs:</strong> Enter clean/undamaged car, enjoy good smell, verify functioning AC/windows.</p>
+            <p><strong>Reframed Goal Strategy:</strong> Focus on driver hospitality and friendliness to offset minor operational car cleanliness slips.</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-safer" aria-labelledby="tab-safer" hidden>
+            <h3>Safer: The Trust Category</h3>
+            <p><strong>Sub-Needs:</strong> Do not feel threatened, trust driver honesty, access emergency alerts, monitor vehicle real-time.</p>
+            <p><strong>Reframed Goal Strategy:</strong> <strong>Prohibited.</strong> Safety is an absolute ethical boundary. Uber must implement real screening and tracking security.</p>
+          </div>
+        </div>
+
+        <p style="margin-top: 3rem;">Test your ability to apply goal reframing and safety boundaries. Choose the correct action for each scenario below.</p>
+
+        <div class="pm-choice-widget" data-widget="choice">
+          <h3>Question 1: Goal Reframing Decision</h3>
+          <p class="pm-question-text">Your telemetry shows that users frequently close your tax-filing app because compiling PDF reports takes up to 30 seconds due to third-party server bottlenecks. What is the correct reframed strategy?</p>
+          
+          <div class="pm-options">
+            <button class="pm-option" data-option="a">Show a generic loading spinner to hide the wait time</button>
+            <button class="pm-option" data-option="b" data-correct>Add a step-by-step interactive checklist showing what the compiler is verifying</button>
+            <button class="pm-option" data-option="c">Remove the PDF report compiler feature completely</button>
+            <button class="pm-option" data-option="d">Ask users to file during non-peak hours</button>
+          </div>
+
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="a" hidden>
+            <strong>Incorrect.</strong> A generic loading spinner does not resolve wait anxiety; users will still close the app if they assume it has crashed.
+          </div>
+          <div class="pm-feedback pm-alert pm-success" data-feedback="b" hidden>
+            <strong>Correct!</strong> Reframing the wait from "dead time" to "active verification steps" makes the duration feel productive and builds trust, satisfying the user's psychological need for progress.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="c" hidden>
+            <strong>Incorrect.</strong> Compiling the PDF is the core value proposition of filing. Removing it destroys the utility.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="d" hidden>
+            <strong>Incorrect.</strong> Offloading the problem to user behavior is not a viable product strategy.
+          </div>
+        </div>
+
+        <div class="pm-choice-widget" data-widget="choice" style="margin-top: 2rem;">
+          <h3>Question 2: Ethical Safety Boundaries</h3>
+          <p class="pm-question-text">Users are anxious about credit card fraud on your payment gateway. Stakeholders suggest adding a fake scanning shield animation during checkout to make it look secure, even though security verification is run asynchronously. What is the PM's correct response?</p>
+          
+          <div class="pm-options">
+            <button class="pm-option" data-option="a">Approve the animation to quickly increase user confidence</button>
+            <button class="pm-option" data-option="b" data-correct>Reject it as security theater; implement actual synchronous verification</button>
+            <button class="pm-option" data-option="c">Reframe credit card security to user discount benefits</button>
+            <button class="pm-option" data-option="d">Remove credit cards and only accept cash on delivery</button>
+          </div>
+
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="a" hidden>
+            <strong>Incorrect.</strong> Adding fake scanning animations represents "security theater." This violates safety ethics and risks severe trust loss if fraud occurs.
+          </div>
+          <div class="pm-feedback pm-alert pm-success" data-feedback="b" hidden>
+            <strong>Correct!</strong> Safety and security represent absolute ethical boundaries. You must implement actual, verified security frameworks rather than using perception hacks.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="c" hidden>
+            <strong>Incorrect.</strong> Safety cannot be reframed to discounts or commodity benefits.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="d" hidden>
+            <strong>Incorrect.</strong> Removing the core payment channel is a drastic retreat rather than a secure solution.
+          </div>
+        </div>
+      </section>
+
+      <nav class="pm-card" aria-label="Lesson navigation">
+        <h2>Continue learning</h2>
+        <p><a href="../23-problem-space-definition.md">Return to the canonical lecture guide</a></p>
+        <p><a href="../README.md">Section overview</a> · <a href="../../README.md">Part overview</a> · <a href="../../../COURSE-INDEX.md">Course index</a></p>
+        <p><a href="../../../sources/02-strategy/03-the-problem-space/23-problem-space-definition-transcript.md">Original lecture transcript</a></p>
+      </nav>
+    </main>
+  </body>
+</html>

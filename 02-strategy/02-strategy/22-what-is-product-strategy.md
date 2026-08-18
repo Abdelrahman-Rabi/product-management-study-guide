@@ -25,7 +25,7 @@ related_concepts:
 ·
 [Part Overview](../README.md)
 ·
-[Next Lecture →](unavailable)
+[Next Lecture →](../03-the-problem-space/23-problem-space-definition.md)
 
 # What is Product Strategy?
 
@@ -295,5 +295,5 @@ Never let feature requests bypass problem-space validation. Peel the onion by as
 * Previous: [Exercise #4: The Feature Audit](../../01-introduction/01-introduction/21-the-feature-audit.md)
 * Section: [Strategy](./README.md)
 * Part: [Strategy](../README.md)
-* Next: [Next Lecture](unavailable)
+* Next: [Exercise #5: Problem Space Definition](../03-the-problem-space/23-problem-space-definition.md)
 * Course index: [Full Course Index](../../COURSE-INDEX.md)
