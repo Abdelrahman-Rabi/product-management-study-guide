@@ -25,7 +25,7 @@ related_concepts:
 ·
 [Part Overview](../README.md)
 ·
-[Next Lecture →](unavailable)
+[Next Lecture →](./25-the-strategy-grid.md)
 
 # The Kano Model
 
@@ -285,5 +285,5 @@ Always satisfy must-haves before investing in delighters. A product with delight
 * Previous: [Exercise #5: Problem Space Definition](./23-problem-space-definition.md)
 * Section: [The Problem Space](./README.md)
 * Part: [Strategy](../README.md)
-* Next: [Next Lecture](unavailable)
+* Next: [Exercise #6: The Strategy Grid](./25-the-strategy-grid.md)
 * Course index: [Full Course Index](../../COURSE-INDEX.md)

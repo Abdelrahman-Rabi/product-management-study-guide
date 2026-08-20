@@ -467,24 +467,41 @@ A feature where customer satisfaction scales in a direct, linear relationship wi
 **Related lectures:**
 - [The Kano Model](./02-strategy/03-the-problem-space/24-the-kano-model.md)
 
+### Point of Differentiation
+
+A unique performance benefit or delighter where a product excels and outperforms competitors, providing the primary value hook to win target customers.
+
+**Related concepts:**
+- Point of Parity
+- Strategy Grid
+- Delighter
+
+**Related lectures:**
+- [Exercise #6: The Strategy Grid](./02-strategy/03-the-problem-space/25-the-strategy-grid.md)
+
+### Point of Parity
+
+A feature or performance benefit where a product matches the competitor's execution to remain competitive, representing baseline table stakes or must-haves.
+
+**Related concepts:**
+- Point of Differentiation
+- Strategy Grid
+- Must-Have
+
+**Related lectures:**
+- [Exercise #6: The Strategy Grid](./02-strategy/03-the-problem-space/25-the-strategy-grid.md)
+
 ### Problem Space
 
-The customer goals, needs, pain points, behaviors, context, and constraints that
-a product team seeks to understand.
-
-The problem space focuses on:
-
-- Who experiences the problem
-- What they are trying to achieve
-- What prevents success
-- How frequently the problem occurs
-- Why existing alternatives are insufficient
+The customer goals, needs, pain points, behaviors, context, and constraints that a product team seeks to understand. The problem space focuses on who experiences the problem, what they are trying to achieve, why existing alternatives fail, and what prevents success.
 
 **Related concepts:**
 - Solution space
 - Customer research
 - Product discovery
 - Problem validation
+- Product Strategy
+- User Needs
 
 **Related lectures:**
 - [What is Product Strategy?](./02-strategy/02-strategy/22-what-is-product-strategy.md)
@@ -505,20 +522,6 @@ Decomposition allows separate teams and Product Managers to run development stre
 - [What's a Product?](./01-introduction/01-introduction/07-whats-a-product.md)
 
 ---
-
-## P
-
-### Problem Space
-
-The set of customer needs, pain points, desires, and underserved benefits that a product is designed to satisfy. Product strategy begins by defining and prioritizing the problem space before committing to specific implementations.
-
-**Related concepts:**
-- Solution Space
-- Product Strategy
-- User Needs
-
-**Related lectures:**
-- [What is Product Strategy?](./02-strategy/02-strategy/22-what-is-product-strategy.md)
 
 ### Product Discovery
 
@@ -755,6 +758,19 @@ The solution space may include:
 
 **Related lectures:**
 - [What is Product Strategy?](./02-strategy/02-strategy/22-what-is-product-strategy.md)
+
+### Strategy Grid
+
+A competitive positioning matrix that compares your product's must-haves, performance benefits, and delighters against key competitors to isolate points of parity and differentiation.
+
+**Related concepts:**
+- Kano Model
+- Point of Parity
+- Point of Differentiation
+- Competitive Analysis
+
+**Related lectures:**
+- [Exercise #6: The Strategy Grid](./02-strategy/03-the-problem-space/25-the-strategy-grid.md)
 
 ### Strategy Pivot
 
