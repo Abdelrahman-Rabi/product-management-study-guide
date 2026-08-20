@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive companion for Exercise #6: The Strategy Grid">
+    <title>Exercise #6: The Strategy Grid — Interactive Lesson</title>
+    <link rel="stylesheet" href="../../../assets/interactive/pm-study-guide.css">
+    <script src="../../../assets/interactive/pm-study-guide.js" defer></script>
+  </head>
+  <body>
+    <div class="pm-progress" aria-hidden="true"><span data-progress-bar></span></div>
+    <noscript><div class="pm-shell pm-card pm-warning">Interactive controls require JavaScript. The canonical Markdown lecture remains available through the link at the end of this page.</div></noscript>
+
+    <header class="pm-header pm-shell">
+      <p class="pm-kicker">Product Management Study Guide · Interactive Companion</p>
+      <h1>Exercise #6: The Strategy Grid</h1>
+      <p class="pm-subtitle">Learn to compare your product's Kano needs against competitors, identify points of parity vs. differentiation, play offense, and establish MVP boundaries.</p>
+      <div class="pm-meta" aria-label="Lesson information">
+        <span class="pm-chip">Part 2</span>
+        <span class="pm-chip">Section 3</span>
+        <span class="pm-chip">Lecture 25</span>
+      </div>
+    </header>
+
+    <main class="pm-shell pm-grid" id="main-content">
+      <nav class="pm-card" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Lesson contents</h2>
+        <ol>
+          <li><a href="#lecture-overview">Lecture overview</a></li>
+          <li><a href="#central-argument">Central argument</a></li>
+          <li><a href="#concept-1">1. What is the Product Strategy Grid?</a></li>
+          <li><a href="#concept-2">2. Structuring Grid Scales</a></li>
+          <li><a href="#concept-3">3. Case Study: Uber's 2009 Strategy Grid</a></li>
+          <li><a href="#concept-4">4. Playing Offense vs. Playing Defense</a></li>
+          <li><a href="#concept-5">5. From Strategy Grid to MVP Bounds</a></li>
+          <li><a href="#worked-example">Practical PM Example</a></li>
+          <li><a href="#misunderstandings">Common Misunderstandings</a></li>
+          <li><a href="#definitions">Key Concepts & Definitions</a></li>
+          <li><a href="#takeaways">Key Takeaways</a></li>
+          <li><a href="#visual-summary">Visual Summary</a></li>
+          <li><a href="#one-minute-review">One-minute review</a></li>
+          <li><a href="#interactive-practice">Interactive Practice</a></li>
+        </ol>
+      </nav>
+
+      <section class="pm-card pm-outcome" aria-labelledby="learning-outcome">
+        <h2 id="learning-outcome">Your goal</h2>
+        <p>Map your product's performance benefits and delighters against key competitors on a Strategy Grid, identify points of parity and differentiation, and decide where to play offense to define initial MVP boundaries.</p>
+      </section>
+
+      <section class="pm-card" id="lecture-overview" aria-labelledby="lecture-overview-heading">
+        <h2 id="lecture-overview-heading">Lecture overview</h2>
+        <p>This lecture covers the sixth practical exercise of the course: building a **Product Strategy Grid**. It teaches how to map your product's performance and delighters against primary competitors to identify points of differentiation.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="central-argument" aria-labelledby="central-argument-heading">
+        <h2 id="central-argument-heading">Central argument</h2>
+        <p>Product strategy requires making hard choices about where to focus limited engineering resources; a product team cannot be the best at everything. By mapping customer needs onto a Strategy Grid alongside competitors, PMs can identify underserved performance benefits and unique delighters to play offense and win market share. Meanwhile, the team must maintain defensive parity on must-haves without over-engineering them. This visual positioning tool prevents scope creep and defines the exact feature boundaries required to launch a successful MVP.</p>
+      </section>
+
+      <section class="pm-card" id="concept-1" aria-labelledby="concept-1-heading">
+        <h2 id="concept-1-heading">1. What is the Product Strategy Grid?</h2>
+        <p>The Product Strategy Grid is a competitive mapping tool that matches your Kano needs against competitors. For existing products, it reveals why users choose your brand (points of differentiation). For new products, it defines the baseline value required to compete (points of parity) and opportunities to stand out.</p>
+
+        <figure class="pm-visual">
+          <img src="../visuals/25-grid-layout.png" alt="Structural layout of a blank Strategy Grid template showing category mapping">
+          <figcaption>Figure 1: The Product Strategy Grid Layout (Blank Template)</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-2" aria-labelledby="concept-2-heading">
+        <h2 id="concept-2-heading">2. Structuring Grid Scales</h2>
+        <p>The grid uses two different scales to preserve grading clarity:
+          <ul>
+            <li><strong>Binary Scale (Yes / No):</strong> Applied to Must-Haves and Delighters. You either have the feature or you do not.</li>
+            <li><strong>Relative Scale (High / Medium / Low):</strong> Applied to Performance benefits. Grades the quality of execution relative to competitors.</li>
+          </ul>
+        </p>
+      </section>
+
+      <section class="pm-card" id="concept-3" aria-labelledby="concept-3-heading">
+        <h2 id="concept-3-heading">3. Case Study: Uber's 2009 Strategy Grid</h2>
+        <p>In 2009, Uber positioned itself against traditional Taxis (cheap but slow and low quality) and limo Car Services (high quality but expensive and slow to book). Uber played offense by offering booking speeds and safety levels that outperformed taxis, price parity with taxis, and two unique mobile delighters (visual tracking and one-click booking).</p>
+
+        <figure class="pm-visual">
+          <img src="../visuals/25-uber-strategy.png" alt="Uber (2009) Strategy Grid comparing Taxis and Car Services">
+          <figcaption>Figure 2: Competitor Positioning: Uber (2009) Strategy Grid</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-4" aria-labelledby="concept-4-heading">
+        <h2 id="concept-4-heading">4. Playing Offense vs. Playing Defense</h2>
+        <p>Product strategy requires trade-offs. You cannot score "High/Yes" across the board. PMs must play **defense** on must-haves (parity Yes) and non-core performance areas (maintain Medium/Low). PMs must play **offense** on underserved performance areas (grade High) and unique delighters (Yes) to establish points of differentiation.</p>
+
+        <div class="pm-carousel" data-widget="carousel" style="margin-top: 1.5rem;">
+          <div class="pm-carousel-slides">
+            <div class="pm-carousel-slide" data-slide-active>
+              <figure class="pm-visual">
+                <img src="../visuals/25-offense-defense.png" alt="Strategic Focus: Playing Offense vs. Defense diagram">
+                <figcaption>Slide 1: Strategic Focus: Playing Offense vs. Defense</figcaption>
+              </figure>
+            </div>
+            <!-- slide -->
+            <div class="pm-carousel-slide">
+              <figure class="pm-visual">
+                <img src="../visuals/25-dev-analogy.png" alt="The Developer Trade-Off Analogy: RAM vs. CPU">
+                <figcaption>Slide 2: The Developer Trade-Off Analogy</figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="pm-carousel-controls">
+            <button class="pm-carousel-btn" data-carousel-prev aria-label="Previous slide">←</button>
+            <button class="pm-carousel-btn" data-carousel-next aria-label="Next slide">→</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="pm-card" id="concept-5" aria-labelledby="concept-5-heading">
+        <h2 id="concept-5-heading">5. From Strategy Grid to MVP Bounds</h2>
+        <p>The completed grid defines the boundaries of your Minimum Viable Product (MVP). It isolates the mandatory must-haves for parity, the selected high-value performance differentiators, and the core delighter hook, while slicing away non-essential features to ensure a fast, targeted release.</p>
+      </section>
+
+      <section class="pm-card" id="worked-example" aria-labelledby="worked-example-heading">
+        <h2 id="worked-example-heading">Practical Product Management example</h2>
+        <h3>Situation</h3>
+        <p>A PM at a collaborative document editor startup is planning the MVP. The engineering team is divided: some developers want to optimize local document loading speeds to sub-10ms (High Performance), while others want to build custom audio-calling rooms inside the editor (Delighter). </p>
+        
+        <h3>Decision</h3>
+        <p>The PM facilitates a session to build a Product Strategy Grid compared to the dominant competitor, Google Docs. Text formatting and document saving are Must-Haves (Parity required: Yes). Document loading speed: Google Docs is High (very fast); the PM decides to target Medium (fast enough, matching Google Docs) rather than wasting 3 months of dev time chasing sub-10ms speeds. Real-time co-authoring: Google Docs is High; parity required: High. Markdown autocomplete with git-branch version control integration (Delighter): Google Docs is No (has basic history, but no git integration); the PM targets Yes here. The PM halts the audio-calling room project and the sub-10ms speed optimization. They focus the roadmap on text editing basics, real-time collaboration parity, and the git version control integration.</p>
+        
+        <h3>Reasoning</h3>
+        <p>Google Docs dominates on speed and scale. Competing directly on raw compiler/loading speeds (trying to go "high, high, high") would exhaust resources without winning customers. By keeping loading speed at Medium (parity) and version control at Yes (differentiation), the startup targets software developers who value git versioning over minor loading speed increases.</p>
+        
+        <h3>Consequence</h3>
+        <p>The MVP launches within 4 months. While document load times are average, early adopter developers rave about the git-version control integration (the delighter). The startup converts 15% of beta sign-ups into paid users within the first quarter.</p>
+        
+        <h3>Transferable lesson</h3>
+        <p>Never compete on a competitor's terms if they have a structural advantage. Use the Strategy Grid to identify where to concede (maintaining parity) and where to play offense (differentiation). This protects your engineering bandwidth and clarifies your product's unique value.</p>
+      </section>
+
+      <section class="pm-card pm-warning" id="misunderstandings" aria-labelledby="misunderstandings-heading">
+        <h2 id="misunderstandings-heading">Common misunderstandings</h2>
+        
+        <h3>"We should try to beat our competitors in every category"</h3>
+        <p><strong>Correction:</strong> This is the recipe for product failure. A startup has limited capital and engineering bandwidth. If you attempt to match limo services on luxury, taxis on price, and tech apps on booking speed, you will build an over-complicated, expensive product that fails to launch. Strategy is about choosing what <strong>not</strong> to do.</p>
+
+        <h3>"Points of parity are not important; we should only build delighters"</h3>
+        <p><strong>Correction:</strong> Delighters capture attention, but must-haves retain users. If your ride-sharing app has a beautiful map tracking interface (delighter) but the car never arrives or lacks seat belts (must-have parity failure), the user will uninstall the app immediately.</p>
+
+        <h3>"We can use the Strategy Grid as a static sales comparison chart"</h3>
+        <p><strong>Correction:</strong> The grid is an internal strategic tool, not marketing collateral. Marketing charts often pretend the company is "High" in every category and competitors are "Low". The PM's Strategy Grid must be honest; admitting where your product is <strong>Medium</strong> or **Low** is essential to focus resource allocation.</p>
+      </section>
+
+      <section class="pm-card" id="definitions" aria-labelledby="definitions-heading">
+        <h2 id="definitions-heading">Key concepts and definitions</h2>
+        <ul>
+          <li><strong>Strategy Grid:</strong> A Kano-based competitive matrix comparing your product's performance and delighters against key competitors.</li>
+          <li><strong>Point of Parity:</strong> A feature or capability where your product matches the competitor's execution to remain viable.</li>
+          <li><strong>Point of Differentiation:</strong> A unique performance benefit or delighter where your product outperforms competitors to win users.</li>
+          <li><strong>Offensive Strategy:</strong> Allocating engineering resources to excel in underserved performance metrics and unique delighters.</li>
+          <li><strong>Defensive Strategy:</strong> Maintaining basic quality on must-haves and average performance without over-engineering.</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="takeaways" aria-labelledby="takeaways-heading">
+        <h2 id="takeaways-heading">Key takeaways</h2>
+        <ol>
+          <li>Strategy is about trade-offs; you cannot be the best at everything, so choose where to win and where to concede.</li>
+          <li>Structure the Strategy Grid using binary scales (Yes/No) for must-haves and delighters, and relative scales (High/Med/Low) for performance.</li>
+          <li>Map primary competitors (e.g. Uber 2009 vs. Taxis vs. Car Services) to visualize points of parity and differentiation.</li>
+          <li>Play offense on underserved performance benefits (like Uber's safety and booking speed) to stand out.</li>
+          <li>Play defense on must-haves; satisfy them to achieve parity (Yes), but do not waste bandwidth exceeding basic expectations.</li>
+          <li>Deploy unique delighters (like Uber's 2009 map tracking) to provide the primary value hook for early adopters.</li>
+          <li>Define MVP bounds using the grid; strip out non-essential performance metrics to launch quickly.</li>
+          <li>Original Uber price strategy targeted cost parity with taxis (Medium), though surge pricing later modified this balance.</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
+        <h2 id="visual-summary-heading">Visual summary</h2>
+        <figure class="pm-visual">
+          <img src="../visuals/25-visual-summary.png" alt="Visual summary flowchart of the Strategy Grid to MVP process">
+          <figcaption>Figure 4: Strategy Grid to MVP Workflow</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card pm-outcome" id="one-minute-review" aria-labelledby="one-minute-review-heading">
+        <h2 id="one-minute-review-heading">One-minute review</h2>
+        <p><strong>Map Competitors:</strong> List your must-haves, performance metrics, and delighters. Rate your product and your competitors on binary (Yes/No) and relative (High/Med/Low) scales. <strong>Focus Your Offense:</strong> Choose 1–2 performance benefits to dominate (High) and 1–2 unique delighters (Yes). <strong>Accept Defense:</strong> Settle for average execution (Medium/Low) in non-core categories, and satisfy must-haves without over-engineering them.</p>
+      </section>
+
+      <section class="pm-card" id="interactive-practice" aria-labelledby="interactive-practice-heading">
+        <h2 id="interactive-practice-heading">Interactive Practice</h2>
+        <p>Examine the competitor positioning for Uber (2009). Click on the tabs below to highlight how Uber competed against traditional taxis and car services.</p>
+
+        <div class="pm-tabs" data-widget="tabs">
+          <div class="pm-tablist" role="tablist" aria-label="Uber (2009) Strategy Columns">
+            <button class="pm-tab" role="tab" aria-selected="true" aria-controls="panel-uber" id="tab-uber">Uber (2009)</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-taxis" id="tab-taxis" tabindex="-1">Traditional Taxis</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-limos" id="tab-limos" tabindex="-1">Car Services (Limo)</button>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-uber" aria-labelledby="tab-uber">
+            <h3>Uber (2009) Strategy</h3>
+            <p><strong>Offensive Performance:</strong> Ride speed (High), passenger safety tracking (High).</p>
+            <p><strong>Defensive Parity:</strong> Price (Medium - matching taxis), luxury experience (Medium - comfortable but not a limousine).</p>
+            <p><strong>Unique Delighters:</strong> Map tracking (Yes), cashless mobile booking (Yes).</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-taxis" aria-labelledby="tab-taxis" hidden>
+            <h3>Traditional Taxis Strategy</h3>
+            <p><strong>Weaknesses:</strong> Speed to book/arrive (Low), customer experience/smell (Low), passenger safety trust (Low).</p>
+            <p><strong>Baseline Parity:</strong> Price (Medium), Take me there must-have (Yes).</p>
+            <p><strong>Delighters:</strong> None (No map, phone calls required).</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-limos" aria-labelledby="tab-limos" hidden>
+            <h3>Upscale Car Services (Limo) Strategy</h3>
+            <p><strong>Strengths:</strong> Passenger safety (High), luxury experience (High).</p>
+            <p><strong>Weaknesses:</strong> Price affordability (Low), booking speed (Medium - requires hours advance notice).</p>
+            <p><strong>Delighters:</strong> None (No interactive map, manual dispatcher calls).</p>
+          </div>
+        </div>
+
+        <p style="margin-top: 3rem;">Apply Strategy Grid tradeoffs. Review the scenario below and select the correct strategic path.</p>
+
+        <div class="pm-choice-widget" data-widget="choice">
+          <h3>Question 1: Strategic Focus trade-off</h3>
+          <p class="pm-question-text">You are building a new online grocery store. A well-established competitor dominates on delivery speed (High) because they have a private warehouse network. You have limited capital. What is your correct Strategy Grid positioning?</p>
+          
+          <div class="pm-options">
+            <button class="pm-option" data-option="a">Target delivery speed as "High" to challenge the competitor head-on</button>
+            <button class="pm-option" data-option="b" data-correct>Concede speed to "Medium" or "Low" and play offense (High) on organic product freshness or local farm delighters</button>
+            <button class="pm-option" data-option="c">Delay launching the MVP until you can build a warehouse network matching the competitor</button>
+            <button class="pm-option" data-option="d">Set all performance parameters to "High" to ensure customer satisfaction</button>
+          </div>
+
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="a" hidden>
+            <strong>Incorrect.</strong> Trying to match a competitor on their structural strength (warehouses) without similar capital will exhaust your resources and fail.
+          </div>
+          <div class="pm-feedback pm-alert pm-success" data-feedback="b" hidden>
+            <strong>Correct!</strong> Strategy is about focus and trade-offs. By accepting average speed (parity), you save bandwidth to dominate in an underserved niche (organic freshness), giving users a clear reason to choose you.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="c" hidden>
+            <strong>Incorrect.</strong> Delaying the MVP to match massive capital investments is a scaling error that prevents validation.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="d" hidden>
+            <strong>Incorrect.</strong> Trying to go "high, high, high" across the board is a classic failure pattern resulting in scope creep.
+          </div>
+        </div>
+
+        <div class="pm-choice-widget" data-widget="choice" style="margin-top: 2rem;">
+          <h3>Question 2: Points of Parity vs. Differentiation</h3>
+          <p class="pm-question-text">You are building a mobile ride-sharing app. Where should you place the "vehicle has working brakes and steering" need on your Strategy Grid?</p>
+          
+          <div class="pm-options">
+            <button class="pm-option" data-option="a">As a Delighter (Yes) to market to safety-conscious riders</button>
+            <button class="pm-option" data-option="b">As a Performance benefit (High) to compete against taxis</button>
+            <button class="pm-option" data-option="c" data-correct>As a Must-Have (Yes) representing baseline table stakes</button>
+            <button class="pm-option" data-option="d">Exclude it from the Strategy Grid since it represents an indifferent need</button>
+          </div>
+
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="a" hidden>
+            <strong>Incorrect.</strong> Working brakes are not an unexpected surprise or a delighter; they are taken for granted.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="b" hidden>
+            <strong>Incorrect.</strong> Brakes are not a scale benefit (you don't get linearly happier having "extra working brakes"). They are a binary constraint.
+          </div>
+          <div class="pm-feedback pm-alert pm-success" data-feedback="c" hidden>
+            <strong>Correct!</strong> Working safety systems are basic expectations (must-haves). Missing them causes complete product death, while having them adds zero extra satisfaction—they are absolute points of parity (table stakes).
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="d" hidden>
+            <strong>Incorrect.</strong> Working brakes are vital to safety; they are not indifferent, but they represent basic must-haves.
+          </div>
+        </div>
+      </section>
+
+      <nav class="pm-card" aria-label="Lesson navigation">
+        <h2>Continue learning</h2>
+        <p><a href="../25-the-strategy-grid.md">Return to the canonical lecture guide</a></p>
+        <p><a href="../README.md">Section overview</a> · <a href="../../README.md">Part overview</a> · <a href="../../../COURSE-INDEX.md">Course index</a></p>
+        <p><a href="../../../sources/02-strategy/03-the-problem-space/25-the-strategy-grid-transcript.md">Original lecture transcript</a></p>
+      </nav>
+    </main>
+  </body>
+</html>

@@ -607,6 +607,51 @@ Section 1: Introduction
 
 ![Kano Model Strategy Grid (Visual Summary)](./02-strategy/03-the-problem-space/visuals/24-visual-summary.png)
 
+#### The Product Strategy Grid Layout (Blank Template)
+
+**Source lecture:**  
+[Exercise #6: The Strategy Grid](./02-strategy/03-the-problem-space/25-the-strategy-grid.md)
+
+**Purpose:** Matrix template table displaying columns for Kano categories, user needs, and competitor scores alongside scale measurement instructions.
+
+![The Product Strategy Grid Layout (Blank Template)](./02-strategy/03-the-problem-space/visuals/25-grid-layout.png)
+
+#### Competitor Positioning: Uber (2009) Strategy Grid
+
+**Source lecture:**  
+[Exercise #6: The Strategy Grid](./02-strategy/03-the-problem-space/25-the-strategy-grid.md)
+
+**Purpose:** Completed Strategy Grid positioning Uber's launch against taxis and limo services, showing points of parity and speed/safety differentiation.
+
+![Competitor Positioning: Uber (2009) Strategy Grid](./02-strategy/03-the-problem-space/visuals/25-uber-strategy.png)
+
+#### Strategic Focus: Playing Offense vs. Defense
+
+**Source lecture:**  
+[Exercise #6: The Strategy Grid](./02-strategy/03-the-problem-space/25-the-strategy-grid.md)
+
+**Purpose:** Split columns diagram separating offensive zones (investing to win in unique delighters) from defensive zones (maintaining baseline must-have parity).
+
+![Strategic Focus: Playing Offense vs. Defense](./02-strategy/03-the-problem-space/visuals/25-offense-defense.png)
+
+#### The Developer Trade-Off Analogy (RAM vs. CPU vs. Business Strategy)
+
+**Source lecture:**  
+[Exercise #6: The Strategy Grid](./02-strategy/03-the-problem-space/25-the-strategy-grid.md)
+
+**Purpose:** Analogy graphic mapping software system constraints (RAM vs. CPU) to strategic business product trade-offs (experience vs. cost).
+
+![The Developer Trade-Off Analogy (RAM vs. CPU vs. Business Strategy)](./02-strategy/03-the-problem-space/visuals/25-dev-analogy.png)
+
+#### Strategy Grid to MVP Workflow (Visual Summary)
+
+**Source lecture:**  
+[Exercise #6: The Strategy Grid](./02-strategy/03-the-problem-space/25-the-strategy-grid.md)
+
+**Purpose:** Flowchart illustrating the logical progression from Kano categorization to competitor grid mapping and drafting MVP bounds.
+
+![Strategy Grid to MVP Workflow (Visual Summary)](./02-strategy/03-the-problem-space/visuals/25-visual-summary.png)
+
 Part 3: Discovery
 
 Visuals will be added when this part begins.
