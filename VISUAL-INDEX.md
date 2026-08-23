@@ -697,6 +697,51 @@ Section 1: Introduction
 
 ![Product Strategy Validation Flow (Visual Summary)](./02-strategy/03-the-problem-space/visuals/26-visual-summary.png)
 
+#### Sizing the Problem Space: The Three Questions
+
+**Source lecture:**  
+[Exercise #7: Problem Type Analysis](./02-strategy/03-the-problem-space/27-problem-type-analysis.md)
+
+**Purpose:** Infographic checklist detailing the three customer-centric questions (Pain, Volume, Gap) to evaluate the problem space scale.
+
+![Sizing the Problem Space: The Three Questions](./02-strategy/03-the-problem-space/visuals/27-sizing-questions.png)
+
+#### Problem Type Matrix (Slack, Udemy, Nespresso, Airbnb, Uber)
+
+**Source lecture:**  
+[Exercise #7: Problem Type Analysis](./02-strategy/03-the-problem-space/27-problem-type-analysis.md)
+
+**Purpose:** Coordinate matrix mapping the five brand case studies on problem size vs. usage frequency axes.
+
+![Problem Type Matrix (Slack, Udemy, Nespresso, Airbnb, Uber)](./02-strategy/03-the-problem-space/visuals/27-problem-matrix.png)
+
+#### Sales Model Matrix (Slack, Udemy, Nespresso, Airbnb, Uber)
+
+**Source lecture:**  
+[Exercise #7: Problem Type Analysis](./02-strategy/03-the-problem-space/27-problem-type-analysis.md)
+
+**Purpose:** Coordinate grid mapping the five brand case studies on price/margins vs. touch levels.
+
+![Sales Model Matrix (Slack, Udemy, Nespresso, Airbnb, Uber)](./02-strategy/03-the-problem-space/visuals/27-sales-matrix.png)
+
+#### Price vs. Margin: The Nespresso Pod Metric
+
+**Source lecture:**  
+[Exercise #7: Problem Type Analysis](./02-strategy/03-the-problem-space/27-problem-type-analysis.md)
+
+**Purpose:** Split bar chart illustrating how Nespresso's low-priced single capsules represent a high margin markup.
+
+![Price vs. Margin: The Nespresso Pod Metric](./02-strategy/03-the-problem-space/visuals/27-pod-margins.png)
+
+#### Problem Type Analysis Sequence (Visual Summary)
+
+**Source lecture:**  
+[Exercise #7: Problem Type Analysis](./02-strategy/03-the-problem-space/27-problem-type-analysis.md)
+
+**Purpose:** Flowchart illustrating the 5 sequential steps to evaluate and coordinate problem and business model types.
+
+![Problem Type Analysis Sequence (Visual Summary)](./02-strategy/03-the-problem-space/visuals/27-visual-summary.png)
+
 Part 3: Discovery
 
 Visuals will be added when this part begins.

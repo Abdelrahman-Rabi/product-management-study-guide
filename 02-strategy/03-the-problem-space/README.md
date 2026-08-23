@@ -9,6 +9,7 @@ List of lectures in their original course order:
 - [The Kano Model](./24-the-kano-model.md)
 - [Exercise #6: The Strategy Grid](./25-the-strategy-grid.md)
 - [Getting Product Strategy Right](./26-getting-product-strategy-right.md)
+- [Exercise #7: Problem Type Analysis](./27-problem-type-analysis.md)
 
 ## Section Resources
 
