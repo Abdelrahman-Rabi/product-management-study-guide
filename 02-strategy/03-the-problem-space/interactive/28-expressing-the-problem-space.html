@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive companion for Expressing the Problem Space">
+    <title>Expressing the Problem Space — Interactive Lesson</title>
+    <link rel="stylesheet" href="../../../assets/interactive/pm-study-guide.css">
+    <script src="../../../assets/interactive/pm-study-guide.js" defer></script>
+  </head>
+  <body>
+    <div class="pm-progress" aria-hidden="true"><span data-progress-bar></span></div>
+    <noscript><div class="pm-shell pm-card pm-warning">Interactive controls require JavaScript. The canonical Markdown lecture remains available through the link at the end of this page.</div></noscript>
+
+    <header class="pm-header pm-shell">
+      <p class="pm-kicker">Product Management Study Guide · Interactive Companion</p>
+      <h1>Expressing the Problem Space</h1>
+      <p class="pm-subtitle">Learn to frame customer needs in a timeless, technology-agnostic way to prevent framework lock-in and deliver long-term business value.</p>
+      <div class="pm-meta" aria-label="Lesson information">
+        <span class="pm-chip">Part 2</span>
+        <span class="pm-chip">Section 3</span>
+        <span class="pm-chip">Lecture 28</span>
+      </div>
+    </header>
+
+    <main class="pm-shell pm-grid" id="main-content">
+      <nav class="pm-card" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Lesson contents</h2>
+        <ol>
+          <li><a href="#lecture-overview">Lecture overview</a></li>
+          <li><a href="#central-argument">Central argument</a></li>
+          <li><a href="#concept-1">1. The Blockbuster vs. Netflix Case Study</a></li>
+          <li><a href="#concept-2">2. Guidelines for Timeless Problem Statements</a></li>
+          <li><a href="#worked-example">Practical PM Example</a></li>
+          <li><a href="#misunderstandings">Common Misunderstandings</a></li>
+          <li><a href="#definitions">Key Concepts & Definitions</a></li>
+          <li><a href="#takeaways">Key Takeaways</a></li>
+          <li><a href="#one-minute-review">One-minute review</a></li>
+          <li><a href="#interactive-practice">Interactive Practice</a></li>
+        </ol>
+      </nav>
+
+      <section class="pm-card pm-outcome" aria-labelledby="learning-outcome">
+        <h2 id="learning-outcome">Your goal</h2>
+        <p>Acknowledge technology changes and delivery shift warnings, strip transient tool names from requirements statements, and formulate a timeless, technology-agnostic problem statement.</p>
+      </section>
+
+      <section class="pm-card" id="lecture-overview" aria-labelledby="lecture-overview-heading">
+        <h2 id="lecture-overview-heading">Lecture overview</h2>
+        <p>When defining your product's problem space, it is critical to separate the timeless customer need from the transient technology solution. This lecture examines how marrying a specific piece of technology or delivery medium can bankrupt a company, using the historic rise and fall of Blockbuster as a warning.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="central-argument" aria-labelledby="central-argument-heading">
+        <h2 id="central-argument-heading">Central argument</h2>
+        <p>A product's opportunity space must be defined independently of technology, management fads, or specific partners. When companies define their business by the delivery medium (as Blockbuster did with VHS/DVD physical retail stores), they become vulnerable to disruption when technology moves on. To survive long-term, Product Managers must abstract their problem statements to focus on timeless human needs (such as convenient home video access), allowing the product's implementation to evolve as new technologies emerge.</p>
+      </section>
+
+      <section class="pm-card" id="concept-1" aria-labelledby="concept-1-heading">
+        <h2 id="concept-1-heading">1. The Blockbuster vs. Netflix Case Study</h2>
+        <p>Blockbuster owned 9,000 stores at its peak, earning $800M in late fees. A decade later, it was bankrupt with $900M debt. Why? Because they married DVDs and VHS physical stores. Netflix focused on the timeless problem of home movie access, allowing them to shift from mail to streaming.</p>
+
+        <div class="pm-carousel" data-widget="carousel" style="margin-top: 1.5rem;">
+          <div class="pm-carousel-slides">
+            <div class="pm-carousel-slide" data-slide-active>
+              <figure class="pm-visual">
+                <img src="../visuals/28-hype-decline.png" alt="Blockbuster decline stats timeline">
+                <figcaption>Slide 1: The Blockbuster Fall: A Decade of Decline</figcaption>
+              </figure>
+            </div>
+            <!-- slide -->
+            <div class="pm-carousel-slide">
+              <figure class="pm-visual">
+                <img src="../visuals/28-netflix-pivot.png" alt="Blockbuster vs. Netflix strategic path flowchart">
+                <figcaption>Slide 2: Blockbuster vs. Netflix Strategic Pivot</figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="pm-carousel-controls">
+            <button class="pm-carousel-btn" data-carousel-prev aria-label="Previous slide">←</button>
+            <button class="pm-carousel-btn" data-carousel-next aria-label="Next slide">→</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="pm-card" id="concept-2" aria-labelledby="concept-2-heading">
+        <h2 id="concept-2-heading">2. Guidelines for Timeless Problem Statements</h2>
+        <p>Follow three core rules:
+          <ol>
+            <li>Do not tie statements to specific technology media (DVD vs. Stream).</li>
+            <li>Do not tie to temporary management fads or buzzwords.</li>
+            <li>Do not tie to single infrastructure vendor partners.</li>
+          </ol>
+        </p>
+
+        <div class="pm-carousel" data-widget="carousel" style="margin-top: 1.5rem;">
+          <div class="pm-carousel-slides">
+            <div class="pm-carousel-slide" data-slide-active>
+              <figure class="pm-visual">
+                <img src="../visuals/28-locked-agnostic.png" alt="Technology-Locked vs. Agnostic comparison card">
+                <figcaption>Slide 1: Locked vs. Agnostic Statements</figcaption>
+              </figure>
+            </div>
+            <!-- slide -->
+            <div class="pm-carousel-slide">
+              <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+                <img src="../visuals/28-web-analogy.png" alt="Framework vs. DOM API developer stack infographic" hidden>
+                <div class="pm-visual-fallback" data-visual-fallback role="status">
+                  <div>
+                    <strong>Visual awaiting manual generation</strong>
+                    <code>28-web-analogy.png</code>
+                    <span>Developer Abstraction Analogy. Top layer: Transient libraries (jQuery/Backbone) - obsolete. Bottom layer: Timeless Web Standards (DOM APIs/fetch) - permanent.</span>
+                  </div>
+                </div>
+                <figcaption>Slide 2: Web Developer Abstraction Analogy</figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="pm-carousel-controls">
+            <button class="pm-carousel-btn" data-carousel-prev aria-label="Previous slide">←</button>
+            <button class="pm-carousel-btn" data-carousel-next aria-label="Next slide">→</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="pm-card" id="worked-example" aria-labelledby="worked-example-heading">
+        <h2 id="worked-example-heading">Practical Product Management example</h2>
+        <h3>Situation</h3>
+        <p>A PM is working for a startup that provides medical transcription software. The original problem statement in their repository was: "Medical practitioners struggle to type handwritten patient notes into local hospital database desktop systems." The engineering team has optimized the interface for desktop keyboard input. However, hospitals are starting to adopt tablet computers and mobile charting apps, and physicians are demanding voice-to-text systems.</p>
+        
+        <h3>Decision</h3>
+        <p>The PM realizes the problem statement is technology-locked (typing, local hospital databases, desktop systems). They rewrite the problem statement: "Medical practitioners experience high administrative overhead when documenting patient encounters during clinical rounds." They redirect engineering bandwidth away from desktop keyboard shortcuts to build a cloud-based API that takes audio inputs and converts them into structured medical records.</p>
+        
+        <h3>Reasoning</h3>
+        <p>By reframing the problem from "typing on desktops" to "documenting patient encounters during rounds," the PM abstracts away the input hardware and storage location. Documenting encounters is the timeless user need; whether they type on a desktop, tap on a tablet, or speak to a microphone are merely transient implementation details.</p>
+        
+        <h3>Consequence</h3>
+        <p>When the hospital clients shift from desktop workstations to mobile tablets, the startup's cloud API integrates into the new tablet apps. The startup retains 95% of its enterprise contracts, whereas competitors who were locked into desktop local installations lose their market share.</p>
+        
+        <h3>Transferable lesson</h3>
+        <p>Define your product by the user's objective (documenting an encounter), not the hardware device or input method they currently use (typing on desktops). Devices change; objectives remain.</p>
+      </section>
+
+      <section class="pm-card pm-warning" id="misunderstandings" aria-labelledby="misunderstandings-heading">
+        <h2 id="misunderstandings-heading">Common misunderstandings</h2>
+        
+        <h3>"A technology-agnostic statement is too vague to guide developers"</h3>
+        <p><strong>Correction:</strong> A timeless statement does not replace specific technical requirements during a sprint. The engineering team still builds specific features using modern tech stacks. However, the <em>product strategy</em> remains timeless, ensuring that when the tech stack shifts (e.g., from server-rendered HTML to client-side single-page apps), the team understands <em>why</em> they are rebuilding the feature.</p>
+
+        <h3>"We should ignore emerging technology changes until they are mature"</h3>
+        <p><strong>Correction:</strong> Blockbuster ignored streaming because it was initially low resolution and slow. Ignoring technology changes is a fatal strategy. A timeless problem statement enables you to evaluate new technologies objectively: <em>Does this new method (streaming) solve our timeless problem (video access) better than our current method (DVD retail)?</em> If yes, you must pivot.</p>
+
+        <h3>"If our current partner is stable, we can build them into our core problem definition"</h3>
+        <p><strong>Correction:</strong> Even major infrastructure partners (e.g., Salesforce, Google Maps) can change their API terms, pricing, or product focus. If your problem statement is <em>"Help sales teams sync data with Salesforce,"</em> you are vulnerable. Frame it as <em>"Help sales teams sync data with CRM databases,"</em> ensuring you can swap vendors if terms become unfavorable.</p>
+      </section>
+
+      <section class="pm-card" id="definitions" aria-labelledby="definitions-heading">
+        <h2 id="definitions-heading">Key concepts and definitions</h2>
+        <ul>
+          <li><strong>Technology-Agnostic:</strong> Framing requirements and strategies around user objectives rather than specific hardware, software, or media.</li>
+          <li><strong>Delivery Medium:</strong> The physical or digital channel used to distribute a solution (e.g., DVD stores, mail envelopes, cloud streaming platforms).</li>
+          <li><strong>Late Fee Paradox:</strong> A business model flaw where company revenue relies on customer friction, creating a high incentive for competitor disruption.</li>
+          <li><strong>Timeless Need:</strong> A human or business objective (e.g., transportation, communication) that remains constant regardless of technology changes.</li>
+          <li><strong>Tool Lock-In:</strong> An architectural or strategic mistake where a company's product is tightly coupled to a single vendor or framework.</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="takeaways" aria-labelledby="takeaways-heading">
+        <h2 id="takeaways-heading">Key takeaways</h2>
+        <ol>
+          <li>Express your problem space in a timeless and technology-agnostic way to prevent technology hostage situations.</li>
+          <li>Blockbuster collapsed because it defined its business by a transient delivery medium (VHS/DVD retail stores).</li>
+          <li>Netflix succeeded because it focused on the timeless customer need of convenient movie access.</li>
+          <li>Do not marry a piece of technology, a temporary management fad, or a single partner company.</li>
+          <li>A timeless statement allows your product implementation to evolve as new technologies emerge.</li>
+          <li>Focus on the user's core objective (e.g., transferring value) rather than their current task (e.g., writing paper checks).</li>
+          <li>Timeless strategies guide long-term roadmaps, while sprint requirements define short-term code details.</li>
+          <li>Evaluate new technologies by how much better they solve the timeless customer need than current methods.</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
+        <h2 id="visual-summary-heading">Visual summary</h2>
+        <figure class="pm-visual" data-visual-placeholder data-visual-state="awaiting-asset">
+          <img src="../visuals/28-visual-summary.png" alt="Visual summary flowchart of how to write a timeless statement" hidden>
+          <div class="pm-visual-fallback" data-visual-fallback role="status">
+            <div>
+              <strong>Visual awaiting manual generation</strong>
+              <code>28-visual-summary.png</code>
+              <span>How to express timeless statement flow. Flowchart showing: write raw draft statement, strip delivery channels, remove tech fads, check vendor independence, and formulate timeless statement.</span>
+            </div>
+          </div>
+          <figcaption>Figure 5: How to Express a Timeless Problem Space</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card pm-outcome" id="one-minute-review" aria-labelledby="one-minute-review-heading">
+        <h2 id="one-minute-review-heading">One-minute review</h2>
+        <p><strong>Separate Need from Medium:</strong> Define what the customer is trying to accomplish, not the physical or digital format they use. <strong>Study Blockbuster:</strong> Avoid business models built on customer friction (like late fees) and delivery channels that can be virtualized. <strong>Keep it Agnostic:</strong> Strip out specific hardware, coding languages, fads, or vendor names from your long-term product strategy.</p>
+      </section>
+
+      <section class="pm-card" id="interactive-practice" aria-labelledby="interactive-practice-heading">
+        <h2 id="interactive-practice-heading">Interactive Practice</h2>
+        <p>Examine how different industries reframe their technology-locked statements to remain timeless. Click the tabs below to explore.</p>
+
+        <div class="pm-tabs" data-widget="tabs">
+          <div class="pm-tablist" role="tablist" aria-label="Agnostic Reframing Scenarios">
+            <button class="pm-tab" role="tab" aria-selected="true" aria-controls="panel-video" id="tab-video">Video Rental</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-music" id="tab-music" tabindex="-1">Music</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-logistics" id="tab-logistics" tabindex="-1">Logistics</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-finance" id="tab-finance" tabindex="-1">Finance</button>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-video" aria-labelledby="tab-video">
+            <h3>Video Rental Reframing</h3>
+            <p><strong>Technology-Locked:</strong> "Help users rent VHS tapes and DVDs from convenient local retail stores."</p>
+            <p><strong>Technology-Agnostic:</strong> "Provide users with convenient, friction-free access to home video entertainment."</p>
+            <p><strong>Strategic Benefit:</strong> Enables transition from physical tape storefronts to mail envelopes to digital video streaming networks.</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-music" aria-labelledby="tab-music" hidden>
+            <h3>Music Reframing</h3>
+            <p><strong>Technology-Locked:</strong> "Manufacture and distribute compact discs (CDs) to music retail outlets."</p>
+            <p><strong>Technology-Agnostic:</strong> "Provide music listeners with instant, high-quality access to global audio libraries."</p>
+            <p><strong>Strategic Benefit:</strong> Protects the business model when distribution shifts from physical plastic discs to MP3 downloads to cloud-based streaming memberships.</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-logistics" aria-labelledby="tab-logistics" hidden>
+            <h3>Logistics Reframing</h3>
+            <p><strong>Technology-Locked:</strong> "Build a dispatch system to call taxi cabs via telephone operators."</p>
+            <p><strong>Technology-Agnostic:</strong> "Help passengers get from point A to point B quickly, safely, and reliably."</p>
+            <p><strong>Strategic Benefit:</strong> Prepares the service framework to evolve from call centers to GPS smartphone apps to autonomous vehicle routing algorithms.</p>
+          </div>
+
+          <div class="pm-tabpanel" role="tabpanel" id="panel-finance" aria-labelledby="tab-finance" hidden>
+            <h3>Finance Reframing</h3>
+            <p><strong>Technology-Locked:</strong> "Help customers write paper checks and deposit them at physical bank branches."</p>
+            <p><strong>Technology-Agnostic:</strong> "Help account owners transfer monetary value securely and immediately."</p>
+            <p><strong>Strategic Benefit:</strong> Abstracting value transfer ensures the bank builds online web transfers, mobile wallet matching, and instant payment networks.</p>
+          </div>
+        </div>
+
+        <p style="margin-top: 3rem;">Apply the framing rules. Review the strategic scenarios below and select the correct technology-agnostic option.</p>
+
+        <div class="pm-choice-widget" data-widget="choice">
+          <h3>Question 1: Framing a Ride-sharing Service</h3>
+          <p class="pm-question-text">You are defining the problem statement for a new ride-sharing application. Which of the following is the correct strategic framing?</p>
+          
+          <div class="pm-options">
+            <button class="pm-option" data-option="a">Build an iOS Swift application that maps nearby passenger phone GPS locations to taxi drivers using Google Maps</button>
+            <button class="pm-option" data-option="b">Help consumers hail local sedan drivers using automated SMS text messaging alerts</button>
+            <button class="pm-option" data-option="c" data-correct>Help passengers secure reliable, immediate transportation between cities without needing to own a vehicle</button>
+            <button class="pm-option" data-option="d">Help users book professional limousine drivers using a desktop web portal</button>
+          </div>
+
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="a" hidden>
+            <strong>Incorrect.</strong> This statement is heavily locked to specific technologies (iOS Swift, Google Maps, GPS). If the operating system or map API changes, the strategy is held hostage.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="b" hidden>
+            <strong>Incorrect.</strong> SMS text messaging is a specific delivery channel. Marrying SMS blocks you from building standard smartphone UI apps.
+          </div>
+          <div class="pm-feedback pm-alert pm-success" data-feedback="c" hidden>
+            <strong>Correct!</strong> This statement is fully technology-agnostic. It focuses on the timeless human need (securing reliable, immediate transportation without ownership), allowing the implementation to change from phone calls to apps to autonomous cars.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="d" hidden>
+            <strong>Incorrect.</strong> Desktop web portals and limousine drivers are specific solutions and vehicle categories that limit long-term transportation innovation.
+          </div>
+        </div>
+
+        <div class="pm-choice-widget" data-widget="choice" style="margin-top: 2rem;">
+          <h3>Question 2: Avoiding Vendor Lock-In</h3>
+          <p class="pm-question-text">Your company builds a sales analytics dashboard. The current product pulls customer contact details solely from the Salesforce API. How should you frame your core data syncing problem statement?</p>
+          
+          <div class="pm-options">
+            <button class="pm-option" data-option="a">Synchronize client contact rows from the Salesforce API into our local database tables</button>
+            <button class="pm-option" data-option="b" data-correct>Ensure sales teams have access to up-to-date, unified customer records across their operational databases</button>
+            <button class="pm-option" data-option="c">Translate Salesforce contact objects into JSON files to load in desktop apps</button>
+            <button class="pm-option" data-option="d">Link Salesforce databases with Google Sheets dashboards</button>
+          </div>
+
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="a" hidden>
+            <strong>Incorrect.</strong> Naming Salesforce directly in the strategic statement ties your business model to a single external vendor's API terms.
+          </div>
+          <div class="pm-feedback pm-alert pm-success" data-feedback="b" hidden>
+            <strong>Correct!</strong> This statement focuses on the timeless user value (accessing up-to-date, unified customer records). It is vendor-agnostic, meaning you can swap out Salesforce for HubSpot, Microsoft Dynamics, or a custom database without violating the strategic vision.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="c" hidden>
+            <strong>Incorrect.</strong> Naming Salesforce and JSON format ties the strategy to specific file formats and vendor APIs.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="d" hidden>
+            <strong>Incorrect.</strong> Google Sheets and Salesforce are specific software tool solutions. Keep tools out of the strategic problem statement.
+          </div>
+        </div>
+      </section>
+
+      <nav class="pm-card" aria-label="Lesson navigation">
+        <h2>Continue learning</h2>
+        <p><a href="../28-expressing-the-problem-space.md">Return to the canonical lecture guide</a></p>
+        <p><a href="../README.md">Section overview</a> · <a href="../../README.md">Part overview</a> · <a href="../../../COURSE-INDEX.md">Course index</a></p>
+        <p><a href="../../../sources/02-strategy/03-the-problem-space/28-expressing-the-problem-space-transcript.md">Original lecture transcript</a></p>
+      </nav>
+    </main>
+  </body>
+</html>
