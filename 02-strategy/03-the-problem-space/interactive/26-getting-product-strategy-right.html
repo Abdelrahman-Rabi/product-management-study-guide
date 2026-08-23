@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive companion for Getting Product Strategy Right">
+    <title>Getting Product Strategy Right — Interactive Lesson</title>
+    <link rel="stylesheet" href="../../../assets/interactive/pm-study-guide.css">
+    <script src="../../../assets/interactive/pm-study-guide.js" defer></script>
+  </head>
+  <body>
+    <div class="pm-progress" aria-hidden="true"><span data-progress-bar></span></div>
+    <noscript><div class="pm-shell pm-card pm-warning">Interactive controls require JavaScript. The canonical Markdown lecture remains available through the link at the end of this page.</div></noscript>
+
+    <header class="pm-header pm-shell">
+      <p class="pm-kicker">Product Management Study Guide · Interactive Companion</p>
+      <h1>Getting Product Strategy Right</h1>
+      <p class="pm-subtitle">Learn to validate customer problems, map size vs. frequency requirements, diagnose price vs. cost-to-serve sales model matches, and build long-lasting moats.</p>
+      <div class="pm-meta" aria-label="Lesson information">
+        <span class="pm-chip">Part 2</span>
+        <span class="pm-chip">Section 3</span>
+        <span class="pm-chip">Lecture 26</span>
+      </div>
+    </header>
+
+    <main class="pm-shell pm-grid" id="main-content">
+      <nav class="pm-card" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Lesson contents</h2>
+        <ol>
+          <li><a href="#lecture-overview">Lecture overview</a></li>
+          <li><a href="#central-argument">Central argument</a></li>
+          <li><a href="#concept-1">1. The Strategic Jigsaw Puzzle</a></li>
+          <li><a href="#concept-2">2. The Triangle Test</a></li>
+          <li><a href="#concept-3">3. The Problem Size vs. Frequency Grid</a></li>
+          <li><a href="#concept-4">4. The Price vs. Cost-to-Serve Matrix</a></li>
+          <li><a href="#worked-example">Practical PM Example</a></li>
+          <li><a href="#misunderstandings">Common Misunderstandings</a></li>
+          <li><a href="#definitions">Key Concepts & Definitions</a></li>
+          <li><a href="#takeaways">Key Takeaways</a></li>
+          <li><a href="#visual-summary">Visual Summary</a></li>
+          <li><a href="#one-minute-review">One-minute review</a></li>
+          <li><a href="#interactive-practice">Interactive Practice</a></li>
+        </ol>
+      </nav>
+
+      <section class="pm-card pm-outcome" aria-labelledby="learning-outcome">
+        <h2 id="learning-outcome">Your goal</h2>
+        <p>Analyze business viability using strategic checks, map customer needs on the Problem Size/Frequency grid, align price with touch-level onboarding cost, and design self-serve loops to avoid the Danger Zone.</p>
+      </section>
+
+      <section class="pm-card" id="lecture-overview" aria-labelledby="lecture-overview-heading">
+        <h2 id="lecture-overview-heading">Lecture overview</h2>
+        <p>Product strategy is not just about organizing features; it is about ensuring your product has a viable commercial future. This lecture examines how to evaluate and de-risk your product strategy early to protect your company from failure.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="central-argument" aria-labelledby="central-argument-heading">
+        <h2 id="central-argument-heading">Central argument</h2>
+        <p>A product strategy must be validated early because commercial failure is the default state for most companies. To survive beyond a single hype cycle, PMs must ensure they are solving a significant problem in a growing market, backed by an extendable brand and a defensible moat. Problems must satisfy the Desirability-Viability-Feasibility triangle, targeting either large frequent pain points or high-value rare events. Finally, the business model must align pricing with support touchpoints, avoiding the fatal "danger zone" of low-priced services burdened by high human cost-to-serve sales and onboarding models.</p>
+      </section>
+
+      <section class="pm-card" id="concept-1" aria-labelledby="concept-1-heading">
+        <h2 id="concept-1-heading">1. The Strategic Jigsaw Puzzle</h2>
+        <p>To survive beyond temporary technology waves (gamification, cloud, AI bots), PMs must assemble a four-part jigsaw puzzle:
+          <ol>
+            <li><strong>Significant Problem:</strong> Solving a real, validated customer pain point.</li>
+            <li><strong>Growing Market:</strong> Operating in an expanding, not shrinking, segment.</li>
+            <li><strong>Extendable Brand:</strong> Establishing a brand that can logically adapt and host adjacent products.</li>
+            <li><strong>Long-Lasting Moat:</strong> Building structural defenses (network effects, switching costs) to protect market share.</li>
+          </ol>
+        </p>
+
+        <figure class="pm-visual">
+          <img src="../visuals/26-hype-cycles.png" alt="Timeline comparison of transient hype cycles vs. core moats">
+          <figcaption>Figure 1: Transcending Hype Cycles (Moat & Brand Extension)</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-2" aria-labelledby="concept-2-heading">
+        <h2 id="concept-2-heading">2. The Triangle Test</h2>
+        <p>Verify that your problem satisfies the validation triangle:
+          <ul>
+            <li><strong>Desirable:</strong> Do users want it? Is there real demand?</li>
+            <li><strong>Viable:</strong> Can it make money? Is there a sustainable business model?</li>
+            <li><strong>Feasible:</strong> Can it be built? Are there technical, resource, or legal constraints?</li>
+          </ul>
+        </p>
+
+        <figure class="pm-visual">
+          <img src="../visuals/26-validation-triangle.png" alt="Desirability-Viability-Feasibility product validation triangle diagram">
+          <figcaption>Figure 2: The Product Validation Triangle (Triangle Test)</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-3" aria-labelledby="concept-3-heading">
+        <h2 id="concept-3-heading">3. The Problem Size vs. Frequency Grid</h2>
+        <p>Map needs by size (pain level) and frequency:
+          <ul>
+            <li><strong>Large & Frequent:</strong> The Gold Mine (ideal priority).</li>
+            <li><strong>Big & Rare:</strong> Viable if you charge premium transaction prices (annual taxes).</li>
+            <li><strong>Small & Frequent:</strong> Viable if you build a low-friction habit loop (coffee ordering).</li>
+            <li><strong>Small & Rare:</strong> Exclusion zone. <strong>Do not build.</strong></li>
+          </ul>
+        </p>
+
+        <figure class="pm-visual">
+          <img src="../visuals/26-size-frequency.png" alt="2x2 grid mapping problem size vs. frequency of occurrence">
+          <figcaption>Figure 3: Problem Size vs. Frequency Grid</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-4" aria-labelledby="concept-4-heading">
+        <h2 id="concept-4-heading">4. The Price vs. Cost-to-Serve Matrix</h2>
+        <p>Ensure pricing aligns with Touch Level (human intervention costs):
+          <ul>
+            <li><strong>Low Price / Low Touch:</strong> Viable (self-serve SaaS, automated signup).</li>
+            <li><strong>High Price / High Touch:</strong> Viable (enterprise contracts, dedicated account managers).</li>
+            <li><strong>Low Price / High Touch:</strong> **The Danger Zone (Fatal Model).** Charging low subscription fees but requiring manual human onboarding/sales calls leads to financial failure.</li>
+          </ul>
+        </p>
+
+        <figure class="pm-visual">
+          <img src="../visuals/26-price-cost.png" alt="2x2 business model matrix mapping price vs. cost-to-serve touch levels">
+          <figcaption>Figure 4: Price vs. Cost-to-Serve Business Model Grid</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="worked-example" aria-labelledby="worked-example-heading">
+        <h2 id="worked-example-heading">Practical Product Management example</h2>
+        <h3>Situation</h3>
+        <p>A startup is building a database monitoring tool for independent developers. The product is priced at $12 per month. However, because database configurations are highly fragmented, 40% of signing users experience configuration errors during setup and require a 30-minute video support call with a customer success engineer to get onboarded.</p>
+        
+        <h3>Decision</h3>
+        <p>The PM maps the product on the Price vs. Cost-to-Serve Matrix. Price: Low ($12/month). Cost-to-Serve: High (requires 30 minutes of human engineering time per setup). The PM diagnoses this as operating in The Danger Zone. They halt marketing campaigns and pivot the product strategy. The engineering team is tasked with building an automated diagnostics wizard (self-serve debugger) that detects database configuration errors and suggests fixes automatically inside the UI.</p>
+        
+        <h3>Reasoning</h3>
+        <p>Charging $12/month does not cover the salary costs of engineers doing 30-minute onboarding support calls. Rather than raising prices (which would alienate independent developers) or ignoring support (which would drive high customer churn), the PM must reduce the Cost-to-Serve. Transitioning from high-touch support to a low-touch self-serve debugger moves the product back into the viable Low Price / Low Touch quadrant.</p>
+        
+        <h3>Consequence</h3>
+        <p>The automated diagnostics wizard resolves 85% of configuration support tickets automatically. The onboarding call rate drops from 40% to under 2%. The customer acquisition and onboarding cost drops to near-zero, allowing the startup to scale profitably at the $12 price point.</p>
+        
+        <h3>Transferable lesson</h3>
+        <p>Ensure your sales and support models align with your pricing. If you charge a low price, your product onboarding and support must be self-serve and automated. High touch requires high pricing.</p>
+      </section>
+
+      <section class="pm-card pm-warning" id="misunderstandings" aria-labelledby="misunderstandings-heading">
+        <h2 id="misunderstandings-heading">Common misunderstandings</h2>
+        
+        <h3>"Any problem that users complain about is worth solving"</h3>
+        <p><strong>Correction:</strong> Users complain about many small, rare problems. If you build solutions for every minor complaint, you will create a bloated product that is expensive to maintain. Focus engineering resources only on problems that meet the Triangle Test and fall into viable size/frequency quadrants.</p>
+
+        <h3>"We can solve the Danger Zone business model by hiring cheaper support staff"</h3>
+        <p><strong>Correction:</strong> Cheaper support staff may reduce hourly costs, but they do not solve the underlying structural issue of human support scaling linearly with a low-price product. True scalability at a low price point requires product-led, automated self-serve solutions, not human scaling.</p>
+
+        <h3>"We should build our strategy around the latest market trends to look innovative"</h3>
+        <p><strong>Correction:</strong> Trends and hype cycles change rapidly. If you build your core strategy purely around a temporary trend (like gamification in 2010), you will struggle to adapt when the market moves on. Build your strategy around solving a <strong>timeless, significant customer problem</strong>, using modern technologies merely as tools to solve it.</p>
+      </section>
+
+      <section class="pm-card" id="definitions" aria-labelledby="definitions-heading">
+        <h2 id="definitions-heading">Key concepts and definitions</h2>
+        <ul>
+          <li><strong>Triangle Test:</strong> A validation model assessing whether a product idea is Desirable, Viable, and Feasible.</li>
+          <li><strong>Cost-to-Serve:</strong> The total resource overhead (human time, support, infra) required to onboard and maintain a customer.</li>
+          <li><strong>Danger Zone:</strong> A non-viable business model charging low prices while incurring high human sales/support touch points.</li>
+          <li><strong>Strategic Moat:</strong> Defensive advantages (e.g., network effects, switching costs) that protect a product from competitors.</li>
+          <li><strong>Hype Cycle:</strong> Temporary waves of market excitement around emerging technologies that PMs must look past to find real value.</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="takeaways" aria-labelledby="takeaways-heading">
+        <h2 id="takeaways-heading">Key takeaways</h2>
+        <ol>
+          <li>Strategic failure kills companies; evaluate viability early using the jigsaw puzzle parameters to survive.</li>
+          <li>The Triangle Test balances Desirability (customer demand) with Viability (money) and Feasibility (buildable).</li>
+          <li>Map problems by size and frequency; solve large frequent problems or high-value rare events, and exclude small rare items.</li>
+          <li>Align Price and Cost-to-Serve; low-price products must rely on low-touch automated self-serve flows.</li>
+          <li>Avoid the Danger Zone of low pricing combined with high-touch human onboarding and sales.</li>
+          <li>Look past hype cycles (gamification, bots) to solve permanent customer problems that support long-term moats.</li>
+          <li>Scale business models like software: keep human intervention costs minimal for low-tier price accounts.</li>
+          <li>Extendable brands and defensible moats are necessary components of long-term strategic success.</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
+        <h2 id="visual-summary-heading">Visual summary</h2>
+        <figure class="pm-visual">
+          <img src="../visuals/26-visual-summary.png" alt="Visual summary flowchart of the product strategy validation sequence">
+          <figcaption>Figure 5: Product Strategy Validation Flow</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card pm-outcome" id="one-minute-review" aria-labelledby="one-minute-review-heading">
+        <h2 id="one-minute-review-heading">One-minute review</h2>
+        <p><strong>Run the Triangle Test:</strong> Verify that customers want it (desirable), you can build it (feasible), and it makes financial sense (viable). <strong>Target the Right Quadrant:</strong> Build solutions for frequent problems or rare high-value events. Leave small, rare problems alone. <strong>Balance the Sales Model:</strong> Automate onboarding and support for low-price products. High touch requires high pricing; avoid the Danger Zone.</p>
+      </section>
+
+      <section class="pm-card" id="interactive-practice" aria-labelledby="interactive-practice-heading">
+        <h2 id="interactive-practice-heading">Interactive Practice</h2>
+        <p>Examine the four elements of the strategic jigsaw puzzle. Click on the tabs below to explore how they de-risk long-term product viability.</p>
+
+        <div class="pm-tabs" data-widget="tabs">
+          <div class="pm-tablist" role="tablist" aria-label="Strategic Jigsaw Puzzle Elements">
+            <button class="pm-tab" role="tab" aria-selected="true" aria-controls="panel-problem" id="tab-problem">Significant Problem</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-market" id="tab-market" tabindex="-1">Growing Market</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-brand" id="tab-brand" tabindex="-1">Extendable Brand</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-moat" id="tab-moat" tabindex="-1">Long-Lasting Moat</button>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-problem" aria-labelledby="tab-problem">
+            <h3>Significant Problem</h3>
+            <p><strong>Definition:</strong> A validated, painful problem that users feel frequently or represents a high-value rare event.</p>
+            <p><strong>Validation Tool:</strong> The Desirability-Viability-Feasibility Triangle Test.</p>
+            <p><strong>Risk:</strong> Solving small, rare issues that users don't care enough to pay for.</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-market" aria-labelledby="tab-market" hidden>
+            <h3>Growing Market</h3>
+            <p><strong>Definition:</strong> Operating in a user segment where customer density and demand are expanding.</p>
+            <p><strong>Importance:</strong> A rising tide lifts all boats. Solving problems in shrinking markets leads to customer exhaustion.</p>
+            <p><strong>Check:</strong> Verify customer segment indicators and growth rates over a 3-year timeline.</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-brand" aria-labelledby="tab-brand" hidden>
+            <h3>Extendable Brand</h3>
+            <p><strong>Definition:</strong> Establishing a company brand identity that can logically adapt and host adjacent products.</p>
+            <p><strong>Example:</strong> Uber expanding from UberBlack (luxury cars) to UberX (taxis) to UberEats (deliveries).</p>
+            <p><strong>Risk:</strong> Scoping a brand name too narrow (e.g. "DirectBlackCarCalls") preventing innovation.</p>
+          </div>
+
+          <div class="pm-tabpanel" role="tabpanel" id="panel-moat" aria-labelledby="tab-moat" hidden>
+            <h3>Long-Lasting Moat</h3>
+            <p><strong>Definition:</strong> Structural barriers that make it difficult for competitors to steal your market share.</p>
+            <p><strong>Mechanisms:</strong> Network effects (more users = more value), high switching costs (hard to migrate database), proprietary data.</p>
+            <p><strong>Goal:</strong> Outlast single technology waves and hype cycles.</p>
+          </div>
+        </div>
+
+        <p style="margin-top: 3rem;">Apply sales model and problem size math. Review the scenarios below and select the correct strategic path.</p>
+
+        <div class="pm-choice-widget" data-widget="choice">
+          <h3>Question 1: Sales Model Alignment</h3>
+          <p class="pm-question-text">You are building a collaborative screen-sharing widget for designers. The price is $8 per user per month. What is the correct onboarding and support model?</p>
+          
+          <div class="pm-options">
+            <button class="pm-option" data-option="a">Schedule a manual 30-minute demo call with every signing user to ensure setup success</button>
+            <button class="pm-option" data-option="b" data-correct>Design a frictionless automated onboarding tutorial and self-serve debugger inside the application</button>
+            <button class="pm-option" data-option="c">Offer a dedicated account support specialist to answer emails within 5 minutes</button>
+            <button class="pm-option" data-option="d">Charge $8/month but pay external contractors to do remote setup installation</button>
+          </div>
+
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="a" hidden>
+            <strong>Incorrect.</strong> A manual onboarding call is a high-touch human cost. At $8/month, you will lose money on labor costs, entering the fatal Danger Zone.
+          </div>
+          <div class="pm-feedback pm-alert pm-success" data-feedback="b" hidden>
+            <strong>Correct!</strong> Low-price products ($8/month) require low-touch, automated onboarding. This aligns Price and Cost-to-Serve, ensuring profitable scalability.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="c" hidden>
+            <strong>Incorrect.</strong> Dedicated support specialists represent high Cost-to-Serve. They are commercially non-viable for low-price customer accounts.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="d" hidden>
+            <strong>Incorrect.</strong> Paying contractor fees for setup configuration consumes more cash than the $8 subscription provides, causing losses.
+          </div>
+        </div>
+
+        <div class="pm-choice-widget" data-widget="choice" style="margin-top: 2rem;">
+          <h3>Question 2: Problem Size and Frequency</h3>
+          <p class="pm-question-text">Your team proposes building a specialized utility that helps users calculate their vehicle registration depreciation tax (a complex process that happens once a year). How should you classify this problem?</p>
+          
+          <div class="pm-options">
+            <button class="pm-option" data-option="a">Exclude it, because it happens rarely and is therefore non-viable</button>
+            <button class="pm-option" data-option="b">Classify it as Small and Rare, and build a free mobile app for it</button>
+            <button class="pm-option" data-option="c" data-correct>Classify it as Big and Rare, and build a premium, high-transaction tool or add-on</button>
+            <button class="pm-option" data-option="d">Treat it as a Large and Frequent problem because depreciation math is complex</button>
+          </div>
+
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="a" hidden>
+            <strong>Incorrect.</strong> While it happens rarely, calculating depreciation tax represents a significant, complex pain point when it does, making it viable under the right model.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="b" hidden>
+            <strong>Incorrect.</strong> vehicle depreciation is a large, stressful financial problem, not a small one. Small/rare features should be excluded.
+          </div>
+          <div class="pm-feedback pm-alert pm-success" data-feedback="c" hidden>
+            <strong>Correct!</strong> Calculating annual vehicle registration depreciation is a Big and Rare event. It is commercially viable because users are willing to pay a premium transaction fee (e.g., $49 per calculation) to solve a stressful, complex annual event.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="d" hidden>
+            <strong>Incorrect.</strong> vehicle depreciation occurs only once a year during renewal; it is not a frequent/daily occurrence.
+          </div>
+        </div>
+      </section>
+
+      <nav class="pm-card" aria-label="Lesson navigation">
+        <h2>Continue learning</h2>
+        <p><a href="../26-getting-product-strategy-right.md">Return to the canonical lecture guide</a></p>
+        <p><a href="../README.md">Section overview</a> · <a href="../../README.md">Part overview</a> · <a href="../../../COURSE-INDEX.md">Course index</a></p>
+        <p><a href="../../../sources/02-strategy/03-the-problem-space/26-getting-product-strategy-right-transcript.md">Original lecture transcript</a></p>
+      </nav>
+    </main>
+  </body>
+</html>
