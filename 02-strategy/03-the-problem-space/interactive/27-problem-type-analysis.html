@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive companion for Exercise #7: Problem Type Analysis">
+    <title>Exercise #7: Problem Type Analysis — Interactive Lesson</title>
+    <link rel="stylesheet" href="../../../assets/interactive/pm-study-guide.css">
+    <script src="../../../assets/interactive/pm-study-guide.js" defer></script>
+  </head>
+  <body>
+    <div class="pm-progress" aria-hidden="true"><span data-progress-bar></span></div>
+    <noscript><div class="pm-shell pm-card pm-warning">Interactive controls require JavaScript. The canonical Markdown lecture remains available through the link at the end of this page.</div></noscript>
+
+    <header class="pm-header pm-shell">
+      <p class="pm-kicker">Product Management Study Guide · Interactive Companion</p>
+      <h1>Exercise #7: Problem Type Analysis</h1>
+      <p class="pm-subtitle">Map the problem space size, usage frequency, pricing margins, and cost-to-serve touch levels for Slack, Udemy, Nespresso, Airbnb, and Uber Cabs.</p>
+      <div class="pm-meta" aria-label="Lesson information">
+        <span class="pm-chip">Part 2</span>
+        <span class="pm-chip">Section 3</span>
+        <span class="pm-chip">Lecture 27</span>
+      </div>
+    </header>
+
+    <main class="pm-shell pm-grid" id="main-content">
+      <nav class="pm-card" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Lesson contents</h2>
+        <ol>
+          <li><a href="#lecture-overview">Lecture overview</a></li>
+          <li><a href="#central-argument">Central argument</a></li>
+          <li><a href="#concept-1">1. Sizing the Problem Space: The Three Questions</a></li>
+          <li><a href="#concept-2">2. Case Studies: Size vs. Frequency</a></li>
+          <li><a href="#concept-3">3. Case Studies: Price vs. Cost-to-Serve</a></li>
+          <li><a href="#worked-example">Practical PM Example</a></li>
+          <li><a href="#misunderstandings">Common Misunderstandings</a></li>
+          <li><a href="#definitions">Key Concepts & Definitions</a></li>
+          <li><a href="#takeaways">Key Takeaways</a></li>
+          <li><a href="#visual-summary">Visual Summary</a></li>
+          <li><a href="#one-minute-review">One-minute review</a></li>
+          <li><a href="#interactive-practice">Interactive Practice</a></li>
+        </ol>
+      </nav>
+
+      <section class="pm-card pm-outcome" aria-labelledby="learning-outcome">
+        <h2 id="learning-outcome">Your goal</h2>
+        <p>Analyze how prominent brands position themselves on size, frequency, margins, and cost-to-serve coordinate matrices, and apply these configurations to evaluate your chosen product.</p>
+      </section>
+
+      <section class="pm-card" id="lecture-overview" aria-labelledby="lecture-overview-heading">
+        <h2 id="lecture-overview-heading">Lecture overview</h2>
+        <p>This lecture covers the seventh practical exercise of the course: building a **Problem Type Analysis** for your product. It applies the validation matrices from the previous lecture to analyze the business models of leading brands.</p>
+      </section>
+
+      <section class="pm-card pm-outcome" id="central-argument" aria-labelledby="central-argument-heading">
+        <h2 id="central-argument-heading">Central argument</h2>
+        <p>To validate a product strategy, PMs must evaluate the problem space from the customer's perspective rather than the company's development effort. Sizing a problem requires analyzing customer motivation, market volume, and competitive gaps. By mapping key case studies across size, frequency, price, and cost-to-serve matrices, PMs can identify viable business model configurations—such as B2B enterprise software, consumer marketplaces, or retail pod systems—and copy established pricing-to-touchpoint alignments to ensure their own product's commercial viability.</p>
+      </section>
+
+      <section class="pm-card" id="concept-1" aria-labelledby="concept-1-heading">
+        <h2 id="concept-1-heading">1. Sizing the Problem Space: The Three Questions</h2>
+        <p>Problem size is defined by user demand, not engineering hours. Size is determined by three key questions:
+          <ol>
+            <li>How big a deal is it to the customer to solve this? (Motivation & Pain)</li>
+            <li>How many people face this problem? (Market Volume)</li>
+            <li>To what degree is it still unsolved? (Parity Gap)</li>
+          </ol>
+        </p>
+
+        <figure class="pm-visual">
+          <img src="../visuals/27-sizing-questions.png" alt="Sizing the problem space checklist infographic">
+          <figcaption>Figure 1: Sizing the Problem Space: The Three Questions</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-2" aria-labelledby="concept-2-heading">
+        <h2 id="concept-2-heading">2. Case Studies: Size vs. Frequency</h2>
+        <p>Mapping brand profiles:
+          <ul>
+            <li><strong>Slack:</strong> Large & Frequent (workplace collaboration).</li>
+            <li><strong>Udemy:</strong> Large & Infrequent (skill development, sporadic usage).</li>
+            <li><strong>Nespresso:</strong> Small & Frequent (daily coffee routine).</li>
+            <li><strong>Airbnb:</strong> Large & Infrequent (holiday homestay booking).</li>
+            <li><strong>Uber Cabs:</strong> Large & Infrequent/Rare (getting to destination safely when stranded).</li>
+          </ul>
+        </p>
+
+        <figure class="pm-visual">
+          <img src="../visuals/27-problem-matrix.png" alt="Problem Type Matrix mapping Slack, Udemy, Nespresso, Airbnb, and Uber Cabs">
+          <figcaption>Figure 2: Problem Type Matrix (Slack, Udemy, Nespresso, Airbnb, Uber)</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card" id="concept-3" aria-labelledby="concept-3-heading">
+        <h2 id="concept-3-heading">3. Case Studies: Price vs. Cost-to-Serve</h2>
+        <p>Mapping touchpoints and pricing margins:
+          <ul>
+            <li><strong>Slack (High Price / High Touch):</strong> Enterprise contract values with high corporate sales rep overhead.</li>
+            <li><strong>Nespresso (High Price / High Touch):</strong> Massive capsule gross margins offset by physical boutique and supply chain operations.</li>
+            <li><strong>Airbnb (High Price / Low Touch):</strong> Large booking values with automated matching and low transaction overhead.</li>
+            <li><strong>Udemy (Low Price / Low Touch):</strong> Low course prices supported by self-serve matching and support delegation to instructors.</li>
+            <li><strong>Uber Cabs (Low Price / Low Touch):</strong> Low ride price points supported by automated app matching and in-app support workflows.</li>
+          </ul>
+        </p>
+
+        <div class="pm-carousel" data-widget="carousel" style="margin-top: 1.5rem;">
+          <div class="pm-carousel-slides">
+            <div class="pm-carousel-slide" data-slide-active>
+              <figure class="pm-visual">
+                <img src="../visuals/27-sales-matrix.png" alt="Sales Model Matrix mapping Slack, Nespresso, Airbnb, Udemy, and Uber">
+                <figcaption>Slide 1: Sales Model Matrix</figcaption>
+              </figure>
+            </div>
+            <!-- slide -->
+            <div class="pm-carousel-slide">
+              <figure class="pm-visual">
+                <img src="../visuals/27-pod-margins.png" alt="Nespresso pod margin bar comparison chart">
+                <figcaption>Slide 2: Price vs. Margin: The Nespresso Pod Metric</figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="pm-carousel-controls">
+            <button class="pm-carousel-btn" data-carousel-prev aria-label="Previous slide">←</button>
+            <button class="pm-carousel-btn" data-carousel-next aria-label="Next slide">→</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="pm-card" id="worked-example" aria-labelledby="worked-example-heading">
+        <h2 id="worked-example-heading">Practical Product Management example</h2>
+        <h3>Situation</h3>
+        <p>A PM is designing a remote usability testing tool where designers can hire testers to review prototypes. The target pricing is set at $15 per test. The operations team proposes that for every test, a customer success representative should manually review the screencast video to verify audio quality before releasing it to the designer.</p>
+        
+        <h3>Decision</h3>
+        <p>The PM maps the product on the Price vs. Cost-to-Serve Matrix. Price: Low ($15/test). Proposed Cost-to-Serve: High (requires human labor to watch every video). The PM rejects the operations team's proposal. They pivot the strategy and direct the engineering team to build an automated, client-side mic tester in the recorder app. This script checks audio levels and ambient noise programmatically before the tester can submit the video.</p>
+        
+        <h3>Reasoning</h3>
+        <p>Watching every video manually places the startup in The Danger Zone (low price with high touch). An automated mic check tool ensures basic quality programmatically. This keeps the touchpoint level at Low Touch, matching the B2C marketplace model of Udemy and Uber where quality verification is automated or crowdsourced.</p>
+        
+        <h3>Consequence</h3>
+        <p>The automated mic check tool successfully blocks silent or noisy recordings before submission. Usability testing video quality remains high, and customer refund requests drop to under 1%. The startup scales to 5,000 monthly tests without hiring additional review staff, preserving its B2C self-serve profitability margins.</p>
+        
+        <h3>Transferable lesson</h3>
+        <p>Never scale a low-price B2C marketplace using manual, human verification steps. You must automate quality checks and support workflows to maintain low touch-level operations.</p>
+      </section>
+
+      <section class="pm-card pm-warning" id="misunderstandings" aria-labelledby="misunderstandings-heading">
+        <h2 id="misunderstandings-heading">Common misunderstandings</h2>
+        
+        <h3>"A low-price product means we cannot afford high-end branding"</h3>
+        <p><strong>Correction:</strong> Nespresso sells a simple consumer product (coffee), which is technically low cost. However, they wrap it in high-end branding, luxurious retail boutiques, and premium packaging, allowing them to charge a massive margin markup. Do not confuse low cost-of-goods-sold with low-tier pricing. Evaluate your sales model by margins.</p>
+
+        <h3>"If users don't use our product daily, the strategy is failing"</h3>
+        <p><strong>Correction:</strong> Udemy, Airbnb, and Uber solve infrequent problems. Travel and professional learning are not daily routines. Infrequent products are highly successful if the problem is <strong>large</strong> (high customer motivation to solve it when it happens). Do not force daily notifications or fake gamification loops onto a naturally infrequent product.</p>
+
+        <h3>"We should handle customer support manually to build empathy"</h3>
+        <p><strong>Correction:</strong> Manual support is vital during the early discovery phase to understand user friction. However, once you enter the scaling phase for a low-price B2C product, manual support must be replaced by automated self-serve flows. Empathy must be built into the product design itself, not delivered via expensive human support lines.</p>
+      </section>
+
+      <section class="pm-card" id="definitions" aria-labelledby="definitions-heading">
+        <h2 id="definitions-heading">Key concepts and definitions</h2>
+        <ul>
+          <li><strong>Problem Type Analysis:</strong> The practice of evaluating a product's market viability based on its size, frequency, pricing, and touch level.</li>
+          <li><strong>Touch Level:</strong> The amount of manual human interaction (sales, support, success calls) required per customer.</li>
+          <li><strong>Sizing Metrics:</strong> Sizing a customer problem based on pain severity, market volume, and competitive gaps rather than code complexity.</li>
+          <li><strong>Margin-Led Pricing:</strong> Defining "high price" by high gross margins (revenue minus operational cost) rather than checkout tag alone.</li>
+          <li><strong>Two-Sided Delegation:</strong> Reducing Cost-to-Serve by delegating support/supply quality verification to marketplace participants (e.g. Udemy instructors).</li>
+        </ul>
+      </section>
+
+      <section class="pm-card" id="takeaways" aria-labelledby="takeaways-heading">
+        <h2 id="takeaways-heading">Key takeaways</h2>
+        <ol>
+          <li>Size problems by customer pain, market volume, and competitor gaps rather than code complexity.</li>
+          <li>Slack represents a Large & Frequent B2B problem with a High Price / High Touch enterprise business model.</li>
+          <li>Udemy represents a Large & Infrequent problem that is viable due to Low Price / Low Touch marketplace delegation.</li>
+          <li>Nespresso represents a Small & Frequent problem supported by high margin retail markup (High Price / High Touch).</li>
+          <li>Airbnb represents a Large & Infrequent B2C problem utilizing a High Price / Low Touch matching platform.</li>
+          <li>Uber represents a Large & Rare B2C problem supported by a Low Price / Low Touch automated dispatch model.</li>
+          <li>Infrequent products are highly viable if the problem size/motivation is large (Airbnb, Udemy).</li>
+          <li>Automate onboarding and quality checks for low-price products to avoid scaling into the Danger Zone.</li>
+        </ol>
+      </section>
+
+      <section class="pm-card" id="visual-summary" aria-labelledby="visual-summary-heading">
+        <h2 id="visual-summary-heading">Visual summary</h2>
+        <figure class="pm-visual">
+          <img src="../visuals/27-visual-summary.png" alt="Visual summary flowchart of the problem type analysis steps">
+          <figcaption>Figure 5: Problem Type Analysis Sequence</figcaption>
+        </figure>
+      </section>
+
+      <section class="pm-card pm-outcome" id="one-minute-review" aria-labelledby="one-minute-review-heading">
+        <h2 id="one-minute-review-heading">One-minute review</h2>
+        <p><strong>Ask the 3 Sizing Questions:</strong> Analyze customer motivation, market size, and parity gaps to calculate the problem space volume. <strong>Coordinate the Matrix:</strong> Map where your product sits relative to case studies (Slack, Udemy, Nespresso, Airbnb, Uber). <strong>Align the Model:</strong> Ensure low pricing is backed by self-serve low-touch operations, and high human touch is supported by enterprise-grade pricing margins.</p>
+      </section>
+
+      <section class="pm-card" id="interactive-practice" aria-labelledby="interactive-practice-heading">
+        <h2 id="interactive-practice-heading">Interactive Practice</h2>
+        <p>Examine the profiles of our 5 case study companies. Click on the tabs below to toggle their details and see how they align pricing and touchpoints.</p>
+
+        <div class="pm-tabs" data-widget="tabs">
+          <div class="pm-tablist" role="tablist" aria-label="Exercise 7 Brand Profiles">
+            <button class="pm-tab" role="tab" aria-selected="true" aria-controls="panel-slack" id="tab-slack">Slack</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-udemy" id="tab-udemy" tabindex="-1">Udemy</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-nespresso" id="tab-nespresso" tabindex="-1">Nespresso</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-airbnb" id="tab-airbnb" tabindex="-1">Airbnb</button>
+            <button class="pm-tab" role="tab" aria-selected="false" aria-controls="panel-uber" id="tab-uber" tabindex="-1">Uber Cabs</button>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-slack" aria-labelledby="tab-slack">
+            <h3>Slack Profile</h3>
+            <p><strong>Problem type:</strong> Large & Frequent (workplace collaboration replacement).</p>
+            <p><strong>Business Model:</strong> High Price / High Touch.</p>
+            <p><strong>Strategic Context:</strong> Displacing Microsoft Teams requires long sales cycles and active support, funded by enterprise contract value margins.</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-udemy" aria-labelledby="tab-udemy" hidden>
+            <h3>Udemy Profile</h3>
+            <p><strong>Problem type:</strong> Large & Infrequent (learning is high value but sporadic).</p>
+            <p><strong>Business Model:</strong> Low Price / Low Touch.</p>
+            <p><strong>Strategic Context:</strong> Two-sided marketplace delegation shifts student support overhead to the instructors, keeping Udemy's touch cost near zero.</p>
+          </div>
+          
+          <div class="pm-tabpanel" role="tabpanel" id="panel-nespresso" aria-labelledby="tab-nespresso" hidden>
+            <h3>Nespresso Profile</h3>
+            <p><strong>Problem type:</strong> Small & Frequent (coffee routine multiple times per day).</p>
+            <p><strong>Business Model:</strong> High Price (Margin) / High Touch.</p>
+            <p><strong>Strategic Context:</strong> Physical retail boutiques and pod distribution lines require high operations cost, funded by massive gross margins on pods.</p>
+          </div>
+
+          <div class="pm-tabpanel" role="tabpanel" id="panel-airbnb" aria-labelledby="tab-airbnb" hidden>
+            <h3>Airbnb Profile</h3>
+            <p><strong>Problem type:</strong> Large & Infrequent (vacation homestays are stressful but rare).</p>
+            <p><strong>Business Model:</strong> High Price / Low Touch.</p>
+            <p><strong>Strategic Context:</strong> High transaction booking value with automated matching. Host onboarding is high touch, but matching transactions are automated.</p>
+          </div>
+
+          <div class="pm-tabpanel" role="tabpanel" id="panel-uber" aria-labelledby="tab-uber" hidden>
+            <h3>Uber Cabs Profile</h3>
+            <p><strong>Problem type:</strong> Large & Rare/Infrequent (getting home safely when stranded).</p>
+            <p><strong>Business Model:</strong> Low Price / Low Touch.</p>
+            <p><strong>Strategic Context:</strong> Low single ride price. Matching, routing, and support are fully automated via app workflows with zero human dispatchers.</p>
+          </div>
+        </div>
+
+        <p style="margin-top: 3rem;">Apply problem type classifications. Review the scenarios below and select the correct strategic path.</p>
+
+        <div class="pm-choice-widget" data-widget="choice">
+          <h3>Question 1: Price and Touchpoint evaluation</h3>
+          <p class="pm-question-text">You are building a mobile app that helps consumers track and cancel hidden monthly subscriptions. The app costs $2/month. How should you design the cancellation workflow?</p>
+          
+          <div class="pm-options">
+            <button class="pm-option" data-option="a">Have a support agent call the merchant manually on behalf of the customer to cancel the contract</button>
+            <button class="pm-option" data-option="b" data-correct>Generate an automated cancellation email template or API call from the app, letting the user trigger it in one click</button>
+            <button class="pm-option" data-option="c">Offer a premium chat helpline where users can talk to cancellation lawyers for $2/month</button>
+            <button class="pm-option" data-option="d">Ask users to book a setup success call to connect their bank accounts manually</button>
+          </div>
+
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="a" hidden>
+            <strong>Incorrect.</strong> Manual human calls represent a high Cost-to-Serve. At $2/month, you will operate at a loss and enter the Danger Zone.
+          </div>
+          <div class="pm-feedback pm-alert pm-success" data-feedback="b" hidden>
+            <strong>Correct!</strong> An automated template or API cancel is a Low-Touch workflow. At a $2 price point, operations must remain automated to stay viable.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="c" hidden>
+            <strong>Incorrect.</strong> Hiring lawyers or premium chat agents creates high touchpoint costs that are impossible to fund with a $2 subscription.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="d" hidden>
+            <strong>Incorrect.</strong> Bank onboarding must be self-serve and automated (using Plaid or similar API integration). Success calls at this price point are fatal.
+          </div>
+        </div>
+
+        <div class="pm-choice-widget" data-widget="choice" style="margin-top: 2rem;">
+          <h3>Question 2: Infrequent Product Strategy</h3>
+          <p class="pm-question-text">You are the PM for an online wedding registry platform (users create registry lists once in their lifetime). The marketing team demands that you build daily notification prompts and gaming rewards to keep users engaged. What is your correct strategic response?</p>
+          
+          <div class="pm-options">
+            <button class="pm-option" data-option="a">Build the gaming loop to force daily user engagement metrics</button>
+            <button class="pm-option" data-option="b" data-correct>Reject the daily notifications; focus instead on maximizing the problem size (giving a flawless, premium experience when it happens) and charging a percentage of transaction value</button>
+            <button class="pm-option" data-option="c">Add daily news articles about celebrity weddings to force users into a daily routine</button>
+            <button class="pm-option" data-option="d">Pivot the company to sell daily household goods instead of wedding registries</button>
+          </div>
+
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="a" hidden>
+            <strong>Incorrect.</strong> Wedding registry is naturally a one-time event. Forcing daily gaming loops on users is a design mismatch that creates user annoyance.
+          </div>
+          <div class="pm-feedback pm-alert pm-success" data-feedback="b" hidden>
+            <strong>Correct!</strong> A wedding registry is a Large and Rare/Infrequent problem. Since users are highly motivated during this key life event, focus on resolving the large pain point perfectly and capture transaction margin value, rather than chasing daily engagement metrics.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="c" hidden>
+            <strong>Incorrect.</strong> Adding generic articles to force engagement dilutes the product's core value proposition and wastes design bandwidth.
+          </div>
+          <div class="pm-feedback pm-alert pm-warning" data-feedback="d" hidden>
+            <strong>Incorrect.</strong> Pivoting the entire business model because of a misunderstanding of product frequency is a major strategic failure.
+          </div>
+        </div>
+      </section>
+
+      <nav class="pm-card" aria-label="Lesson navigation">
+        <h2>Continue learning</h2>
+        <p><a href="../27-problem-type-analysis.md">Return to the canonical lecture guide</a></p>
+        <p><a href="../README.md">Section overview</a> · <a href="../../README.md">Part overview</a> · <a href="../../../COURSE-INDEX.md">Course index</a></p>
+        <p><a href="../../../sources/02-strategy/03-the-problem-space/27-problem-type-analysis-transcript.md">Original lecture transcript</a></p>
+      </nav>
+    </main>
+  </body>
+</html>

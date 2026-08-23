@@ -346,6 +346,18 @@ A product prioritization framework developed by Dr. Noriaki Kano that maps custo
 
 ## M
 
+### Margin-Led Pricing
+
+A pricing classification defined by gross profit margins (revenue minus production/delivery costs) rather than absolute ticket price. High margins allow companies to cover manual or complex physical distribution overhead (e.g. Nespresso capsule boutiques).
+
+**Related concepts:**
+- Price vs. Cost-to-Serve
+- Touch Level
+- Opportunity-Market Fit
+
+**Related lectures:**
+- [Exercise #7: Problem Type Analysis](./02-strategy/03-the-problem-space/27-problem-type-analysis.md)
+
 ### Mercenary Developer
 
 An engineer who builds features solely from given specifications, focused on output velocity and story points, without understanding the customer context or user pain.
@@ -402,6 +414,18 @@ A core customer expectation or basic requirement that causes extreme dissatisfac
 ---
 
 ## O
+
+### Onboarding Touch Level
+
+The degree of manual human intervention (ranging from high-touch demo calls to low-touch self-serve app wizards) required to successfully register and configure a customer's account.
+
+**Related concepts:**
+- Cost-to-Serve
+- Danger Zone
+- Margin-Led Pricing
+
+**Related lectures:**
+- [Exercise #7: Problem Type Analysis](./02-strategy/03-the-problem-space/27-problem-type-analysis.md)
 
 ### Operational Limit
 
@@ -893,6 +917,18 @@ A product validation framework assessing whether a problem is Desirable (Do user
 
 **Related lectures:**
 - [Getting Product Strategy Right](./02-strategy/03-the-problem-space/26-getting-product-strategy-right.md)
+
+### Two-Sided Delegation
+
+A strategy for lowering a company's internal cost-to-serve by outsourcing customer support, content moderation, or onboarding verify tasks to the participants of a marketplace (e.g. Udemy student questions answered by course instructors).
+
+**Related concepts:**
+- Cost-to-Serve
+- Two-Sided Marketplace
+- Onboarding Touch Level
+
+**Related lectures:**
+- [Exercise #7: Problem Type Analysis](./02-strategy/03-the-problem-space/27-problem-type-analysis.md)
 
 ### Two-Sided Marketplace
 

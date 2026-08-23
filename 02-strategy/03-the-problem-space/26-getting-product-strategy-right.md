@@ -25,7 +25,7 @@ related_concepts:
 ·
 [Part Overview](../README.md)
 ·
-[Next Lecture →](unavailable)
+[Next Lecture →](./27-problem-type-analysis.md)
 
 # Getting Product Strategy Right
 
@@ -278,5 +278,5 @@ Ensure your sales and support models align with your pricing. If you charge a lo
 * Previous: [Exercise #6: The Strategy Grid](./25-the-strategy-grid.md)
 * Section: [The Problem Space](./README.md)
 * Part: [Strategy](../README.md)
-* Next: [Next Lecture](unavailable)
+* Next: [Exercise #7: Problem Type Analysis](./27-problem-type-analysis.md)
 * Course index: [Full Course Index](../../COURSE-INDEX.md)
