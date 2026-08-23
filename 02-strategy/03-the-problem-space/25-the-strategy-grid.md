@@ -25,7 +25,7 @@ related_concepts:
 ·
 [Part Overview](../README.md)
 ·
-[Next Lecture →](unavailable)
+[Next Lecture →](./26-getting-product-strategy-right.md)
 
 # Exercise #6: The Strategy Grid
 
@@ -271,5 +271,5 @@ Never compete on a competitor's terms if they have a structural advantage. Use t
 * Previous: [The Kano Model](./24-the-kano-model.md)
 * Section: [The Problem Space](./README.md)
 * Part: [Strategy](../README.md)
-* Next: [Next Lecture](unavailable)
+* Next: [Getting Product Strategy Right](./26-getting-product-strategy-right.md)
 * Course index: [Full Course Index](../../COURSE-INDEX.md)

@@ -54,7 +54,34 @@ solution, adoption level, and implementation complexity may not yet be known.
 
 ---
 
+## C
+
+### Cost-to-Serve
+
+The total resource overhead, sales effort, onboarding time, and support touchpoints required to acquire, set up, and maintain a customer. Low-priced products must rely on low-touch automated onboarding to avoid non-viable business models.
+
+**Related concepts:**
+- Danger Zone
+- Triangle Test
+
+**Related lectures:**
+- [Getting Product Strategy Right](./02-strategy/03-the-problem-space/26-getting-product-strategy-right.md)
+
+---
+
 ## D
+
+### Danger Zone
+
+A non-viable business model where a product charges a low price but incurs high human labor costs for sales, custom onboarding, or manual customer support.
+
+**Related concepts:**
+- Cost-to-Serve
+- Product Viability
+- Self-Serve Onboarding
+
+**Related lectures:**
+- [Getting Product Strategy Right](./02-strategy/03-the-problem-space/26-getting-product-strategy-right.md)
 
 ### Data Product Manager
 
@@ -853,6 +880,19 @@ A sociological model that describes how different customer segments (Innovators,
 
 **Related lectures:**
 - [Product-Market Fit vs. Product Vision](./01-introduction/01-introduction/18-product-market-fit-vs-product-vision.md)
+
+### Triangle Test
+
+A product validation framework assessing whether a problem is Desirable (Do users want it?), Viable (Can we build a sustainable business around it?), and Feasible (Can it be built given technical constraints?).
+
+**Related concepts:**
+- Product Viability
+- Feasibility Risk
+- Usability Risk
+- Value Risk
+
+**Related lectures:**
+- [Getting Product Strategy Right](./02-strategy/03-the-problem-space/26-getting-product-strategy-right.md)
 
 ### Two-Sided Marketplace
 

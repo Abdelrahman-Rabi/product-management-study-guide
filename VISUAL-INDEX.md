@@ -652,6 +652,51 @@ Section 1: Introduction
 
 ![Strategy Grid to MVP Workflow (Visual Summary)](./02-strategy/03-the-problem-space/visuals/25-visual-summary.png)
 
+#### The Product Validation Triangle (Triangle Test)
+
+**Source lecture:**  
+[Getting Product Strategy Right](./02-strategy/03-the-problem-space/26-getting-product-strategy-right.md)
+
+**Purpose:** Triangle graphic displaying the Desirability, Viability, and Feasibility requirements intersecting at Product-Market Fit.
+
+![The Product Validation Triangle (Triangle Test)](./02-strategy/03-the-problem-space/visuals/26-validation-triangle.png)
+
+#### Problem Size vs. Frequency Grid
+
+**Source lecture:**  
+[Getting Product Strategy Right](./02-strategy/03-the-problem-space/26-getting-product-strategy-right.md)
+
+**Purpose:** Coordinate grid mapping customer pain size vs. frequency of occurrence to identify viable business opportunities and exclude non-viable ones.
+
+![Problem Size vs. Frequency Grid](./02-strategy/03-the-problem-space/visuals/26-size-frequency.png)
+
+#### Price vs. Cost-to-Serve Business Model Grid
+
+**Source lecture:**  
+[Getting Product Strategy Right](./02-strategy/03-the-problem-space/26-getting-product-strategy-right.md)
+
+**Purpose:** Business model matrix mapping prices vs. onboarding human touch levels, highlighting the fatal Low Price / High Touch Danger Zone.
+
+![Price vs. Cost-to-Serve Business Model Grid](./02-strategy/03-the-problem-space/visuals/26-price-cost.png)
+
+#### Transcending Hype Cycles (Moat & Brand Extension)
+
+**Source lecture:**  
+[Getting Product Strategy Right](./02-strategy/03-the-problem-space/26-getting-product-strategy-right.md)
+
+**Purpose:** Split graphic comparing transient technology wave peaks with permanent customer needs secured by brand moats.
+
+![Transcending Hype Cycles (Moat & Brand Extension)](./02-strategy/03-the-problem-space/visuals/26-hype-cycles.png)
+
+#### Product Strategy Validation Flow (Visual Summary)
+
+**Source lecture:**  
+[Getting Product Strategy Right](./02-strategy/03-the-problem-space/26-getting-product-strategy-right.md)
+
+**Purpose:** Flowchart outlining the sequence of problem validation, coordinate checks, sales model evaluation, and moat configuration.
+
+![Product Strategy Validation Flow (Visual Summary)](./02-strategy/03-the-problem-space/visuals/26-visual-summary.png)
+
 Part 3: Discovery
 
 Visuals will be added when this part begins.
