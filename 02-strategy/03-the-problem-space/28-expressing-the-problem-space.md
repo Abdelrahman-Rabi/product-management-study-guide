@@ -25,7 +25,7 @@ related_concepts:
 ·
 [Part Overview](../README.md)
 ·
-[Next Lecture →](unavailable)
+[Next Lecture →](./29-timeless-problem-statements.md)
 
 # Expressing the Problem Space
 
@@ -248,5 +248,5 @@ Define your product by the user's objective (documenting an encounter), not the 
 * Previous: [Exercise #7: Problem Type Analysis](./27-problem-type-analysis.md)
 * Section: [The Problem Space](./README.md)
 * Part: [Strategy](../README.md)
-* Next: [Next Lecture](unavailable)
+* Next: [Exercise #8: Timeless Problem Statements](./29-timeless-problem-statements.md)
 * Course index: [Full Course Index](../../COURSE-INDEX.md)

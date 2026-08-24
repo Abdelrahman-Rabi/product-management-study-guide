@@ -11,6 +11,7 @@ List of lectures in their original course order:
 - [Getting Product Strategy Right](./26-getting-product-strategy-right.md)
 - [Exercise #7: Problem Type Analysis](./27-problem-type-analysis.md)
 - [Expressing the Problem Space](./28-expressing-the-problem-space.md)
+- [Exercise #8: Timeless Problem Statements](./29-timeless-problem-statements.md)
 
 ## Section Resources
 
