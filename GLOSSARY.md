@@ -49,6 +49,30 @@ The security and privacy vulnerability where physical user characteristics (e.g.
 **Related lectures:**
 - [Exercise #9: Are you in a Growing Market?](./02-strategy/03-the-problem-space/31-growing-market-exercise.md)
 
+### Brand Extendability
+
+The capacity of a brand name or identity to encompass future product pivots, expansions into adjacent verticals, or technology transformations without losing its built-in equity.
+
+**Related concepts:**
+- Brand Promise
+- Technology Dependency
+- Timeless Problem Statements
+
+**Related lectures:**
+- [The Extendable Brand](./02-strategy/03-the-problem-space/32-extendable-brand.md)
+
+### Brand Promise
+
+The explicit and implicit expectations set in a customer's mind by a company's marketing, name, and past product actions. Product features must continuously satisfy this promise to preserve brand value.
+
+**Related concepts:**
+- Brand Extendability
+- Product-Brand Lifecycle Loop
+- Customer Experience (CX)
+
+**Related lectures:**
+- [The Extendable Brand](./02-strategy/03-the-problem-space/32-extendable-brand.md)
+
 ### Business Case
 
 An evaluation used to estimate the expected value, cost, benefits, and risks of
@@ -347,6 +371,18 @@ Interaction design concerns the user interface's behaviors, screen transitions, 
 
 **Related lectures:**
 - [The Modern Product Designer](./01-introduction/01-introduction/16-the-modern-product-designer.md)
+
+### Invented Word Branding
+
+A naming strategy that utilizes abstract or completely new words (e.g. Slack, Bing, Microsoft) rather than descriptive terms to ensure maximum name extendability and avoid technological dependencies or functional constraints.
+
+**Related concepts:**
+- Brand Extendability
+- Technology Dependency
+- Timeless Problem Statements
+
+**Related lectures:**
+- [The Extendable Brand](./02-strategy/03-the-problem-space/32-extendable-brand.md)
 
 ---
 

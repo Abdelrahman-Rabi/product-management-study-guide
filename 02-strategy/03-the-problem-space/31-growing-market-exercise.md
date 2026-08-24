@@ -25,7 +25,7 @@ related_concepts:
 ·
 [Part Overview](../README.md)
 ·
-[Next Lecture →](unavailable)
+[Next Lecture →](./32-extendable-brand.md)
 
 # Exercise #9: Are you in a Growing Market?
 
@@ -189,5 +189,5 @@ If your market is **stable** or **shrinking**, you must pivot your product strat
 * Previous: [Growing Market = New Companies](./30-growing-market-new-companies.md)
 * Section: [The Problem Space](./README.md)
 * Part: [Strategy](../README.md)
-* Next: [Next Section Overview](../04-goal-setting/README.md) *(Section 4: Goal Setting)*
+* Next: [The Extendable Brand](./32-extendable-brand.md)
 * Course index: [Full Course Index](../../COURSE-INDEX.md)
