@@ -787,6 +787,33 @@ Section 1: Introduction
 
 ![How to Express a Timeless Problem Space (Visual Summary)](./02-strategy/03-the-problem-space/visuals/28-visual-summary.png)
 
+#### Warm-Up Statement Evaluations
+
+**Source lecture:**  
+[Exercise #8: Timeless Problem Statements](./02-strategy/03-the-problem-space/29-timeless-problem-statements.md)
+
+**Purpose:** Infographic listing locked statements, their specific locks (Bluetooth, Udemy, Car, Email/App), and their corrected timeless versions.
+
+![Warm-Up Statement Evaluations](./02-strategy/03-the-problem-space/visuals/29-problem-evaluations.png)
+
+#### Uber's Product Vision Breakdown
+
+**Source lecture:**  
+[Exercise #8: Timeless Problem Statements](./02-strategy/03-the-problem-space/29-timeless-problem-statements.md)
+
+**Purpose:** Diagram dissecting Uber's vision to prove its technology-agnostic and vendor-neutral structure.
+
+![Uber's Product Vision Breakdown](./02-strategy/03-the-problem-space/visuals/29-uber-vision-breakdown.png)
+
+#### Problem Statement Audit Checklist (Visual Summary)
+
+**Source lecture:**  
+[Exercise #8: Timeless Problem Statements](./02-strategy/03-the-problem-space/29-timeless-problem-statements.md)
+
+**Purpose:** Flowchart checklist guiding PMs through checking for technology and vendor locks to reframe statements.
+
+![Problem Statement Audit Checklist](./02-strategy/03-the-problem-space/visuals/29-audit-checklist.png)
+
 Part 3: Discovery
 
 Visuals will be added when this part begins.

@@ -927,6 +927,18 @@ The practice of defining customer problems, business models, and product strateg
 **Related lectures:**
 - [Expressing the Problem Space](./02-strategy/03-the-problem-space/28-expressing-the-problem-space.md)
 
+### Technology Dependency
+
+A product design or strategic error where a problem space definition, requirement, or opportunity statement is tightly coupled to a specific transient hardware device, software delivery channel, file format, or protocol.
+
+**Related concepts:**
+- Technology-Agnostic
+- Vendor Dependency
+- Delivery Medium
+
+**Related lectures:**
+- [Exercise #8: Timeless Problem Statements](./02-strategy/03-the-problem-space/29-timeless-problem-statements.md)
+
 ### Tool Lock-In
 
 A strategic or technical vulnerability where a product's architecture or business viability is tightly coupled to a single transient software framework, proprietary hardware device, or specific vendor partner.
@@ -1032,6 +1044,18 @@ Value risk is the primary concern of product managers during discovery, focused 
 
 **Related lectures:**
 - [How Effective Product Teams Work](./01-introduction/01-introduction/12-how-effective-product-teams-work.md)
+
+### Vendor Dependency
+
+A business and strategic risk where a product's opportunity space, core strategy, or customer segment is tightly coupled to a single external partner company or supplier, exposing the business to platform policy shifts, pricing changes, or vendor failure.
+
+**Related concepts:**
+- Technology Dependency
+- Tool Lock-In
+- Viability Risk
+
+**Related lectures:**
+- [Exercise #8: Timeless Problem Statements](./02-strategy/03-the-problem-space/29-timeless-problem-statements.md)
 
 ### Viability Risk
 
