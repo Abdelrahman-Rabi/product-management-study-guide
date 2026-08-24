@@ -10,6 +10,7 @@ List of lectures in their original course order:
 - [Exercise #6: The Strategy Grid](./25-the-strategy-grid.md)
 - [Getting Product Strategy Right](./26-getting-product-strategy-right.md)
 - [Exercise #7: Problem Type Analysis](./27-problem-type-analysis.md)
+- [Expressing the Problem Space](./28-expressing-the-problem-space.md)
 
 ## Section Resources
 

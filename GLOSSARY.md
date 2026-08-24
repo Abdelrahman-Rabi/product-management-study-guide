@@ -109,6 +109,17 @@ An unexpected product feature that generates high customer satisfaction and exci
 **Related lectures:**
 - [The Kano Model](./02-strategy/03-the-problem-space/24-the-kano-model.md)
 
+### Delivery Medium
+
+The physical channel, software device, or digital format used to distribute a product solution to customers (e.g. video rental retail stores, mail envelopes, cloud streaming platforms). Marrying a delivery medium rather than a timeless customer need represents a major strategic risk.
+
+**Related concepts:**
+- Technology-Agnostic
+- Tool Lock-In
+
+**Related lectures:**
+- [Expressing the Problem Space](./02-strategy/03-the-problem-space/28-expressing-the-problem-space.md)
+
 ### Delivery Team
 
 A software development team that focuses on shipping output (pre-defined features on a roadmap) rather than validating user problems or business outcomes.
@@ -904,6 +915,29 @@ A sociological model that describes how different customer segments (Innovators,
 
 **Related lectures:**
 - [Product-Market Fit vs. Product Vision](./01-introduction/01-introduction/18-product-market-fit-vs-product-vision.md)
+
+### Technology-Agnostic
+
+The practice of defining customer problems, business models, and product strategies around timeless human needs rather than transient software stacks, hardware devices, or delivery media.
+
+**Related concepts:**
+- Delivery Medium
+- Tool Lock-In
+
+**Related lectures:**
+- [Expressing the Problem Space](./02-strategy/03-the-problem-space/28-expressing-the-problem-space.md)
+
+### Tool Lock-In
+
+A strategic or technical vulnerability where a product's architecture or business viability is tightly coupled to a single transient software framework, proprietary hardware device, or specific vendor partner.
+
+**Related concepts:**
+- Technology-Agnostic
+- Delivery Medium
+- Two-Sided Delegation
+
+**Related lectures:**
+- [Expressing the Problem Space](./02-strategy/03-the-problem-space/28-expressing-the-problem-space.md)
 
 ### Triangle Test
 

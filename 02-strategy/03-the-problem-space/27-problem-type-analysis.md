@@ -26,7 +26,7 @@ related_concepts:
 ·
 [Part Overview](../README.md)
 ·
-[Next Lecture →](unavailable)
+[Next Lecture →](./28-expressing-the-problem-space.md)
 
 # Exercise #7: Problem Type Analysis
 
@@ -229,5 +229,5 @@ Never scale a low-price B2C marketplace using manual, human verification steps. 
 * Previous: [Getting Product Strategy Right](./26-getting-product-strategy-right.md)
 * Section: [The Problem Space](./README.md)
 * Part: [Strategy](../README.md)
-* Next: [Next Lecture](unavailable)
+* Next: [Expressing the Problem Space](./28-expressing-the-problem-space.md)
 * Course index: [Full Course Index](../../COURSE-INDEX.md)

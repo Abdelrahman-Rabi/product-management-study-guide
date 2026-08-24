@@ -742,6 +742,51 @@ Section 1: Introduction
 
 ![Problem Type Analysis Sequence (Visual Summary)](./02-strategy/03-the-problem-space/visuals/27-visual-summary.png)
 
+#### Technology-Agnostic vs. Technology-Locked Problem Definition
+
+**Source lecture:**  
+[Expressing the Problem Space](./02-strategy/03-the-problem-space/28-expressing-the-problem-space.md)
+
+**Purpose:** Split-column comparison card mapping technology-locked examples to technology-agnostic statements.
+
+![Technology-Agnostic vs. Technology-Locked Problem Definition](./02-strategy/03-the-problem-space/visuals/28-locked-agnostic.png)
+
+#### The Blockbuster Fall: A Decade of Decline
+
+**Source lecture:**  
+[Expressing the Problem Space](./02-strategy/03-the-problem-space/28-expressing-the-problem-space.md)
+
+**Purpose:** Infographic displaying Blockbuster's scale and speed of failure due to locking strategy into retail storefronts.
+
+![The Blockbuster Fall: A Decade of Decline](./02-strategy/03-the-problem-space/visuals/28-hype-decline.png)
+
+#### Blockbuster vs. Netflix Strategic Pivot
+
+**Source lecture:**  
+[Expressing the Problem Space](./02-strategy/03-the-problem-space/28-expressing-the-problem-space.md)
+
+**Purpose:** Path timeline contrasting Blockbuster's technology-locked trajectory with Netflix's technology-agnostic transitions.
+
+![Blockbuster vs. Netflix Strategic Pivot](./02-strategy/03-the-problem-space/visuals/28-netflix-pivot.png)
+
+#### Web Developer Abstraction Analogy (Framework vs. DOM)
+
+**Source lecture:**  
+[Expressing the Problem Space](./02-strategy/03-the-problem-space/28-expressing-the-problem-space.md)
+
+**Purpose:** Stack layer graphic contrasting transient libraries with timeless web standards DOM APIs to illustrate software abstraction lock-in.
+
+![Web Developer Abstraction Analogy (Framework vs. DOM)](./02-strategy/03-the-problem-space/visuals/28-web-analogy.png)
+
+#### How to Express a Timeless Problem Space (Visual Summary)
+
+**Source lecture:**  
+[Expressing the Problem Space](./02-strategy/03-the-problem-space/28-expressing-the-problem-space.md)
+
+**Purpose:** Flowchart outlining the 5 sequential stages to audit a problem statement to make it technology-agnostic.
+
+![How to Express a Timeless Problem Space (Visual Summary)](./02-strategy/03-the-problem-space/visuals/28-visual-summary.png)
+
 Part 3: Discovery
 
 Visuals will be added when this part begins.

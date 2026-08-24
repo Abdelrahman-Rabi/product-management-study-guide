@@ -41,6 +41,7 @@ processed.
 - [Exercise #6: The Strategy Grid](./02-strategy/03-the-problem-space/25-the-strategy-grid.md)
 - [Getting Product Strategy Right](./02-strategy/03-the-problem-space/26-getting-product-strategy-right.md)
 - [Exercise #7: Problem Type Analysis](./02-strategy/03-the-problem-space/27-problem-type-analysis.md)
+- [Expressing the Problem Space](./02-strategy/03-the-problem-space/28-expressing-the-problem-space.md)
 
 Planned sections:
 - Section 4: Goal Setting
