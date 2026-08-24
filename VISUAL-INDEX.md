@@ -841,6 +841,33 @@ Section 1: Introduction
 
 ![How Market Growth Fuels B2B Product Scaling (Visual Summary)](./02-strategy/03-the-problem-space/visuals/30-visual-summary.png)
 
+#### Warm-Up Market Evaluations
+
+**Source lecture:**  
+[Exercise #9: Are you in a Growing Market?](./02-strategy/03-the-problem-space/31-growing-market-exercise.md)
+
+**Purpose:** Infographic comparing password managers, dentist bookings, desktop antivirus, and used car trajectories.
+
+![Warm-Up Market Evaluations Trajectories](./02-strategy/03-the-problem-space/visuals/31-market-evaluations.png)
+
+#### Future Authentication Alternatives
+
+**Source lecture:**  
+[Exercise #9: Are you in a Growing Market?](./02-strategy/03-the-problem-space/31-growing-market-exercise.md)
+
+**Purpose:** Grid showing Biometrics, Zero Login, Implanted Microchips, and Brain Passwords details and security vulnerabilities.
+
+![Future Authentication Alternatives](./02-strategy/03-the-problem-space/visuals/31-future-authentication.png)
+
+#### Steps to Audit a Market Trajectory (Visual Summary)
+
+**Source lecture:**  
+[Exercise #9: Are you in a Growing Market?](./02-strategy/03-the-problem-space/31-growing-market-exercise.md)
+
+**Purpose:** Flowchart outlining how PMs analyze market scopes, timelines, lenses, and drivers to formulate strategy.
+
+![Steps to Audit a Market Trajectory (Visual Summary)](./02-strategy/03-the-problem-space/visuals/31-audit-flowchart.png)
+
 Part 3: Discovery
 
 Visuals will be added when this part begins.

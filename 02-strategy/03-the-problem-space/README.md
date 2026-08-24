@@ -13,6 +13,7 @@ List of lectures in their original course order:
 - [Expressing the Problem Space](./28-expressing-the-problem-space.md)
 - [Exercise #8: Timeless Problem Statements](./29-timeless-problem-statements.md)
 - [Growing Market = New Companies](./30-growing-market-new-companies.md)
+- [Exercise #9: Are you in a Growing Market?](./31-growing-market-exercise.md)
 
 ## Section Resources
 
