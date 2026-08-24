@@ -8,9 +8,9 @@ section_number: 3
 lecture_number: 34
 content_type: "lecture"
 material_level: 2
-status: visuals-pending
+status: complete
 source: "Udemy video transcript"
-visuals: 1
+visuals: 3
 related_concepts:
   - problem space
   - solution space
@@ -63,6 +63,9 @@ Section 3 focused entirely on diagnosing, evaluating, and expressing customer pr
 *   **Action:** Selecting which problems to solve (compete grid) and expressing them in a technology-agnostic and vendor-neutral way.
 *   **Implication:** Avoiding tech-dependent locks ensures the company retains continuity, even if initial delivery mediums fail or become obsolete.
 
+![Section 3 Complete Strategic Sequence](./visuals/34-visual-summary.png)
+*The complete strategic sequence: linking problem exploration, Kano sorting, timeless expression, brand extendability, and defensible platforms/communities.*
+
 ---
 
 ## 2. The Risk of Descriptive, Locked Statements
@@ -72,6 +75,9 @@ Many product managers treat problem statements as simple administrative files th
 $$\text{Timeless Problem Statements} \xrightarrow{\text{Set Product Strategy}} \text{Product Teams Build Architectures} \xrightarrow{\text{Deep Technology Commitments}}$$
 
 If a problem statement is locked to a specific technology (e.g., *"I want to swap phone numbers via Bluetooth"*), product teams will commit capital, engineering hours, and database architectures to Bluetooth. If Bluetooth is suppplanted by another standard, the company suffers massive transition costs and write-offs. A timeless expression (*"I want to share contact cards instantly nearby"*) keeps the team focused on the value, allowing them to shift technologies seamlessly.
+
+![PM Strategic Implications](./visuals/34-problem-space-implications.png)
+*Three Product Management strategic implications: mapping the rules of agnosticism, buyer targeting, and platform/community moats.*
 
 ---
 
@@ -135,11 +141,11 @@ This framework:
 *   **Concept:** Overview of Section 3 methodologies.
 *   **Suggested structure:** Side-by-side columns summarizing Exploration, Evaluation, and Expression & Defense stages.
 
-### Illustration 2: PM Strategic Implications (Awaiting Generation)
+### Illustration 2: PM Strategic Implications
 *   **Concept:** Primary PM action rules derived from the problem space.
 *   **Suggested structure:** Diagram detailing rules for agnosticism, buyer targeting, and ecosystem defensibility.
 
-### Illustration 3: Section 3 Complete Strategic Sequence (Awaiting Generation)
+### Illustration 3: Section 3 Complete Strategic Sequence
 *   **Concept:** Flow loop summarizing the complete problem-to-moat strategy.
 *   **Suggested structure:** High-level sequence diagram loops connecting the five stages of Section 3.
 
@@ -154,6 +160,8 @@ This framework:
 ## Visuals in This Lecture
 
 * [The Problem Space Lifecycle](./visuals/34-problem-space-framework.png)
+* [Section 3 Complete Strategic Sequence](./visuals/34-visual-summary.png)
+* [PM Strategic Implications](./visuals/34-problem-space-implications.png)
 
 ## Interactive Lesson
 
