@@ -369,6 +369,18 @@ A pricing classification defined by gross profit margins (revenue minus producti
 **Related lectures:**
 - [Exercise #7: Problem Type Analysis](./02-strategy/03-the-problem-space/27-problem-type-analysis.md)
 
+### Market Growth Lenses
+
+An evaluation framework assessing market trajectory over a five-year horizon across three dimensions: Prevalence (Will more people have this problem?), Frequency (Will they experience it more often?), and Severity (Will the problem hurt more?). If any lens trends downward, the market is shrinking.
+
+**Related concepts:**
+- Prevalence
+- Frequency
+- Severity
+
+**Related lectures:**
+- [Growing Market = New Companies](./02-strategy/03-the-problem-space/30-growing-market-new-companies.md)
+
 ### Mercenary Developer
 
 An engineer who builds features solely from given specifications, focused on output velocity and story points, without understanding the customer context or user pain.
@@ -421,6 +433,22 @@ A core customer expectation or basic requirement that causes extreme dissatisfac
 
 **Related lectures:**
 - [The Kano Model](./02-strategy/03-the-problem-space/24-the-kano-model.md)
+
+---
+
+## N
+
+### New Entrant Advantage
+
+The strategic speed and margin advantage in B2B product sales gained by targeting newly formed businesses (startups) rather than established corporations. New entrants adapt their processes to your tool, have burning needs, and buy quickly without complex procurement cycles.
+
+**Related concepts:**
+- Market Growth Lenses
+- Touch Level
+- Danger Zone
+
+**Related lectures:**
+- [Growing Market = New Companies](./02-strategy/03-the-problem-space/30-growing-market-new-companies.md)
 
 ---
 

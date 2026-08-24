@@ -814,6 +814,33 @@ Section 1: Introduction
 
 ![Problem Statement Audit Checklist](./02-strategy/03-the-problem-space/visuals/29-audit-checklist.png)
 
+#### The Three Growth Lenses
+
+**Source lecture:**  
+[Growing Market = New Companies](./02-strategy/03-the-problem-space/30-growing-market-new-companies.md)
+
+**Purpose:** Infographic displaying the Prevalence, Frequency, and Severity lenses with a warning message on shrinking markets.
+
+![The Three Growth Lenses](./02-strategy/03-the-problem-space/visuals/30-market-growth-lens.png)
+
+#### New vs. Old Companies B2B Buyer Matrix
+
+**Source lecture:**  
+[Growing Market = New Companies](./02-strategy/03-the-problem-space/30-growing-market-new-companies.md)
+
+**Purpose:** Grid diagram contrasting startup new entrant buyer characteristics with legacy established enterprises.
+
+![New vs. Old Companies B2B Buyer Matrix](./02-strategy/03-the-problem-space/visuals/30-new-vs-old-buyers.png)
+
+#### How Market Growth Fuels B2B Product Scaling (Visual Summary)
+
+**Source lecture:**  
+[Growing Market = New Companies](./02-strategy/03-the-problem-space/30-growing-market-new-companies.md)
+
+**Purpose:** Flowchart showing how B2B product standardized workflows scale through startup cohorts.
+
+![How Market Growth Fuels B2B Product Scaling (Visual Summary)](./02-strategy/03-the-problem-space/visuals/30-visual-summary.png)
+
 Part 3: Discovery
 
 Visuals will be added when this part begins.
