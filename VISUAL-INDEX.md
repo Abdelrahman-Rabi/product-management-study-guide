@@ -769,6 +769,24 @@ Section 1: Introduction
 
 ![Blockbuster vs. Netflix Strategic Pivot](./02-strategy/03-the-problem-space/visuals/28-netflix-pivot.png)
 
+#### Web Developer Abstraction Analogy (Framework vs. DOM)
+
+**Source lecture:**  
+[Expressing the Problem Space](./02-strategy/03-the-problem-space/28-expressing-the-problem-space.md)
+
+**Purpose:** Stack layer graphic contrasting transient libraries with timeless web standards DOM APIs to illustrate software abstraction lock-in.
+
+![Web Developer Abstraction Analogy (Framework vs. DOM)](./02-strategy/03-the-problem-space/visuals/28-web-analogy.png)
+
+#### How to Express a Timeless Problem Space (Visual Summary)
+
+**Source lecture:**  
+[Expressing the Problem Space](./02-strategy/03-the-problem-space/28-expressing-the-problem-space.md)
+
+**Purpose:** Flowchart outlining the 5 sequential stages to audit a problem statement to make it technology-agnostic.
+
+![How to Express a Timeless Problem Space (Visual Summary)](./02-strategy/03-the-problem-space/visuals/28-visual-summary.png)
+
 Part 3: Discovery
 
 Visuals will be added when this part begins.

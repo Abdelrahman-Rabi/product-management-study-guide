@@ -8,9 +8,9 @@ section_number: 3
 lecture_number: 28
 content_type: "lecture"
 material_level: 2
-status: visuals-pending
+status: complete
 source: "Udemy video transcript"
-visuals: 3
+visuals: 5
 related_concepts:
   - problem space
   - product strategy
@@ -92,6 +92,14 @@ To prevent your product from being held hostage to a technology that might becom
 ![Technology-Agnostic vs. Technology-Locked Problem Definition](./visuals/28-locked-agnostic.png)
 *Locked vs. Agnostic reframing checklist comparison card.*
 
+### The Web Developer Abstraction Analogy
+For software developers, defining a strategy around a transient technology stack is similar to marrying a specific library:
+*   A developer who built their core state management and DOM updates directly around **jQuery** in 2010 got locked out when high-performing virtual DOM libraries took over.
+*   Defining requirements around timeless **Web Standard DOM APIs** (like native selectors and asynchronous data requests) keeps the application modular and independent of framework lifecycles.
+
+![Web Developer Abstraction Analogy](./visuals/28-web-analogy.png)
+*Web standards abstraction: building around native specifications protects codebase scalability.*
+
 ### Framing Comparisons
 | Industry | Technology-Locked Statement (Transient) | Technology-Agnostic Statement (Timeless) |
 |---|---|---|
@@ -159,6 +167,13 @@ Define your product by the user's objective (documenting an encounter), not the 
 
 ---
 
+## Visual Summary
+
+![How to Express a Timeless Problem Space](./visuals/28-visual-summary.png)
+*Visual Summary: Process flowchart mapping the 5 steps to formulate a timeless problem statement.*
+
+---
+
 ## One-Minute Review
 
 *   **Separate Need from Medium:** Define what the customer is trying to accomplish, not the physical or digital format they use.
@@ -217,8 +232,8 @@ Define your product by the user's objective (documenting an encounter), not the 
 * [Technology-Agnostic vs. Technology-Locked Problem Definition](./visuals/28-locked-agnostic.png)
 * [The Blockbuster Fall: A Decade of Decline](./visuals/28-hype-decline.png)
 * [Blockbuster vs. Netflix Strategic Pivot](./visuals/28-netflix-pivot.png)
-* [Web Developer Abstraction Analogy (Placeholder)](./visuals/28-web-analogy.png)
-* [How to Express a Timeless Problem Space (Placeholder)](./visuals/28-visual-summary.png)
+* [Web Developer Abstraction Analogy](./visuals/28-web-analogy.png)
+* [How to Express a Timeless Problem Space](./visuals/28-visual-summary.png)
 
 ## Interactive Lesson
 
