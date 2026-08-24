@@ -16,10 +16,12 @@ List of lectures in their original course order:
 - [Exercise #9: Are you in a Growing Market?](./31-growing-market-exercise.md)
 - [The Extendable Brand](./32-extendable-brand.md)
 - [The Defensible Moat](./33-defensible-moat.md)
+- [Problem Space Summary](./34-problem-space-summary.md)
 
 ## Section Resources
 
-The section summary and mind map will be created after all lectures in this section are complete.
+*   [Section Summary](./section-summary.md)
+*   [Section Mind Map](./section-mind-map.md)
 
 ## Key Concepts
 
@@ -28,3 +30,6 @@ The glossary contains definitions and detailed articles for key concepts:
 *   [Goal Reframing](../../GLOSSARY.md#goal-reframing)
 *   [Security Theater](../../GLOSSARY.md#security-theater)
 *   [Operational Limit](../../GLOSSARY.md#operational-limit)
+*   [Defensible Moat](../../GLOSSARY.md#defensible-moat)
+*   [Platform Moat](../../GLOSSARY.md#platform-moat)
+*   [Feature Decay](../../GLOSSARY.md#feature-decay)
