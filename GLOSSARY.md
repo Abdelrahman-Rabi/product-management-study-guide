@@ -133,6 +133,18 @@ Data PMs work closely with data scientists and analysts to structure data pipeli
 **Related lectures:**
 - [How the PM Role Varies](./01-introduction/01-introduction/13-how-the-pm-role-varies.md)
 
+### Defensible Moat
+
+A structural business barrier (e.g. economies of scale, network effects, platform integrations, customer loyalty) that protects a company from competitor duplication and price competition.
+
+**Related concepts:**
+- Platform Moat
+- Network Effect
+- Feature Decay
+
+**Related lectures:**
+- [The Defensible Moat](./02-strategy/03-the-problem-space/33-defensible-moat.md)
+
 ### Delighter
 
 An unexpected product feature that generates high customer satisfaction and excitement if present, but causes zero dissatisfaction if missing since users do not expect it. Delighters represent key competitive differentiators that tend to decay into must-haves over time.
@@ -280,8 +292,6 @@ In modern product teams, feasibility risk is the primary concern and responsibil
 
 ---
 
-## F
-
 ### Feature Audit Matrix
 
 A strategic 2x2 grid that plots features based on user adoption (percentage of users) and frequency of use to determine product health and identify sunsetting opportunities.
@@ -306,6 +316,18 @@ The accumulation of unnecessary features that add product complexity, complicate
 **Related lectures:**
 - [Why do so many product initiatives fail?](./01-introduction/01-introduction/11-why-product-initiatives-fail.md)
 - [Evaluating Your Product](./01-introduction/01-introduction/20-evaluating-your-product.md)
+
+### Feature Decay
+
+The steady decline of a product capability's competitive advantage over time under the Kano Model. Features starting as Delighters are copied by competitors, turning into Performance features, and eventually Must-Haves.
+
+**Related concepts:**
+- Kano Model
+- Defensible Moat
+- Delighter
+
+**Related lectures:**
+- [The Defensible Moat](./02-strategy/03-the-problem-space/33-defensible-moat.md)
 
 ---
 
@@ -616,6 +638,18 @@ A feature where customer satisfaction scales in a direct, linear relationship wi
 
 **Related lectures:**
 - [The Kano Model](./02-strategy/03-the-problem-space/24-the-kano-model.md)
+
+### Platform Moat
+
+A modern technology defensible barrier built by providing core software infrastructure that third-party developers use to build their own integrations and applications, generating operational dependency.
+
+**Related concepts:**
+- Defensible Moat
+- Network Effect
+- High Switching Costs
+
+**Related lectures:**
+- [The Defensible Moat](./02-strategy/03-the-problem-space/33-defensible-moat.md)
 
 ### Point of Differentiation
 

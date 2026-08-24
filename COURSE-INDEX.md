@@ -46,6 +46,7 @@ processed.
 - [Growing Market = New Companies](./02-strategy/03-the-problem-space/30-growing-market-new-companies.md)
 - [Exercise #9: Are you in a Growing Market?](./02-strategy/03-the-problem-space/31-growing-market-exercise.md)
 - [The Extendable Brand](./02-strategy/03-the-problem-space/32-extendable-brand.md)
+- [The Defensible Moat](./02-strategy/03-the-problem-space/33-defensible-moat.md)
 
 Planned sections:
 - Section 4: Goal Setting
