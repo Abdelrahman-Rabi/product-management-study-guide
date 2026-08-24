@@ -25,7 +25,7 @@ related_concepts:
 ·
 [Part Overview](../README.md)
 ·
-[Next Lecture →](unavailable)
+[Next Lecture →](./33-defensible-moat.md)
 
 # The Extendable Brand
 
@@ -192,5 +192,5 @@ Choose an extendable, abstract brand name from Day 1, even when starting with a 
 * Previous: [Exercise #9: Are you in a Growing Market?](./31-growing-market-exercise.md)
 * Section: [The Problem Space](./README.md)
 * Part: [Strategy](../README.md)
-* Next: [Next Section Overview](../04-goal-setting/README.md) *(Section 4: Goal Setting)*
+* Next: [The Defensible Moat](./33-defensible-moat.md)
 * Course index: [Full Course Index](../../COURSE-INDEX.md)

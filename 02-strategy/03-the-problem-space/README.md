@@ -15,6 +15,7 @@ List of lectures in their original course order:
 - [Growing Market = New Companies](./30-growing-market-new-companies.md)
 - [Exercise #9: Are you in a Growing Market?](./31-growing-market-exercise.md)
 - [The Extendable Brand](./32-extendable-brand.md)
+- [The Defensible Moat](./33-defensible-moat.md)
 
 ## Section Resources
 

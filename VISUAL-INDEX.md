@@ -895,6 +895,33 @@ Section 1: Introduction
 
 ![PM Brand Strategy Steps (Visual Summary)](./02-strategy/03-the-problem-space/visuals/32-visual-summary.png)
 
+#### Kano Feature Decay Curve
+
+**Source lecture:**  
+[The Defensible Moat](./02-strategy/03-the-problem-space/33-defensible-moat.md)
+
+**Purpose:** Downward sloping curve diagram showing feature transition from Delighters to Performance and Must-Have categories over time due to competitor copying.
+
+![Kano Feature Decay Curve](./02-strategy/03-the-problem-space/visuals/33-feature-decay.png)
+
+#### Traditional vs. Modern Moats
+
+**Source lecture:**  
+[The Defensible Moat](./02-strategy/03-the-problem-space/33-defensible-moat.md)
+
+**Purpose:** Matrix card contrasting economies of scale, network effects, and switching costs with platform infrastructure and user network communities.
+
+![Traditional vs. Modern Moats](./02-strategy/03-the-problem-space/visuals/33-moat-classifications.png)
+
+#### Section 3 Product Strategy Sequence (Visual Summary)
+
+**Source lecture:**  
+[The Defensible Moat](./02-strategy/03-the-problem-space/33-defensible-moat.md)
+
+**Purpose:** Flow diagram displaying the sequential loop: Big Problem → Timeless Solution → Growing Market → Brand Promise → Defensible Moat.
+
+![Section 3 Product Strategy Sequence (Visual Summary)](./02-strategy/03-the-problem-space/visuals/33-visual-summary.png)
+
 Part 3: Discovery
 
 Visuals will be added when this part begins.
