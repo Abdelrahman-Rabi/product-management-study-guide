@@ -12,6 +12,7 @@ List of lectures in their original course order:
 - [Exercise #7: Problem Type Analysis](./27-problem-type-analysis.md)
 - [Expressing the Problem Space](./28-expressing-the-problem-space.md)
 - [Exercise #8: Timeless Problem Statements](./29-timeless-problem-statements.md)
+- [Growing Market = New Companies](./30-growing-market-new-companies.md)
 
 ## Section Resources
 

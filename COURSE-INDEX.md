@@ -43,6 +43,7 @@ processed.
 - [Exercise #7: Problem Type Analysis](./02-strategy/03-the-problem-space/27-problem-type-analysis.md)
 - [Expressing the Problem Space](./02-strategy/03-the-problem-space/28-expressing-the-problem-space.md)
 - [Exercise #8: Timeless Problem Statements](./02-strategy/03-the-problem-space/29-timeless-problem-statements.md)
+- [Growing Market = New Companies](./02-strategy/03-the-problem-space/30-growing-market-new-companies.md)
 
 Planned sections:
 - Section 4: Goal Setting

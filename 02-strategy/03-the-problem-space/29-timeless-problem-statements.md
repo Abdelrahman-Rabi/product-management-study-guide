@@ -25,7 +25,7 @@ related_concepts:
 ·
 [Part Overview](../README.md)
 ·
-[Next Lecture →](unavailable)
+[Next Lecture →](./30-growing-market-new-companies.md)
 
 # Exercise #8: Timeless Problem Statements
 
@@ -144,5 +144,5 @@ If you answered **Yes** to either question, rewrite the statement to decouple it
 * Previous: [Expressing the Problem Space](./28-expressing-the-problem-space.md)
 * Section: [The Problem Space](./README.md)
 * Part: [Strategy](../README.md)
-* Next: [Next Section Overview](../04-goal-setting/README.md) *(Section 4: Goal Setting)*
+* Next: [Growing Market = New Companies](./30-growing-market-new-companies.md)
 * Course index: [Full Course Index](../../COURSE-INDEX.md)
