@@ -25,7 +25,7 @@ related_concepts:
 ·
 [Part Overview](../README.md)
 ·
-[Next Lecture →](unavailable)
+[Next Lecture →](./31-growing-market-exercise.md)
 
 # Growing Market = New Companies
 
@@ -189,5 +189,5 @@ By focusing on Profile B, the PM closes 50 customers in 3 months. When they have
 * Previous: [Exercise #8: Timeless Problem Statements](./29-timeless-problem-statements.md)
 * Section: [The Problem Space](./README.md)
 * Part: [Strategy](../README.md)
-* Next: [Next Lecture](unavailable)
+* Next: [Exercise #9: Are you in a Growing Market?](./31-growing-market-exercise.md)
 * Course index: [Full Course Index](../../COURSE-INDEX.md)

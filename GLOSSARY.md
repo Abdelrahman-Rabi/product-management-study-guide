@@ -37,6 +37,18 @@ model.
 
 ## B
 
+### Biometric Permanence
+
+The security and privacy vulnerability where physical user characteristics (e.g. fingerprints, iris scans, face patterns) cannot be reset or changed if the database holding their cryptographic representations is compromised.
+
+**Related concepts:**
+- Zero Login
+- Technology Dependency
+- Risk Assessment
+
+**Related lectures:**
+- [Exercise #9: Are you in a Growing Market?](./02-strategy/03-the-problem-space/31-growing-market-exercise.md)
+
 ### Business Case
 
 An evaluation used to estimate the expected value, cost, benefits, and risks of
@@ -380,6 +392,18 @@ An evaluation framework assessing market trajectory over a five-year horizon acr
 
 **Related lectures:**
 - [Growing Market = New Companies](./02-strategy/03-the-problem-space/30-growing-market-new-companies.md)
+
+### Market Trajectory Audit
+
+A strategic analysis technique used by product teams to evaluate whether a target customer segment or industry will grow, shrink, or remain stable over a five-year planning horizon, factoring in demographic shifts, regulatory constraints, and emerging technological replacements.
+
+**Related concepts:**
+- Market Growth Lenses
+- Risk Assessment
+- Form Factor Shift
+
+**Related lectures:**
+- [Exercise #9: Are you in a Growing Market?](./02-strategy/03-the-problem-space/31-growing-market-exercise.md)
 
 ### Mercenary Developer
 
@@ -1153,6 +1177,23 @@ work has already been completed.
 **Related lectures:**
 
 - [Why do so many product initiatives fail?](./01-introduction/01-introduction/11-why-product-initiatives-fail.md)
+
+---
+
+## Z
+
+### Zero Login
+
+An authentication paradigm that removes traditional passwords and active biometric verification steps by continuously checking a user's unique behavioral characteristics (e.g. typing cadence, location history, typical tasks) to authenticate identity silently.
+
+**Related concepts:**
+- Biometric Permanence
+- Technology Dependency
+- Risk Assessment
+
+**Related lectures:**
+- [Exercise #9: Are you in a Growing Market?](./02-strategy/03-the-problem-space/31-growing-market-exercise.md)
+
 Glossary Maintenance Rules
 
 When adding a new term:
