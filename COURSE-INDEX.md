@@ -45,6 +45,7 @@ processed.
 - [Exercise #8: Timeless Problem Statements](./02-strategy/03-the-problem-space/29-timeless-problem-statements.md)
 - [Growing Market = New Companies](./02-strategy/03-the-problem-space/30-growing-market-new-companies.md)
 - [Exercise #9: Are you in a Growing Market?](./02-strategy/03-the-problem-space/31-growing-market-exercise.md)
+- [The Extendable Brand](./02-strategy/03-the-problem-space/32-extendable-brand.md)
 
 Planned sections:
 - Section 4: Goal Setting

@@ -868,6 +868,33 @@ Section 1: Introduction
 
 ![Steps to Audit a Market Trajectory (Visual Summary)](./02-strategy/03-the-problem-space/visuals/31-audit-flowchart.png)
 
+#### The Product-Brand Lifecycle Loop
+
+**Source lecture:**  
+[The Extendable Brand](./02-strategy/03-the-problem-space/32-extendable-brand.md)
+
+**Purpose:** Infinity loop diagram illustrating how early product choices shape brand perception, while mature brand promises drive/limit product roadmaps.
+
+![The Product-Brand Lifecycle Loop](./02-strategy/03-the-problem-space/visuals/32-brand-relationship.png)
+
+#### Brand Extendability Matrix
+
+**Source lecture:**  
+[The Extendable Brand](./02-strategy/03-the-problem-space/32-extendable-brand.md)
+
+**Purpose:** Matrix contrasting descriptive/technology-locked brands (restricted pivots) with abstract/coined-word brands (infinite extendability).
+
+![Brand Extendability Matrix](./02-strategy/03-the-problem-space/visuals/32-extendability-examples.png)
+
+#### PM Brand Strategy Steps (Visual Summary)
+
+**Source lecture:**  
+[The Extendable Brand](./02-strategy/03-the-problem-space/32-extendable-brand.md)
+
+**Purpose:** Flowchart guiding PMs through defining brand promises, selecting names, building aligned features, and checking roadmap extensions.
+
+![PM Brand Strategy Steps (Visual Summary)](./02-strategy/03-the-problem-space/visuals/32-visual-summary.png)
+
 Part 3: Discovery
 
 Visuals will be added when this part begins.
