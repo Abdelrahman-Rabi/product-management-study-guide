@@ -25,7 +25,7 @@ related_concepts:
 ·
 [Part Overview](../README.md)
 ·
-[Next Lecture →](unavailable)
+[Next Lecture →](./34-problem-space-summary.md)
 
 # The Defensible Moat
 
@@ -156,5 +156,5 @@ To build a high-growth product, a product manager must run this sequential strat
 * Previous: [The Extendable Brand](./32-extendable-brand.md)
 * Section: [The Problem Space](./README.md)
 * Part: [Strategy](../README.md)
-* Next: [Next Section Overview](../04-goal-setting/README.md) *(Section 4: Goal Setting)*
+* Next: [Problem Space Summary](./34-problem-space-summary.md)
 * Course index: [Full Course Index](../../COURSE-INDEX.md)
